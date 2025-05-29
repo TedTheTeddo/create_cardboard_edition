@@ -1,0 +1,728 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3_sparkles"
+	group: "37122FCD3AD577ED"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:enchanted_golden_apple"
+	id: "1E709D35096C432E"
+	images: [
+		{
+			height: 4.0d
+			image: "cobblemon:textures/entity_icon/0172_pichu/pichu_spikyeared.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 4.0d
+			image: "cobblemon:textures/entity_icon/0446_munchlax/munchlax_female.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 4.0d
+			image: "cobblemon:textures/entity_icon/0143_snorlax/snorlax.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/shop"
+			rotation: 0.0d
+			width: 2.9523809523809526d
+			x: -7.0d
+			y: -5.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1689077CD907FBF6"]
+			description: [
+				"Catch &6Pikachu&r or trap one. "
+				""
+				"Their supercharged cheeks will make a good source of lightning."
+			]
+			icon: "simpletms:tm_pikapapow"
+			id: "2C6F8403EB6825AC"
+			tasks: [{
+				id: "22AB234F7053BF59"
+				title: "Catch Pikachu"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"705E9113BA342571"
+				"283E8E126B0A57D0"
+			]
+			description: [""]
+			id: "0260C0FDB7C6016C"
+			rewards: [{
+				id: "0E73772930511C4F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Supercharged Stone"
+			tasks: [{
+				id: "4350BBB0DE522A25"
+				item: "cobblemon:thunder_stone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C6F8403EB6825AC"]
+			description: [
+				"Apply a bottle directly to the &6Pikachu.&r"
+				""
+				"Another neat trick is electrifying bottles on the ground by using a fire charge (left click) on a lightning rod."
+			]
+			id: "283E8E126B0A57D0"
+			rewards: [{
+				id: "4CC01D2A9C83D3FC"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E50DA39052EFFB0"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			description: ["Pasture Block allow the Pokemon to sit outside without being in your party."]
+			id: "1689077CD907FBF6"
+			tasks: [{
+				id: "60C4BD370EF9651E"
+				item: "cobblemon:pasture"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1689077CD907FBF6"]
+			description: [
+				"Producer of milk."
+				""
+				"Simply seat them and they won't ever move."
+			]
+			icon: "kubejs:essence_of_the_cow_t1"
+			id: "3EC6610BCEFBEF0A"
+			tasks: [{
+				id: "2B7AB8B96BEBD88A"
+				title: "Catch Miltan"
+				type: "checkmark"
+			}]
+			title: "Catch Miltank"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3EC6610BCEFBEF0A"]
+			id: "41B12FE66D47E3A6"
+			subtitle: "Got Milk?"
+			tasks: [{
+				id: "7B145DC4F07ED3E7"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["41B12FE66D47E3A6"]
+			id: "27CB2B6CAFCB87EB"
+			tasks: [{
+				id: "4E657A502D5D77DD"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5281AADFC43FEA34"
+				"78D499A77D7B8116"
+			]
+			id: "0989A1FF1AF0095F"
+			tasks: [{
+				id: "2B7F7F359734E4CE"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			id: "3414452FC26FDD1D"
+			rewards: [{
+				command: "/pokespawnat ~ ~ ~ pikachu"
+				elevate_perms: true
+				icon: "cobblemon:poke_ball"
+				id: "4F241A22ACEEC82C"
+				silent: true
+				title: "Spawn Pikachu"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7EA064F75270109B"
+				item: { Count: 16, id: "cobblemon:relic_coin" }
+				type: "item"
+			}]
+			title: "Spawn Pikachu"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"269EBCC80AE2BFAB"
+				"15288B9670E0BEB3"
+				"0921F76DF392FA6C"
+			]
+			id: "5281AADFC43FEA34"
+			rewards: [{
+				id: "7195D0621FD2C8F7"
+				item: {
+					Count: 1
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E5809EBC54AFE9A"
+				item: "minecolonies:cake_batter"
+				type: "item"
+			}]
+			title: "Batter me up."
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EB757B0AD7979CE"]
+			id: "269EBCC80AE2BFAB"
+			tasks: [{
+				id: "648A763843CA12D7"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["426E5B2A79D96A9C"]
+			id: "1EB757B0AD7979CE"
+			tasks: [{
+				id: "17C994FC644B6633"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27CB2B6CAFCB87EB"]
+			id: "78D499A77D7B8116"
+			subtitle: "A little squirt"
+			tasks: [{
+				id: "073358FF5C8BEC06"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5545CA5493759B8A"]
+			id: "15288B9670E0BEB3"
+			tasks: [{
+				id: "068875BA83253B06"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			id: "5545CA5493759B8A"
+			tasks: [{
+				id: "7FDE110C3CCADFB7"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["150CB60D0161FD2F"]
+			id: "0921F76DF392FA6C"
+			tasks: [{
+				id: "136D4FF251DA80A5"
+				item: "create:dough"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["426E5B2A79D96A9C"]
+			id: "150CB60D0161FD2F"
+			tasks: [{
+				id: "46FCC7F7E105EB81"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			id: "426E5B2A79D96A9C"
+			tasks: [{
+				id: "409E156E22C440E7"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0989A1FF1AF0095F"]
+			description: ["Have a friend or catch a Snorlax. You'll need to feed it cakes."]
+			id: "751A37EE92CF6DE4"
+			tasks: [{
+				id: "75CFDDB97B2BE7DE"
+				title: "Snorlax"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			id: "0043488B3101A190"
+			rewards: [{
+				command: "/pokespawnat ~ ~ ~ munchlax level=16"
+				elevate_perms: true
+				icon: "cobblemon:poke_ball"
+				id: "306F08740D1E9A90"
+				silent: true
+				title: "Spawn Munchlax"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3175215EE33CBB66"
+				item: { Count: 16, id: "cobblemon:relic_coin" }
+				type: "item"
+			}]
+			title: "Spawn Munchlax"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			description: [
+				"Found in various structures, can buy a starter on the side if unable to locate."
+				""
+				"To grow either spout water on it or let it sit near lava."
+			]
+			id: "42CA3CE43ECBDE2A"
+			tasks: [{
+				id: "61B345EBC325CFC0"
+				item: "cobblemon:small_budding_black_tumblestone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42CA3CE43ECBDE2A"]
+			id: "26E34B0335204E79"
+			tasks: [{
+				id: "7959DC73388BF149"
+				item: "cobblemon:medium_budding_black_tumblestone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26E34B0335204E79"]
+			id: "45DB07DF4565B6A3"
+			tasks: [{
+				id: "6DF8D1B2C9D29B63"
+				item: "cobblemon:large_budding_black_tumblestone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45DB07DF4565B6A3"]
+			id: "1C57E4664306C9C3"
+			tasks: [{
+				id: "7136B7FEF9992FEA"
+				item: "cobblemon:black_tumblestone_cluster"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			id: "39D8CC85D3137C22"
+			tasks: [{
+				id: "7694381561A20FFB"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["708334CA9888D587"]
+			description: [
+				"Powerlines and an item belt at the same time for your packages!"
+				""
+				"But how do you get a package on there? Stay tuned -->"
+			]
+			id: "5D2F4DB981F452AE"
+			rewards: [{
+				count: 32
+				id: "59E0A83744A3FFE7"
+				item: "create:metal_girder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BF0CC7DC2FD5DF0"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E7FE8E5915FF9D7"]
+			description: [
+				"The bread and butter of Create 6.0."
+				""
+				"Simply attach it to anything with storage. When powered with a redstone signal, it will package everything into a box to be sent off."
+			]
+			id: "4053403AC036223E"
+			rewards: [
+				{
+					id: "058FAFB7636BF6B6"
+					item: "create:packager"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "532332EEFDA5AFAF"
+					item: "minecraft:oak_sign"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2538D683F7D12A6E"
+				item: "create:packager"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4053403AC036223E"]
+			description: [
+				"FrogPorts is your best friend."
+				""
+				"Simply attach it to a packager and it'll send/receive on the chain conveyor."
+				""
+				"To set a specific destination you can rename the FrogPorts and attach a sign (destination) on the packager."
+			]
+			id: "7BB1F067F8B8A293"
+			rewards: [{
+				id: "439893C8DBB55E88"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B6FAA494F12B6F5"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5D2F4DB981F452AE"]
+			description: ["Attach chains between two chain conveyor to transfer yourself / items / or SU."]
+			id: "5E7FE8E5915FF9D7"
+			rewards: [{
+				count: 16
+				id: "2951290977B02F74"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5535E7BB2248358B"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1C57E4664306C9C3"]
+			id: "705E9113BA342571"
+			rewards: [{
+				id: "5A9D10A68F9DBBC0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0609EFD3763620E3"
+				item: "cobblemon:black_tumblestone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D43E21FA8B1B9AE"]
+			description: [
+				"We've stabilized the &4PokeMarts&r supply of balls. "
+				""
+				"Time for us to take a little break and wander around the world (or buy from the Mart...) for certain mons. "
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:essence_of_the_cow_t4"
+			id: "6A0493A2B45FC91B"
+			shape: "pentagon"
+			size: 4.0d
+			tasks: [{
+				id: "14700C0C8BFF453A"
+				title: "Chapter 3."
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			description: [
+				"Create 6.0 Introduce new logistic."
+				""
+				"You should try it out, it'll provide lots of life and smart automation to your arsenal."
+			]
+			id: "708334CA9888D587"
+			tasks: [{
+				id: "5A5D03A0F641924D"
+				title: "FrogLogistic"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["751A37EE92CF6DE4"]
+			id: "51D6BA1554C9C68F"
+			tasks: [{
+				id: "0E8B1FAC2B4F6D65"
+				item: "cobblemon:leftovers"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39D8CC85D3137C22"]
+			id: "65260A2988465683"
+			tasks: [{
+				count: 21L
+				id: "19D52B9F0AF85C63"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65260A2988465683"]
+			id: "550DDB804BA76D47"
+			tasks: [{
+				id: "7781B23B9D1074B7"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0260C0FDB7C6016C"
+				"550DDB804BA76D47"
+			]
+			id: "4DAB6361462B7E0A"
+			tasks: [{
+				id: "1F225A2B13815DF1"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"51D6BA1554C9C68F"
+				"4DAB6361462B7E0A"
+			]
+			id: "7BC59F5B1BD1A4CA"
+			rewards: [{
+				count: 4
+				id: "21711BE951949A92"
+				item: "cobblemon:small_budding_tumblestone"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Required for Gems"
+			tasks: [{
+				id: "76D02826BC89EB24"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7BC59F5B1BD1A4CA"]
+			description: [
+				"We have to pay for POSTAGE?"
+				""
+				"The PokeMarts is ripping is off, I hope the return something good."
+			]
+			hide_dependency_lines: false
+			icon: "cobblemon:dragon_gem"
+			id: "7EDA1744E20DE5C0"
+			rewards: [{
+				id: "4F8318EF3D8EEFDF"
+				item: {
+					Count: 1
+					id: "create:goggles"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
+						HideFlags: 1
+						RepairCost: 0
+						Unbreakable: 1
+						display: {
+							Lore: ["{\"text\":\"The Goggles\"}"]
+							Name: "{\"text\":\"The Goggles\",\"color\":\"gold\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66BC929ABEC524CE"
+				item: "cobblemon:dragon_gem"
+				type: "item"
+			}]
+			title: "Shipment of Food"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			id: "38D9A03CCD3E9632"
+			rewards: [{
+				command: "/pokespawnat ~ ~ ~ miltank level=16"
+				elevate_perms: true
+				icon: "cobblemon:poke_ball"
+				id: "5183BC1446874879"
+				silent: true
+				title: "Spawn Miltank"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "559D051FBF08FD43"
+				item: { Count: 16, id: "cobblemon:relic_coin" }
+				type: "item"
+			}]
+			title: "Spawn Miltank"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			icon: "cobblemon:black_tumblestone_cluster"
+			id: "121D654B29EF6714"
+			rewards: [{
+				count: 4
+				id: "4CC9E535370ED4DD"
+				item: "cobblemon:small_budding_black_tumblestone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3948AAB411567936"
+				item: { Count: 16, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			title: "Black Tumblestone"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A0493A2B45FC91B"]
+			icon: "cobblemon:tumblestone_cluster"
+			id: "62700C41452C8F8D"
+			rewards: [{
+				count: 4
+				id: "50E554AF015C014A"
+				item: "cobblemon:tumblestone_cluster"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6BEAD68FA8C2ACEA"
+				item: { Count: 16, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+	]
+	title: "3. Gilded Age"
+}

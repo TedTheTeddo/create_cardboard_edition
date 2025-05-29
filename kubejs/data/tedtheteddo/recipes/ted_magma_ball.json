@@ -1,0 +1,20 @@
+{
+  "type": "lychee:item_burning",
+  "contextual": [
+    {
+      "type": "location",
+      "predicate": {
+        "dimension": "minecraft:the_nether"
+      }
+    }
+  ],
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "item_in": {
+    "item": "minecraft:slime_ball"
+  }
+}

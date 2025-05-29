@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "d5_magical"
+	group: "7D06AF69846A74C7"
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:purple_ender_eye"
+	id: "77F6BC1ADFB0E87B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			icon: "farmersdelight:purple_canvas_sign"
+			id: "37E3713AC89D90C7"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "402EBD950BB389EE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37E3713AC89D90C7"]
+			hide_dependency_lines: true
+			id: "7654672E6B7873F0"
+			tasks: [{
+				id: "5A9FE149622DDAFE"
+				item: "minecraft:small_amethyst_bud"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["37E3713AC89D90C7"]
+			hide_dependency_lines: true
+			id: "14A9540600F9CA28"
+			tasks: [{
+				id: "090F55A09CFE0149"
+				item: "minecraft:snow_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["14A9540600F9CA28"]
+			id: "313E4B07B61A7BD0"
+			tasks: [{
+				id: "1AB9E0EE5E6033A7"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7654672E6B7873F0"]
+			id: "227C9ED9EE534F19"
+			tasks: [{
+				id: "4893B5D3BB38448D"
+				item: "minecraft:medium_amethyst_bud"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["227C9ED9EE534F19"]
+			id: "253388B38FC4121D"
+			tasks: [{
+				id: "23329319507DBBE8"
+				item: "minecraft:large_amethyst_bud"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["313E4B07B61A7BD0"]
+			id: "7842CDB816708487"
+			tasks: [{
+				id: "7E3E915A280E45D7"
+				item: "minecraft:packed_ice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7842CDB816708487"]
+			id: "2185E1E7935B02CD"
+			tasks: [{
+				id: "0F4E5B48FC9B0E1D"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["253388B38FC4121D"]
+			id: "098B83EE881544E6"
+			tasks: [{
+				id: "6A0D9A1F93EBF3D7"
+				item: "minecraft:amethyst_cluster"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2185E1E7935B02CD"
+				"38A067F798B6A12F"
+			]
+			id: "774F8553CD836AB2"
+			subtitle: "Forged in the Deep"
+			tasks: [{
+				id: "4CD20BE585A48F60"
+				item: "cobblemon:icy_rock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"098B83EE881544E6"
+				"774F8553CD836AB2"
+			]
+			id: "7ED84A36ECEAD737"
+			tasks: [{
+				id: "287A01E94BEDC44E"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"51FE598AE1789567"
+				"7ED84A36ECEAD737"
+			]
+			id: "1AD1E84CF9F6E3A6"
+			tasks: [{
+				id: "4E0553E2DC23B5AF"
+				item: "minecolonies:magicpotion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1AD1E84CF9F6E3A6"]
+			id: "67DC8C08E77D2CED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61CCD63E2E7CDB69"
+				table_id: 1656014881283549604L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "11D2E4A3E5878B82"
+				item: "kubejs:purple_ender_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["37E3713AC89D90C7"]
+			hide_dependency_lines: true
+			id: "51FE598AE1789567"
+			tasks: [{
+				id: "12F31D4C298000F4"
+				item: "minecolonies:blockhutalchemist"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3F6948BE44D2FA67"
+				"07CE0DE03F293EF9"
+			]
+			id: "38A067F798B6A12F"
+			tasks: [{
+				id: "7A23D6AEFA979FF2"
+				item: "cobblemon:premier_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37E3713AC89D90C7"]
+			description: ["Find your favorite way to get purple dye."]
+			id: "07CE0DE03F293EF9"
+			tasks: [{
+				id: "6606F1E3F5ED2A88"
+				item: "minecraft:purple_dye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37E3713AC89D90C7"]
+			description: ["White Apricorn for White Balls."]
+			hide_dependency_lines: true
+			id: "3F6948BE44D2FA67"
+			rewards: [{
+				id: "0E7FD497C9F69C8D"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B6067999D1F9907"
+				item: "cobblemon:white_apricorn"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+	title: "&dEyes - Magical"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "deeperdarker:heart_of_the_deep"
+    }
+  ],
+  "level": 1,
+  "result": "tconstruct:beating",
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/bonus_slots"
+    }
+  ]
+}

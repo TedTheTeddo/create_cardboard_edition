@@ -1,0 +1,18 @@
+{
+    "type": "lychee:block_crushing",
+    "item_in": [
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "create:golden_sheet",
+            "count": 1
+        }
+    ]
+}

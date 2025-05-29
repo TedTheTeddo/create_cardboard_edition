@@ -1,0 +1,11 @@
+{
+  "pokemon.mikueon.cry": {
+    "sounds": [ "cobblemon:pokemon/mikueon/mikueon_cry" ]
+  },
+  "pokemon.tetoeon.cry": {
+    "sounds": [ "cobblemon:pokemon/tetoeon/tetoeon_cry" ]
+  },
+  "pokemon.nerueon.cry": {
+    "sounds": [ "cobblemon:pokemon/nerueon/nerueon_cry" ]
+  }
+}

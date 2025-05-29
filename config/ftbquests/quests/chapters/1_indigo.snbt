@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_indigo"
+	group: "37122FCD3AD577ED"
+	icon: "create:wrench"
+	id: "707DAFB381857E55"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["701FE8B240713C85"]
+			description: ["In this pack, modified cobblegen on bedrock will often yield Apristones."]
+			id: "5EA2251B783685CB"
+			tasks: [{
+				id: "187279EB359E1571"
+				item: "kubejs:apristone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["701FE8B240713C85"]
+			description: ["In this pack, modified cobblegen on bedrock will often yield Andesite."]
+			id: "07956C7C74D2AC3A"
+			tasks: [{
+				id: "426B9A5225349034"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F19464B23CF0D75"]
+			description: ["Let the machine mine for you, why do the hard work?"]
+			id: "701FE8B240713C85"
+			rewards: [{
+				id: "19D56BA980CEC056"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "743B1139CA919F33"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["349F5E28515CB784"]
+			description: ["Simple and straight. It'll carry your stress from A to B."]
+			id: "655984AC61E16072"
+			rewards: [{
+				id: "1899ED172CD9ED73"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "5D75622018A8FB60"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["40755B24E67BD0E0"]
+			description: ["Reverse rotation easily in a box, imagine 4 cogwheel align in a certain pattern."]
+			id: "4ACD7E73D74B9A0F"
+			tasks: [{
+				id: "37333C11F68838FC"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["655984AC61E16072"]
+			description: ["Sometime...you just want want a hands on experience."]
+			id: "5859EC77873763D7"
+			tasks: [{
+				id: "1159BF36EE3A5632"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Manual Labor"
+			x: -6.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["655984AC61E16072"]
+			description: ["Produce Stress Units (SU) by liquid (not necessary water)."]
+			id: "05C769CD55600385"
+			rewards: [{
+				id: "67C99217E0E1BFF0"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D82D712CDB4483A"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["05C769CD55600385"]
+			description: ["Bigger. Better."]
+			id: "0369121F4DD921EE"
+			rewards: [{
+				id: "5FE76C4F410E6F77"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5E83FBC4B687B4"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["667D5B2F76C715AF"]
+			description: ["Washed from gravel to show the nugget goodness."]
+			id: "351275BBDC687798"
+			tasks: [{
+				id: "3F700C3DEF26D003"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["562660B8E2D4FC65"]
+			description: ["Broken down from cobble to be used."]
+			id: "667D5B2F76C715AF"
+			tasks: [{
+				id: "485D89DDE877AB6E"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["701FE8B240713C85"]
+			description: [
+				"Everything start with wood? Don't be silly it start with Cobble."
+				""
+				"Break down into a million of different way to be utilized."
+			]
+			id: "562660B8E2D4FC65"
+			tasks: [{
+				id: "4D56228EC20DB948"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["40755B24E67BD0E0"]
+			description: [
+				"Now we're engineering."
+				""
+				"Sheets for days."
+			]
+			id: "6D915C3A8EF1880F"
+			rewards: [{
+				id: "362DCBAED75A52C6"
+				item: "create:goggles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C45521CA3DCB612"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "BONK"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D915C3A8EF1880F"]
+			description: [
+				"The first of many."
+				""
+				"It'll be needed in most rudimentary andesite machines."
+			]
+			id: "2F19464B23CF0D75"
+			tasks: [{
+				id: "4A6488023C6AA1D0"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["655984AC61E16072"]
+			description: [
+				"Simply right click on stripped woods&3 (stripped with an axe or mechanical saw)&r will give you andesite casings."
+				""
+				"Can be applied on cogs and shafts without using the casing to make them a full block."
+			]
+			id: "40755B24E67BD0E0"
+			rewards: [{
+				id: "28A2F5DC5B6FAC20"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E4D100A1F20BCA9"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["655984AC61E16072"]
+			description: [
+				"Cogwheel will be useful early on to speed up your machines at a cost of more stress."
+				""
+				"Some machine will require a minimum RPM to function (mixer)."
+				""
+				"Ponder the Cog Wheel with \"W\""
+			]
+			id: "13B96B8987D6C120"
+			rewards: [{
+				count: 4
+				id: "727B6B8D38B65C37"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22467FA991D1FE2C"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Spin me'right round"
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["13B96B8987D6C120"]
+			description: [
+				"Large into small cogwheel will up the speed by 2x. "
+				""
+				"Can be done repeatedly until 256 RPM."
+			]
+			id: "4F7784A9C8D5F601"
+			rewards: [{
+				count: 4
+				id: "700D48D0A5C44B4B"
+				item: "create:vertical_gearbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A72F7BDFADB4323"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"351275BBDC687798"
+				"07956C7C74D2AC3A"
+			]
+			description: [
+				"The end of the basic."
+				""
+				"Time to put your foundation to the test."
+			]
+			id: "0A9D5DEF2CAEAD10"
+			rewards: [{
+				count: 16
+				id: "0A27EBD2E6E06541"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67DFA941DAA8A068"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["24A839303177914C"]
+			description: [
+				"All machines will be built by this."
+				""
+				"Andesite can be found often underground in plain biome in large quantities."
+			]
+			id: "349F5E28515CB784"
+			rewards: [{
+				id: "560CD14A1E2A6410"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "752232751B96FA0B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Foundation"
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D915C3A8EF1880F"]
+			description: ["I think Ted is losing it, he put a second basin quest after this one."]
+			id: "737D155B23CEAEAE"
+			subtitle: "1st Basin"
+			tasks: [{
+				id: "7F0F2537FF1F59AF"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["737D155B23CEAEAE"]
+			description: ["The second basin is a nifty trick to collect any item produced (or fluid) from the first automatically."]
+			id: "465563BFEFF5E442"
+			subtitle: "2nd Basin"
+			tasks: [{
+				id: "47ACF471DCBA1D11"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F19464B23CF0D75"]
+			description: [
+				"Saw will cut down every logs as long its touching the most bottom log (1x1)"
+				""
+				"If you chain up an entire forest and cut down the lowest log of the chain...you can cut the entire forest in one swoop."
+			]
+			id: "58BB3FE7B9EBBDDD"
+			tasks: [{
+				id: "410708C36623A761"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["58BB3FE7B9EBBDDD"]
+			description: [
+				"Find your favorite way to automate logs."
+				""
+				"You'll need plenty in your journey."
+			]
+			icon: "minecraft:oak_log"
+			id: "2E3BAE996AAF8E09"
+			tasks: [{
+				id: "0A4A041F231E935A"
+				title: "Logs"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: ["As in new world, we need the shell and basic of the factory up and running."]
+			icon: "create:wrench"
+			id: "24A839303177914C"
+			rewards: [{
+				id: "2CC62DB75541CA77"
+				item: "create:wrench"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "The Foundation"
+			tasks: [{
+				id: "179A99920370D2E2"
+				title: "Chapter 1"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -12.0d
+		}
+	]
+	title: "1. The Basics"
+}

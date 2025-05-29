@@ -1,0 +1,99 @@
+{
+	icon: "cobblemon:great_ball"
+	id: "16FB58C2B5AAA9A4"
+	loot_crate: {
+		color: 3648105
+		drops: {
+			boss: 0
+			monster: 90
+			passive: 200
+		}
+		string_id: "uncommon"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 2, item: "cobblemon:ultra_ball" }
+		{ count: 16, item: "create:shaft" }
+		{ count: 8, item: "irons_spellbooks:arcane_essence" }
+		{ item: "torchmaster:megatorch" }
+		{ count: 8, item: "cobblemon:great_ball" }
+		{ count: 4, item: "cobblemon:safari_ball" }
+		{ count: 4, item: "cobblemon:level_ball" }
+		{ item: "storagedrawers:gold_storage_upgrade" }
+		{ item: "minecraft:emerald" }
+		{ item: "storagedrawers:void_upgrade", weight: 0.5f }
+		{ count: 8, item: "minecraft:cactus" }
+		{ count: 2, item: "minecraft:diamond" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_leggings"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ count: 2, item: "cobblemon:exp_candy_s", weight: 0.5f }
+		{ count: 2, item: "kubejs:green_ender_eye", weight: 0.1f }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1", weight: 0.5f }
+		{ count: 4, item: "cobblemon:hyper_potion" }
+	]
+	title: "Uncommon"
+}

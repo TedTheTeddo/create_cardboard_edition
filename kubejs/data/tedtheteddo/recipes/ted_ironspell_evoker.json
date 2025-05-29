@@ -1,0 +1,14 @@
+{
+  "type": "lychee:item_exploding",
+  "post": [
+    {
+      "type": "execute",
+      "command": "summon irons_spellbooks:archevoker ~ ~ ~"
+    }
+  ],
+  "item_in": [
+    {
+      "item": "irons_spellbooks:evocation_rune"
+    }
+  ]
+}

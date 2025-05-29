@@ -1,0 +1,18 @@
+{
+    "type": "lychee:block_crushing",
+    "item_in": [
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "create:iron_sheet",
+            "count": 1
+        }
+    ]
+}

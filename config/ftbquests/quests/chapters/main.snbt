@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "main"
+	group: "6A92B46E7597066E"
+	icon: "cobblemon:iron"
+	id: "3497DA0E12910569"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7670B94E7B52FAFD"
+			tasks: [{
+				id: "131A5B94DF1DAB0E"
+				item: "cobblemon:hp_up"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "1D974B8025620F5F"
+			tasks: [{
+				id: "08BF80A43BA55E09"
+				item: "cobblemon:protein"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			id: "4E7BCFC31714B1E7"
+			tasks: [{
+				id: "57E321D5701CD5BE"
+				item: "cobblemon:iron"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			id: "1FB879D03039F914"
+			tasks: [{
+				id: "67099CD3E6BB4478"
+				item: "cobblemon:calcium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			id: "72D079468748B398"
+			tasks: [{
+				id: "26AB6EBC3098BFD6"
+				item: "cobblemon:zinc"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			id: "7EC9C206F6276185"
+			tasks: [{
+				id: "11B756750B3F5F89"
+				item: "cobblemon:carbos"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			id: "27E377435304ACDB"
+			tasks: [{
+				id: "12596DC47665122C"
+				item: "cobblemon:pp_up"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "6DFD3106CB37E1AA"
+			tasks: [{
+				id: "074C90A32E113884"
+				item: "cobblemon:pp_max"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "72527C3C6149CD0A"
+			tasks: [{
+				id: "5BAECC6DA6313B14"
+				item: "cobblemon:potion"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "4E2001EF9E71E429"
+			tasks: [{
+				id: "19EED7F5268B1C7F"
+				item: "cobblemon:super_potion"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "2552CA96A67374B5"
+			tasks: [{
+				id: "403C49370822A281"
+				item: "cobblemon:hyper_potion"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "55B4E846C11C9B2F"
+			tasks: [{
+				id: "18BE83703B1E4382"
+				item: "cobblemon:max_potion"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "475549AB6FC1EEC8"
+			tasks: [{
+				id: "5D3682E28BC23797"
+				item: "cobblemon:full_restore"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "3856625055C7B57C"
+			tasks: [{
+				id: "1BC57B7E89C6C507"
+				item: "cobblemon:antidote"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "23496FCF76B4D235"
+			tasks: [{
+				id: "13D601569C04765B"
+				item: "cobblemon:awakening"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "6E8E8DCFDA040788"
+			tasks: [{
+				id: "50E5D3AA86D16E76"
+				item: "cobblemon:burn_heal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "37D9C9986296FA46"
+			tasks: [{
+				id: "202DFD439DDC869E"
+				item: "cobblemon:ice_heal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "488C7F823D4FCF51"
+			tasks: [{
+				id: "5FE7890A213F4CFE"
+				item: "cobblemon:paralyze_heal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "1AB6D72E12C2BBA8"
+			tasks: [{
+				id: "47253FF07722BFB9"
+				item: "cobblemon:full_heal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "3B6AD286A5A993B2"
+			tasks: [{
+				id: "0C18CD2981B7D89E"
+				item: "cobblemon:ether"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "526F1CB6A2F3336D"
+			tasks: [{
+				id: "6373F66B57926014"
+				item: "cobblemon:max_ether"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "011C06F3118C20CC"
+			tasks: [{
+				id: "5E7FF0ADCA1C1BE8"
+				item: "cobblemon:elixir"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "3BBEAF8B0DE7D234"
+			tasks: [{
+				id: "51E38514C80E18B3"
+				item: "cobblemon:max_elixir"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "00EC8F5C8FE6D9C2"
+			tasks: [{
+				id: "76BDDACAC7D8366F"
+				item: "cobblemon:revive"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "096B0BEDFEE5A6C0"
+			tasks: [{
+				id: "0D17F182F29C3A48"
+				item: "cobblemon:max_revive"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "3607482C933B7744"
+			tasks: [{
+				id: "114AC7CA4CE7794E"
+				item: "cobblemon:x_attack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "232A4FD7775F8A06"
+			tasks: [{
+				id: "35C67B99F51DCF20"
+				item: "cobblemon:x_defence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "7DC6E66786269402"
+			tasks: [{
+				id: "67E3A8772A706C5E"
+				item: "cobblemon:x_special_attack"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			id: "141A774B662091AE"
+			tasks: [{
+				id: "3CD4C741B014E76B"
+				item: "cobblemon:x_special_defence"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "069947E3FD894338"
+			tasks: [{
+				id: "038EEBFB14A4CF0B"
+				item: "cobblemon:x_speed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "37F3024FDDBB87CE"
+			tasks: [{
+				id: "54E0290F8E845496"
+				item: "cobblemon:x_accuracy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			id: "641FC61AE129E802"
+			tasks: [{
+				id: "0D53A85D5796A3D1"
+				item: "cobblemon:dire_hit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			id: "7C89D4659484907F"
+			tasks: [{
+				id: "1CCA8FC3FFB814CA"
+				item: "cobblemon:guard_spec"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "7AE9AF206FF9E1A7"
+			tasks: [{
+				id: "59324EE2FF0EDF81"
+				item: "cobblemon:medicinal_brew"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+	]
+	title: "&3Consumable&r"
+}

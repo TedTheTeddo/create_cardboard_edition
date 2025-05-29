@@ -1,0 +1,54 @@
+{
+	icon: "cobblemon:ultra_ball"
+	id: "03F7D22F03DA0C94"
+	loot_crate: {
+		color: 38143
+		drops: {
+			boss: 0
+			monster: 20
+			passive: 150
+		}
+		string_id: "rare"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 8, item: "create:rose_quartz" }
+		{ count: 12, item: "create:encased_chain_drive" }
+		{ count: 4, item: "irons_spellbooks:magic_cloth", weight: 0.75f }
+		{ count: 8, item: "cobblemon:quick_ball" }
+		{ count: 4, item: "cobblemon:dream_ball" }
+		{ count: 4, item: "cobblemon:timer_ball" }
+		{ item: "storagedrawers:diamond_storage_upgrade", weight: 0.5f }
+		{ count: 4, item: "create:brass_funnel" }
+		{ count: 2, item: "create:brass_tunnel" }
+		{ count: 2, item: "cobblemon:exp_candy_m", weight: 0.5f }
+		{ count: 2, item: "minecraft:emerald", weight: 0.25f }
+		{ count: 64, item: "minecraft:redstone" }
+		{ count: 4, item: "minecraft:diamond", weight: 0.5f }
+		{ count: 2, item: "kubejs:blue_ender_eye", weight: 0.1f }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2", weight: 0.1f }
+		{ count: 2, item: "cobblemon:pp_up" }
+		{ count: 6, item: "cobblemon:revive" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{ item: "unimplemented_items:bottle_cap_atk", weight: 0.25f }
+		{ item: "unimplemented_items:bottle_cap_def", weight: 0.25f }
+		{ item: "unimplemented_items:bottle_cap_sa", weight: 0.25f }
+		{ item: "unimplemented_items:bottle_cap_sd", weight: 0.25f }
+		{ item: "unimplemented_items:bottle_cap_spd", weight: 0.25f }
+		{ item: "unimplemented_items:bottle_cap_hp", weight: 0.25f }
+	]
+	title: "Rare"
+}

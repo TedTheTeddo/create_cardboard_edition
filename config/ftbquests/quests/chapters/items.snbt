@@ -1,0 +1,605 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "items"
+	group: "6A92B46E7597066E"
+	icon: "cobblemon:poke_ball"
+	id: "24281DDBC7920827"
+	images: [
+		{
+			height: 0.5d
+			image: "ftblibrary:textures/gui/nord_button_disabled.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:textures/gui/nord_button_disabled.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "ftblibrary:textures/gui/nord_button_disabled.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			height: 22.0d
+			image: "cobblemon:textures/gui/pc/pc_screen_overlay.png"
+			order: -1
+			rotation: 0.0d
+			width: 17.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			color: 0
+			height: 19.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "cobblemon:textures/entity_icon/0101_electrode/electrode.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			height: 4.0d
+			image: "cobblemon:textures/entity_icon/0242_blissey/blissey.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.5d
+			y: -6.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "05E21405373D7435"
+			shape: "circle"
+			size: 3.0d
+			tasks: [{
+				id: "66FBFBF213F25DB0"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "634E0F11ACD68642"
+			tasks: [{
+				id: "482513B3E90351DB"
+				item: "cobblemon:great_ball"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "2D0DF76E5DA9B7FA"
+			tasks: [{
+				id: "1C7BF16553296936"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "6E4082D8DC2D8F7D"
+			tasks: [{
+				id: "47FBD3055548F6F6"
+				item: "cobblemon:safari_ball"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "53C4910109A2621E"
+			tasks: [{
+				id: "2202602B3E0DE7D4"
+				item: "cobblemon:fast_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "709E1199D7FB9A79"
+			tasks: [{
+				id: "0DAC54195274AE36"
+				item: "cobblemon:level_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "6261A6CDD0CAC441"
+			tasks: [{
+				id: "2B6DE51E91150C77"
+				item: "cobblemon:lure_ball"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "66276F5B80EB6DFB"
+			tasks: [{
+				id: "4A27E18079F14D4A"
+				item: "cobblemon:heavy_ball"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "289F667BB55063CA"
+			tasks: [{
+				id: "55679C8B83243357"
+				item: "cobblemon:love_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "3E614AB66F1A3824"
+			tasks: [{
+				id: "7CAC74CBFB7FE22D"
+				item: "cobblemon:friend_ball"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "40B5298D817D38F3"
+			tasks: [{
+				id: "3B80C68291CADB96"
+				item: "cobblemon:moon_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "38E2ECEEE935F6DA"
+			tasks: [{
+				id: "347CDDB6FC3D2F33"
+				item: "cobblemon:sport_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "79E48DCD3656B1B9"
+			tasks: [{
+				id: "781752A38154029E"
+				item: "cobblemon:park_ball"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "1ADB822A56CC96AA"
+			tasks: [{
+				id: "70549F2F857D2EF1"
+				item: "cobblemon:net_ball"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "4A2567C007316CDA"
+			tasks: [{
+				id: "6FA6484C454D054A"
+				item: "cobblemon:dive_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "41EB5CE4FBDE43C0"
+			tasks: [{
+				id: "5EB331227F76214F"
+				item: "cobblemon:nest_ball"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "53EA24E2EC161EED"
+			tasks: [{
+				id: "27DC7088F6808314"
+				item: "cobblemon:repeat_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "3EC2A610FFA16524"
+			tasks: [{
+				id: "55880B1A3DA03BC4"
+				item: "cobblemon:timer_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "0B8F88A97AFA3A6D"
+			tasks: [{
+				id: "3CA3F5E940BDE8CF"
+				item: "cobblemon:luxury_ball"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "663793D0AAE21FC3"
+			tasks: [{
+				id: "0515AD03725D22FD"
+				item: "cobblemon:dusk_ball"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "4EAEFC7DFFA793D4"
+			tasks: [{
+				id: "1BDB4CEBDBDAD2E0"
+				item: "cobblemon:heal_ball"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "172F7970A603126F"
+			tasks: [{
+				id: "4A458E17775EAC9F"
+				item: "cobblemon:quick_ball"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "4B9BAA2CE16CD556"
+			tasks: [{
+				id: "5D8B83DF1F1AE37D"
+				item: "cobblemon:dream_ball"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "442FD997D5FEFFF3"
+			tasks: [{
+				id: "22111B2F7D400FC2"
+				item: "cobblemon:beast_ball"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "0E4FB6DC6E565753"
+			tasks: [{
+				id: "0F303ACFB604C8FF"
+				item: "cobblemon:master_ball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "17119512560DC697"
+			tasks: [{
+				id: "6F88682814452237"
+				item: "cobblemon:cherish_ball"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "63B5D28B026D39D8"
+			tasks: [{
+				id: "149B3381D1A386D8"
+				item: "cobblemon:ancient_poke_ball"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "49651CCFB816D264"
+			tasks: [{
+				id: "1FD1631010DDE132"
+				item: "cobblemon:ancient_citrine_ball"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "13C5379977302E1C"
+			tasks: [{
+				id: "378B3394758CEF24"
+				item: "cobblemon:ancient_verdant_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "4915DA64C01504BB"
+			tasks: [{
+				id: "5AC6480B0FEC4C5B"
+				item: "cobblemon:ancient_azure_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "304E1A4126CBF006"
+			tasks: [{
+				id: "5E03E9168F1C8C88"
+				item: "cobblemon:ancient_slate_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "24C4F7466C016DD5"
+			tasks: [{
+				id: "67092BBB25454AAF"
+				item: "cobblemon:ancient_ivory_ball"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "2BEB77E886A6905D"
+			tasks: [{
+				id: "374870488E67F95D"
+				item: "cobblemon:ancient_great_ball"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "4418691999775136"
+			tasks: [{
+				id: "1B7393E4EEFA74C5"
+				item: "cobblemon:ancient_ultra_ball"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "28AB6428F7E8FF46"
+			tasks: [{
+				id: "1976EB46F57AFF27"
+				item: "cobblemon:ancient_feather_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "115C388D5A28C9E6"
+			tasks: [{
+				id: "1A4D8197974E98C2"
+				item: "cobblemon:ancient_wing_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "358F50DD799EFE59"
+			tasks: [{
+				id: "03AE7A1E80922632"
+				item: "cobblemon:ancient_jet_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "578BEE7020CD7771"
+			tasks: [{
+				id: "601282176A53EA69"
+				item: "cobblemon:ancient_heavy_ball"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "67B58867C638FA7D"
+			tasks: [{
+				id: "4BF25F8E020B233D"
+				item: "cobblemon:ancient_leaden_ball"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "62AB1A8C78458E75"
+			tasks: [{
+				id: "6182920A0D9DFFA8"
+				item: "cobblemon:ancient_gigaton_ball"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "146178B139E30CE9"
+			tasks: [{
+				id: "57D53F776D9F1AB8"
+				item: "cobblemon:ancient_origin_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "43ECFB7869457871"
+			tasks: [{
+				id: "2C719CD18678F42C"
+				item: "cobblemon:red_apricorn"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "4DBBE1F5070F18CE"
+			tasks: [{
+				id: "284E0032980DF3B9"
+				item: "cobblemon:yellow_apricorn"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "0A984B99E903BF61"
+			tasks: [{
+				id: "3BE8F90CB4DD79C6"
+				item: "cobblemon:green_apricorn"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "0BEC97089AB25457"
+			tasks: [{
+				id: "03BAE16FAAB4A277"
+				item: "cobblemon:blue_apricorn"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "51E8B577B8979D36"
+			tasks: [{
+				id: "1A488A1C0FC1BB65"
+				item: "cobblemon:pink_apricorn"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "78AE39F13D439CD2"
+			tasks: [{
+				id: "1623D82C9AC93B67"
+				item: "cobblemon:black_apricorn"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05E21405373D7435"]
+			id: "6A93A6897E919EE0"
+			tasks: [{
+				id: "33076EF83C7E08B9"
+				item: "cobblemon:white_apricorn"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+	]
+	title: "&3Pokeballs&r"
+}

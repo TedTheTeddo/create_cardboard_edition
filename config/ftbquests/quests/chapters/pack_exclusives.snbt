@@ -1,0 +1,708 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pack_exclusives"
+	group: "6ADAF8E261C98045"
+	icon: "minecraft:crafting_table"
+	id: "76BE4F4178FFB6AF"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/tnt_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/rotten_flesh"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/fire_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/evocation_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/nether_star"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/ice_rune"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/tnt_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/tnt_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/tnt_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/tnt_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/copper_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/slot/upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/byte_array_open"
+			rotation: 0.0d
+			width: 25.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "create:item/crafting_blueprint"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/lightning_bolt.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/lightning_bolt.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/slot/upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/slot/upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/slot/upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/map_closed"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/nbt/byte_array_open"
+			rotation: 0.0d
+			width: 25.0d
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "cobblemon:item/held_items/light_ball"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 4.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Summon &6Necromancer&r by blowing up &6Rotten Flesh&r"]
+			id: "6875CBCFEDB1CE8E"
+			tasks: [{
+				id: "5FA93FDE3B347EB0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Summon &6Pyromancer&r by blowing up &6Fire Runes&r"]
+			id: "7CA18B3ACEB61A7F"
+			tasks: [{
+				id: "1F70D059FB93AEE2"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Summon &6Cryomancer&r by blowing up &6Ice Runes&r"]
+			id: "5F04D6214A4F35A6"
+			tasks: [{
+				id: "77F853E761686C4B"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: ["Summon &6ArchEvokers&r by blowing up &6Evocation Runes&r"]
+			id: "329E7E65616BACF6"
+			tasks: [{
+				id: "48A9C47364BB9BB8"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: ["Summon &6The Undead King&r by blowing up &6Nether Stars&r"]
+			id: "7B44E18B979CB8BF"
+			tasks: [{
+				id: "6EF9B6BAF38F9C07"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "3ADCA57B09C08CCF"
+			subtitle: "Drop An Anvil"
+			tasks: [{
+				id: "7AC9CD2495A92FD4"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "1FF5701B0388D4A5"
+			subtitle: "Drop An Anvil"
+			tasks: [{
+				id: "4DB873BD3F250FE8"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "22F2458E6E0BEBF9"
+			subtitle: "Drop An Anvil"
+			tasks: [{
+				id: "0398E3A842F61510"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "1A99B5D3478829BF"
+			subtitle: "Drop An Anvil"
+			tasks: [{
+				id: "34A7530B0633AC7C"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "392BF6001F283C30"
+			tasks: [{
+				id: "29B1D0EEB7C37223"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:sunflower"
+			id: "4BC85192E01B8506"
+			tasks: [{
+				id: "4EF900BD3424D31C"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			id: "78988554452A7C13"
+			tasks: [{
+				id: "2D5E88613D9D82EA"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "5D16B1B1C2F28BF2"
+			tasks: [{
+				id: "783A857DEC038709"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			description: ["When right clicked on a lightning rod, weather will be cleared."]
+			id: "1790B070A73FB141"
+			tasks: [{
+				id: "36C32E77074B15C2"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:lightning_rod"
+			id: "19E0225AE7002354"
+			tasks: [{
+				id: "0A5C7C4DF5737E08"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			description: ["When right clicked on a lightning rod, you can summon a swift lightning charge to strike at that location."]
+			id: "5024D422D1C443C4"
+			tasks: [{
+				id: "37237FD034081745"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:glass_bottle"
+			id: "3412EC19D31B0CC1"
+			tasks: [{
+				id: "39E74300B7E7555B"
+				type: "checkmark"
+			}]
+			title: "Bottle"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			icon: "irons_spellbooks:lightning_bottle"
+			id: "57607A8B2703B408"
+			tasks: [{
+				id: "337311E995FCAB2D"
+				title: "Bottle of Lightning"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			icon: "cobblemon:thunder_stone"
+			id: "2C993ABC6D185A02"
+			subtitle: "Activate with Thunder Stone"
+			tasks: [
+				{
+					dimension: "tedtheteddo:ted_desert"
+					id: "72A825F01A0EA1E0"
+					type: "dimension"
+				}
+				{
+					count: 14L
+					id: "402C49EC9611265B"
+					item: { Count: 14, id: "create:cut_ochrum_bricks" }
+					type: "item"
+				}
+			]
+			title: "Desert"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			icon: "cobblemon:water_stone"
+			id: "45F42FE2648D0070"
+			subtitle: "Activate with Water Stone"
+			tasks: [
+				{
+					dimension: "tedtheteddo:frozen_ocean"
+					id: "0110E7F5DC28FC7D"
+					type: "dimension"
+				}
+				{
+					count: 14L
+					id: "666CB293167A212E"
+					item: { Count: 14, id: "create:cut_asurine_bricks" }
+					type: "item"
+				}
+			]
+			title: "Water World"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			icon: "cobblemon:dusk_stone"
+			id: "3BA7E93204AAFE41"
+			subtitle: "Activate with Dusk Stone"
+			tasks: [
+				{
+					dimension: "tedtheteddo:cave_world"
+					id: "45A97DF0D6A205D1"
+					title: "Cave World"
+					type: "dimension"
+				}
+				{
+					count: 14L
+					id: "2D4C3E7F1055CE2E"
+					item: { Count: 14, id: "create:cut_crimsite_bricks" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 7.5d
+		}
+	]
+	title: "&3Pack Exclusive"
+}

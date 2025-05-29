@@ -1,0 +1,922 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_aprifactory"
+	group: "37122FCD3AD577ED"
+	hide_quest_until_deps_visible: true
+	icon: "create:bound_cardboard_block"
+	id: "316F70442D5C0EF9"
+	images: [{
+		height: 1.0d
+		image: "kubejs:item/shop"
+		rotation: 0.0d
+		width: 2.9523809523809526d
+		x: 4.5d
+		y: -7.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["571A9DF2FF1C0E42"]
+			id: "4171BA73D4437A19"
+			rewards: [{
+				id: "3E3C4761DB8AA5D2"
+				item: "cobblemon:timer_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5CF81A072137A3"
+				item: "cobblemon:white_apricorn"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74DA8ED7E28B06DC"]
+			id: "6525764773E02463"
+			rewards: [{
+				id: "310B5314211677C8"
+				item: "cobblemon:heavy_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A3A876167A6AD8E"
+				item: "cobblemon:black_apricorn"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["122F86640EEF4923"]
+			id: "64B745CADF5B2C73"
+			rewards: [{
+				id: "2B32C1166334CA3C"
+				item: "cobblemon:dream_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2547E29982B28F04"
+				item: "cobblemon:pink_apricorn"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04C5BBC476FCC84A"]
+			id: "77898A75772517BA"
+			rewards: [{
+				id: "15A9FB9A1BE3B9EB"
+				item: "cobblemon:dive_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4478D7C134D341AB"
+				item: "cobblemon:blue_apricorn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D2AFBB97BCDDFFA"]
+			id: "0740B7F3CE4F7485"
+			rewards: [{
+				id: "5419E81EC8B3372A"
+				item: "cobblemon:friend_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39D4838AB250F5EC"
+				item: "cobblemon:green_apricorn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["607CAC9FC9D8B2D5"]
+			id: "667B393CA57A2265"
+			rewards: [{
+				id: "37526414A1BAA2C7"
+				item: "cobblemon:fast_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1747BC32FD4485E3"
+				item: "cobblemon:yellow_apricorn"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28F9871EE3D04A00"]
+			id: "4B5CDBE4FC174D43"
+			rewards: [{
+				id: "42377A56CC7E0474"
+				item: "cobblemon:sport_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D1A038E38377101"
+				item: "cobblemon:red_apricorn"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E47D59127264F4C"]
+			description: [
+				"Stone brimming of energy. Implant part of its essence to the shells."
+				""
+				"Highly reusable."
+			]
+			id: "28F9871EE3D04A00"
+			rewards: [{
+				id: "526BA8A5D693FEBD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "052F0DE9D53941FC"
+				item: "cobblemon:fire_stone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E47D59127264F4C"]
+			description: [
+				"Stone brimming of energy. Implant part of its essence to the shells."
+				""
+				"Highly reusable."
+			]
+			id: "04C5BBC476FCC84A"
+			rewards: [{
+				id: "2712098147E969F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C58EFAE54AF4E8D"
+				item: "cobblemon:water_stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E47D59127264F4C"]
+			description: [
+				"Stone brimming of energy. Implant part of its essence to the shells."
+				""
+				"Highly reusable."
+			]
+			id: "607CAC9FC9D8B2D5"
+			rewards: [{
+				id: "161651EC8D0E472A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1846A17835463944"
+				item: "cobblemon:thunder_stone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E47D59127264F4C"]
+			description: [
+				"Stone brimming of energy. Implant part of its essence to the shells."
+				""
+				"Highly reusable."
+			]
+			id: "2D2AFBB97BCDDFFA"
+			rewards: [{
+				id: "0C3EE4725955FFDB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7279006D72735C8C"
+				item: "cobblemon:leaf_stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E47D59127264F4C"]
+			description: [
+				"Stone brimming of energy. Implant part of its essence to the shells."
+				""
+				"Highly reusable."
+			]
+			id: "74DA8ED7E28B06DC"
+			rewards: [{
+				id: "256392A989358D41"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6448E9D598D78E32"
+				item: "cobblemon:moon_stone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E47D59127264F4C"]
+			description: [
+				"Stone brimming of energy. Implant part of its essence to the shells."
+				""
+				"Highly reusable."
+			]
+			id: "122F86640EEF4923"
+			rewards: [{
+				id: "6F2AE4F8FCC3DE64"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5754FC3C5886C5D6"
+				item: "cobblemon:dusk_stone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E47D59127264F4C"]
+			description: [
+				"Stone brimming of energy. Implant part of its essence to the shells."
+				""
+				"Highly reusable."
+			]
+			id: "571A9DF2FF1C0E42"
+			rewards: [{
+				id: "02767E632809FBB8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BCBE6F666D9819C"
+				item: "cobblemon:ice_stone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5757EEC6B2558D7D"]
+			description: ["Broken into pieces, the apristone provide useful material to mould it into balls."]
+			id: "5E47D59127264F4C"
+			rewards: [{
+				id: "094613509AB7935C"
+				item: "cobblemon:dream_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "488D30BB7B90CA96"
+				item: "kubejs:pokeball_shell"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4B5CDBE4FC174D43"
+				"713E9D9BAF952BE8"
+			]
+			id: "0D15107498C116A3"
+			rewards: [{
+				id: "2469CE5CFE05585C"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			subtitle: "Ploink #1"
+			tasks: [{
+				id: "2232F71D13A59934"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"667B393CA57A2265"
+				"713E9D9BAF952BE8"
+			]
+			id: "0C85DEC1852CF233"
+			rewards: [{
+				id: "33473948372A3AE4"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			subtitle: "Ploink #2"
+			tasks: [{
+				id: "27B48961098306CD"
+				item: "cobblemon:citrine_ball"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0740B7F3CE4F7485"
+				"713E9D9BAF952BE8"
+			]
+			id: "74B9A2DC1CD078A6"
+			rewards: [{
+				id: "56C8E417D3C2A1BE"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			subtitle: "Ploink #3"
+			tasks: [{
+				id: "726CE3911BEA5F1F"
+				item: "cobblemon:verdant_ball"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"77898A75772517BA"
+				"713E9D9BAF952BE8"
+			]
+			id: "7BF73DCAD2C691B2"
+			rewards: [{
+				id: "2DA4D4621BEE6187"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			subtitle: "Ploink #4"
+			tasks: [{
+				id: "54D45D1D5264CDA9"
+				item: "cobblemon:azure_ball"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"64B745CADF5B2C73"
+				"713E9D9BAF952BE8"
+			]
+			id: "662743195C916AB8"
+			rewards: [{
+				id: "54C7BF6EE556559D"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			subtitle: "Ploink #5"
+			tasks: [{
+				id: "17C7CAEFE109A6CE"
+				item: "cobblemon:roseate_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6525764773E02463"
+				"713E9D9BAF952BE8"
+			]
+			id: "54E2E97172A6174D"
+			rewards: [{
+				id: "48CA42AF39F1E0AD"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			subtitle: "Ploink #6"
+			tasks: [{
+				id: "1A1A6603ECF4A743"
+				item: "cobblemon:slate_ball"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4171BA73D4437A19"
+				"713E9D9BAF952BE8"
+			]
+			id: "3EAE091B8DBA3398"
+			rewards: [{
+				id: "5AC6EB7C986DA4C2"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			subtitle: "Ploink #7"
+			tasks: [{
+				id: "384A26E1BCD0514C"
+				item: "cobblemon:premier_ball"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6525764773E02463"
+				"77898A75772517BA"
+				"64B745CADF5B2C73"
+				"4171BA73D4437A19"
+				"667B393CA57A2265"
+				"0740B7F3CE4F7485"
+				"4B5CDBE4FC174D43"
+			]
+			description: ["Apricorns contain trace amount of copper. Find a way to extract that from them."]
+			id: "5CD1B78A3246DCB3"
+			tasks: [{
+				id: "0EDF72F5D5124514"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4D518E769F4DF682"
+				"6C32047FA702D774"
+				"2392995F896C129E"
+			]
+			id: "3FAB3370E6F804FD"
+			tasks: [{
+				id: "28F4D5A64C5764B6"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3FAB3370E6F804FD"
+				"4D518E769F4DF682"
+			]
+			description: ["Peak Design. There is nothing more abundant in the world than the cardboards. You probably have a few laying around before you know it."]
+			id: "713E9D9BAF952BE8"
+			tasks: [{
+				id: "70412C355A42704E"
+				item: "create:cardboard_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			description: ["Highly pressurized stone that can only form on bedrock. Set up a cobblegenerator there and see what might turn out."]
+			id: "5757EEC6B2558D7D"
+			rewards: [{
+				id: "74701E9D2D7BC005"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15A01CC11033019E"
+				item: "kubejs:apristone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "3648FD2F664A3F99"
+			optional: true
+			rewards: [{
+				id: "513E52F1B0F6CE1C"
+				item: "cobblemon:fire_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "343A7F3EE6D4A0C6"
+				item: "cobblemon:red_mint_leaf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "45B5EAA8F23D2BED"
+			optional: true
+			rewards: [{
+				id: "1C617081679F4F46"
+				item: "cobblemon:ice_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "71C0B9BDE152CD9F"
+				item: "cobblemon:cyan_mint_leaf"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "6B3F9A03D9037A45"
+			optional: true
+			rewards: [{
+				id: "1B938B24DE7EFAD8"
+				item: "cobblemon:leaf_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "75A26FAF3AA7528E"
+				item: "cobblemon:green_mint_leaf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "06AE592850701873"
+			optional: true
+			rewards: [{
+				id: "24785D16C257A0AD"
+				item: "cobblemon:thunder_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2A7BC05E3DE0BFFD"
+				item: "cobblemon:white_mint_leaf"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "4996977D0842DE0D"
+			optional: true
+			rewards: [{
+				id: "6594521BABE3DDCD"
+				item: "cobblemon:dusk_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3C16C591A26AE468"
+				item: "cobblemon:pink_mint_leaf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "1C2DE236068ED49A"
+			optional: true
+			rewards: [{
+				id: "43FD81E7C29C6688"
+				item: "cobblemon:water_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3219B099BE5D2DED"
+				item: "cobblemon:blue_mint_leaf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["713E9D9BAF952BE8"]
+			description: [
+				"Once the first box is packed...our payment returned instantly."
+				""
+				"Let just use our imagination that a &menderman&r &dmew&r took the finished product and give back us payment...but whats in the box?"
+			]
+			icon: {
+				Count: 1
+				id: "create:cardboard_package_12x12"
+				tag: { }
+			}
+			id: "7D43E21FA8B1B9AE"
+			tasks: [{
+				id: "35D86DD52EAD70D3"
+				title: "Possible Outcomes"
+				type: "checkmark"
+			}]
+			title: "First Shipment"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4996977D0842DE0D"
+				"3648FD2F664A3F99"
+				"06AE592850701873"
+				"6B3F9A03D9037A45"
+				"45B5EAA8F23D2BED"
+				"1C2DE236068ED49A"
+			]
+			icon: "minecolonies:mint_jelly"
+			id: "676E3150754E99C4"
+			optional: true
+			rewards: [{
+				id: "0F5A773D21BA269D"
+				item: "cobblemon:moon_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B4E67620B57B9F8"
+				title: "Minty-Fresh"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["174B54E1BC33F5FB"]
+			description: ["Find your favorite biodegradable plant matters and squish it into balls."]
+			id: "4D518E769F4DF682"
+			subtitle: "To Pulps!"
+			tasks: [{
+				id: "5F385E92C711D9A4"
+				item: "create:pulp"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			description: ["If the pump hover above an infinite source of water (or touching near it) you can pump water constantly into your pipes/basin of choice."]
+			hide_dependency_lines: true
+			id: "174B54E1BC33F5FB"
+			rewards: [{
+				count: 4
+				id: "53F8F51E54D111A3"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55ADEBD142540931"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A9D5DEF2CAEAD10"]
+			description: [
+				"Quick! All the Pokeshops &6balls&r stock are dwindling."
+				""
+				"Lets quickly set up a factory to profit off of their shortfall."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "create:cardboard_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "042D3CF74AE50597"
+			shape: "pentagon"
+			size: 4.0d
+			subtitle: "Balls Resupply"
+			tasks: [{
+				id: "55ED656773FA49E0"
+				title: "Chapter 2"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0539D31396B03040"]
+			description: [
+				"Highly Compressed version, for those want higher throughput with even less input."
+				""
+				"So dense it can convert cobblestone into it in deployers without disappearing."
+			]
+			id: "6147A00CCBED40CA"
+			rewards: [{
+				id: "309CCA73A5C9EF2F"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5578D877BD24FC51"
+				item: "kubejs:double_compressed_apristone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5757EEC6B2558D7D"]
+			description: ["Compressed version, for those want higher throughput with less input."]
+			id: "0539D31396B03040"
+			rewards: [{
+				id: "273D3F42F5D9943C"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "013F271B4B223CDE"
+				item: "kubejs:compressed_apristone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E8FFCC23B900215"]
+			id: "6C32047FA702D774"
+			tasks: [{
+				id: "59240156B1757090"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2934E024A52CF0C1"]
+			id: "4E8FFCC23B900215"
+			tasks: [{
+				id: "08A07B93EBFDAD6B"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "2934E024A52CF0C1"
+			tasks: [{
+				id: "475974AF78BA713B"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D518E769F4DF682"]
+			description: ["Armor does not matter if you can sneak your way."]
+			id: "5316737FC567B3DB"
+			rewards: [{
+				id: "2E40A77306F2E058"
+				item: "cobblemon:rare_candy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E98667FA7E147B8"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BCA79C56CE8C348"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B94E8C3793C51A9"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5992153F20C08C9D"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Agent Snake"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D518E769F4DF682"]
+			description: ["Need to smack someone but not hurt them? Say no more."]
+			id: "05071AC607CD8447"
+			tasks: [{
+				id: "75B1FE57E7E79759"
+				item: "create:cardboard_sword"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50354B99B8BDEF72"]
+			description: ["You can capture blazes manually or right click a spawner with empty cages to fill up your stack quickly."]
+			id: "31EBC53E57D19EA8"
+			rewards: [{
+				id: "0EC34852EF68C08D"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46B784617D5BA354"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["042D3CF74AE50597"]
+			hide_dependency_lines: true
+			id: "50354B99B8BDEF72"
+			subtitle: "Hot"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "0B0942520940CB4C"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31EBC53E57D19EA8"]
+			id: "2392995F896C129E"
+			tasks: [{
+				id: "6F96989A619C5D70"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+	]
+	title: "2. Shipments"
+}

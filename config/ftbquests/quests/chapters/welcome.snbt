@@ -1,0 +1,562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "6ADAF8E261C98045"
+	icon: "ftbquests:book"
+	id: "0556364DC710A837"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D91D4D03582B797"]
+			description: ["Keep an eye out on the colorful blocks on trees, these will come in handy."]
+			icon: "cobblemon:red_apricorn"
+			id: "522BD91AF1A00336"
+			rewards: [{
+				id: "25B6C97B620C1BF2"
+				item: "cobblemon:red_apricorn_seed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0589513E55D001C1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(cobblemon:red_apricorn)item(cobblemon:yellow_apricorn)item(cobblemon:green_apricorn)item(cobblemon:blue_apricorn)item(cobblemon:pink_apricorn)item(cobblemon:black_apricorn)item(cobblemon:white_apricorn))"
+					}
+				}
+				title: "Apricorns!"
+				type: "item"
+			}]
+			title: "Apricorns"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			id: "2D91D4D03582B797"
+			tasks: [{
+				advancement: "cobblemon:root"
+				criterion: ""
+				id: "3F86B1A2E8FD96C7"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Welcome!"
+				""
+				"This is a simple pack that focus on mixing &6Cobblemon&r and &6Create.&r"
+				""
+				"&6Minecolonies&r will lead a journey to the eyes which is very rewarding in itself as an alternative path."
+				""
+				"It is meant to be casual, fun, go make your own gym, build your city, solve the mysterious eyes to unlock the end or be a menacing magician."
+			]
+			icon: "ftbquests:book"
+			id: "425CE354E90D1664"
+			rewards: [{
+				id: "64C3BF31D93F2DF9"
+				item: "minecraft:red_bed"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Please Read"
+			tasks: [{
+				id: "7407B582CD46290E"
+				type: "checkmark"
+			}]
+			title: "Welcome"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			icon: "minecraft:creeper_spawn_egg"
+			id: "6BB0584508588321"
+			rewards: [{
+				count: 16
+				id: "447F506CB93B6F6B"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F361540F8D9A7B9"
+				title: "Hostiles"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: [
+				"Iron Chests is in the pack, upgradable and can store large variety of items."
+				""
+				"&6Do not use these in automations, your tps will love you for it.&r "
+			]
+			id: "1CD5A0F8E91BBA15"
+			tasks: [{
+				id: "40D1D58065E2D205"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: [
+				"Cows does not exist in this world. "
+				""
+				"But there are several method of acquiring leather. "
+				""
+				"&6I will not judge&r on the path you chose to get leather."
+			]
+			id: "2D7C7B358A1721BD"
+			tasks: [{
+				id: "3E18DF810A661CC5"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: ["Building Wand is in the pack. Use it if you need to build a giant platform fast."]
+			id: "20E2775888D638DC"
+			rewards: [{
+				id: "2983FE110FEDC99D"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A9C98F7BD548377"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: [
+				"Passive Mobs are all disabled."
+				""
+				"All the drops are acquirable different means. "
+				""
+				"There will be points where you can spawn certain ones."
+				""
+				"Hatchable eggs are still good to use."
+			]
+			icon: "minecraft:chicken_spawn_egg"
+			id: "1AB888B7148520E8"
+			rewards: [{
+				id: "3D0ACEA47D27E6F2"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69861B717E76492C"
+				title: "Passive Mob"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: ["Drawers are useful for bulk storage or simply cheaper way to filter."]
+			icon: "storagedrawers:controller"
+			id: "06C8603DAD743AAC"
+			tasks: [{
+				id: "0F1D330822CF8108"
+				title: "Drawers"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: ["There is magic in the pack, check out Iron Spells'n'Spellbooks tab."]
+			icon: "irons_spellbooks:arcane_essence"
+			id: "4C5AE617148F2BD5"
+			rewards: [{
+				id: "5D59F455AB5B1DAB"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4A75A5B2A9D2E4E2"
+				title: "Magic"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27EA1F764CF2AF05"]
+			icon: "cobblemon:cyan_mint_seeds"
+			id: "1B574F43BD088CC5"
+			rewards: [{
+				id: "3B90592DD157058E"
+				item: "cobblemon:cyan_mint_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "44E7914B6E245F95"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ice"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["522BD91AF1A00336"]
+			description: [
+				"Can't catch them all without balls."
+				""
+				"Watch your mon hp, you might want to hold off intense battles until you can make your own Pokecenter."
+			]
+			id: "27EA1F764CF2AF05"
+			rewards: [{
+				count: 4
+				id: "26DD55B9FD3CDF45"
+				item: "cobblemon:potion"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CF1F343494F466F"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27EA1F764CF2AF05"]
+			icon: "cobblemon:pink_mint_seeds"
+			id: "0E5DA2A8791CFB70"
+			rewards: [{
+				id: "2D616EA6E935BB17"
+				item: "cobblemon:pink_mint_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "12EEB5A57FB67E56"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "psychic"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27EA1F764CF2AF05"]
+			icon: "cobblemon:green_mint_seeds"
+			id: "60B9D514628BF3B8"
+			rewards: [{
+				id: "1ADE7AE518F5D04A"
+				item: "cobblemon:green_mint_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3A5E20FB56741449"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27EA1F764CF2AF05"]
+			id: "3E7E9B8676E81F4E"
+			rewards: [{
+				id: "0A59B0B11550DC73"
+				item: "cobblemon:white_mint_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:white_mint_seeds"
+				id: "13EE6D8CD3962F25"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "normal"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27EA1F764CF2AF05"]
+			icon: "cobblemon:blue_mint_seeds"
+			id: "7618E55D2662D57C"
+			rewards: [{
+				id: "46F69104991C7DB1"
+				item: "cobblemon:blue_mint_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "426DAE8C2AEF8BCE"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27EA1F764CF2AF05"]
+			icon: "cobblemon:red_mint_seeds"
+			id: "5EBD4A606F6A4252"
+			rewards: [{
+				id: "3D09C6C052D0B4EE"
+				item: "cobblemon:red_mint_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6A0B0E8F90F58C07"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["177982BC43766020"]
+			description: ["Throw away those plain old tools. These are upgradable and more durable with special effects depending on your parts."]
+			id: "778D7C62C6658DB1"
+			tasks: [
+				{
+					id: "58DD514B0A88FD61"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "20FC28B63C6440C1"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: ["Its like a crafting table, but hold your items in place and interact with touching storages."]
+			id: "177982BC43766020"
+			tasks: [{
+				id: "10AAB092F8F63CA0"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: [
+				"Sometime, your factory get so big that it cripples your server or playthrough by the time you hit end game."
+				""
+				"Essence is a way to shut off some factory while producing same resources."
+			]
+			icon: "kubejs:essence_of_the_axolotl_t1"
+			id: "4C27F540D6F87546"
+			subtitle: "Lag Friendly"
+			tasks: [{
+				id: "59094E4ACB5B6211"
+				title: "Essences"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["425CE354E90D1664"]
+			description: [
+				"MineColonies for the folks for a slower relax playthrough while slowly expanding your workforce ontop of your automations."
+				""
+				"It does produce certain materials (diamonds, netherites, etc. where you normally can't get renewed)"
+			]
+			icon: "structurize:sceptergold"
+			id: "7E41F4A4ABF770A9"
+			tasks: [{
+				id: "4BB45CCAF807ED18"
+				title: "MineColonies"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["778D7C62C6658DB1"]
+			description: [
+				"Your first mini smeltery. "
+				""
+				"It'll be useful to make more powerful tools that require molten metals."
+			]
+			icon: "tconstruct:seared_melter"
+			id: "04DBF331F91CEE16"
+			tasks: [
+				{
+					id: "38EB06B6535611C9"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "1C346743D1BFF58E"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "2B4F0250F1195D76"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "6ADDEA938F59FD5F"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04DBF331F91CEE16"]
+			description: ["Bigger. and Better."]
+			icon: "tconstruct:smeltery_controller"
+			id: "7FF116D8BEC99979"
+			tasks: [
+				{
+					id: "0761A4FB5003F5FB"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1C1E12E6F107043F"
+					item: { Count: 12, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"TLDR:Gandalf's dumb, look in JEI to find the custom modifiers"
+				""
+				"Hi, Gandalf here, I spent way too long figuring out how to edit Tinkers construct to add modifiers. After a lot of effort, I figured it out. Unfortunately because I made these modifers myself, tinkers doesn't have any books that include these beautiful modifiers, so similar to tinker's recently added \"ancient tools\" which are uncraftable and must be found in the wild, these \"ancient modifiers\" must be discovered through trial and error (or JEI which tells all my secrets). Sorry for any inconvieniences."
+			]
+			icon: "tconstruct:encyclopedia"
+			id: "0F5227F528329453"
+			subtitle: "Now Implemented!"
+			tasks: [{
+				id: "3B7F054596BBEF4C"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Ancient Modifiers?!?!"
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	title: "&3Welcome"
+}

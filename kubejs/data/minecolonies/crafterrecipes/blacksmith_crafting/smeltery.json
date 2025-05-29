@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "item": "create:brass_ingot",
+      "count": 9
+    },
+    {
+      "item": "tconstruct:seared_brick",
+      "count": 9
+    }
+  ],
+  "result": "tconstruct:smeltery_controller",
+  "count": 1,
+  "intermediate": "minecraft:air"
+}

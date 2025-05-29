@@ -1,0 +1,484 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32_wet"
+	group: "7D06AF69846A74C7"
+	icon: "kubejs:green_ender_eye"
+	id: "659707198F439CD7"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Green is for your basic andesite need. "
+				""
+				"Would be a very smart choice to start with this one."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			icon: "farmersdelight:lime_canvas_sign"
+			id: "1CB3BA35D2C6BA74"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "757359BBCEFD5F5C"
+				title: "Green is not a creative color"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "2A5FF89456BCEC8B"
+			tasks: [{
+				id: "63DE3D3C2BC6E53C"
+				item: "cobblemon:persim_berry"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "65746EF363EFE3EB"
+			tasks: [{
+				id: "778A10C280664135"
+				item: "cobblemon:aspear_berry"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "24FCA8B36E790540"
+			tasks: [{
+				id: "2DB5AAA24308E57C"
+				item: "cobblemon:pinap_berry"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"24FCA8B36E790540"
+				"30CAC29150DAF4AD"
+			]
+			id: "14AB2C7F5FD2BDFE"
+			tasks: [{
+				id: "552CB188D0A7C043"
+				item: "cobblemon:nomel_berry"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "384E7B87F335D13C"
+			tasks: [{
+				id: "7C44D8F295160327"
+				item: "cobblemon:yache_berry"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"384E7B87F335D13C"
+				"14AB2C7F5FD2BDFE"
+			]
+			id: "77B1DE35A7D2BDD9"
+			tasks: [{
+				id: "5ED2F5BFEC75FBF0"
+				item: "cobblemon:grepa_berry"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"65746EF363EFE3EB"
+				"2A5FF89456BCEC8B"
+			]
+			id: "30CAC29150DAF4AD"
+			tasks: [{
+				id: "56914F18929D1EC9"
+				item: "cobblemon:iapapa_berry"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"4BEA2C0FB5D67F40"
+				"2A5FF89456BCEC8B"
+			]
+			id: "51B823EA4A26B60B"
+			tasks: [{
+				id: "4615AA7AECCF7A29"
+				item: "cobblemon:mago_berry"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "4BEA2C0FB5D67F40"
+			tasks: [{
+				id: "006C465135F4E301"
+				item: "cobblemon:pecha_berry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "3DDBC6EE13759DA5"
+			tasks: [{
+				id: "357B2DCEA28C6F3F"
+				item: "cobblemon:nanab_berry"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "5436A44F2DAD4E22"
+			tasks: [{
+				id: "2034F8D9172E0C30"
+				item: "cobblemon:roseli_berry"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"3DDBC6EE13759DA5"
+				"51B823EA4A26B60B"
+			]
+			id: "427E4962653F858D"
+			tasks: [{
+				id: "229F4C8C309C0A45"
+				item: "cobblemon:magost_berry"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"5436A44F2DAD4E22"
+				"427E4962653F858D"
+			]
+			id: "7B7B605E8741A927"
+			tasks: [{
+				id: "60368ACB92CE9F75"
+				item: "cobblemon:qualot_berry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"5D1A09B3531ED43C"
+				"7B7B605E8741A927"
+			]
+			id: "4704E836FD9C7FBD"
+			subtitle: "Concentrated doses"
+			tasks: [{
+				id: "56392F3CC9704CD0"
+				item: "cobblemon:iron"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4704E836FD9C7FBD"]
+			id: "206B704A74B878BA"
+			tasks: [{
+				id: "7777B33122D6C029"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["78C69396A0F0B47A"]
+			id: "213C3F51E052FEA2"
+			tasks: [{
+				id: "1FB0961F4563BD5E"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"77B1DE35A7D2BDD9"
+				"5D1A09B3531ED43C"
+			]
+			id: "78C69396A0F0B47A"
+			subtitle: "Taste like metal"
+			tasks: [{
+				id: "3B25F2F049E9BF38"
+				item: "cobblemon:zinc"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			description: [
+				"A Revival Herb is a crop that can be found growing naturally in &6Lush Caves.&r "
+				""
+				"It can be used to craft certain items or used directly to fully revive a fainted Pokémon whilst reducing Friendship."
+				""
+				"Stage 1-7 Revival Herbs will drop a single Revival Herb."
+				"Stage 8 Revival Herbs will drop 2-3 Revival Herb."
+				"Stage 9 Revival herbs will drop 3-4 Revival Herbs and 1-2 Pep-Up Flowers."
+			]
+			id: "057A6F35BD5851A0"
+			rewards: [{
+				id: "1383CE58B264063A"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Lush"
+			tasks: [{
+				id: "63AC3173EA66300F"
+				item: "cobblemon:revival_herb"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["057A6F35BD5851A0"]
+			id: "1F38E62C68392B88"
+			rewards: [{
+				id: "54359178E3DD6E2D"
+				item: "cobblemon:super_potion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0754AD7D6A7AE30B"
+				item: "cobblemon:heal_powder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1F38E62C68392B88"]
+			id: "5D1A09B3531ED43C"
+			rewards: [{
+				id: "7B14DA8F2E895E35"
+				item: "cobblemon:super_potion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52C92F908DA7B6E4"
+				item: "cobblemon:medicinal_brew"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1F38E62C68392B88"]
+			id: "4041A743F02D37AE"
+			rewards: [{
+				id: "03738CD4B83C52A4"
+				item: "cobblemon:super_potion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06BA4A956D7557CE"
+				item: "cobblemon:healing_machine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			description: ["Tough luck finding rice?"]
+			id: "265FD97BDC70DD7F"
+			optional: true
+			rewards: [{
+				id: "6743E6C55D903000"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0C42E9C365DFBBB6"
+				item: { Count: 64, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3BA1B265A99AF7F9"]
+			id: "07B1E1D8B545FFD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7304FC0FF0875079"
+				table_id: 1656014881283549604L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0481E6A3FA562B22"
+				item: "kubejs:green_ender_eye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "181561DB339D5106"
+			tasks: [{
+				id: "48E67395C2F479B9"
+				item: "minecolonies:blockhutsawmill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5373DE0FB058C97B"
+				"429EA38675F8CDC5"
+			]
+			id: "59322F7DF27E754B"
+			tasks: [{
+				id: "4C5D302943B63256"
+				item: "cobblemon:verdant_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			description: ["Green Apricorn for Green Balls."]
+			hide_dependency_lines: true
+			id: "5373DE0FB058C97B"
+			rewards: [{
+				id: "49E44458F273CFDB"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			tasks: [{
+				id: "053AA8625DB0B79B"
+				item: "cobblemon:green_apricorn"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"181561DB339D5106"
+				"2109D4A99EBEC009"
+			]
+			id: "3BA1B265A99AF7F9"
+			tasks: [{
+				id: "1EC2590F3610FEA9"
+				item: "cobblemon:green_gilded_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"59322F7DF27E754B"
+				"1BD8C75928FBB89A"
+			]
+			id: "2109D4A99EBEC009"
+			subtitle: "Forge on the Surface"
+			tasks: [{
+				id: "2B47BEE2627544F6"
+				item: "cobblemon:smooth_rock"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			description: ["Find your favorite way to get green dye."]
+			id: "429EA38675F8CDC5"
+			tasks: [{
+				id: "557679E7315FF85F"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1CB3BA35D2C6BA74"]
+			hide_dependency_lines: true
+			id: "28BCF9455FFD25EA"
+			tasks: [{
+				id: "2F91CC6033CFEB06"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["28BCF9455FFD25EA"]
+			id: "1BD8C75928FBB89A"
+			tasks: [{
+				id: "1EFE3846B818D77D"
+				item: "cobblemon:hard_stone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+	]
+	title: "&2Eyes - Lushful Green"
+}

@@ -1,0 +1,575 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "shipments"
+	group: "7D06AF69846A74C7"
+	icon: {
+		Count: 1
+		id: "endrem:magical_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "780383A03283D6D6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A718559E86400D0"
+			tasks: [{
+				id: "6F3BC7CDDF2ED192"
+				item: "kubejs:green_ender_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "6B554F2047CE08AC"
+			tasks: [{
+				id: "4F9B596F64CFFBB8"
+				item: "kubejs:blue_ender_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "3BC0BE1ABC95D9E1"
+			tasks: [{
+				id: "6F8BF2AB434459CA"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "3E892E17CFEAF6AC"
+			tasks: [{
+				id: "5FEDF9767099BD0D"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "03B2D3313F0A42E7"
+			tasks: [{
+				id: "1E5B2F366680DDEA"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "16D8E3408785AA99"
+			tasks: [{
+				id: "113F7407F210D7BE"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "0E9C05B5FD1B5B26"
+			tasks: [{
+				id: "736D6DFCEBD497E9"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "78C0D6BEDE32E02C"
+			tasks: [{
+				id: "4D80C2734ADD97F5"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "69196E086C1FDE64"
+			tasks: [{
+				id: "08BBC416BFC00F8E"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "7BE89E2753661DA7"
+			tasks: [{
+				id: "67DEAEDA85D5929A"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "1C9BB640DEB2405B"
+			tasks: [{
+				id: "6CA53C1D96A5C2F3"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "0E3676D604BED8CD"
+			tasks: [{
+				id: "508A04ED69FCE014"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "72F1AD5530CADC64"
+			tasks: [{
+				id: "3DB6E889FA024272"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "07EFF9F7FAC92BE8"
+			tasks: [{
+				id: "0302DE5D37F952BF"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "1B40880EE72581C2"
+			tasks: [{
+				id: "6BD228C65F9FDEBF"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "552F40EA26F53AAC"
+			tasks: [{
+				id: "6E1A661E26D9E5A9"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "1DFDF9BE4B6D7253"
+			tasks: [{
+				id: "724504C5BFDF1B8B"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "22B40E20BD8D6E8A"
+			tasks: [{
+				id: "090CFF47119B57DB"
+				item: "kubejs:red_ender_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "6A64A2BDF20EBABA"
+			tasks: [{
+				id: "5F8D1C8396C77D64"
+				item: "kubejs:purple_ender_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A64A2BDF20EBABA"]
+			id: "5EC07BA60A19FF93"
+			tasks: [{
+				id: "16DCCCC73CD2BC14"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "5CB656C0B9A07DE0"
+			tasks: [{
+				id: "436BA724A88DA0D8"
+				item: "minecraft:prismarine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "574FFB1AF22E259D"
+			tasks: [{
+				id: "1D2D5EE32248CD09"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "37084984E5969219"
+			tasks: [{
+				id: "379060D24CC76224"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "66A0499630B467FC"
+			tasks: [{
+				id: "0439B7C1DA52A326"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "6AB6F4F076139F11"
+			tasks: [{
+				id: "1E53C11356152157"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "10719AD23EF009CA"
+			tasks: [{
+				id: "729C0A4935842AE9"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "01F61D87541E68B8"
+			tasks: [{
+				id: "169758B048D39A48"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "72080BBC11848B5A"
+			tasks: [{
+				id: "252B87A241A336C3"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "4AEB155CCC3B125E"
+			tasks: [{
+				id: "38A92B4F093BCF50"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "08B7422E65D974E1"
+			tasks: [{
+				id: "5C3BFEE909523E18"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "2A401242D99D8E5F"
+			tasks: [{
+				id: "7BB2D9165F694F77"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "59507FFB066F4A11"
+			tasks: [{
+				id: "35681EF7B26E1A57"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A64A2BDF20EBABA"]
+			id: "6B3E077929C9E1BA"
+			tasks: [{
+				id: "2D6B3BEEB12B30B1"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A64A2BDF20EBABA"]
+			id: "56CC255B4FC6B32D"
+			tasks: [{
+				id: "6AFD294D0521A15A"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A64A2BDF20EBABA"]
+			id: "55A20BBCCA59A434"
+			tasks: [{
+				id: "6C82826402F72704"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A64A2BDF20EBABA"]
+			id: "5D5E6E4CEA5077FB"
+			tasks: [{
+				id: "24A45B5631B4F148"
+				item: "minecolonies:magicpotion"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "0443BDF17828053C"
+			tasks: [{
+				id: "3B20DA09BD8676AC"
+				item: "cobblemon:magmarizer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "17F7B30FF742E43C"
+			tasks: [{
+				id: "543E294481B79AA2"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "13D50C4A0F2D0382"
+			tasks: [{
+				id: "5F0F21AD3C9815B7"
+				item: "cobblemon:green_gilded_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "2C7EFDA92F309880"
+			tasks: [{
+				id: "6B076FE6BE1C2083"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "6AEEC4097150694F"
+			tasks: [{
+				id: "51F2067C6D39579C"
+				item: {
+					Count: 1
+					id: "create:copper_backtank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B554F2047CE08AC"]
+			id: "3607EEAF17455927"
+			tasks: [{
+				id: "385EA362BBFB10E4"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "5FF872F4D2FF9710"
+			tasks: [{
+				id: "2DFD45C91AE6A770"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "37EA1EAA2B5DFAE3"
+			tasks: [{
+				id: "676B433D3040591A"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "62503C190C39FD2B"
+			tasks: [{
+				id: "23BDFDA8CD823EFA"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "418E2804A2ECCA6E"
+			tasks: [{
+				id: "4E7D3AE2CDE17D70"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6A718559E86400D0"]
+			id: "5AFA794B9F5691D7"
+			tasks: [{
+				id: "6A60E5E0934C65C3"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["22B40E20BD8D6E8A"]
+			id: "0B8B35DD20CB7347"
+			tasks: [{
+				id: "73D1C35423F35162"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A64A2BDF20EBABA"]
+			id: "10733D0799674DA7"
+			tasks: [{
+				id: "4C81AEB223094096"
+				item: "minecraft:sculk_shrieker"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A64A2BDF20EBABA"]
+			id: "52502A730652EE38"
+			tasks: [{
+				id: "7319A37017A37328"
+				item: "minecraft:sculk_sensor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+	title: "Eyes Cutting"
+}

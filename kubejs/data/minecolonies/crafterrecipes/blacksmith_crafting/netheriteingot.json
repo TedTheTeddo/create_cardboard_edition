@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "min-building-level": 3,
+  "max-building-level": 5,
+  "inputs": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 4
+    }
+  ],
+  "result": "netherite_ingot",
+  "count": 1,
+  "intermediate": "minecraft:air"
+}

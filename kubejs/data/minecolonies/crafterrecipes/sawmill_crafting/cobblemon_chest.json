@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:chest",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 1
+    }
+  ],
+  "result": "cobblemon:green_gilded_chest",
+  "count": 1,
+  "intermediate": "minecraft:air"
+}

@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "c4_hot"
+	group: "7D06AF69846A74C7"
+	icon: "kubejs:red_ender_eye"
+	id: "38415B6BFB645048"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			icon: "farmersdelight:red_canvas_sign"
+			id: "50F02A1B02B62735"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "2BEC193FB9931F47"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"056B8ECCE492FF36"
+				"63CABC8239F9F7CE"
+			]
+			id: "6AD3E78C65B5E5FD"
+			subtitle: "Forged in the Nether"
+			tasks: [{
+				id: "22CAB81F558E50E8"
+				item: "cobblemon:heat_rock"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1A45CFB8FCD27D03"
+				"6AD3E78C65B5E5FD"
+			]
+			id: "10AB891A08A434B9"
+			tasks: [{
+				id: "146F4FC5699DE040"
+				item: "cobblemon:magmarizer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10AB891A08A434B9"]
+			id: "0BB19B63FBBC16CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50DC7F52A2E6427A"
+				table_id: 1656014881283549604L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1356C428D2E84E74"
+				item: "kubejs:red_ender_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50F02A1B02B62735"]
+			hide_dependency_lines: true
+			id: "1A45CFB8FCD27D03"
+			tasks: [{
+				id: "1D1BF5E509BF431A"
+				item: "minecolonies:blockhutblacksmith"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50F02A1B02B62735"]
+			description: ["Pink Apricorn for Pink Balls."]
+			hide_dependency_lines: true
+			id: "3E945B6F2A244B25"
+			rewards: [{
+				id: "0872BF1AF84636E2"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5990753D1EAC548F"
+				item: "cobblemon:pink_apricorn"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3E945B6F2A244B25"
+				"7764923A5E1BDFFC"
+			]
+			id: "056B8ECCE492FF36"
+			tasks: [{
+				id: "29CC1ECBFAC98664"
+				item: "cobblemon:roseate_ball"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50F02A1B02B62735"]
+			description: ["Find your favorite way to get red dye."]
+			id: "7764923A5E1BDFFC"
+			tasks: [{
+				id: "734E504E48249AC7"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C59DA2DA2E39697"]
+			id: "63CABC8239F9F7CE"
+			tasks: [{
+				id: "38269F7A8C922629"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50F02A1B02B62735"]
+			hide_dependency_lines: true
+			id: "6C59DA2DA2E39697"
+			tasks: [{
+				id: "6292296802F2B8F4"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+	]
+	title: "&cEyes - Hotstuff"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+      {"item": "create:sturdy_sheet"},
+      {"item": "create:brass_sheet"},
+      {"item": "create:golden_sheet"},
+      {"item": "createdeco:industrial_iron_sheet"},
+      {"item": "createdeco:andesite_sheet"}
+  ],
+  "level": 1,
+  "result": "tconstruct:plate_reinforcement",
+  "tools": [
+    {
+        "tag": "tconstruct:modifiable/armor"
+    }
+  ]
+}

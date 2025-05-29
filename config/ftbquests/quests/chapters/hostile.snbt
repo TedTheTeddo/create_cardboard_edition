@@ -1,0 +1,712 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile"
+	group: "43BE9803743E44EA"
+	icon: "kubejs:essence_of_the_zombie_t1"
+	id: "0FE1EE1C5ED5AE59"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1149DEF8BA77ADD8"]
+			id: "07338365A66385DB"
+			tasks: [{
+				id: "38BAA336AAA5103C"
+				item: "kubejs:essence_of_the_wither_skeleton_t1"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3721213273410102"]
+			id: "52ECC924E1C30F47"
+			tasks: [{
+				id: "45146149E03995E6"
+				item: "kubejs:essence_of_the_creeper_t1"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "3721213273410102"
+			tasks: [{
+				id: "14C894016B3831B8"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "1149DEF8BA77ADD8"
+			tasks: [{
+				id: "14F53C2E62A4A700"
+				item: "tconstruct:necrotic_bone"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "747419E89ECB19F2"
+			tasks: [{
+				id: "2ABD4F76FF55E9F3"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["747419E89ECB19F2"]
+			id: "21125C44B01B74D6"
+			tasks: [{
+				id: "5A0AE5C722811E9E"
+				item: "kubejs:essence_of_the_enderman_t1"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "02DFEEE1D1E2F592"
+			tasks: [{
+				id: "27985A80C6C54A41"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02DFEEE1D1E2F592"]
+			id: "704423AA8A0A87B1"
+			tasks: [{
+				id: "57D658872F3C8654"
+				item: "kubejs:essence_of_the_shulker_t1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7390E8EFCEA894FC"]
+			id: "3DFE5C3091D146D1"
+			tasks: [{
+				id: "309B4D9DCF9EA40E"
+				item: "kubejs:essence_of_the_witch_t1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "0523FD75709FDB16"
+			tasks: [{
+				id: "353C1C5D0669371F"
+				item: "kubejs:essence_of_the_vindicator_t1"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18309CBF44365CE4"]
+			id: "7B3D98191C43759E"
+			tasks: [{
+				id: "739D64D892A2D274"
+				item: "kubejs:essence_of_the_stray_t1"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F7536413AE5B345"]
+			id: "77C947F7C04BD405"
+			tasks: [{
+				id: "53CA77A7AF61C3D4"
+				item: "kubejs:essence_of_the_spider_t1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "5BBFC8C3DD1E8636"
+			tasks: [{
+				id: "2C8380C839DCB54F"
+				item: "kubejs:essence_of_the_ravager_t1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FE2CD5A87C4281A"]
+			id: "31CF26675B8F2531"
+			tasks: [{
+				id: "5F728593C065A5C6"
+				item: "kubejs:essence_of_the_slime_t1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59690DE128F0A7E0"]
+			id: "6465CD3AC5E18EDE"
+			tasks: [{
+				id: "3095AA0241E78B85"
+				item: "kubejs:essence_of_the_skeleton_t1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "77D6FDB3CC2CE7FF"
+			tasks: [{
+				id: "1CC782162A43F97E"
+				item: "kubejs:essence_of_the_pillager_t1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["029FA75F1E3AB135"]
+			id: "0AA202B99B6C383F"
+			tasks: [{
+				id: "78BC4C1A29A0066E"
+				item: "kubejs:essence_of_the_piglin_brute_t1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E5604D6D63E0F8A"]
+			id: "32B169C3EFD7F63E"
+			tasks: [{
+				id: "56D3FFB3CA7969FA"
+				item: "kubejs:essence_of_the_magma_cube_t1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E5A9C5FD6E97AFB"]
+			id: "33D75A300C007935"
+			tasks: [{
+				id: "2491EAD8CF41E289"
+				item: "kubejs:essence_of_the_ghast_t1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73AFF29C9E4831E9"]
+			id: "7B045556899FC469"
+			tasks: [{
+				id: "0EA8627C85DA4427"
+				item: "kubejs:essence_of_the_guardian_t1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F29D5EA4C563412"]
+			id: "2814ADBF03995390"
+			tasks: [{
+				id: "67F364E1F8A32620"
+				item: "kubejs:essence_of_the_elder_guardian_t1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F4CCD55E3BDC9BE"]
+			id: "290C7786B3F29FBF"
+			tasks: [{
+				id: "5764A48CDF366AFC"
+				item: "kubejs:essence_of_the_drowned_t1"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F34436B13CE35E4"]
+			id: "7708FACEA1C295C3"
+			tasks: [{
+				id: "05B2FBE90065A292"
+				item: "kubejs:essence_of_the_blaze_t1"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48B0C76C15742784"]
+			id: "4E207EC6CB83695E"
+			tasks: [{
+				id: "1E28B8EF75528EF1"
+				item: "kubejs:essence_of_the_husk_t1"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "1C686DE149473961"
+			tasks: [{
+				id: "73F085FC67E44BE1"
+				item: "kubejs:essence_of_the_evoker_t1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3235DC8054BE68D8"]
+			id: "6952BA8D2CCB2510"
+			tasks: [{
+				id: "2C38C547F161BA34"
+				item: "kubejs:essence_of_the_piglin_t1"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "1B654CB6924FA535"
+			tasks: [{
+				id: "12DE79E9F96C1185"
+				item: "kubejs:essence_of_the_vex_t1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CC4BF6AFD738B22"]
+			id: "00CC9E438EF33AA8"
+			tasks: [{
+				id: "47607BED47D66129"
+				item: "kubejs:essence_of_the_silverfish_t1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "4CC4BF6AFD738B22"
+			tasks: [{
+				id: "5C3B37E1FD292FE8"
+				item: "minecraft:infested_stone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0382A578CBAAF989"]
+			id: "28CCF2F6FAE95FE5"
+			tasks: [{
+				id: "3147D2E1DCFB6D8B"
+				item: "kubejs:essence_of_the_wither_t1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73A5DF4BA74BDB54"]
+			id: "68DEB02701F8DB42"
+			tasks: [{
+				id: "712EF825EF38C641"
+				item: "kubejs:essence_of_the_warden_t1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5175515B927F7610"]
+			id: "5777523DDED656E5"
+			tasks: [{
+				id: "76BA591C1DCF5C54"
+				item: "kubejs:essence_of_the_ender_dragon_t1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["66523CC14D560869"]
+			id: "6BA560D47B865E1E"
+			tasks: [{
+				id: "5CECCDE4E305A99D"
+				item: "kubejs:essence_of_the_cave_spider_t1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "66523CC14D560869"
+			tasks: [{
+				id: "4240CE39E7E5418D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:poison"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "3E5A9C5FD6E97AFB"
+			tasks: [{
+				id: "02DBF443F7719492"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "1E5604D6D63E0F8A"
+			tasks: [{
+				id: "1660E184EAAE99DC"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "7F4CCD55E3BDC9BE"
+			tasks: [{
+				id: "41CD42950882ADE4"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10503A73A0C65BB2"]
+			id: "1670F3D77E8B2168"
+			tasks: [{
+				id: "4362F79F7D87A3FD"
+				item: "kubejs:essence_of_the_zombie_t1"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1954770AC6DA0C70"]
+			id: "433DBE29E741057D"
+			tasks: [{
+				id: "1AB03BAB45318F1E"
+				item: "kubejs:essence_of_the_zombified_piglin_t1"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "4FE2CD5A87C4281A"
+			tasks: [{
+				id: "37A5A2F509AFA31C"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["246F146166D11C18"]
+			id: "77C5396A1A5F8409"
+			tasks: [{
+				id: "61FB6C300B7FFF1A"
+				item: "kubejs:essence_of_the_phantom_t1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "246F146166D11C18"
+			tasks: [{
+				id: "0D6AC796AD6F75AB"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "4F29D5EA4C563412"
+			tasks: [{
+				id: "0F8E4FFB68652C46"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "73AFF29C9E4831E9"
+			tasks: [{
+				id: "511B6D76F57567B6"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "7F7536413AE5B345"
+			tasks: [{
+				id: "6A1DB0D6D9770AFB"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "59690DE128F0A7E0"
+			tasks: [{
+				id: "1E4E5536AB098991"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "18309CBF44365CE4"
+			tasks: [{
+				id: "68AEE06A1D4B83A5"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:slowness"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "48B0C76C15742784"
+			tasks: [{
+				id: "663436C8FA89BCAD"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52B8947458671F6E"]
+			id: "3D8A0BC8472BC66A"
+			tasks: [{
+				id: "424D9151BFFB1542"
+				item: "kubejs:essence_of_the_hoglin_t1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "10503A73A0C65BB2"
+			tasks: [{
+				id: "56F2A8E99B59A4B6"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "0382A578CBAAF989"
+			tasks: [{
+				id: "3F87DF2D39C8E62E"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "73A5DF4BA74BDB54"
+			tasks: [{
+				id: "1B5F7C306689E967"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "5175515B927F7610"
+			tasks: [{
+				id: "1B444651728B7693"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "029FA75F1E3AB135"
+			tasks: [{
+				id: "108ED635BDFB618F"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "52B8947458671F6E"
+			tasks: [{
+				id: "11D8610574288B28"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "1954770AC6DA0C70"
+			tasks: [{
+				id: "4B5DCDBE7123C7FA"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "6F34436B13CE35E4"
+			tasks: [{
+				id: "41C6C122D568850A"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"As you can tell, hostiles are also limited. "
+				"They lurk mainly below the surface. "
+				"You'll be rewarded if you slay and harvest enough or automated their drop."
+				""
+				"Each essence have a tier, each tier have a processing time as follow:"
+				"T1 - 3200"
+				"&bT2 - 1600&r"
+				"&6T3 - 800&r"
+				"&5T4 - 400&r"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "285DCC2E3463A967"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "21997E700CDB3EFE"
+				type: "checkmark"
+			}]
+			title: "Hostile Drops"
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "3235DC8054BE68D8"
+			tasks: [{
+				id: "7D5915A9A5A02371"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["285DCC2E3463A967"]
+			id: "7390E8EFCEA894FC"
+			tasks: [{
+				id: "2C2E90B9B7EFAC94"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+	]
+	title: "&3Hostile"
+}

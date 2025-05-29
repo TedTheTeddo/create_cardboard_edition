@@ -1,0 +1,14 @@
+{
+  "type": "lychee:item_exploding",
+  "post": [
+    {
+      "type": "execute",
+      "command": "summon irons_spellbooks:necromancer ~ ~ ~"
+    }
+  ],
+  "item_in": [
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ]
+}
