@@ -1,0 +1,10 @@
+{
+  "keys": [ "gmax" ],
+  "type": "flag",
+  "default": false,
+  "choices": [
+      "gmax"
+    ],
+    "isAspect": true,
+    "aspectFormat": "gmax-pattern-{{gmax}}"
+}

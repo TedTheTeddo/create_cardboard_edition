@@ -1,0 +1,10 @@
+{
+  "keys": [ "speed" ],
+  "type": "flag",
+  "default": false,
+  "choices": [
+      "speed"
+    ],
+    "isAspect": true,
+    "aspectFormat": "speed-pattern-{{speed}}"
+}

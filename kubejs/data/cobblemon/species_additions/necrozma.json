@@ -1,0 +1,272 @@
+{
+  "target": "cobblemon:necrozma",
+  "baseScale": 1,
+  "hitbox": {
+    "width": 2,
+    "height": 3.5,
+    "fixed": false
+   },
+   "features": ["ultra", "dusk-mane", "dawn-wings"],
+   "forms": [
+    {
+      "name": "Dusk-Mane",
+      "primaryType": "psychic",
+      "secondaryType": "steel",
+      "abilities": [
+        "prismarmor"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 157,
+        "defence": 127,
+        "special_attack": 113,
+        "special_defence": 109,
+        "speed": 77
+      },
+      "catchRate": 255,
+      "maleRatio": -1,
+      "baseExperienceYield": 300,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "moves": [
+        "form_change:sunsteelstrike"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "dusk-mane"
+      ],
+      "height": 38,
+      "weight": 4600,
+      "evolutions": [
+        {
+          "id": "necrozma dusk-mane_necrozma",
+          "variant": "item_interact",
+          "result": "necrozma",
+          "consumeHeldItem": false,
+          "requiredContext": {
+    "item": "minecraft:feather",
+    "nbt": "{custom_model_data: 791800}"}
+  },
+    {
+    "id": "necrozma dusk-mane_necrozma ultra",
+    "variant": "item_interact",
+    "result": "necrozma ultra",
+    "consumeHeldItem": false,
+    "learnableMoves": ["lightthatburnsthesky"],
+    "requiredContext": {
+    "item": "minecraft:feather",
+    "nbt": "{custom_model_data: 8003}"}
+  }
+      ],
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Dawn-Wings",
+      "primaryType": "psychic",
+      "secondaryType": "ghost",
+      "abilities": [
+        "prismarmor"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 113,
+        "defence": 109,
+        "special_attack": 157,
+        "special_defence": 127,
+        "speed": 77
+      },
+      "catchRate": 255,
+      "maleRatio": -1,
+      "baseExperienceYield": 300,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "moves": [
+        "form_change:moongeistbeam"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "dawn-wings"
+      ],
+      "height": 42,
+      "weight": 3500,
+      "evolutions": [
+        {
+          "id": "necrozma dawn-wings_necrozma",
+          "variant": "item_interact",
+          "result": "necrozma",
+          "consumeHeldItem": false,
+          "requiredContext": {
+    "item": "minecraft:feather",
+    "nbt": "{custom_model_data: 792800}"}
+  },
+  {
+    "id": "necrozma dawn-wings_necrozma ultra",
+    "variant": "item_interact",
+    "result": "necrozma ultra",
+    "consumeHeldItem": false,
+    "learnableMoves": ["lightthatburnsthesky"],
+    "requiredContext": {
+"item": "minecraft:feather",
+"nbt": "{custom_model_data: 800}"}
+        }
+          ],       
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Ultra",
+      "primaryType": "psychic",
+      "secondaryType": "dragon",
+      "abilities": [
+        "neuroforce"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 167,
+        "defence": 97,
+        "special_attack": 167,
+        "special_defence": 97,
+        "speed": 129
+      },
+      "catchRate": 255,
+      "maleRatio": -1,
+      "baseExperienceYield": 300,
+      "baseFriendship": 0,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 120,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "moves": [
+        "1:photongeyser",
+        "1:dragonpulse",
+        "1:smartstrike",
+        "1:powergem"
+      ],
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "aspects": [
+        "ultra"
+      ],
+      "baseScale": 1,
+      "hitbox": {
+        "width": 2,
+        "height": 9.5,
+        "fixed": false
+       },
+      "height": 75,
+      "weight": 2300,
+      "evolutions": [
+        {
+          "id": "necrozma ultra_necrozma dusk-mane",
+          "variant": "item_interact",
+          "result": "necrozma dusk-mane",
+          "consumeHeldItem": false,
+          "requirements": [
+  {
+    "variant": "party_member",
+    "target": "solgaleo",
+    "contains": true
+  }
+],
+          "requiredContext": {
+    "item": "minecraft:feather",
+    "nbt": "{custom_model_data: 800}"}
+  },
+  {
+    "id": "necrozma ultra_necrozma dawn-wings",
+    "variant": "item_interact",
+    "result": "necrozma dawn-wings",
+    "consumeHeldItem": false,
+    "requirements": [
+      {
+        "variant": "party_member",
+        "target": "lunala",
+        "contains": true
+      }
+    ],
+    "requiredContext": {
+"item": "minecraft:feather",
+"nbt": "{custom_model_data: 800}"}
+        }
+          ],  
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+  ],
+   "evolutions": [
+    {
+      "id": "necrozma dusk-mane",
+      "variant": "item_interact",
+      "result": "necrozma dusk-mane",
+      "consumeHeldItem": false,
+      "learnableMoves": ["sunsteelstrike"],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "solgaleo",
+          "contains": true
+        }
+      ],
+      "requiredContext": {
+"item": "minecraft:feather",
+"nbt": "{custom_model_data: 791800}"}},
+{
+"id": "necrozma dawn-wings",
+"variant": "item_interact",
+"result": "necrozma dawn-wings",
+"consumeHeldItem": false,
+"learnableMoves": ["moongeistbeam"],
+"requirements": [
+  {
+    "variant": "party_member",
+    "target": "lunala",
+    "contains": true
+  }
+],
+"requiredContext": {
+"item": "minecraft:feather",
+"nbt": "{custom_model_data: 792800}"}}
+  ]
+  }

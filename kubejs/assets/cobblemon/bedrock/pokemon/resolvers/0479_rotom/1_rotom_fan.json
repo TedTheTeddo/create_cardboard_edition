@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["fan-appliance"],
+      "poser": "cobblemon:rotom",
+      "model": "cobblemon:rotom_fan.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

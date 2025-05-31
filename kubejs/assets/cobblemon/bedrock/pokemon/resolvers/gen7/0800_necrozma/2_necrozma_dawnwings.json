@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:necrozma",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["dawn-wings"],
+      "poser": "genomons:necrozma_dawnwings",
+      "model": "genomons:necrozma_dawn_wings.geo",
+      "texture": "genomons:textures/pokemon/0800_necrozma/dawnwings/necrozma_dawnwings.png",
+      "layers": [
+        {
+					"name": "emissive1",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0800_necrozma/dawnwings/necrozma_dawnwings_emissive.png",
+          "translucent": true
+				  },
+          {
+            "name": "stuff",
+            "texture": "genomons:textures/pokemon/0800_necrozma/dawnwings/necrozma_dawnwings_translucent.png",
+            "translucent": true
+          }
+      ]
+    },
+    {
+      "aspects": ["dawn-wings", "shiny"],
+      "texture": "genomons:textures/pokemon/0800_necrozma/dawnwings/necrozma_dawnwings_shiny.png",
+      "layers": [
+        {
+					"name": "emissives1",
+          "emissive": true,
+					"texture": "genomons:textures/pokemon/0800_necrozma/dawnwings/necrozma_dawnwings_emissive.png",
+          "translucent": true
+				  },
+          {
+            "name": "stuff",
+            "texture": "genomons:textures/pokemon/0800_necrozma/dawnwings/necrozma_dawnwings_translucent.png",
+            "translucent": true
+          }
+      ]
+    }
+  ]
+}

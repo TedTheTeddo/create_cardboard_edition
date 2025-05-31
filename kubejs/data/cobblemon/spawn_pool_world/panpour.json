@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "panpour-1",
+            "pokemon": "panpour",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-25",
+            "weight": 4.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+					"#cobblemon:is_coast",
+					"#cobblemon:is_island"
+                ]
+			}
+		},
+		{
+			"id": "panpour-2",
+            "pokemon": "panpour",
+			"presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "4-25",
+            "weight": 4.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_river",
+					"#cobblemon:is_freshwater"
+                ]
+            }
+        }
+    ]
+}

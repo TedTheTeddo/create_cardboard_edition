@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "oranguru-1",
+            "pokemon": "oranguru",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "25-43",
+            "weight": 4.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 173,
+  "name": "Cleffa",
+  "primaryType": "fairy",
+  "maleRatio": 0.25,
+  "height": 3,
+  "weight": 30,
+  "pokedex": [
+    "cobblemon.species.cleffa.desc"
+  ],
+  "labels": [
+    "gen2",
+    "baby"
+  ],
+  "aspects": [],
+  "abilities": [
+    "cutecharm",
+    "magicguard",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 25,
+    "defence": 28,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 44,
+  "experienceGroup": "fast",
+  "catchRate": 150,
+  "eggCycles": 10,
+  "baseFriendship": 140,
+  "shoulderMountable": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:moon_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:copycat",
+    "1:splash",
+    "4:sing",
+    "8:sweetkiss",
+    "12:disarmingvoice",
+    "16:encore",
+    "20:charm",
+    "egg:aromatherapy",
+    "egg:bellydrum",
+    "egg:healpulse",
+    "egg:mimic",
+    "egg:present",
+    "egg:tickle",
+    "egg:wish",
+    "tm:afteryou",
+    "tm:alluringvoice",
+    "tm:amnesia",
+    "tm:aromatherapy",
+    "tm:babydolleyes",
+    "tm:bellydrum",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:copycat",
+    "tm:covet",
+    "tm:dazzlinggleam",
+    "tm:dig",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:fling",
+    "tm:grassknot",
+    "tm:gravity",
+    "tm:headbutt",
+    "tm:healpulse",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:magiccoat",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mimic",
+    "tm:mistyterrain",
+    "tm:playrough",
+    "tm:pound",
+    "tm:present",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reflect",
+    "tm:rest",
+    "tm:roleplay",
+    "tm:rollout",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sing",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:splash",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:sweetkiss",
+    "tm:swift",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:tickle",
+    "tm:trick",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:wish",
+    "tm:wonderroom",
+    "tm:workup",
+    "tm:zenheadbutt"
+  ],
+  "evolutions": [
+    {
+      "id": "cleffa_clefairy",
+      "variant": "level_up",
+      "result": "clefairy",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ]
+}

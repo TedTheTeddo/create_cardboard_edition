@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["wash-appliance"],
+      "poser": "cobblemon:rotom",
+      "model": "cobblemon:rotom_wash.geo",
+      "texture": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

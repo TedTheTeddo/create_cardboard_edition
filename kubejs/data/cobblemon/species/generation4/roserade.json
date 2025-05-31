@@ -1,0 +1,186 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 407,
+  "name": "Roserade",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "height": 9,
+  "weight": 145,
+  "pokedex": [
+    "cobblemon.species.roserade.desc"
+  ],
+  "labels": [
+    "gen4"
+  ],
+  "aspects": [],
+  "abilities": [
+    "naturalcure",
+    "poisonpoint",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 65,
+    "special_attack": 125,
+    "special_defence": 105,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 258,
+  "experienceGroup": "medium_slow",
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.14
+      }
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:rose_bush",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:absorb_bulb",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:poisonsting",
+    "1:megadrain",
+    "1:magicalleaf",
+    "1:sweetscent",
+    "1:gigadrain",
+    "1:synthesis",
+    "1:worryseed",
+    "1:venomdrench",
+    "1:grassyterrain",
+    "1:leechseed",
+    "1:toxicspikes",
+    "1:toxic",
+    "1:petalblizzard",
+    "1:aromatherapy",
+    "1:ingrain",
+    "1:petaldance",
+    "1:absorb",
+    "1:growth",
+    "1:stunspore",
+    "1:grasswhistle",
+    "1:watersport",
+    "egg:cottonspore",
+    "egg:extrasensory",
+    "egg:grasswhistle",
+    "egg:lifedew",
+    "egg:mindreader",
+    "egg:naturalgift",
+    "egg:razorleaf",
+    "egg:sleeppowder",
+    "egg:synthesis",
+    "tm:absorb",
+    "tm:aromatherapy",
+    "tm:bodyslam",
+    "tm:bulletseed",
+    "tm:cottonspore",
+    "tm:covet",
+    "tm:cut",
+    "tm:dazzlinggleam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:extrasensory",
+    "tm:facade",
+    "tm:flash",
+    "tm:furycutter",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grasswhistle",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:growth",
+    "tm:hyperbeam",
+    "tm:ingrain",
+    "tm:laserfocus",
+    "tm:leafstorm",
+    "tm:leechseed",
+    "tm:lifedew",
+    "tm:magicalleaf",
+    "tm:megadrain",
+    "tm:mindreader",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:petalblizzard",
+    "tm:petaldance",
+    "tm:pinmissile",
+    "tm:poisonjab",
+    "tm:poisonsting",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:razorleaf",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:sleeppowder",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:spikes",
+    "tm:stunspore",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:sweetscent",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:uproar",
+    "tm:venomdrench",
+    "tm:venoshock",
+    "tm:watersport",
+    "tm:weatherball",
+    "tm:worryseed"
+  ],
+  "preEvolution": "roselia",
+  "evolutions": []
+}

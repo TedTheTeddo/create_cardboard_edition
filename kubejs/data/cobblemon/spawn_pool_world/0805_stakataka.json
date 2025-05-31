@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "stakataka-1",
+      "pokemon": "stakataka",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": ["minecraft:deep_dark"]
+      }
+    },
+    {
+        "id": "stakataka-2",
+        "pokemon": "stakataka",
+        "presets": ["natural"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "60",
+        "weight": 10.0,
+        "condition": {
+          "biomes": ["minecraft:ancient_city"]
+        }
+      }
+  ]
+}

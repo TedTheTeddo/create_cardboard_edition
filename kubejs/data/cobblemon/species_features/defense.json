@@ -1,0 +1,10 @@
+{
+  "keys": [ "defense" ],
+  "type": "flag",
+  "default": false,
+  "choices": [
+      "defense"
+    ],
+    "isAspect": true,
+    "aspectFormat": "defense-pattern-{{defense}}"
+}

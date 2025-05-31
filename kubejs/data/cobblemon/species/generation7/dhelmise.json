@@ -1,0 +1,166 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 781,
+  "name": "Dhelmise",
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "maleRatio": -1,
+  "height": 39,
+  "weight": 2100,
+  "pokedex": [
+    "cobblemon.species.dhelmise.desc"
+  ],
+  "labels": [
+    "gen7"
+  ],
+  "aspects": [],
+  "abilities": [
+    "steelworker",
+    "h:steelworker"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 131,
+    "defence": 100,
+    "special_attack": 86,
+    "special_defence": 90,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 181,
+  "experienceGroup": "medium_fast",
+  "catchRate": 25,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 2.5,
+    "height": 4,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": false,
+      "swim": {
+        "swimSpeed": 0.2,
+        "canBreatheUnderwater": true,
+        "canSwimInWater": false
+      }
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:kelp",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:raw_iron",
+        "quantityRange": "0-2"
+      }
+    ]
+  },
+  "moves": [
+    "1:absorb",
+    "1:rapidspin",
+    "4:astonish",
+    "8:wrap",
+    "12:megadrain",
+    "16:growth",
+    "20:gyroball",
+    "24:switcheroo",
+    "28:gigadrain",
+    "32:whirlpool",
+    "36:heavyslam",
+    "40:slam",
+    "44:shadowball",
+    "48:metalsound",
+    "52:anchorshot",
+    "56:energyball",
+    "60:phantomforce",
+    "64:powerwhip",
+    "tm:absorb",
+    "tm:aerialace",
+    "tm:allyswitch",
+    "tm:anchorshot",
+    "tm:assurance",
+    "tm:astonish",
+    "tm:block",
+    "tm:bodypress",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:earthquake",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:growth",
+    "tm:gyroball",
+    "tm:heavyslam",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:megadrain",
+    "tm:metalsound",
+    "tm:muddywater",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:powerwhip",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rapidspin",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:roleplay",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:slam",
+    "tm:sleeptalk",
+    "tm:sludgewave",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:spite",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:switcheroo",
+    "tm:swordsdance",
+    "tm:synthesis",
+    "tm:telekinesis",
+    "tm:terablast",
+    "tm:thief",
+    "tm:whirlpool",
+    "tm:wrap"
+  ],
+  "evolutions": []
+}

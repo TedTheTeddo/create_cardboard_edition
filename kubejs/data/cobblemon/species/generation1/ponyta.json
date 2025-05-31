@@ -1,0 +1,291 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 77,
+  "name": "Ponyta",
+  "primaryType": "fire",
+  "maleRatio": 0.5,
+  "height": 10,
+  "weight": 300,
+  "pokedex": [
+    "cobblemon.species.ponyta.desc"
+  ],
+  "labels": [
+    "gen1",
+    "kantonian_form"
+  ],
+  "aspects": [],
+  "abilities": [
+    "runaway",
+    "flashfire",
+    "h:flamebody"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 82,
+  "experienceGroup": "medium_fast",
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "features": [
+    "galarian"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.4,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.3
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:shuca_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "5:tailwhip",
+    "10:ember",
+    "15:flamecharge",
+    "20:agility",
+    "25:flamewheel",
+    "30:stomp",
+    "35:firespin",
+    "41:takedown",
+    "45:inferno",
+    "50:fireblast",
+    "55:flareblitz",
+    "egg:captivate",
+    "egg:doubleedge",
+    "egg:doublekick",
+    "egg:horndrill",
+    "egg:hypnosis",
+    "egg:morningsun",
+    "egg:thrash",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:captivate",
+    "tm:charm",
+    "tm:doubleedge",
+    "tm:doublekick",
+    "tm:echoedvoice",
+    "tm:ember",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flamewheel",
+    "tm:flareblitz",
+    "tm:growl",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:highhorsepower",
+    "tm:horndrill",
+    "tm:hypnosis",
+    "tm:incinerate",
+    "tm:inferno",
+    "tm:irontail",
+    "tm:lowkick",
+    "tm:morningsun",
+    "tm:mysticalfire",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:stomp",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:tackle",
+    "tm:tailwhip",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thrash",
+    "tm:wildcharge",
+    "tm:willowisp"
+  ],
+  "evolutions": [
+    {
+      "id": "ponyta_rapidash",
+      "variant": "level_up",
+      "result": "rapidash",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "furyattack",
+        "smartstrike"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "name": "Galar",
+      "primaryType": "psychic",
+      "maleRatio": 0.5,
+      "height": 8,
+      "weight": 240,
+      "pokedex": [
+        "cobblemon.species.ponyta-galar.desc"
+      ],
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "aspects": [
+        "galarian"
+      ],
+      "abilities": [
+        "runaway",
+        "pastelveil",
+        "h:anticipation"
+      ],
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:leather",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:razz_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:tackle",
+        "1:growl",
+        "5:tailwhip",
+        "10:confusion",
+        "15:fairywind",
+        "20:agility",
+        "25:psybeam",
+        "30:stomp",
+        "35:healpulse",
+        "41:takedown",
+        "45:dazzlinggleam",
+        "50:psychic",
+        "55:healingwish",
+        "egg:doubleedge",
+        "egg:doublekick",
+        "egg:horndrill",
+        "egg:hypnosis",
+        "egg:morningsun",
+        "egg:thrash",
+        "tm:agility",
+        "tm:allyswitch",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confusion",
+        "tm:dazzlinggleam",
+        "tm:doubleedge",
+        "tm:doublekick",
+        "tm:endure",
+        "tm:expandingforce",
+        "tm:facade",
+        "tm:fairywind",
+        "tm:futuresight",
+        "tm:growl",
+        "tm:healingwish",
+        "tm:healpulse",
+        "tm:highhorsepower",
+        "tm:horndrill",
+        "tm:hypnosis",
+        "tm:imprison",
+        "tm:irontail",
+        "tm:lowkick",
+        "tm:morningsun",
+        "tm:mysticalfire",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:psychic",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:stomp",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tackle",
+        "tm:tailwhip",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thrash",
+        "tm:wildcharge",
+        "tm:zenheadbutt"
+      ],
+      "evolutions": [
+        {
+          "id": "ponyta_rapidashgalar",
+          "variant": "level_up",
+          "result": "rapidash galarian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "psychocut"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 40
+            }
+          ]
+        }
+      ],
+      "battleOnly": false
+    }
+  ]
+}

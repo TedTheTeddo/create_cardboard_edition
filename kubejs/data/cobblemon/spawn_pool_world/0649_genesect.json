@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "genesect-1",
+            "pokemon": "genesect",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-70",
+            "weight": 30.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 40,
+                "neededBaseBlocks": [
+                    "minecraft:stone_bricks"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cracked_stone_bricks"
+                ],
+				                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass_block"
+                ]
+            }
+        },
+        {
+            "id": "genesect-2",
+            "pokemon": "genesect",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-70",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

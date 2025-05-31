@@ -1,0 +1,174 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 240,
+  "name": "Magby",
+  "primaryType": "fire",
+  "maleRatio": 0.75,
+  "height": 7,
+  "weight": 214,
+  "pokedex": [
+    "cobblemon.species.magby.desc"
+  ],
+  "labels": [
+    "gen2",
+    "baby"
+  ],
+  "aspects": [],
+  "abilities": [
+    "flamebody",
+    "h:vitalspirit"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 75,
+    "defence": 37,
+    "special_attack": 70,
+    "special_defence": 55,
+    "speed": 83
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 73,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.2,
+    "fixed": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:magmarizer",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:smog",
+    "1:leer",
+    "1:feintattack",
+    "4:ember",
+    "8:smokescreen",
+    "12:clearsmog",
+    "16:flamewheel",
+    "20:confuseray",
+    "24:scaryface",
+    "28:firepunch",
+    "32:lavaplume",
+    "36:lowkick",
+    "40:flamethrower",
+    "44:sunnyday",
+    "48:fireblast",
+    "egg:barrier",
+    "egg:belch",
+    "egg:bellydrum",
+    "egg:crosschop",
+    "egg:dynamicpunch",
+    "egg:flameburst",
+    "egg:focuspunch",
+    "egg:followme",
+    "egg:karatechop",
+    "egg:machpunch",
+    "tm:acidspray",
+    "tm:barrier",
+    "tm:belch",
+    "tm:bellydrum",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:burningjealousy",
+    "tm:clearsmog",
+    "tm:confuseray",
+    "tm:covet",
+    "tm:crosschop",
+    "tm:curse",
+    "tm:doubleedge",
+    "tm:dualchop",
+    "tm:dynamicpunch",
+    "tm:ember",
+    "tm:endure",
+    "tm:facade",
+    "tm:feintattack",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flameburst",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flamewheel",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusenergy",
+    "tm:focuspunch",
+    "tm:followme",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:karatechop",
+    "tm:lavaplume",
+    "tm:leer",
+    "tm:lowkick",
+    "tm:machpunch",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:powerswap",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:scaryface",
+    "tm:screech",
+    "tm:sleeptalk",
+    "tm:smog",
+    "tm:smokescreen",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:willowisp"
+  ],
+  "evolutions": [
+    {
+      "id": "magby_magmar",
+      "variant": "level_up",
+      "result": "magmar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ]
+}

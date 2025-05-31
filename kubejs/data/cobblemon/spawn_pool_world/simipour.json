@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "simipour-1",
+            "pokemon": "simipour",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-43",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+					"#cobblemon:is_coast",
+					"#cobblemon:is_island"
+                ]
+			}
+		},
+		{
+			"id": "simipour-2",
+            "pokemon": "simipour",
+			"presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "25-43",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_river",
+					"#cobblemon:is_freshwater"
+                ]
+            }
+        }
+    ]
+}

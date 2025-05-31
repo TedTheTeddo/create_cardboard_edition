@@ -1,0 +1,10 @@
+{
+  "keys": [ "attack" ],
+  "type": "flag",
+  "default": false,
+  "choices": [
+      "attack"
+    ],
+    "isAspect": true,
+    "aspectFormat": "attack-pattern-{{attack}}"
+}

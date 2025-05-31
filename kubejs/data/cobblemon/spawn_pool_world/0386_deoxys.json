@@ -1,0 +1,90 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deoxys-1",
+            "pokemon": "deoxys",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 30.0,
+            "condition": {
+                "canSeeSky": false,
+                "maxY": 40,
+                "neededBaseBlocks": [
+                    "minecraft:stone_bricks"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:cracked_stone_bricks"
+                ],
+				                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass_block"
+                ]
+            }
+        },
+        {
+            "id": "deoxys-2",
+            "pokemon": "deoxys",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+              {
+            "id": "deoxys-3",
+            "pokemon": "deoxys defense",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+           {
+            "id": "deoxys-4",
+            "pokemon": "deoxys speed",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "40",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+            {
+            "id": "deoxys-5",
+            "pokemon": "deoxys attack",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

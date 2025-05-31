@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "copperajah-1",
+            "pokemon": "copperajah",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-58",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        },
+               {
+            "id": "copperajah-2",
+            "pokemon": "copperajah_gmax",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "70",
+            "weight": 5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                 "structures": [
+                    "nestgmax:nextgmax"
+                ]
+            }
+        }
+    ]
+}

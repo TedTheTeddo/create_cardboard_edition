@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 370,
+  "name": "Luvdisc",
+  "primaryType": "water",
+  "maleRatio": 0.25,
+  "height": 6,
+  "weight": 87,
+  "pokedex": [
+    "cobblemon.species.luvdisc.desc"
+  ],
+  "labels": [
+    "gen3"
+  ],
+  "aspects": [],
+  "abilities": [
+    "swiftswim",
+    "h:hydration"
+  ],
+  "eggGroups": [
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 40,
+    "special_defence": 65,
+    "speed": 97
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 116,
+  "experienceGroup": "fast",
+  "catchRate": 225,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1.15,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.55,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canBreatheUnderwater": true,
+        "canSwimInWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  },
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:deep_sea_scale",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:charm",
+    "1:luckychant",
+    "1:captivate",
+    "1:heartstamp",
+    "4:watergun",
+    "7:agility",
+    "13:wish",
+    "17:waterpulse",
+    "20:attract",
+    "22:drainingkiss",
+    "26:flail",
+    "31:sweetkiss",
+    "34:takedown",
+    "37:babydolleyes",
+    "40:aquaring",
+    "42:soak",
+    "46:hydropump",
+    "49:safeguard",
+    "egg:aquajet",
+    "egg:aquaring",
+    "egg:captivate",
+    "egg:entrainment",
+    "egg:healpulse",
+    "egg:mudsport",
+    "egg:splash",
+    "egg:supersonic",
+    "egg:watersport",
+    "tm:agility",
+    "tm:aquajet",
+    "tm:aquaring",
+    "tm:attract",
+    "tm:babydolleyes",
+    "tm:blizzard",
+    "tm:bounce",
+    "tm:brine",
+    "tm:captivate",
+    "tm:charm",
+    "tm:dive",
+    "tm:drainingkiss",
+    "tm:endeavor",
+    "tm:endure",
+    "tm:entrainment",
+    "tm:facade",
+    "tm:flail",
+    "tm:flipturn",
+    "tm:hail",
+    "tm:healpulse",
+    "tm:heartstamp",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:liquidation",
+    "tm:luckychant",
+    "tm:mudsport",
+    "tm:protect",
+    "tm:psychup",
+    "tm:raindance",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:scaleshot",
+    "tm:sleeptalk",
+    "tm:snowscape",
+    "tm:soak",
+    "tm:splash",
+    "tm:substitute",
+    "tm:supersonic",
+    "tm:surf",
+    "tm:sweetkiss",
+    "tm:tackle",
+    "tm:takedown",
+    "tm:tearfullook",
+    "tm:terablast",
+    "tm:waterfall",
+    "tm:watergun",
+    "tm:waterpulse",
+    "tm:watersport",
+    "tm:whirlpool",
+    "tm:wish"
+  ],
+  "evolutions": []
+}
