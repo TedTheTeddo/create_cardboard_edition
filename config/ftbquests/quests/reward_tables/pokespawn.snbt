@@ -1,37 +1,27 @@
 {
+	icon: "cobblemon:master_ball"
 	id: "244D5EF51C98D350"
 	loot_size: 1
 	order_index: 3
 	rewards: [
 		{
-			auto: "disabled"
-			command: "/pokespawn groudon level=60"
-			elevate_perms: true
-			exclude_from_claim_all: true
-			icon: "farmersdelight:red_canvas_sign"
-			silent: true
-			title: "Groundon"
-			type: "command"
+			advancement: "legendspawning:legendaries/groudon"
+			criterion: ""
+			title: "Groudon Encounter"
+			type: "advancement"
 		}
 		{
-			auto: "disabled"
-			command: "/pokespawnat ~ ~ ~ rayquaza level=60"
-			elevate_perms: true
-			exclude_from_claim_all: true
-			icon: "farmersdelight:green_canvas_sign"
-			silent: true
-			title: "Rayquaza"
-			type: "command"
+			advancement: "legendspawning:legendaries/rayquaza"
+			criterion: ""
+			title: "Rayquaza Encounter"
+			type: "advancement"
 		}
 		{
-			auto: "disabled"
-			command: "/pokespawnat ~ ~ ~ kyogre level=60"
-			elevate_perms: true
-			exclude_from_claim_all: true
-			icon: "farmersdelight:blue_canvas_sign"
-			silent: true
-			title: "Kyogre"
-			type: "command"
+			advancement: "legendspawning:legendaries/kyogre"
+			criterion: ""
+			icon: "cobblemon:master_ball"
+			title: "Kyogre Encounter"
+			type: "advancement"
 		}
 	]
 	title: "PokeSpawn"
