@@ -1,0 +1,31 @@
+{
+  "parent": "tommonspawning:root",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/snow.png",
+    "description": {
+      "translate": "Munchlax Encounter!"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "cobblemon:great_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Mans gotta munch!"
+    }
+  },
+  "requirements": [
+    [
+      "example"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

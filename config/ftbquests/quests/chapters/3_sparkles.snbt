@@ -173,13 +173,11 @@
 			dependencies: ["6A0493A2B45FC91B"]
 			id: "3414452FC26FDD1D"
 			rewards: [{
-				command: "/pokespawnat ~ ~ ~ pikachu"
-				elevate_perms: true
-				icon: "cobblemon:poke_ball"
-				id: "4F241A22ACEEC82C"
-				silent: true
-				title: "Spawn Pikachu"
-				type: "command"
+				advancement: "tommonspawning:normals/pikachu"
+				criterion: ""
+				id: "6779BA2B4D5B96D2"
+				title: "Pikachu Encounter!"
+				type: "advancement"
 			}]
 			tasks: [{
 				consume_items: true
@@ -324,13 +322,11 @@
 			dependencies: ["6A0493A2B45FC91B"]
 			id: "0043488B3101A190"
 			rewards: [{
-				command: "/pokespawnat ~ ~ ~ munchlax level=16"
-				elevate_perms: true
-				icon: "cobblemon:poke_ball"
-				id: "306F08740D1E9A90"
-				silent: true
-				title: "Spawn Munchlax"
-				type: "command"
+				advancement: "tommonspawning:normals/munchlax"
+				criterion: ""
+				id: "519B579A6BEF321F"
+				title: "Munchlax Encounter!"
+				type: "advancement"
 			}]
 			tasks: [{
 				consume_items: true
@@ -664,13 +660,11 @@
 			dependencies: ["6A0493A2B45FC91B"]
 			id: "38D9A03CCD3E9632"
 			rewards: [{
-				command: "/pokespawnat ~ ~ ~ miltank level=16"
-				elevate_perms: true
-				icon: "cobblemon:poke_ball"
-				id: "5183BC1446874879"
-				silent: true
-				title: "Spawn Miltank"
-				type: "command"
+				advancement: "tommonspawning:normals/miltank"
+				criterion: ""
+				id: "1B82F3074A6275E5"
+				title: "Miltank Enouter!"
+				type: "advancement"
 			}]
 			tasks: [{
 				consume_items: true

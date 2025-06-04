@@ -5,11 +5,11 @@ PlayerEvents.advancement(event => {
     const y = Number(player.y);
     const z = Number(player.z);
 
-    if (id === 'legendspawning:legendaries/kyogre') {
+    if (id === 'tommonspawning:legendaries/kyogre') {
         Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} kyogre lvl=60`);
-    } else if (id === 'legendspawning:legendaries/rayquaza') {
+    } else if (id === 'tommonspawning:legendaries/rayquaza') {
         Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} rayquaza lvl=60`);
-    } else if (id === 'legendspawning:legendaries/groudon') {
+    } else if (id === 'tommonspawning:legendaries/groudon') {
         Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} groudon lvl=60`);
     }
 });
