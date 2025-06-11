@@ -5,22 +5,27 @@
 	order_index: 3
 	rewards: [
 		{
-			advancement: "legendspawning:legendaries/groudon"
+			advancement: "tommonspawning:legendaries/gen3/groudon"
+			auto: "disabled"
 			criterion: ""
-			title: "Groudon Encounter"
+			exclude_from_claim_all: true
+			title: "Kyogre"
 			type: "advancement"
 		}
 		{
-			advancement: "legendspawning:legendaries/rayquaza"
+			advancement: "tommonspawning:legendaries/gen3/kyogre"
+			auto: "disabled"
 			criterion: ""
-			title: "Rayquaza Encounter"
+			exclude_from_claim_all: true
+			title: "Groudon"
 			type: "advancement"
 		}
 		{
-			advancement: "legendspawning:legendaries/kyogre"
+			advancement: "tommonspawning:legendaries/gen3/rayquaza"
+			auto: "disabled"
 			criterion: ""
-			icon: "cobblemon:master_ball"
-			title: "Kyogre Encounter"
+			exclude_from_claim_all: true
+			title: "Rayquaza"
 			type: "advancement"
 		}
 	]

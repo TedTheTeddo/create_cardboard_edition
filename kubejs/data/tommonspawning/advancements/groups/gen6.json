@@ -1,0 +1,31 @@
+{
+  "parent": "tommonspawning:root",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/gray_glazed_terracotta.png",
+    "description": {
+      "translate": "Gen 6 Legendaries"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cobblemon:premier_ball"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "Generation 6"
+    }
+  },
+  "requirements": [
+    [
+      "example"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
