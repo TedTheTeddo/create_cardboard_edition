@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "58E991E47743A414"
+	icon: {
+		id: "oritech:processing_unit"
+	}
+	id: "717233C4FC064A42"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

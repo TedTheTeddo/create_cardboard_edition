@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "andesite_age"
+	group: "4BD64CAE7CBBD502"
+	icon: {
+		id: "create:andesite_casing"
+	}
+	id: "578AD2CB77E02E13"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6B284F7C00E38731"
+				"59190EB7501C35C3"
+			]
+			id: "2A4A40C3DA80D183"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "17D960DD7351C6A8"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3651B1E23FD4671C"
+				"364F8876F5565FB0"
+			]
+			id: "59190EB7501C35C3"
+			tasks: [{
+				id: "25EBAAA603D68F5C"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2A4A40C3DA80D183"
+				"0AE773CBBA2FD4CE"
+			]
+			id: "43568BE0BE49CC2C"
+			tasks: [{
+				id: "6A8A49B39F6559B7"
+				item: { count: 1, id: "oritech:machine_core_1" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0C878C247DA130"]
+			id: "364F8876F5565FB0"
+			tasks: [{
+				id: "2236E46E8930FC3A"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["226A8BE265398D46"]
+			id: "3651B1E23FD4671C"
+			tasks: [{
+				id: "5DB84AF91D93006D"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0C878C247DA130"]
+			id: "226A8BE265398D46"
+			tasks: [{
+				id: "7420EFA99A0171D0"
+				item: { count: 1, id: "minecraft:blast_furnace" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B284F7C00E38731"]
+			id: "0AE773CBBA2FD4CE"
+			tasks: [{
+				id: "4DCE2B944B7377F8"
+				item: { count: 1, id: "create:cardboard_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "immersive_aircraft:industrial_gears"
+			}
+			id: "0D0C878C247DA130"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1AC4BA90CF2A7BEF"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D0C878C247DA130"]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "6B284F7C00E38731"
+			tasks: [{
+				id: "2C96B14804F01CF7"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B7BF3EA8AA633C7"]
+			id: "115B681C3E8DFD03"
+			tasks: [{
+				id: "797CAB5E31D85A61"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["151A7803A12C0039"]
+			id: "1369F0836D4D7DC5"
+			tasks: [{
+				id: "678C75713DDEF185"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"43568BE0BE49CC2C"
+				"5A0572667BCB4627"
+			]
+			id: "151A7803A12C0039"
+			tasks: [{
+				id: "45DF82FA05021A57"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D0C878C247DA130"]
+			hide_dependency_lines: true
+			id: "040722F736522933"
+			tasks: [{
+				id: "4DEC5392D1868D0B"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["040722F736522933"]
+			id: "5A0572667BCB4627"
+			tasks: [{
+				id: "1600C95E2A0920EE"
+				item: { count: 1, id: "justdirethings:raw_ferricore" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43568BE0BE49CC2C"]
+			id: "6B7BF3EA8AA633C7"
+			tasks: [{
+				id: "5AD4C8BBC67D77FA"
+				item: { count: 1, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+}

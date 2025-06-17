@@ -1,12 +1,7 @@
 // priority: 0
-//Tags
-ServerEvents.tags('block', event => {
-    event.add('create:chest_mounted_storage', '/^ironchest:.*_chest$/')
-    event.add('create:simple_mounted_storage', '/^sophisticatedbackpacks:.*_backpack$/')
-    event.add('create:simple_mounted_storage', 'sophisticatedbackpacks:backpack')
-});
+Platform.mods.kubejs.name = 'Create Cardboard Edition'
 
-ServerEvents.tags('item', event => {
-    event.add('create:simple_mounted_storage', '/^sophisticatedbackpacks:.*_backpack$/')
-    event.add('create:simple_mounted_storage', 'sophisticatedbackpacks:backpack')
-});
+
+/ServerEvents.tags('fluid', event => {
+  event.add('c:refined_t2_fluid_source', 'justdirethings:refined_t2_fluid_source')
+})

@@ -1,4 +1,3 @@
-
 [Emojiful]
 	#Enable Emoji Rendering
 	enabled = true
@@ -13,7 +12,7 @@
 
 	[Emojiful.EmojiTypes]
 		#Loads Twemojis used in sites like Twitter and Discord
-		twemoji = true
+		twemoji = false
 		#Loads custom emojis provided by Emojiful
 		custom = true
 		#Loads datapack emojis provided by the server you join
@@ -24,4 +23,3 @@
 	enabled = false
 	#Replacement word for the profanity filter
 	replacement = ":swear:"
-

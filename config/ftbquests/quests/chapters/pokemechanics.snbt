@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pokemechanics"
+	group: "5CE65AE115E26D6E"
+	icon: {
+		id: "cobblemon:pokedex_red"
+	}
+	id: "664D048078B1276E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:pokedex_red"
+			}
+			id: "33A2664095DFE8F6"
+			tasks: [{
+				id: "631E17796932E10E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "399371600D7EE885"
+			tasks: [
+				{
+					id: "05EF75E1E5913B5A"
+					item: { count: 1, id: "cobblemon:fossil_analyzer" }
+					type: "item"
+				}
+				{
+					id: "79A9DC113FC4FF55"
+					item: { count: 1, id: "cobblemon:monitor" }
+					type: "item"
+				}
+				{
+					id: "1309AE64988DFF40"
+					item: { count: 1, id: "cobblemon:restoration_tank" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "7DB20334823E0E43"
+			tasks: [{
+				id: "4C9282C90475021A"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+}
