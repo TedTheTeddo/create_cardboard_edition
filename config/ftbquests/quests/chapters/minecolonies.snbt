@@ -2,52 +2,51 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "minecolonies"
-	group: "1BF8395E7856D5A1"
-	icon: "minecolonies:blockhuttownhall"
+	group: "4467009C6B99DE8B"
+	icon: {
+		id: "structurize:sceptergold"
+	}
 	id: "289FC5452E37F02C"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Once you have chosen a location for your colony, you must place a &6Build Tool&r, the remaining camp/ship is just decoration. "
-				""
-				"You can leave it or tear it down."
-			]
+			icon: {
+				id: "structurize:sceptergold"
+			}
 			id: "15C170397C4EA1A4"
 			rewards: [{
 				id: "4530CCAD028E2B76"
 				item: {
-					Count: 1
+					count: 1
 					id: "minecolonies:build_goggles"
-					tag: {
-						Damage: 0
-					}
 				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "0CBBAA6C39DAA96C"
-				item: "structurize:sceptergold"
-				type: "item"
-			}]
-			title: "Beginning Supplies"
+			tasks: [
+				{
+					id: "0CBBAA6C39DAA96C"
+					item: { count: 1, id: "structurize:sceptergold" }
+					type: "item"
+				}
+				{
+					advancement: "minecolonies:minecolonies/place_townhall"
+					criterion: ""
+					id: "1302D0AF5D388625"
+					type: "advancement"
+				}
+			]
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["15C170397C4EA1A4"]
-			description: [
-				"The &6Town Hall block&r is what actually creates the colony. It also functions as the center of it. This is where you start using the build tool to place buildings. Using the build tool ensures you can see exactly where the building will be, which direction it will face, and if it is at the right Y level (some buildings need to be raised to the correct Y level)."
-				""
-				"Once the Town Hall block is placed, you will start receiving your initial 4 citizens."
-			]
 			id: "26721F74BF8175AE"
 			tasks: [{
 				id: "1D47E2DB703C17A4"
-				item: "minecolonies:blockhuttownhall"
+				item: { count: 1, id: "minecolonies:blockhuttownhall" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -55,17 +54,8 @@
 		}
 		{
 			dependencies: ["26721F74BF8175AE"]
-			description: [
-				"Before anything can be built, you need a &6Builder.&r "
-				""
-				"The Builder must build their own Builder's Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level."
-			]
 			icon: {
-				Count: 1
-				id: "tconstruct:scorched_anvil"
-				tag: {
-					texture: "minecraft:netherite_block"
-				}
+				id: "minecraft:crafting_table"
 			}
 			id: "3322725249F7C20B"
 			shape: "hexagon"
@@ -73,7 +63,7 @@
 			tasks: [
 				{
 					id: "609F8232A3BE0AE5"
-					item: "minecolonies:blockhutbuilder"
+					item: { count: 1, id: "minecolonies:blockhutbuilder" }
 					type: "item"
 				}
 				{
@@ -88,12 +78,14 @@
 		}
 		{
 			dependencies: ["3322725249F7C20B"]
-			description: ["Your colonists will need a place to sleep and a house, so it is recommended to build a &6Tavern&r next. The Tavern also allows visitors to come to your colony, and you can recruit them to stay as citizens."]
 			id: "2AFAF3717686A295"
 			rewards: [{
 				count: 8
 				id: "54C6E8174BB3A252"
-				item: "minecolonies:potato_soup"
+				item: {
+					count: 1
+					id: "minecolonies:potato_soup"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -107,12 +99,14 @@
 		}
 		{
 			dependencies: ["7D67B46AF46E1257"]
-			description: ["Building a &6Restaurant&r may also be advisable if you don't want to feed your colonists (or cook their food) by hand."]
+			icon: {
+				id: "minecolonies:blockhutcook"
+			}
 			id: "62C7AAECBEF0EDDE"
 			shape: "diamond"
 			tasks: [{
 				id: "16071E27F13D32B6"
-				item: "minecolonies:blockhutcook"
+				item: { }
 				type: "item"
 			}]
 			x: 11.5d
@@ -125,7 +119,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "44A5DB9CBEB44807"
-				item: "minecolonies:blockhutfisherman"
+				item: { count: 1, id: "minecolonies:blockhutfisherman" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -133,13 +127,15 @@
 		}
 		{
 			dependencies: ["104B50E3DD1B2C38"]
-			icon: "minecraft:chicken_spawn_egg"
+			icon: {
+				id: "minecraft:chicken_spawn_egg"
+			}
 			id: "566A58BE2407B0F6"
 			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "4417CB376BF35BA5"
-				item: "minecolonies:blockhutchickenherder"
+				item: { count: 1, id: "minecolonies:blockhutchickenherder" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -147,13 +143,15 @@
 		}
 		{
 			dependencies: ["104B50E3DD1B2C38"]
-			icon: "minecraft:cow_spawn_egg"
+			icon: {
+				id: "minecraft:cow_spawn_egg"
+			}
 			id: "77DE960460595485"
 			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "67C887BD50ADE7F2"
-				item: "minecolonies:blockhutcowboy"
+				item: { count: 1, id: "minecolonies:blockhutcowboy" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -161,13 +159,15 @@
 		}
 		{
 			dependencies: ["104B50E3DD1B2C38"]
-			icon: "minecraft:rabbit_spawn_egg"
+			icon: {
+				id: "minecraft:rabbit_spawn_egg"
+			}
 			id: "5FC54221372A72C1"
 			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "4920B6C9EFED1EC3"
-				item: "minecolonies:blockhutrabbithutch"
+				item: { count: 1, id: "minecolonies:blockhutrabbithutch" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -175,13 +175,15 @@
 		}
 		{
 			dependencies: ["104B50E3DD1B2C38"]
-			icon: "minecraft:pig_spawn_egg"
+			icon: {
+				id: "minecraft:pig_spawn_egg"
+			}
 			id: "3D52006FB367D11E"
 			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "7D559B5A708E1DC2"
-				item: "minecolonies:blockhutswineherder"
+				item: { count: 1, id: "minecolonies:blockhutswineherder" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -189,13 +191,15 @@
 		}
 		{
 			dependencies: ["104B50E3DD1B2C38"]
-			icon: "minecraft:sheep_spawn_egg"
+			icon: {
+				id: "minecraft:sheep_spawn_egg"
+			}
 			id: "1B4BFBEA9783B19C"
 			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "232B26C474381B20"
-				item: "minecolonies:blockhutshepherd"
+				item: { count: 1, id: "minecolonies:blockhutshepherd" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -203,18 +207,13 @@
 		}
 		{
 			dependencies: ["3322725249F7C20B"]
-			description: ["If your style is wood, it's recommended to build a &6Forester's Hut&r next. That way your new Forester can start gathering wood for your next builds and for tools and other items."]
 			icon: {
-				Count: 1
-				id: "minecraft:diamond_axe"
-				tag: {
-					Damage: 0
-				}
+				id: "minecraft:iron_axe"
 			}
 			id: "249FFFABABE45EAE"
 			tasks: [{
 				id: "2A7E3D2A5370E00A"
-				item: "minecolonies:blockhutlumberjack"
+				item: { count: 1, id: "minecolonies:blockhutlumberjack" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -222,22 +221,13 @@
 		}
 		{
 			dependencies: ["3322725249F7C20B"]
-			description: [
-				"At the Mine, the Miner will mine for ores and materials. Once they are hired, they will first create a shaft downward."
-				""
-				"The Miner digs their shaft down until to the first mining level below it, increasing one further for each building level past 1."
-			]
 			icon: {
-				Count: 1
-				id: "minecraft:diamond_pickaxe"
-				tag: {
-					Damage: 0
-				}
+				id: "minecraft:iron_pickaxe"
 			}
 			id: "6F4A88BB9EE47B07"
 			tasks: [{
 				id: "44D9F19B8CA0392C"
-				item: "minecolonies:blockhutminer"
+				item: { count: 1, id: "minecolonies:blockhutminer" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -245,18 +235,13 @@
 		}
 		{
 			dependencies: ["3322725249F7C20B"]
-			description: [
-				"At this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. "
-				""
-				"You also might want to store items in one place. Well, the Warehouse and &6Courier's Hut &rare the solution you are looking for! Courier &6transport items&r between the Warehouse and all of the workplaces. "
-				""
-				"The Resource Scroll may be helpful!"
-			]
-			icon: "minecraft:chest"
+			icon: {
+				id: "minecraft:chest"
+			}
 			id: "3113C2250552741D"
 			tasks: [{
 				id: "382A0DBAC3A838C2"
-				item: "minecolonies:blockhutwarehouse"
+				item: { count: 1, id: "minecolonies:blockhutwarehouse" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -267,7 +252,7 @@
 			id: "24744C44D88E4D91"
 			tasks: [{
 				id: "4A6A13B2EC5DBE29"
-				item: "minecolonies:blockhuthospital"
+				item: { count: 1, id: "minecolonies:blockhuthospital" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -278,10 +263,13 @@
 				"249FFFABABE45EAE"
 				"5BABE203FD2AA1A7"
 			]
+			icon: {
+				id: "minecraft:stripped_oak_log"
+			}
 			id: "0280641401B63FD1"
 			tasks: [{
 				id: "73ADAE0D4C26DD5F"
-				item: "minecolonies:blockhutsawmill"
+				item: { count: 1, id: "minecolonies:blockhutsawmill" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -289,11 +277,13 @@
 		}
 		{
 			dependencies: ["3322725249F7C20B"]
-			icon: "minecraft:red_bed"
+			icon: {
+				id: "minecraft:red_bed"
+			}
 			id: "5E35EB787C3F98FB"
 			tasks: [{
 				id: "6D6FE1550CB38F7D"
-				item: "minecolonies:blockhutcitizen"
+				item: { count: 1, id: "minecolonies:blockhutcitizen" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -304,40 +294,35 @@
 			id: "4E48C80C2225A399"
 			tasks: [{
 				id: "5495D081F7094868"
-				item: "minecolonies:blockhutstonesmeltery"
+				item: { count: 1, id: "minecolonies:blockhutstonesmeltery" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.5d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"6F4A88BB9EE47B07"
 				"5BABE203FD2AA1A7"
 			]
-			icon: "minecraft:stonecutter"
 			id: "7951A73A67265F01"
 			tasks: [{
 				id: "5D722EB508224A81"
-				item: "minecolonies:blockhutstonemason"
+				item: { count: 1, id: "minecolonies:blockhutstonemason" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["76921D8251082315"]
-			description: [
-				"The Archery is where your Archers in Training will train to become Archer."
-				""
-				"This also allows them to level up without a risk of dying to mobs. "
-				""
-				"A new Archer in Training will need a bed in a house in order to spawn. However, once they are hired at the Archery, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
-			]
+			icon: {
+				id: "minecraft:crossbow"
+			}
 			id: "07598631B7E193EC"
 			tasks: [{
 				id: "2E7CD4120044938D"
-				item: "minecolonies:blockhutarchery"
+				item: { count: 1, id: "minecolonies:blockhutarchery" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -348,19 +333,13 @@
 				"653A563816E5B612"
 				"5BABE203FD2AA1A7"
 			]
-			description: [
-				"The Barracks is the ultimate protection for your colony. "
-				""
-				"Each Barracks can hold multiple Barracks Tower within its structure. "
-				""
-				"The Barracks Tower (unlike the normal Guard tower) will employ and house one Guard for every level built, for a total of 5 Guards per Barracks Tower!"
-				""
-				" Each new Guard will need a bed in a Residence in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen. "
-			]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
 			id: "76921D8251082315"
 			tasks: [{
 				id: "630D2AA412D7EB00"
-				item: "minecolonies:blockhutbarracks"
+				item: { count: 1, id: "minecolonies:blockhutbarracks" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -368,15 +347,10 @@
 		}
 		{
 			dependencies: ["76921D8251082315"]
-			description: [
-				"The Combat Academy is where your Knights in Training will train to become Knight. This also allows them to level up without a risk of dying to mobs. A new Knight in Training will need a bed in a house in order to spawn. "
-				""
-				"However, once they are hired at the Combat Academy, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
-			]
 			id: "4EB31B23675C0415"
 			tasks: [{
 				id: "09AC6CE1420746F6"
-				item: "minecolonies:blockhutcombatacademy"
+				item: { count: 1, id: "minecolonies:blockhutcombatacademy" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -387,12 +361,14 @@
 				"5801D19719ED3BAE"
 				"5BABE203FD2AA1A7"
 			]
-			description: ["The Composter's Hut is where the Composter will turn organic materials into Compost Barrel to make compost or dirt."]
+			icon: {
+				id: "minecolonies:composted_dirt"
+			}
 			id: "180A77FC6086D51A"
 			shape: "diamond"
 			tasks: [{
 				id: "151F08980C5CC638"
-				item: "minecolonies:blockhutcomposter"
+				item: { count: 1, id: "minecolonies:blockhutcomposter" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -403,19 +379,22 @@
 			id: "45AF14946DB5FA69"
 			tasks: [{
 				id: "773B6DBA96D77F80"
-				item: "minecolonies:blockhutcrusher"
+				item: { count: 1, id: "minecolonies:blockhutcrusher" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 8.5d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["104B50E3DD1B2C38"]
+			icon: {
+				id: "minecraft:carrot"
+			}
 			id: "5801D19719ED3BAE"
 			shape: "diamond"
 			tasks: [{
 				id: "750CE0254350C115"
-				item: "minecolonies:blockhutfarmer"
+				item: { count: 1, id: "minecolonies:blockhutfarmer" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -423,11 +402,13 @@
 		}
 		{
 			dependencies: ["5E35EB787C3F98FB"]
-			icon: "minecraft:book"
+			icon: {
+				id: "minecraft:book"
+			}
 			id: "0907DBA17FC214E0"
 			tasks: [{
 				id: "4B5B83620EAD3701"
-				item: "minecolonies:blockhutlibrary"
+				item: { count: 1, id: "minecolonies:blockhutlibrary" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -442,21 +423,22 @@
 			shape: "diamond"
 			tasks: [{
 				id: "14DDCAE828450C7F"
-				item: "minecolonies:blockhutsifter"
+				item: { count: 1, id: "minecolonies:blockhutsifter" }
 				type: "item"
 			}]
 			x: 9.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3322725249F7C20B"]
-			description: ["An important building to start research on unlocking other building and perks."]
 			hide_dependent_lines: true
-			icon: "minecraft:writable_book"
+			icon: {
+				id: "minecraft:writable_book"
+			}
 			id: "5BABE203FD2AA1A7"
 			tasks: [{
 				id: "68EA0FA82D235CB3"
-				item: "minecolonies:blockhutuniversity"
+				item: { count: 1, id: "minecolonies:blockhutuniversity" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -464,22 +446,23 @@
 		}
 		{
 			dependencies: ["5E35EB787C3F98FB"]
-			icon: "minecraft:feather"
+			icon: {
+				id: "minecraft:feather"
+			}
 			id: "4E8F7980A7182918"
 			tasks: [{
 				id: "62610E9DB49C566A"
-				item: "minecolonies:blockhutschool"
+				item: { count: 1, id: "minecolonies:blockhutschool" }
 				type: "item"
 			}]
 			x: -5.5d
 			y: 3.5d
 		}
 		{
-			icon: "minecraft:enchanting_table"
 			id: "4BB259AB9378EA8D"
 			tasks: [{
 				id: "3370D0824330731F"
-				item: "minecolonies:blockhutenchanter"
+				item: { count: 1, id: "minecolonies:blockhutenchanter" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -487,33 +470,38 @@
 		}
 		{
 			dependencies: ["2CB3BBF92BDA78DC"]
-			icon: "minecraft:glass_pane"
+			icon: {
+				id: "minecraft:glass"
+			}
 			id: "2B46062A0E2AC1F9"
 			tasks: [{
 				id: "4E080680383B11D5"
-				item: "minecolonies:blockhutglassblower"
+				item: { count: 1, id: "chipped:glassblower" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.5d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["180A77FC6086D51A"]
+			icon: {
+				id: "minecraft:red_dye"
+			}
 			id: "7AF8B54CA5B8C116"
 			shape: "diamond"
 			tasks: [{
 				id: "5F1FC08A723E26A6"
-				item: "minecolonies:blockhutdyer"
+				item: { count: 1, id: "minecolonies:blockhutdyer" }
 				type: "item"
 			}]
 			x: 7.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			id: "71D1078FE083AEA2"
 			tasks: [{
 				id: "02A560615196B3F7"
-				item: "minecolonies:blockhutfletcher"
+				item: { count: 1, id: "minecolonies:blockhutfletcher" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -524,22 +512,25 @@
 			id: "524B5BDAD92005D5"
 			tasks: [{
 				id: "1B0D788006D2CC04"
-				item: "minecolonies:blockhutmechanic"
+				item: { count: 1, id: "minecolonies:blockhutmechanic" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"5801D19719ED3BAE"
 				"5BABE203FD2AA1A7"
 			]
+			icon: {
+				id: "minecraft:sugar_cane"
+			}
 			id: "509A2317EB741B29"
 			shape: "diamond"
 			tasks: [{
 				id: "3CFA3081F8A94048"
-				item: "minecolonies:blockhutplantation"
+				item: { count: 1, id: "minecolonies:blockhutplantation" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -547,25 +538,25 @@
 		}
 		{
 			dependencies: ["45AF14946DB5FA69"]
-			description: ["The Concrete Mixer's Hut will craft all types of concrete powder and place them in flowing water (built in to their hut), then mine the resulting concrete. "]
 			id: "6737240E65B3689E"
 			tasks: [{
 				id: "7EE37AC45E7F9EA7"
-				item: "minecolonies:blockhutconcretemixer"
+				item: { count: 1, id: "minecolonies:blockhutconcretemixer" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 9.5d
+			x: 4.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["104B50E3DD1B2C38"]
-			description: ["The Apiary is where the Beekeeper works. The Beekeeper breeds bees and harvests honeycombs or honey bottles (you can choose which on the second page of the Apiary's GUI)."]
-			icon: "minecraft:bee_spawn_egg"
+			icon: {
+				id: "minecraft:bee_spawn_egg"
+			}
 			id: "6038ABA0833F607A"
 			shape: "diamond"
 			tasks: [{
 				id: "19ECF3B71DEC38D5"
-				item: "minecolonies:blockhutbeekeeper"
+				item: { count: 1, id: "minecolonies:blockhutbeekeeper" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -576,7 +567,7 @@
 			id: "277505B938638422"
 			tasks: [{
 				id: "15B1D22187DCC87C"
-				item: "minecolonies:blockhutmysticalsite"
+				item: { count: 1, id: "minecolonies:blockhutmysticalsite" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -584,22 +575,25 @@
 		}
 		{
 			dependencies: ["180A77FC6086D51A"]
+			icon: {
+				id: "minecraft:rose_bush"
+			}
 			id: "22142D35E0B11D04"
 			shape: "diamond"
 			tasks: [{
 				id: "5F4EFA819FBDD86B"
-				item: "minecolonies:blockhutflorist"
+				item: { count: 1, id: "minecolonies:blockhutflorist" }
 				type: "item"
 			}]
 			x: 6.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["72DF0399AADF637B"]
 			id: "41002CCF496041BA"
 			tasks: [{
 				id: "10E392F726967343"
-				item: "minecolonies:blockpostbox"
+				item: { count: 1, id: "minecolonies:blockpostbox" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -610,7 +604,7 @@
 			id: "67A15FF683261599"
 			tasks: [{
 				id: "2F8F52CBDA76CD8F"
-				item: "minecolonies:blockstash"
+				item: { count: 1, id: "minecolonies:blockstash" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -624,7 +618,7 @@
 			id: "021F8C87A1E90ECD"
 			tasks: [{
 				id: "22D1AB5CD66190E6"
-				item: "minecolonies:blockhutgraveyard"
+				item: { count: 1, id: "minecolonies:blockhutgraveyard" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -638,7 +632,7 @@
 			id: "6B2682EA68538602"
 			tasks: [{
 				id: "3D7A77BA86E03F49"
-				item: "minecolonies:blockhutnetherworker"
+				item: { count: 1, id: "minecolonies:blockhutnetherworker" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -646,11 +640,10 @@
 		}
 		{
 			dependencies: ["6B2682EA68538602"]
-			description: ["The Alchemist brews potions, harvests netherwart and mistletoe."]
 			id: "76557DD5E57E4AA6"
 			tasks: [{
 				id: "60FF37FD7FE1EFBA"
-				item: "minecolonies:blockhutalchemist"
+				item: { count: 1, id: "minecolonies:blockhutalchemist" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -662,7 +655,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "2C77A02536B0FD41"
-				item: "minecolonies:blockhutkitchen"
+				item: { count: 1, id: "minecolonies:blockhutkitchen" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -674,7 +667,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "408859FDEC86788E"
-				item: "minecolonies:simplequarry"
+				item: { count: 1, id: "minecolonies:simplequarry" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -686,7 +679,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6534EE18458FC213"
-				item: "minecolonies:mediumquarry"
+				item: { count: 1, id: "minecolonies:mediumquarry" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -694,16 +687,14 @@
 		}
 		{
 			dependencies: ["7D67B46AF46E1257"]
-			description: [
-				"The Bakery will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then bake these in a furnace to create bread, cookies, cakes, and pumpkin pies. "
-				""
-				"They will only do this upon request, whether from the Cook, the Postbox, or as a minimum stock in the Warehouse."
-			]
+			icon: {
+				id: "minecolonies:blockhutbaker"
+			}
 			id: "110EA8E5AB03E4DE"
 			shape: "diamond"
 			tasks: [{
 				id: "07833DA6E295C39A"
-				item: "minecolonies:blockhutbaker"
+				item: { }
 				type: "item"
 			}]
 			x: 12.0d
@@ -714,12 +705,13 @@
 				"6F4A88BB9EE47B07"
 				"5BABE203FD2AA1A7"
 			]
-			description: ["The Blacksmith's Hut is a 3x3 crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items). The Blacksmith's Hut will work when they receive a request for any of those items from another worker."]
-			icon: "minecraft:anvil"
+			icon: {
+				id: "minecraft:anvil"
+			}
 			id: "2374F42DCF950431"
 			tasks: [{
 				id: "4883E9FD976CE3D7"
-				item: "minecolonies:blockhutblacksmith"
+				item: { count: 1, id: "minecolonies:blockhutblacksmith" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -727,117 +719,67 @@
 		}
 		{
 			dependencies: ["3113C2250552741D"]
-			description: [
-				"The Courier runs back and forth from the Warehouse to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse. "
-				""
-				"Each Courier needs their own hut, and you can have up to 10 Couriers per Warehouse, depending on the Warehouse its level (2 per Warehouse level)."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_boots"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "72DF0399AADF637B"
 			tasks: [{
 				id: "66EE9E479909254D"
-				item: "minecolonies:blockhutdeliveryman"
+				item: { count: 1, id: "minecolonies:blockhutdeliveryman" }
 				type: "item"
 			}]
 			x: -5.0d
 			y: 0.0d
 		}
 		{
-			id: "2A0D02220EC90A0D"
-			optional: true
-			shape: "circle"
-			tasks: [
-				{
-					id: "2CF43F0214719218"
-					item: "minecolonies:supplycampdeployer"
-					type: "item"
-				}
-				{
-					id: "1A19A5848824008E"
-					item: "minecolonies:supplychestdeployer"
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["3322725249F7C20B"]
 			dependency_requirement: "one_completed"
 			icon: {
-				Count: 1
-				id: "minecraft:diamond_sword"
-				tag: {
-					Damage: 0
-				}
+				id: "minecraft:stone_sword"
 			}
 			id: "653A563816E5B612"
 			rewards: [
 				{
 					id: "35F04D18E44F916C"
 					item: {
-						Count: 1
+						count: 1
 						id: "minecraft:leather_helmet"
-						tag: {
-							Damage: 0
-						}
 					}
 					type: "item"
 				}
 				{
 					id: "413AE185419CACE4"
 					item: {
-						Count: 1
+						count: 1
 						id: "minecraft:leather_chestplate"
-						tag: {
-							Damage: 0
-						}
 					}
 					type: "item"
 				}
 				{
 					id: "48BD8995E23919F6"
 					item: {
-						Count: 1
+						count: 1
 						id: "minecraft:leather_leggings"
-						tag: {
-							Damage: 0
-						}
 					}
 					type: "item"
 				}
 				{
 					id: "6E95C60B16CA0F7F"
 					item: {
-						Count: 1
+						count: 1
 						id: "minecraft:leather_boots"
-						tag: {
-							Damage: 0
-						}
 					}
 					type: "item"
 				}
 				{
 					id: "0C5C2D7693294A16"
 					item: {
-						Count: 1
+						count: 1
 						id: "minecraft:stone_sword"
-						tag: {
-							Damage: 0
-						}
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "083075698C89F201"
-				item: "minecolonies:blockhutguardtower"
+				item: { count: 1, id: "minecolonies:blockhutguardtower" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -845,12 +787,10 @@
 		}
 		{
 			dependencies: ["3322725249F7C20B"]
-			icon: "create:red_table_cloth"
 			id: "104B50E3DD1B2C38"
 			shape: "circle"
 			tasks: [{
 				id: "0543E2BE978C6309"
-				title: "Food Source's"
 				type: "checkmark"
 			}]
 			x: 8.5d
@@ -861,14 +801,16 @@
 				"6F4A88BB9EE47B07"
 				"5BABE203FD2AA1A7"
 			]
-			icon: "minecraft:blast_furnace"
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
 			id: "2CB3BBF92BDA78DC"
 			tasks: [{
 				id: "45B6721D23D781FF"
-				item: "minecolonies:blockhutsmeltery"
+				item: { count: 1, id: "minecolonies:blockhutsmeltery" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 7.5d
 		}
 		{
@@ -876,7 +818,6 @@
 			id: "7D67B46AF46E1257"
 			tasks: [{
 				id: "6C1FC3D96200CE77"
-				title: "Food Distributor's"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -888,7 +829,6 @@
 			shape: "diamond"
 			tasks: [{
 				id: "3498BD1FA0C2091D"
-				title: "Utility"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -899,7 +839,10 @@
 			id: "6DCA5F9DD81FDD53"
 			rewards: [{
 				id: "596346A0915A4E8F"
-				item: "minecraft:music_disc_pigstep"
+				item: {
+					count: 1
+					id: "minecraft:music_disc_pigstep"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -912,5 +855,4 @@
 			y: 1.0d
 		}
 	]
-	title: "&3Minecolonies&r"
 }

@@ -1,0 +1,882 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "simple_mob_farm"
+	group: "58E991E47743A414"
+	icon: {
+		components: {
+			"easy_mob_farm:mob_capture_data": {
+				entityType: "minecraft:fox"
+				name: "entity.minecraft.fox"
+				rarity: "uncommon"
+				type: "minecraft:fox"
+			}
+		}
+		id: "easy_mob_farm:mob_capture_card"
+	}
+	id: "36D372F5AACF189F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "665275E0355D62DA"
+			tasks: [{
+				id: "2B22A6D864299088"
+				item: { count: 1, id: "easy_mob_farm:tier0_mob_farm_template" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "56D8039CF3CA4657"
+			tasks: [{
+				id: "2770B24747CFBD51"
+				item: { count: 1, id: "easy_mob_farm:tier1_mob_farm_template" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "4CA21D87FCC01B93"
+			tasks: [{
+				id: "593343E4B1CEB52B"
+				item: { count: 1, id: "easy_mob_farm:tier2_mob_farm_template" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0766671A36B4F1BA"
+			tasks: [{
+				id: "1F2707272F2A8EF8"
+				item: { count: 1, id: "easy_mob_farm:tier3_mob_farm_template" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "17FB6FD32D6E744B"
+			tasks: [{
+				id: "35A82E0E1158B387"
+				item: { count: 1, id: "easy_mob_farm:blank_mob_capture_card" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "5A0D6913F0008D62"
+			tasks: [{
+				id: "483DBD08551D8AFE"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Common Card", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "1F5B2175A796AC5E"
+			tasks: [{
+				id: "6B4757B862AE698A"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Uncommon Card", rarity: "uncommon", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1F8FA4F61D1FF22E"
+			tasks: [{
+				id: "25E5DF91F59013D9"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Rare Card", rarity: "rare", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "55CB7786355804BB"
+			tasks: [{
+				id: "1258EF3E4C4D63C3"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Epic Card", rarity: "epic", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "707A79EE23BE24B5"
+			tasks: [{
+				id: "048C5B7077C787C4"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:elder_guardian", name: "entity.minecraft.elder_guardian", rarity: "epic", type: "minecraft:elder_guardian" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "562797D5704872FF"
+			tasks: [{
+				id: "7A9D931226357D4A"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:phantom", name: "entity.minecraft.phantom", rarity: "rare", type: "minecraft:phantom" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "2D375D18ED4A0A5E"
+			tasks: [{
+				id: "596C14EEE5DDB19B"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:wither_skeleton", name: "entity.minecraft.wither_skeleton", rarity: "epic", type: "minecraft:wither_skeleton" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "663279C99D5B94F5"
+			tasks: [{
+				id: "40ACC04011A3CC3F"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:piglin_brute", name: "entity.minecraft.piglin_brute", rarity: "epic", type: "minecraft:piglin_brute" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "1D1A0D86C8502C2B"
+			tasks: [{
+				id: "31FA113CDFF683BA"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:fox", name: "entity.minecraft.fox", rarity: "uncommon", type: "minecraft:fox" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "06904F50F20138F7"
+			tasks: [{
+				id: "6B14733591454159"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:zombie_villager", name: "entity.minecraft.zombie_villager", type: "minecraft:zombie_villager" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "2D9F52B2A9EA809F"
+			tasks: [{
+				id: "059D6374936E2E63"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "43A4CD89A8E33655"
+			tasks: [{
+				id: "0E8352237AB7B2E9"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "temperate" }, entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog", variant: "temperate" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "3713BCDE6561DAB3"
+			tasks: [{
+				id: "2770D4DAE812CF44"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "warm" }, entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog", variant: "warm" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "539D198AAA3102B5"
+			tasks: [{
+				id: "359327B389132052"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "cold" }, entityType: "minecraft:frog", name: "entity.minecraft.frog", type: "minecraft:frog", variant: "cold" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "62A9E1209E33C989"
+			tasks: [{
+				id: "62F7272530C12F3F"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			id: "0C601072F3ABA5C4"
+			tasks: [{
+				id: "43262D59B44D4F92"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "magenta", data: { Color: 2 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			id: "679390C3B19F0161"
+			tasks: [{
+				id: "77B0D47AF88DD97F"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "green", data: { Color: 13 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			id: "76373A6617FD7B45"
+			tasks: [{
+				id: "1CB8A5E5F969A33D"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "light_gray", data: { Color: 8 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			id: "6E550AFF83CD4E0B"
+			tasks: [{
+				id: "38FC719D5588CCCF"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "lime", data: { Color: 5 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			id: "6F391999DF7B20C0"
+			tasks: [{
+				id: "3FAA1E63B0A58FB4"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "black", data: { Color: 15 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			id: "4C680CD23BEB6E91"
+			tasks: [{
+				id: "0B5B5F35145D8B50"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "yellow", data: { Color: 4 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "73B5252DFAE8386E"
+			tasks: [{
+				id: "2D98F8B571DF6699"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "light_blue", data: { Color: 3 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			id: "6C1123D33AEB1104"
+			tasks: [{
+				id: "1C06D529BD3D8486"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "brown", data: { Color: 12 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "3F2783679BEB77B8"
+			tasks: [{
+				id: "571A55DCC5988966"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "cyan", data: { Color: 9 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			id: "3E29E21CEBFD09C4"
+			tasks: [{
+				id: "4B3E2EA5826E354F"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "orange", data: { Color: 1 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "63ECE1E30F14D171"
+			tasks: [{
+				id: "30EBEF4B0EB04829"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "red", data: { Color: 14 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "569515C41033ADF8"
+			tasks: [{
+				id: "459A41611E5C1B9B"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "gray", data: { Color: 7 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "3B8292A62F7C19BC"
+			tasks: [{
+				id: "4EB8E7AE79453A8D"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "blue", data: { Color: 11 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			id: "0F1AAB27E6E41051"
+			tasks: [{
+				id: "6B097D53B20681DD"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "purple", data: { Color: 10 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			id: "0FF809BDCA685BB0"
+			tasks: [{
+				id: "3C94D243A4C7DD59"
+				item: { components: { "easy_mob_farm:mob_capture_data": { color: "white", data: { Color: 0 }, entityType: "minecraft:sheep", name: "entity.minecraft.sheep", type: "minecraft:sheep" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "3940DDDC961DDB7F"
+			tasks: [{
+				id: "04881A2B38DD0955"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:guardian", name: "entity.minecraft.guardian", rarity: "rare", type: "minecraft:guardian" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "0D000AF2D3806F22"
+			tasks: [{
+				id: "1B4C519000B7EABD"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:husk", name: "entity.minecraft.husk", rarity: "uncommon", type: "minecraft:husk" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "1516B401CE69100C"
+			tasks: [{
+				id: "5634FC8630191BE5"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "288EF6224FAEADE4"
+			tasks: [{
+				id: "53CCD120E63B7F05"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "all_black" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "all_black" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "671352E743002070"
+			tasks: [{
+				id: "350A5097617B2CA9"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "red" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "red" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "4C4F3DE1BB6C4582"
+			tasks: [{
+				id: "7AD81B12B5E6C019"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "jellie" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "jellie" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "1D9007D720F4BAD4"
+			tasks: [{
+				id: "3FD501EE7C212B1B"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "ragdoll" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "ragdoll" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "48FB4D8B9434C85B"
+			tasks: [{
+				id: "50851D8E6500F4FD"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "white" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "white" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "746C651355AF6821"
+			tasks: [{
+				id: "29B5DCB3DED59028"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "siamese" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "siamese" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "333307C5A7ADFE32"
+			tasks: [{
+				id: "49FC1FBC7D7AF2B0"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "black" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "black" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "7159E1D52757303F"
+			tasks: [{
+				id: "5CE9212792663D23"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "tabby" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "tabby" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "795E1EEE012FD6CA"
+			tasks: [{
+				id: "0CDAA9F545DB98CF"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "calico" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "calico" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "78C85E51C8943926"
+			tasks: [{
+				id: "4701C42CAB21CF62"
+				item: { components: { "easy_mob_farm:mob_capture_data": { data: { variant: "persian" }, entityType: "minecraft:cat", name: "entity.minecraft.cat", type: "minecraft:cat", variant: "persian" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "1886004EF38501B6"
+			tasks: [{
+				id: "639255EC3B0C2ED1"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:iron_golem", name: "entity.minecraft.iron_golem", type: "minecraft:iron_golem" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "17682CB8488D30C7"
+			tasks: [{
+				id: "0677FC462E880260"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:bee", name: "entity.minecraft.bee", type: "minecraft:bee" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "41D0820019DADC4A"
+			tasks: [{
+				id: "1C87D98099E445CA"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:cow", name: "entity.minecraft.cow", type: "minecraft:cow" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "1CC0BD8E27980522"
+			tasks: [{
+				id: "7B60579FC73B95F6"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:spider", name: "entity.minecraft.spider", type: "minecraft:spider" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "3462A77844981EA0"
+			tasks: [{
+				id: "5C58F99747517ACB"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:witch", name: "entity.minecraft.witch", type: "minecraft:witch" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "06DD0382C4E772DB"
+			tasks: [{
+				id: "4509BE67801C4272"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:wither", name: "entity.minecraft.wither", rarity: "epic", type: "minecraft:wither" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "19745B2174133B24"
+			tasks: [{
+				id: "79DDCFE31612B702"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:cod", name: "entity.minecraft.cod", type: "minecraft:cod" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "73A20214ED185420"
+			tasks: [{
+				id: "462227B48E116F31"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:creeper", name: "entity.minecraft.creeper", type: "minecraft:creeper" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "256B9BABC71E1BCC"
+			tasks: [{
+				id: "5C83C1905C78312C"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:stray", name: "entity.minecraft.stray", rarity: "uncommon", type: "minecraft:stray" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "18C35E624D64B652"
+			tasks: [{
+				id: "3E3921386C2E1BBB"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:illusioner", name: "entity.minecraft.illusioner", rarity: "epic", type: "minecraft:illusioner" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "7460037E198AA8F8"
+			tasks: [{
+				id: "0724027522C25139"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:polar_bear", name: "entity.minecraft.polar_bear", rarity: "uncommon", type: "minecraft:polar_bear" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "0676D765B5EB7CBB"
+			tasks: [{
+				id: "1E32C06F3D59290C"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:shulker", name: "entity.minecraft.shulker", rarity: "rare", type: "minecraft:shulker" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			id: "4A703C5EE8C5F9DC"
+			tasks: [{
+				id: "3D24CCE1573F6BA5"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:turtle", name: "entity.minecraft.turtle", type: "minecraft:turtle" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "588428E2D06F4D87"
+			tasks: [{
+				id: "4E79076E3F60E3DB"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:cave_spider", name: "entity.minecraft.cave_spider", rarity: "uncommon", type: "minecraft:cave_spider" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "1750FC8F0E3CACD3"
+			tasks: [{
+				id: "2DC225F2D1445F0A"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:villager", name: "entity.minecraft.villager", type: "minecraft:villager" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "7D60F463D6004F99"
+			tasks: [{
+				id: "7BAB02E840CCDE08"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:pillager", name: "entity.minecraft.pillager", type: "minecraft:pillager" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "7A117E951B164E40"
+			tasks: [{
+				id: "7110135605AC0DA3"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:pig", name: "entity.minecraft.pig", type: "minecraft:pig" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "50593443424B4BC4"
+			tasks: [{
+				id: "38DDA78ECAE74F74"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:rabbit", name: "entity.minecraft.rabbit", type: "minecraft:rabbit" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "0C130184B0C87065"
+			tasks: [{
+				id: "538DA0C25D61B4C1"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:zombified_piglin", name: "entity.minecraft.zombified_piglin", rarity: "uncommon", type: "minecraft:zombified_piglin" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "34C6714E59B8EADE"
+			tasks: [{
+				id: "2EDA4CFB086E4663"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:magma_cube", name: "entity.minecraft.magma_cube", rarity: "rare", type: "minecraft:magma_cube" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			id: "4EDFE1DA95B42676"
+			tasks: [{
+				id: "3003157A6F0EB456"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:drowned", name: "entity.minecraft.drowned", type: "minecraft:drowned" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "15B3E0120E9F63D5"
+			tasks: [{
+				id: "4239E360CAFE7D66"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:zombie", name: "entity.minecraft.zombie", type: "minecraft:zombie" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "528A396C5F78809B"
+			tasks: [{
+				id: "43E159CDB2E9C66C"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:ghast", name: "entity.minecraft.ghast", rarity: "rare", type: "minecraft:ghast" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "4691754CF5010284"
+			tasks: [{
+				id: "61DF294324A9A81C"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:blaze", name: "entity.minecraft.blaze", rarity: "rare", type: "minecraft:blaze" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "7E74CC852C5E0FDE"
+			tasks: [{
+				id: "7B188C97E965A6AD"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:llama", name: "entity.minecraft.llama", rarity: "uncommon", type: "minecraft:llama" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			id: "512137B191C2974D"
+			tasks: [{
+				id: "48DF68171CA2F92E"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:piglin", name: "entity.minecraft.piglin", type: "minecraft:piglin" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			id: "70BA72ADF539C14A"
+			tasks: [{
+				id: "191BC8C0873D29DB"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:chicken", name: "entity.minecraft.chicken", type: "minecraft:chicken" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			id: "1A74547517C06F70"
+			tasks: [{
+				id: "0E3400E48EEB390E"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:slime", name: "entity.minecraft.slime", rarity: "uncommon", type: "minecraft:slime" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "376333BC469A2D4E"
+			tasks: [{
+				id: "1A77E544F4E53AAA"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:panda", name: "entity.minecraft.panda", rarity: "uncommon", type: "minecraft:panda" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			id: "2A1FD17982F95825"
+			tasks: [{
+				id: "34D9ED69D5860F19"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:ravager", name: "entity.minecraft.ravager", rarity: "rare", type: "minecraft:ravager" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			id: "0C903CE57441E1FD"
+			tasks: [{
+				id: "1A57C29E2CC9D465"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:skeleton", name: "entity.minecraft.skeleton", type: "minecraft:skeleton" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			id: "5CA1BB6D584A3E22"
+			tasks: [{
+				id: "334E0551B7E2853E"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:evoker", name: "entity.minecraft.evoker", rarity: "uncommon", type: "minecraft:evoker" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "5E5B06D929CE2FB3"
+			tasks: [{
+				id: "5A4CA76C320053DE"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:warden", name: "entity.minecraft.warden", rarity: "epic", type: "minecraft:warden" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "7F61866EF13619A1"
+			tasks: [{
+				id: "2DBE9AC895C185FE"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:ender_dragon", name: "entity.minecraft.ender_dragon", rarity: "epic", type: "minecraft:ender_dragon" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			id: "772DE207D2CF2D3D"
+			tasks: [{
+				id: "2F1AA4A69F5E5FB2"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:vindicator", name: "entity.minecraft.vindicator", rarity: "rare", type: "minecraft:vindicator" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			id: "4BDA96DC87410464"
+			tasks: [{
+				id: "6A76AFFAC958AB1F"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:glow_squid", name: "entity.minecraft.glow_squid", type: "minecraft:glow_squid" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			id: "221635930A62A35D"
+			tasks: [{
+				id: "3A248B4DFA8EC301"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:enderman", name: "entity.minecraft.enderman", rarity: "uncommon", type: "minecraft:enderman" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "1818F000D5AAACC3"
+			tasks: [{
+				id: "0F24F0F31DC0C310"
+				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:squid", name: "entity.minecraft.squid", type: "minecraft:squid" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+	]
+}

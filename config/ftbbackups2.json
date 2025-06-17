@@ -52,7 +52,7 @@
 	// Specify the backup format. Valid options are ZIP and DIRECTORY
 	"backup_format": "ZIP",
 	// Minimum free disk space in MB. If a backup's creation would leave less than this amount of disk space remaining, the backup will be aborted.
-	"minimum_free_space": 0,
+	"minimum_free_space": 500,
 	// If the previous backup failed due to lack of space, the oldest backup will be deleted to free space.
 	"free_space_if_needed": false,
 	/* Specify files or folders to be excluded.
@@ -66,6 +66,8 @@
 	   *path/contains*                 Any files who's path contains
 	*/
 	"excluded": [],
-	// The dimension used when creating backup preview image, specify "all" to enable automatic detection of primary dimension (can be very slow)
+	/* The dimension used when creating backup preview image, specify "all" to enable automatic detection of primary dimension (can be very slow)
+	   Specify "none" to disable preview
+	*/
 	"preview_dimension": "minecraft:overworld"
 }

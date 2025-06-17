@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "theend"
+	group: "255441E56E0BD646"
+	icon: {
+		id: "endrem:nether_eye"
+	}
+	id: "44935D37560B928F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "11AC55B04FEE4F1B"
+			tasks: [{
+				id: "3A24AD7599B72C12"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "7A3553262D9D7A45"
+			tasks: [{
+				id: "2C907F6F6E6946F2"
+				item: { count: 1, id: "endrem:cold_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "10A26A8DE6753BCD"
+			tasks: [{
+				id: "098AA767FFD0CEDA"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			id: "07D593E7084C8833"
+			tasks: [{
+				id: "28BD9AF4C87A8E90"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "7BDD629DF88F28A3"
+			tasks: [{
+				id: "6258BC84A48765B8"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "23157CF9FC20FCC8"
+			tasks: [{
+				id: "52C4599100FC099F"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "285BB287C6D4C796"
+			tasks: [{
+				id: "14AA068B0DCFBF1C"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "20F0B35EAADDB2DA"
+			tasks: [{
+				id: "36A2C1EDD219521C"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1C5B204DE2607D1D"
+			tasks: [{
+				id: "1BD74DDB8670AC1A"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "46EFC698426FD0B2"
+			tasks: [{
+				id: "1FBBA16303ADC30B"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "14A7A490B3D48080"
+			tasks: [{
+				id: "511C29A38181690C"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "6968F33202142F8D"
+			tasks: [{
+				id: "721025F1F7794BD0"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "33DC3066DBB1C44E"
+			tasks: [{
+				id: "42CBEEBC778E8F94"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "3B6BAC2C1E161DE6"
+			tasks: [{
+				id: "374158DD616BCE5D"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "376166166374ED0F"
+			tasks: [{
+				id: "36EAE966B1AFBF07"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "2FF6D04FB4637710"
+			tasks: [{
+				id: "2B9D127B63CD1003"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			id: "65969F1490085B33"
+			tasks: [{
+				id: "0510C6601ABAC823"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+	]
+}

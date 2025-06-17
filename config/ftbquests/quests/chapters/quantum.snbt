@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quantum"
+	group: "4BD64CAE7CBBD502"
+	icon: {
+		id: "oritech:prometheum_ingot"
+	}
+	id: "2EF43FF108FE8F1C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5547B28AEA6348A0"
+			tasks: [{
+				id: "688618B5F839392C"
+				item: { count: 1, id: "justdirethings:time_wand" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			id: "22EC9FD8EB100170"
+			tasks: [{
+				id: "2D2F74DBFC578847"
+				item: { count: 1, id: "justdirethings:portalgun_v2" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["647EA13D66E3884C"]
+			id: "49F94E77A147E6D0"
+			tasks: [{
+				id: "1847AC01E1B588F1"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0DCE2B5A639824A3"]
+			id: "647EA13D66E3884C"
+			tasks: [{
+				id: "254B664583A6DDEA"
+				item: { count: 1, id: "create:asurine" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["06B5E3EBB1FA03A8"]
+			id: "0DCE2B5A639824A3"
+			tasks: [{
+				id: "17E010E11BD18D8E"
+				item: { count: 1, id: "createoreexcavation:netherite_drill" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			id: "3EF0E8690060E186"
+			tasks: [{
+				id: "3A3BA9EC0BA0D183"
+				item: { count: 1, id: "oritech:accelerator_controller" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1847EDB8451CE819"]
+			id: "5AB94413B40B81FE"
+			tasks: [{
+				id: "326DD14E07597B6D"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "600B21C95E9B313A"
+			tasks: [{
+				id: "1F87BB08C7634CA6"
+				item: { count: 1, id: "oritech:heisenberg_compensator" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			id: "1847EDB8451CE819"
+			tasks: [{
+				id: "18F6C7BD69A1AE4C"
+				item: { count: 1, id: "oritech:prometheum_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "1FD161F0048CBF28"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "4334079E90CF1C6C"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7C341FFF64CA8728"]
+			id: "66762144ACECD9D0"
+			tasks: [{
+				id: "36983B426413FC0F"
+				item: { count: 1, id: "deeperdarker:soul_crystal" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			id: "7C341FFF64CA8728"
+			tasks: [{
+				id: "37C376A13786C496"
+				item: { count: 1, id: "deeperdarker:sculk_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1FD161F0048CBF28"]
+			id: "06B5E3EBB1FA03A8"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "34860D80F6C13F2B"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			id: "347EC2AD2A5D5145"
+			tasks: [{
+				id: "2CAA67697B0CFE10"
+				item: { count: 1, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			id: "1A88071D06E35578"
+			tasks: [{
+				id: "0C04754A173D18A0"
+				item: { count: 1, id: "oritech:accelerator_motor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			id: "3B77544BBDB12A40"
+			tasks: [{
+				id: "2743511AB06D2C31"
+				item: { count: 1, id: "oritech:accelerator_sensor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			id: "4570A17A78F7E76D"
+			tasks: [{
+				id: "5E7C7476BAE910A7"
+				item: { count: 1, id: "oritech:accelerator_ring" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "1550A091C2BE925E"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "40E7C0DCED7413F2"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "6DFAD71778B327D7"
+			tasks: [{
+				id: "2C1256165383F05A"
+				item: { count: 1, id: "oritech:overcharged_crystal" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+	]
+}

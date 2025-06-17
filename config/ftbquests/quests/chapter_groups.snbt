@@ -1,10 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "6ADAF8E261C98045", title: "&6Pack Quest&r" }
-		{ id: "37122FCD3AD577ED", title: "&6Cardboard Edition" }
-		{ id: "43BE9803743E44EA", title: "&6Essence" }
-		{ id: "6A92B46E7597066E", title: "&6Cobblemon&r" }
-		{ id: "1BF8395E7856D5A1", title: "&6Mods&r" }
-		{ id: "7D06AF69846A74C7", title: "&6Eyes" }
+		{ id: "4BD64CAE7CBBD502" }
+		{ id: "58E991E47743A414" }
+		{ id: "255441E56E0BD646" }
+		{ id: "4467009C6B99DE8B" }
+		{ id: "5CE65AE115E26D6E" }
 	]
 }

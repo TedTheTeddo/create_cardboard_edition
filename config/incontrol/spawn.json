@@ -35,26 +35,5 @@
   {
     "mob": "minecraft:wither_skeleton",
     "result": "allow"
-  },
-  {
-    "mob": "irons_spellbooks:necromancer",
-    "result": "deny"
-  },
-  {
-    "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:apothecarist", "irons_spellbooks:archevoker", "irons_spellbooks:catacombs_zombie", "irons_spellbooks:citadel_keeper", "irons_spellbooks:cryomancer", "irons_spellbooks:cultist", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:magehunter_vindicator"],
-    "when": "onjoin",
-    "result": "allow"
-  },
-  {
-    "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:apothecarist", "irons_spellbooks:archevoker", "irons_spellbooks:catacombs_zombie", "irons_spellbooks:citadel_keeper", "irons_spellbooks:cryomancer", "irons_spellbooks:cultist", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:magehunter_vindicator"],
-    "result": "allow"
-  },
-  {
-    "mod": "minecolonies",
-    "hostile": true,
-    "result": "allow"
-  },
-  {
-    "result": "deny"
   }
 ]
