@@ -12,6 +12,7 @@ ServerEvents.recipes(event => {
         event.stonecutting('create:mechanical_harvester',           'kubejs:green_ender_eye')
         event.stonecutting('create:mechanical_plough',              'kubejs:green_ender_eye')
         event.stonecutting('4x create:andesite_tunnel',             'kubejs:green_ender_eye')
+        event.stonecutting('4x create:andesite_funnel',             'kubejs:green_ender_eye')
         event.stonecutting('2x create:portable_storage_interface',  'kubejs:green_ender_eye')
         event.stonecutting('2x create:redstone_link',               'kubejs:green_ender_eye')
 
