@@ -546,7 +546,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 7.5d
 			y: -6.5d
 		}
 		{
@@ -559,6 +559,17 @@
 			}]
 			x: 11.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["1AD3B82F455CA99C"]
+			id: "1718DEDC7889F273"
+			tasks: [{
+				id: "2BB6F05D6173E349"
+				item: { count: 1, id: "justdirethings:upgrade_orescanner" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
 		}
 	]
 }

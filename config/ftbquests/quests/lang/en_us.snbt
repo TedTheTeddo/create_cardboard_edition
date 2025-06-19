@@ -7,7 +7,7 @@
 	chapter.289FC5452E37F02C.title: "MineColonies"
 	chapter.2EF43FF108FE8F1C.title: "Quantum"
 	chapter.31D55DF0126C2907.title: "Introduction"
-	chapter.36D372F5AACF189F.title: "Simple Mob Farm"
+	chapter.36D372F5AACF189F.title: "Easy Mob Farm"
 	chapter.379E1CD18C4C6557.title: "PokeFactory"
 	chapter.44935D37560B928F.title: "The-End"
 	chapter.4D7171D75FA38270.title: "Immersive Airplanes"
@@ -76,12 +76,6 @@
 		""
 		"&6Check JEI for a listing.&r"
 	]
-	quest.1550A091C2BE925E.quest_desc: [
-		"The Ultimate Goal for the tech tree."
-		""
-		"&6Unlimited Power.&r"
-	]
-	quest.1550A091C2BE925E.title: "&6 Creative Motor"
 	quest.156D59E9DDAD6BB2.quest_desc: ["Generator with JustDireThing liquids."]
 	quest.17A32AD88E8A1E59.quest_desc: [
 		"Cobblemon "
@@ -96,6 +90,7 @@
 	quest.17A32AD88E8A1E59.quest_subtitle: "&2Pokes???"
 	quest.17A32AD88E8A1E59.title: "&6Cobblemon"
 	quest.188371060411445F.quest_desc: ["Think of shafts as cables to transfer Kinetic &6Energy&r. "]
+	quest.1E83A57146D48284.quest_desc: ["Addons to insert to the farm to modify it."]
 	quest.1FD161F0048CBF28.quest_desc: [
 		"The \"Final\" Chapter of the Tech Tree."
 		""
@@ -140,9 +135,28 @@
 	]
 	quest.298B8C9C69EF561D.quest_subtitle: "&3Unique 3s."
 	quest.298B8C9C69EF561D.title: "&6Welcome!"
+	quest.29CB70B32F67E02F.quest_desc: ["Upgrades are useful to add for tools and weapons for JustDireThings."]
+	quest.2A0C71705A855CEC.quest_desc: ["The foundry specializes in creating all the alloys needed to make Oritech machines. Some of these alloys can also be crafted by hand, but doing so consumes more resources than using the alloy forge."]
 	quest.2A8F1E942A4B4683.quest_desc: ["Simply lay it on its side or upright, when in contact with flowing water it will start spinning producing steady SU."]
+	quest.2D289CD1E4F39749.quest_desc: [
+		"Higher Tier, Faster Output."
+		""
+		"Remember to craft them into their appropriate habitat."
+	]
+	quest.321968E2FA615F72.quest_desc: [
+		"Goo spread when activated."
+		""
+		"Its a core feature on progressing in JustDireThings, lets start with the primal goo."
+	]
 	quest.33A2664095DFE8F6.title: "&6Welcome to Cobblemon!"
 	quest.33D7353CE5BDC832.quest_desc: ["Simple yet very useful depending on your needs."]
+	quest.347EC2AD2A5D5145.quest_desc: ["A very unique crystal that is only harvestable after a budding time crystal has absorbed the overworld, nether, end energy."]
+	quest.349F1A2FDB1BE63A.quest_desc: [
+		"The arcane catalyst block can store souls and provide them to the stabilized enchanter. It may also enchant items using books. The book used must be at the maximum level of the enchantment. It can apply any enchantment to any item."
+		""
+		"Require Souls."
+		"When a mob or living entity dies, it releases a soul. If a block capable of collecting the soul is within range (16 blocks), the soul will be collected by that block. This is visually represented by a small soul flying towards the block."
+	]
 	quest.35988964AD691369.quest_desc: ["Your average iron drill is not going to be strong enough for such intense hardness of the ender islands."]
 	quest.364F8876F5565FB0.quest_desc: [
 		"Can be found in abundance in plains related biomes."
@@ -200,6 +214,7 @@
 		""
 		"Work across dimensionally as long its loaded."
 	]
+	quest.4A397B8340DC9F6A.quest_desc: ["Jetpacks can't be turned on or off. They'll be active when the jump key is held."]
 	quest.4B4221A4B1813379.quest_desc: [
 		"Welcome to Chapter 2!"
 		""
@@ -207,7 +222,21 @@
 	]
 	quest.4BCAB0F9160D0373.quest_desc: ["Like a potato gun...but with lasers!"]
 	quest.4C29D8DCF9F98ECC.quest_desc: ["An advanced version where you can TARGET which entity you choose an entity to transform to."]
+	quest.4DD9CAFA9F5D5520.quest_desc: [
+		"When 2 particles (from different particle accelerator controllers) collide with each other, they can result in a different item. "
+		""
+		"Depending on the recipe, the required collision energy will differ. The collision energy is the &6sum of the speeds of both particles. &r"
+	]
 	quest.50809037894DC054.quest_desc: ["A wand that uses polymorphic fluid to convert an entity to another random entity."]
+	quest.50AD32E87C8B503F.quest_desc: [
+		"&9Helmet:&r Provides night vision."
+		""
+		"&9Chest Plate: &rCharges your inventory items, allowing you to stay in the mines longer."
+		""
+		"&9Leggings: &rEnhances your running speed."
+		""
+		"&9Boots: &rGrants immunity to fall damage."
+	]
 	quest.513887107DBD7D4D.quest_desc: [
 		"Welcome to JustDireThings!"
 		""
@@ -230,12 +259,22 @@
 		""
 		"You might want to keep a&6 stockpile&r for the foreseeable future."
 	]
+	quest.5982B46AA9147498.title: "Cards Galore"
 	quest.5BE4B3A8115CEFCC.quest_subtitle: "The Basic"
 	quest.5E0397CA95B476CE.quest_desc: ["Like the previous, bigger and better production rate than your average wheel."]
 	quest.5F2D01D6A3F64A7E.quest_desc: [
 		"Hold shift for 10 levels at a time."
 		""
 		"Hold ctrl for all levels."
+	]
+	quest.6170BBCD438AA472.quest_desc: [
+		"Oritech offers two methods for applying enchantments. "
+		""
+		"All Oritech equipment and tools are enchantable. T"
+		""
+		"he first option is the stabilized enchanter, which allows the application of \"normal\" enchantments to equipment. "
+		""
+		"The second option is the arcane catalyst, which can apply any enchantment from an enchanted book to any item, at any level."
 	]
 	quest.61C771FBC747C23C.quest_desc: [
 		"Cogwheels are great for gear ratio and aligning tricky spots."
@@ -259,6 +298,13 @@
 		""
 		"If wanting them back to normal, &6delete in_control config.&r"
 	]
+	quest.67CE97B84E3BC538.quest_desc: [
+		"The fragment forge is your first step in turning ores into ingots."
+		""
+		"Fragmenting ore blocks creates raw ores, and fragmenting raw ores creates ore dusts. When fragmenting ore blocks and raw ores, the fragment forge will output more than it is given. Occasionally, it will even provide additional ores of a different type."
+		""
+		"Most addons affect the operation of the fragment forge. The machine yield addon will cause the fragment forge to produce additional byproducts."
+	]
 	quest.67E27E5A7F95C558.quest_desc: [
 		"Teleport blocks and entities to another swapper &5(across dimension too)&r."
 		""
@@ -270,6 +316,7 @@
 		""
 		"If wanting them back to normal, &6delete in_control config.&r"
 	]
+	quest.6B1298A974CE12FC.quest_subtitle: "Legal Cheats"
 	quest.6B284F7C00E38731.quest_desc: [
 		"A tree farm is highly encourage with all the wood you'll go through."
 		""
@@ -283,6 +330,12 @@
 		"When ready, upgrade to level 9 version with 36 tanks and 9 steam engines. However, to get more power it must be lit with blaze burners."
 	]
 	quest.6BB7AE68240A4BC5.title: "Steam"
+	quest.6C6CE0BD2D3291B8.quest_desc: [
+		"How to get started with Oritech?"
+		""
+		"You'll start with machine cores!"
+	]
+	quest.6DEF64DA12379ECE.quest_desc: ["Its a furnace. But powered."]
 	quest.70D28E64DF2CE7EC.quest_desc: [
 		"Your first goo for progression."
 		""
@@ -309,20 +362,29 @@
 	]
 	quest.79E597623E4C1DC5.quest_subtitle: "&2Automation Madness"
 	quest.79E597623E4C1DC5.title: "&6Tech"
+	quest.7A64F5B0226C0813.quest_desc: ["The assembler features a 2x2 crafting grid and will automatically assemble items as long as it has energy, items in the input slots, and space for the finished product in the output slot."]
+	quest.7F54BC2CAAB895CD.quest_desc: ["The pulverizer is a slow and simple block that pulverizes ores and biomass. It is available before the fragment forge, but even after you build a fragment forge, you may still want to continue using a pulverizer to grind biomass or coal dust."]
+	task.002FE998EA935616.title: "Energy Producer"
 	task.007A253DCFBC0A94.title: "GOO"
 	task.01B64163E1BF1447.title: "Cobblemon"
 	task.0383C975CD3DDF31.title: "Welcome"
 	task.0510C6601ABAC823.title: "The End"
+	task.061DBA94998A78B0.title: "Simple Mob Farm"
+	task.09073252C17D50AB.title: "&3Oritech!"
+	task.0C6B9B06EF88BCBC.title: "Getting Started"
+	task.1481A1164D6A89EA.title: "Energy"
 	task.196B7151A6AB659C.title: "Create"
 	task.1AC4BA90CF2A7BEF.title: "Questline"
 	task.248939F1F5D2210A.title: "Passive Mobs"
 	task.249D62B74360B72B.title: "Power Source"
 	task.2715000AD9F0834C.title: "Hostiles"
+	task.28308ED22FAF3BB5.title: "Machinery"
 	task.2B3872ABABC84F82.title: "JustDireThings"
 	task.2C96B14804F01CF7.title: "Tree Farm"
 	task.2D9F7B11571F5533.title: "Tools"
 	task.32B4E786EF59F1C4.title: "Chipped"
 	task.33FC9855EEC9FEFF.title: "Chapter 3"
+	task.3860C9B90ADC1D4A.title: "Particle Collision"
 	task.429E9A2ACE3DBBB6.title: "Simple Machines"
 	task.42A4C0E9A2859E93.title: "Gen 1"
 	task.4334079E90CF1C6C.title: "Going Nuclear"
@@ -330,7 +392,11 @@
 	task.470126E1AFA9C7B8.title: "Machinery"
 	task.506B3AF61EE1A22D.title: "Chapter 2"
 	task.5BAE1BCBCDC21639.title: "Villagers"
+	task.5D3D9EC367422630.title: "Addons"
+	task.62963A05A4E3B109.title: "Tools"
 	task.631E17796932E10E.title: "Welcome"
 	task.6E457591CE80FA57.title: "Workshop"
+	task.6FA15DB7F1B8C945.title: "Collison Crafting"
+	task.76EECE0F14B5405C.title: "Processing"
 	task.7899BEBFD3D1C844.title: "Equipments"
 }

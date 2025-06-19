@@ -100,17 +100,6 @@
 			y: -5.0d
 		}
 		{
-			id: "4C65B9A1247D3FD8"
-			size: 1.5d
-			tasks: [{
-				id: "10C8EF6B60471991"
-				item: { count: 1, id: "oritech:unstable_container" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -0.75d
-		}
-		{
 			dependencies: ["2B9C27EF420CF325"]
 			id: "64FD858ACF5D5120"
 			tasks: [{
