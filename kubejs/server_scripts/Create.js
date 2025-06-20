@@ -1,5 +1,4 @@
 // priority: 1
-Platform.mods.kubejs.name = 'Create Cardboard Edition'
 
 //==========================================================================================================
 
@@ -41,9 +40,11 @@ ServerEvents.recipes(event => {
     createItemApplication(event, "oritech:machine_core_4", "oritech:unholy_intelligence",       "oritech:machine_core_5");
     createItemApplication(event, "oritech:machine_core_5", "oritech:super_ai_chip",             "oritech:machine_core_6");
     createItemApplication(event, "oritech:silicon_wafer", "oritech:processing_unit",            "oritech:advanced_computing_engine")
+
   
     event.shaped('minecraft:blast_furnace',         ['AAA', 'ABA', 'CCC'], {A: 'minecraft:copper_ingot', B: "minecraft:furnace", C: "minecraft:stone"});
     event.shaped('create:copper_casing',            ['BCB', 'CAC','BCB'], {A: 'oritech:machine_core_1', B: "minecraft:copper_ingot", C: "minecraft:dried_kelp"});
+    
     event.shaped('justdirethings:blockplacert1',    ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:diamond", E: "minecraft:dispenser"});
     event.shaped('justdirethings:blockbreakert1',   ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:diamond", E: "minecraft:observer"});
     event.shaped('justdirethings:clickert1',        ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:quartz", E: "minecraft:dispenser"});
@@ -51,14 +52,24 @@ ServerEvents.recipes(event => {
     event.shaped('justdirethings:fluidcollectort1', ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:bucket", E: "minecraft:dispenser"});
     event.shaped('justdirethings:fluidplacert1',    ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:bucket", E: "minecraft:dropper"});
     event.shaped('justdirethings:droppert1',        ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:redstone", E: "minecraft:dropper"});
+
+    event.shaped('justdirethings:blockplacert2',    ['BCB', 'CAC', 'BDB'], {A: "justdirethings:blockplacert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:blockbreakert2',   ['BCB', 'CAC', 'BDB'], {A: "justdirethings:blockbreakert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:clickert2',        ['BCB', 'CAC', 'BDB'], {A: "justdirethings:clickert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:sensort2',         ['BCB', 'CAC', 'BDB'], {A: "justdirethings:sensort1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:fluidcollectort2', ['BCB', 'CAC', 'BDB'], {A: "justdirethings:fluidcollectort1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:fluidplacert2',    ['BCB', 'CAC', 'BDB'], {A: "justdirethings:fluidplacert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:droppert2',        ['BCB', 'CAC', 'BDB'], {A: "justdirethings:droppert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+
     event.shaped('create:brass_hand',               [' A ', 'BBB',' B '], {A: 'create:andesite_alloy', B: "create:golden_sheet"});
     event.shaped('oritech:foundry_block',           ['AAA', 'ABA','CDC'], {A: 'minecraft:copper_ingot', B: "minecraft:blast_furnace", C: "justdirethings:ferricore_ingot", D: "oritech:machine_core_3"});
     event.shaped('oritech:assembler_block',         ['AAA', 'BCB','DED'], {A: 'minecraft:copper_ingot', B: "minecraft:crafter", C: "oritech:adamant_ingot", D: "oritech:motor", E: "oritech:machine_core_4"});
     event.shaped('oritech:accelerator_controller',  ['AAA', 'ABA','DCD'], {A: 'oritech:duratium_ingot', B: "minecraft:dropper", C: "oritech:machine_core_6", D: "oritech:heisenberg_compensator"});
 
     event.blasting('createaddition:electrum_ingot', 'oritech:electrum_dust')
-
-
+    event.blasting('kubejs:cce_unrefined_steel_nugget', 'kubejs:cce_unrefined_steel_dust')
+    event.shapeless(Item.of('oritech:steel_ingot', 1), ['9x kubejs:cce_unrefined_steel_nugget']
+)
 
 //==========================================================================================================
 //====================================      Create        ==================================================
@@ -145,7 +156,7 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "create:mixing",
         "ingredients": [{"item": "oritech:iron_dust"}, {"item": "oritech:coal_dust"}],
-        "results": [{"id": "oritech:steel_dust", "count": 1}]});
+        "results": [{"id": "kubejs:cce_unrefined_steel_dust", "count": 1}]});
         
 //==========================================================================================================
 //====================================  Create Additions  ==================================================
@@ -190,6 +201,18 @@ event.custom({
         {"type": "create:pressing", "ingredients": [{"item": "oritech:machine_core_1"}], "results": [{"id": "oritech:machine_core_1"}]}
     ],
     "transitional_item": {"id": "oritech:machine_core_1"}});
+
+event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "oritech:machine_core_6"},
+    "loops": 8,
+    "results": [{"id": "oritech:machine_core_7"}],
+    "sequence": [
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:machine_core_6"}, {"item": "oritech:superconductor"}], "results": [{"id": "oritech:machine_core_6"}]},
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:machine_core_6"}, {"item": "oritech:prometheum_ingot"}], "results": [{"id": "oritech:machine_core_6"}]},
+        {"type": "create:pressing", "ingredients": [{"item": "oritech:machine_core_6"}], "results": [{"id": "oritech:machine_core_6"}]}
+    ],
+    "transitional_item": {"id": "oritech:machine_core_6"}});
 
 event.custom({
     "type": "create:sequenced_assembly",
@@ -276,6 +299,33 @@ event.custom({
             {"type": "create:pressing", "ingredients": [{"item": "kubejs:crushed_meteoroid"}], "results": [{"id": "kubejs:crushed_meteoroid"}]}
         ],
         "transitional_item": {"id": "kubejs:crushed_meteoroid"}})
+
+//==========================================================================================================
+  event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+      "A": {"item": "justdirethings:eclipsealloy_ingot"},
+      "B": {"item": "oritech:overcharged_crystal"},
+      "C": {"item": "oritech:heisenberg_compensator"}
+    },
+    "pattern": [
+    'AAAAA',
+    'ABBBA',
+    'ABCBA',
+    'ABBBA',
+    'AAAAA'
+    ],
+    "result": {
+      "count": 1,
+      "id": "oritech:prometheum_ingot"
+    },
+    "show_notification": false})
+
+
+
+
 });
 
 //==========================================================================================================

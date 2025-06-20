@@ -1,5 +1,5 @@
 // priority: 10
-Platform.mods.kubejs.name = 'Create Cardboard Edition'
+
 
 ServerEvents.recipes((event) => {
   let yamlRecipe = (yaml) => event.custom(Lychee.toJSON(yaml))

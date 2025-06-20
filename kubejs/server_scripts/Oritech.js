@@ -1,6 +1,4 @@
 // priority: 10
-Platform.mods.kubejs.name = 'Create Cardboard Edition'
-
 ServerEvents.recipes((event) => {
     event.custom(
       {

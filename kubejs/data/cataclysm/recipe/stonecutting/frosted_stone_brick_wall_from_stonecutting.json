@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredients": [
+        {
+            "item": "cataclysm:frosted_stone_bricks"
+        }
+    ],
+    "results": ["id": "cataclysm:frosted_stone_brick_wall",
+    "count": 1]
+}

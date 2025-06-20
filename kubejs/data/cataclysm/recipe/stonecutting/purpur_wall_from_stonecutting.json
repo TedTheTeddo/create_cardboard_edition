@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredients": [
+        {
+            "item": "minecraft:purpur_block"
+        }
+    ],
+    "results": ["id": "cataclysm:purpur_wall",
+    "count": 1]
+}
