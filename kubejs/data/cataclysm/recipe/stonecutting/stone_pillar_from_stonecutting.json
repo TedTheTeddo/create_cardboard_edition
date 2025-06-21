@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredients": [
-    {
-      "item": "minecraft:stone"
-    }
-  ],
-  "results": ["id": "cataclysm:stone_pillar"]
-}
