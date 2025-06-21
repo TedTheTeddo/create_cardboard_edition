@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/gray_glazed_terracotta.png",
+    "description": {
+      "translate": "Time to get personal.."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cobblemon:poke_ball"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "Personal Encounters"
+    }
+  },
+  "requirements": [
+    [
+      "example"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
