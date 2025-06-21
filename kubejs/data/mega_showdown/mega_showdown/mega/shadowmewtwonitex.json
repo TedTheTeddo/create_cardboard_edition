@@ -1,0 +1,11 @@
+{
+  "msd_id": "shadowmewtwonitex",
+  "showdown_id": "shadowmewtwonitex",
+  "item_id": "minecraft:red_dye",
+  "type": "MEGA",
+  "item_name": "Shadow Mewtwonite X",
+  "item_description": ["msd.item.name"],
+  "custom_model_data": 260615,
+  "pokemon": "Mewtwo",
+  "aspects": ["mega_evolution=mega_x"]
+}

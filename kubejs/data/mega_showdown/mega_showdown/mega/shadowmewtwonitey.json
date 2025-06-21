@@ -1,0 +1,11 @@
+{
+  "msd_id": "shadowmewtwonitey",
+  "showdown_id": "shadowmewtwonitey",
+  "item_id": "minecraft:purple_dye",
+  "type": "MEGA",
+  "item_name": "Shadow Mewtwonite Y",
+  "item_description": ["msd.item.name"],
+  "custom_model_data": 260616,
+  "pokemon": "Mewtwo",
+  "aspects": ["mega_evolution=mega_y"]
+}
