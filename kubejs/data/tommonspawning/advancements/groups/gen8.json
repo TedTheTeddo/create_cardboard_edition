@@ -1,0 +1,31 @@
+{
+  "parent": "tommonspawning:root",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/gray_glazed_terracotta.png",
+    "description": {
+      "translate": "Gen 8 Legendaries"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cobblemon:nest_ball"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "Generation 8"
+    }
+  },
+  "requirements": [
+    [
+      "example"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
