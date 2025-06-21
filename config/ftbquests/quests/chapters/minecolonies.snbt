@@ -105,8 +105,8 @@
 			id: "62C7AAECBEF0EDDE"
 			shape: "diamond"
 			tasks: [{
-				id: "16071E27F13D32B6"
-				item: { }
+				id: "392181D087C33900"
+				item: { count: 1, id: "minecolonies:blockhutcook" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -693,8 +693,8 @@
 			id: "110EA8E5AB03E4DE"
 			shape: "diamond"
 			tasks: [{
-				id: "07833DA6E295C39A"
-				item: { }
+				id: "1E3F976DF54C141E"
+				item: { count: 1, id: "minecolonies:blockhutbaker" }
 				type: "item"
 			}]
 			x: 12.0d

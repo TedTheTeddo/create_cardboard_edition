@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredients": [
+        {
+            "item": "minecraft:stone"
+        },
+        {
+            "item": "cataclysm:stone_tiles"
+        }
+    ],
+    "results": ["id": "cataclysm:stone_tile_stairs",
+    "count": 1]
+}

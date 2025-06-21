@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm_challenges"
+	group: "255441E56E0BD646"
+	icon: {
+		id: "cataclysm:void_core"
+	}
+	id: "42A7E0B75D20A4BB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cataclysm:infernal_forge"
+			}
+			id: "1855AE25A4068E4B"
+			rewards: [{
+				id: "2FD4422E5B4A15F5"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "765B618AFC9504F5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1855AE25A4068E4B"]
+			id: "0CEA4B09323CC2C4"
+			rewards: [{
+				count: 2
+				id: "5BF93DE78526C170"
+				item: {
+					count: 1
+					id: "minecraft:heart_of_the_sea"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "25F13A68DB5ED68F"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CEA4B09323CC2C4"]
+			id: "6DE36C5D35BDD100"
+			rewards: [
+				{
+					id: "1CC4E47D30B012AD"
+					item: {
+						count: 1
+						id: "minecraft:trident"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "26DEF3F34D9C8F2C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "5F03ECF7BDD67916"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DE36C5D35BDD100"]
+			id: "5A0C622A95ED462B"
+			rewards: [{
+				count: 2
+				id: "31C23ABD5CDF73C6"
+				item: {
+					count: 1
+					id: "cataclysm:crystallized_coral_fragments"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46D7E35AE8D85E18"
+				item: { count: 1, id: "cataclysm:abyssal_egg" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6DE36C5D35BDD100"]
+			id: "3CD0F31DE53764CB"
+			tasks: [{
+				id: "55DA42C3DCD1A063"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1855AE25A4068E4B"]
+			id: "60D072CA00CD5500"
+			rewards: [{
+				count: 3
+				id: "1EE3A6D63EE46C7A"
+				item: {
+					count: 1
+					id: "minecraft:blaze_rod"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "7CD83DEB62731CC5"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60D072CA00CD5500"]
+			id: "7FC3C73D932E4151"
+			rewards: [
+				{
+					id: "5EEE0E5F0148DCE3"
+					item: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30A6BF53107AE6A2"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "4BF4638045474091"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FC3C73D932E4151"]
+			id: "2C24C0188CC415A8"
+			tasks: [{
+				id: "66493A8B1DB8D3D6"
+				item: { count: 1, id: "cataclysm:blazing_grips" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FC3C73D932E4151"]
+			id: "1DD0BB232060313A"
+			rewards: [{
+				count: 2
+				id: "22E409B1099E1190"
+				item: {
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06CE431C1BBA5FD1"
+				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1855AE25A4068E4B"]
+			id: "0D75B8610FDF0A70"
+			rewards: [
+				{
+					count: 4
+					id: "4C1D2ECFA0152169"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0BD2C709C1CBDEAE"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "252CD673E3A31B10"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D75B8610FDF0A70"]
+			id: "76DB9303D6053EAB"
+			rewards: [
+				{
+					count: 8
+					id: "1E16E7F97BBC4561"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2A2B3F63DA2BCCFF"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "7CDA346A923AE04C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76DB9303D6053EAB"]
+			id: "67B43DC6D87EEC61"
+			rewards: [{
+				id: "1F9DF122BDD2D72D"
+				item: {
+					count: 1
+					id: "artifacts:chorus_totem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F31A62FE519DB63"
+				item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1855AE25A4068E4B"]
+			id: "3DC3B2B11F1D7E25"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "63B54932466D5FDF"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DC3B2B11F1D7E25"]
+			id: "19AB0A53E3AAE9DF"
+			rewards: [{
+				id: "48C55BD48C0D3517"
+				item: {
+					count: 1
+					id: "minecraft:diamond_sword"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "0A9F87C8BB81FA96"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19AB0A53E3AAE9DF"]
+			id: "50CCE6F10B849E42"
+			tasks: [{
+				id: "0F0F866A9CA6383F"
+				item: { count: 1, id: "cataclysm:void_core" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19AB0A53E3AAE9DF"]
+			id: "3F57C2F98AA286C1"
+			rewards: [{
+				id: "0510E6AA13E43755"
+				item: {
+					count: 1
+					id: "artifacts:chorus_totem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DC1347A10DCFF9D"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3CD0F31DE53764CB"
+				"5A0C622A95ED462B"
+				"2C24C0188CC415A8"
+				"1DD0BB232060313A"
+				"67B43DC6D87EEC61"
+				"50CCE6F10B849E42"
+				"3F57C2F98AA286C1"
+				"2F64144680EAA4A9"
+			]
+			icon: {
+				id: "minecraft:netherite_helmet"
+			}
+			id: "17D42EB2932A8029"
+			min_required_dependencies: 6
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3A5B9FF7F5F535E6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76DB9303D6053EAB"]
+			id: "2F64144680EAA4A9"
+			tasks: [{
+				id: "673E99524CC11CA3"
+				item: { count: 1, id: "cataclysm:laser_gatling" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+	]
+}

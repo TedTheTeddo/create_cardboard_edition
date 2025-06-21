@@ -16,6 +16,22 @@
 				"59190EB7501C35C3"
 			]
 			id: "2A4A40C3DA80D183"
+			rewards: [
+				{
+					id: "60DF0F46F1AB846E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "02BB571E7E05693E"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -32,7 +48,24 @@
 				"364F8876F5565FB0"
 			]
 			id: "59190EB7501C35C3"
+			rewards: [
+				{
+					id: "6D8A7BC7DA44CD3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7FA7F78138B94E47"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
+				count: 8L
 				id: "25EBAAA603D68F5C"
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
@@ -46,6 +79,22 @@
 				"0AE773CBBA2FD4CE"
 			]
 			id: "43568BE0BE49CC2C"
+			rewards: [
+				{
+					id: "78EDB2EC9B59E013"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "68216BF9B4BD1181"
+					item: {
+						count: 1
+						id: "minecraft:barrel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6A8A49B39F6559B7"
 				item: { count: 1, id: "oritech:machine_core_1" }
@@ -57,7 +106,24 @@
 		{
 			dependencies: ["0D0C878C247DA130"]
 			id: "364F8876F5565FB0"
+			rewards: [
+				{
+					id: "0D129E2D18003FB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "6FB2116933A55399"
+					item: {
+						count: 1
+						id: "minecraft:diorite"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
+				count: 16L
 				id: "2236E46E8930FC3A"
 				item: { count: 1, id: "minecraft:andesite" }
 				type: "item"
@@ -68,6 +134,21 @@
 		{
 			dependencies: ["226A8BE265398D46"]
 			id: "3651B1E23FD4671C"
+			rewards: [
+				{
+					id: "7DAFD17BC8351140"
+					item: {
+						count: 1
+						id: "create:red_seat"
+					}
+					type: "item"
+				}
+				{
+					id: "2C452C5700D6AA4E"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "5DB84AF91D93006D"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -79,6 +160,21 @@
 		{
 			dependencies: ["0D0C878C247DA130"]
 			id: "226A8BE265398D46"
+			rewards: [
+				{
+					id: "73BDD5A6395709E8"
+					item: {
+						count: 1
+						id: "minecraft:blast_furnace"
+					}
+					type: "item"
+				}
+				{
+					id: "360A017FEF2097F3"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "7420EFA99A0171D0"
 				item: { count: 1, id: "minecraft:blast_furnace" }
@@ -90,7 +186,23 @@
 		{
 			dependencies: ["6B284F7C00E38731"]
 			id: "0AE773CBBA2FD4CE"
+			rewards: [
+				{
+					id: "6DF5943E13B0A1D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "23E7664061FCC35D"
+					item: {
+						count: 1
+						id: "create:cardboard_sword"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
+				count: 4L
 				id: "4DCE2B944B7377F8"
 				item: { count: 1, id: "create:cardboard_block" }
 				type: "item"
@@ -118,6 +230,11 @@
 				id: "minecraft:oak_sapling"
 			}
 			id: "6B284F7C00E38731"
+			rewards: [{
+				id: "0D93BB8199993D51"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2C96B14804F01CF7"
 				type: "checkmark"
@@ -128,6 +245,22 @@
 		{
 			dependencies: ["6B7BF3EA8AA633C7"]
 			id: "115B681C3E8DFD03"
+			rewards: [
+				{
+					id: "081E67CCA440B26F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "5B9F2BAB01E4A0AA"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "797CAB5E31D85A61"
 				item: { count: 1, id: "create:copper_casing" }
@@ -139,6 +272,21 @@
 		{
 			dependencies: ["151A7803A12C0039"]
 			id: "1369F0836D4D7DC5"
+			rewards: [
+				{
+					id: "202BB887C02A6936"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "241FCE63DD178900"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "678C75713DDEF185"
 				item: { count: 1, id: "create:railway_casing" }
@@ -153,6 +301,11 @@
 				"5A0572667BCB4627"
 			]
 			id: "151A7803A12C0039"
+			rewards: [{
+				id: "22BD217023235773"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "45DF82FA05021A57"
 				item: { count: 1, id: "oritech:machine_core_2" }
@@ -165,6 +318,22 @@
 			dependencies: ["0D0C878C247DA130"]
 			hide_dependency_lines: true
 			id: "040722F736522933"
+			rewards: [
+				{
+					id: "5F638F2AAE2DE351"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "34E58808C411272B"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4DEC5392D1868D0B"
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
@@ -176,6 +345,22 @@
 		{
 			dependencies: ["040722F736522933"]
 			id: "5A0572667BCB4627"
+			rewards: [
+				{
+					id: "30AA7FC66B329425"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "4339CFF378AB2203"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1600C95E2A0920EE"
 				item: { count: 1, id: "justdirethings:raw_ferricore" }
@@ -187,7 +372,28 @@
 		{
 			dependencies: ["43568BE0BE49CC2C"]
 			id: "6B7BF3EA8AA633C7"
+			rewards: [
+				{
+					id: "1F313952D601E507"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7006A1B575BBE35D"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_water_breathing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
+				count: 16L
 				id: "5AD4C8BBC67D77FA"
 				item: { count: 1, id: "minecraft:dried_kelp" }
 				type: "item"

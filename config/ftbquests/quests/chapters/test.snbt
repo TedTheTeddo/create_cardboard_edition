@@ -1,0 +1,225 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "test"
+	group: ""
+	icon: {
+		id: "create:cuckoo_clock"
+	}
+	id: "42838DBEDF7F85BA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "606C6B657EE48A1F"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "1D083B9C895985CB"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "30F55F938124409D"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "7A0EF8B2A18FF750"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "3801140C17383A10"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "4F02B267825E1A76"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "455955F35E179BB4"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "42A36F3078615043"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "46B8ED52B6BCC491"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3840EE162C535971"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					id: "7CEFF7D1B1AF889A"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "73B0B1CC0E417A13"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "5264F3012DE9AE53"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6FB617E5C175981D"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "3987FAD7703FFECD"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "2BF0EEAC9C5871F5"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "3254085DD3A7A5DE"
+			invisible_until_tasks: 300
+			rewards: [
+				{
+					auto: "invisible"
+					id: "47CE20535BB8A115"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "2EDA53A18B7476E0"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "2187CD5AA3AFF3AF"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "29BAE7D46CEDFDF0"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6FBE4E15F7E5F917"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "3DA9EA304D1D574A"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "581CFEE044A79CD6"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "08FAE8C55DB18ED5"
+			rewards: [
+				{
+					id: "58A989BFE79455AA"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "6C2181B61FF259C1"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "2286A896085E53C2"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "7C546032B44267A6"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5BE990A8AA4814D6"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "25544076554082C8"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "71C389203210C509"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "092EE0320999D741"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5B5B6B4F054D99CB"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "036D753BE787E46B"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "7DC861EC7FE502D5"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "36017DF1F4D176F5"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "15D4B1AC6262FE1F"
+					type: "custom"
+				}
+				{
+					id: "68AD99902C777AE9"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "414783D16C724EBF"
+				type: "custom"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+	]
+}

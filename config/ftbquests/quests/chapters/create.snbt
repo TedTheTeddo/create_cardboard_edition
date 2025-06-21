@@ -96,6 +96,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1CDFB336A96187E1"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
+					type: "item"
+				}
 			]
 			shape: "circle"
 			size: 2.0d
@@ -712,12 +720,89 @@
 			dependencies: ["71B41402D2BC566F"]
 			id: "7696A031F00E0D16"
 			tasks: [{
+				count: 2L
 				id: "685331E9B88FEA69"
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: 4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["2C025CAA4835351D"]
+			id: "48582843C3E490C0"
+			tasks: [{
+				id: "61E32AA539AC3CCB"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "79BC98CA214E9006"
+			tasks: [{
+				id: "1D7F64AE6E6C0263"
+				item: { count: 1, id: "create:package_frogport" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "316AA21C5C9CA4E3"
+			tasks: [{
+				id: "047A4264791884B3"
+				item: { count: 1, id: "create:chain_conveyor" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "11157408AF41C055"
+			tasks: [{
+				id: "6DCF541FD9364BB8"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "495AD93FCE43DFCE"
+			tasks: [{
+				id: "425445BBF5CE8FFD"
+				item: { count: 1, id: "create:repackager" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "116B1F6CCE5A8856"
+			tasks: [{
+				id: "6CB6625251881A50"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "79D2925E558FF904"
+			tasks: [{
+				id: "27D81CFB057B9C8E"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
 		}
 	]
 }

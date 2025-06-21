@@ -14,6 +14,11 @@
 			dependencies: ["529435100E110A78"]
 			id: "06F78938D9DE17C2"
 			optional: true
+			rewards: [{
+				id: "5A25D516D868E616"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2477FC5D220BCE84"
 				item: { count: 1, id: "justdirethings:portalgun" }
@@ -26,6 +31,11 @@
 			dependencies: ["01EB77A6894DD3EA"]
 			id: "4BCAB0F9160D0373"
 			optional: true
+			rewards: [{
+				id: "6684ACBD9C5C7E24"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "605DCDB3BF6A636F"
 				item: { count: 1, id: "oritech:portable_laser" }
@@ -37,6 +47,22 @@
 		{
 			dependencies: ["01EB77A6894DD3EA"]
 			id: "2B9C27EF420CF325"
+			rewards: [
+				{
+					id: "7B73017ACB33C2AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2FF1B097942D8213"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0DC165725AFBB113"
@@ -55,6 +81,21 @@
 		{
 			dependencies: ["56B13A6FB6609D39"]
 			id: "01EB77A6894DD3EA"
+			rewards: [
+				{
+					id: "48215457336DA3D4"
+					item: {
+						count: 1
+						id: "minecraft:ender_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "54B4FEE4FDDCD2D4"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "6DA69D34EE9E8411"
 				item: { count: 1, id: "oritech:enderic_lens" }
@@ -64,11 +105,13 @@
 			y: -10.5d
 		}
 		{
-			dependencies: [
-				"4C77BF99475537D8"
-				"110EC5AA707CDB72"
-			]
+			dependencies: ["4C77BF99475537D8"]
 			id: "67AA456974685193"
+			rewards: [{
+				id: "490305465AB084FE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7224898BF67FE212"
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
@@ -80,6 +123,11 @@
 		{
 			dependencies: ["35988964AD691369"]
 			id: "4C77BF99475537D8"
+			rewards: [{
+				id: "5E6E9095E44F2B6D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3010B9E2F1F5E19C"
 				item: { count: 1, id: "create:veridium" }
@@ -91,6 +139,11 @@
 		{
 			dependencies: ["529435100E110A78"]
 			id: "35988964AD691369"
+			rewards: [{
+				id: "19B87E17D0669B0E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5447510527C4E3A7"
 				item: { count: 1, id: "createoreexcavation:diamond_drill" }
@@ -100,19 +153,24 @@
 			y: -5.0d
 		}
 		{
-			id: "4C65B9A1247D3FD8"
-			size: 1.5d
-			tasks: [{
-				id: "10C8EF6B60471991"
-				item: { count: 1, id: "oritech:unstable_container" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: -0.75d
-		}
-		{
 			dependencies: ["2B9C27EF420CF325"]
 			id: "64FD858ACF5D5120"
+			rewards: [
+				{
+					id: "5643407348E620E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "73B69581D7AA375F"
+					item: {
+						count: 1
+						id: "create:gearbox"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3ABEA8A04201A3B8"
 				item: { count: 1, id: "oritech:fluxite" }
@@ -124,6 +182,12 @@
 		{
 			dependencies: ["56B13A6FB6609D39"]
 			id: "5EF3DE62BD076CD9"
+			optional: true
+			rewards: [{
+				id: "07920C20376BD537"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "08A991C9C439FD5E"
 				item: { count: 1, id: "oritech:big_solar_panel_block" }
@@ -135,6 +199,12 @@
 		{
 			dependencies: ["56B13A6FB6609D39"]
 			id: "2D1A62CCAF9E81D1"
+			optional: true
+			rewards: [{
+				id: "38CA03EC30E6581C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "35901EE9A59DEF04"
 				item: { count: 1, id: "oritech:fuel_generator_block" }
@@ -146,6 +216,12 @@
 		{
 			dependencies: ["56B13A6FB6609D39"]
 			id: "5F44EC21C2DF9836"
+			optional: true
+			rewards: [{
+				id: "6B52DA1358FD272C"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "009C2FED7B1847BD"
 				item: { count: 1, id: "oritech:bio_generator_block" }
@@ -157,6 +233,12 @@
 		{
 			dependencies: ["56B13A6FB6609D39"]
 			id: "1D615B74A110FE79"
+			optional: true
+			rewards: [{
+				id: "701B7F754621A82A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2F4A28C0018BD474"
 				item: { count: 1, id: "oritech:lava_generator_block" }
@@ -168,6 +250,12 @@
 		{
 			dependencies: ["56B13A6FB6609D39"]
 			id: "042728C9FD655261"
+			optional: true
+			rewards: [{
+				id: "0824355877EC6BCD"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "49C66D0661232727"
 				item: { count: 1, id: "justdirethings:pocket_generator" }
@@ -180,6 +268,36 @@
 			dependencies: ["4A916CE728EBA604"]
 			id: "2A16CB1D7FC00BEB"
 			optional: true
+			rewards: [
+				{
+					id: "56FC2D033797EAB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2CC825E171A41FA9"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45141470B3D532AC"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "66DDC90DB8AB24B0"
 				item: { count: 1, id: "endrem:nether_eye" }
@@ -192,6 +310,36 @@
 			dependencies: ["4A916CE728EBA604"]
 			id: "7496D1FF4CFB4D41"
 			optional: true
+			rewards: [
+				{
+					id: "0562D563D61A8074"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6DFE695011FED894"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "167E788EADC8C8D3"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6C36E856D03512F1"
 				item: { count: 1, id: "endrem:cryptic_eye" }
@@ -204,6 +352,36 @@
 			dependencies: ["4A916CE728EBA604"]
 			id: "5157E698C7479897"
 			optional: true
+			rewards: [
+				{
+					id: "3A9A16F833697C90"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "199CC937EB5EC59E"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0DA98F410BFE675B"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5FCE3056B60ED64C"
 				item: { count: 1, id: "endrem:corrupted_eye" }
@@ -216,6 +394,36 @@
 			dependencies: ["4A916CE728EBA604"]
 			id: "696B00CF0462AA86"
 			optional: true
+			rewards: [
+				{
+					id: "3A736967B909EBFD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "3618F8666EFCAF6A"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58ED0E557FFDCEDE"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0E0377C5FD1259"
 				item: { count: 1, id: "endrem:wither_eye" }
@@ -227,6 +435,22 @@
 		{
 			dependencies: ["64FD858ACF5D5120"]
 			id: "4A916CE728EBA604"
+			rewards: [
+				{
+					id: "5B97FF0BC7B1E64C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "188A33FF8C7B82ED"
+					item: {
+						count: 1
+						id: "create:encased_chain_drive"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -240,6 +464,11 @@
 		{
 			dependencies: ["4A916CE728EBA604"]
 			id: "529435100E110A78"
+			rewards: [{
+				id: "5EC3E99FF82A1980"
+				type: "xp"
+				xp: 10
+			}]
 			size: 3.0d
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -255,6 +484,12 @@
 		{
 			dependencies: ["56B13A6FB6609D39"]
 			id: "529316502BEAF152"
+			optional: true
+			rewards: [{
+				id: "0196EC9E26267573"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "145CACCEF39ABE7F"
 				item: { count: 1, id: "oritech:large_storage_block" }
@@ -264,6 +499,7 @@
 			y: -11.5d
 		}
 		{
+			dependencies: ["39713EC814636495"]
 			icon: {
 				id: "minecraft:map"
 			}
@@ -280,6 +516,11 @@
 		{
 			dependencies: ["529435100E110A78"]
 			id: "1329CE4425060E29"
+			rewards: [{
+				id: "719BE576F56391B0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0BC916C593ED9856"
 				item: { count: 1, id: "oritech:dubios_container" }
@@ -291,6 +532,11 @@
 		{
 			dependencies: ["1329CE4425060E29"]
 			id: "658B51AA69C20525"
+			rewards: [{
+				id: "2495F97F1C4B95F6"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2E8A54027477CE10"
 				item: { count: 1, id: "oritech:unholy_intelligence" }
@@ -302,6 +548,11 @@
 		{
 			dependencies: ["35988964AD691369"]
 			id: "110EC5AA707CDB72"
+			rewards: [{
+				id: "61137509A5E663C7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6DEE4CBBF59EA001"
 				item: { count: 1, id: "oritech:still_strange_matter_bucket" }
@@ -313,6 +564,11 @@
 		{
 			dependencies: ["59BD0A025B247107"]
 			id: "19495E2E98D4B17E"
+			rewards: [{
+				id: "0D78FCC9B3D64E7F"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			size: 2.5d
 			tasks: [{
@@ -324,18 +580,30 @@
 			y: -12.5d
 		}
 		{
+			dependencies: ["1329CE4425060E29"]
 			id: "74F820BC2D589B14"
+			rewards: [{
+				id: "69F98A4BA2310B9E"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "27CAE28719A4BDC1"
 				item: { count: 1, id: "oritech:augment_application_block" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -12.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["658B51AA69C20525"]
 			id: "12A009A01F685115"
+			rewards: [{
+				id: "42B8F64404D62C1D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2CDAB8BE16605674"
 				item: { count: 1, id: "oritech:machine_core_5" }
@@ -350,6 +618,11 @@
 				"12A009A01F685115"
 			]
 			id: "0160B2E046A68145"
+			rewards: [{
+				id: "52FEFB481DB9D594"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2FF5E8F33485B223"
 				item: { count: 1, id: "oritech:machine_core_6" }
@@ -361,6 +634,22 @@
 		{
 			dependencies: ["64FD858ACF5D5120"]
 			id: "08DB2EC742AC02AD"
+			rewards: [
+				{
+					id: "2856229DC286B7E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2BA990284CDF847E"
+					item: {
+						count: 1
+						id: "oritech:energy_pipe"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0C14901B7AF9FF3F"
 				item: { count: 1, id: "oritech:flux_gate" }
@@ -372,6 +661,11 @@
 		{
 			dependencies: ["06F78938D9DE17C2"]
 			id: "1F7809A68C11E0CF"
+			rewards: [{
+				id: "260B61C41F68AA71"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "203145B2B4592875"
 				item: { count: 1, id: "justdirethings:portal_fluid_bucket" }
@@ -386,6 +680,21 @@
 				"64FD858ACF5D5120"
 			]
 			id: "39BF213144E52A11"
+			rewards: [
+				{
+					id: "185FE6BD98706B5F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02BD2DC2AB29CEFE"
+					item: {
+						count: 1
+						id: "minecraft:creeper_head"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2CD0C7A54135BEA1"
 				item: { count: 1, id: "kubejs:cce_unstable_compound" }
@@ -397,6 +706,11 @@
 		{
 			dependencies: ["39BF213144E52A11"]
 			id: "59BD0A025B247107"
+			rewards: [{
+				id: "59587A68ED93DE5B"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "2ECFFBE2D20D3431"
 				item: { count: 1, id: "kubejs:cce_strange_compound" }
@@ -408,6 +722,11 @@
 		{
 			dependencies: ["12A009A01F685115"]
 			id: "10E6A8FAD5FE16D0"
+			rewards: [{
+				id: "7B1D941F29EBB5F9"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0BB9354410D4FD66"
 				item: { count: 1, id: "justdirethings:blockbreakert2" }
@@ -419,6 +738,11 @@
 		{
 			dependencies: ["12A009A01F685115"]
 			id: "5F7A4B223E3BD179"
+			rewards: [{
+				id: "3F66E9B86ED143A7"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "24CB8716EDC971A5"
 				item: { count: 1, id: "justdirethings:clickert2" }
@@ -430,6 +754,11 @@
 		{
 			dependencies: ["12A009A01F685115"]
 			id: "5E80CB934C123665"
+			rewards: [{
+				id: "368BD36C74267451"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1C5A88B79CB27903"
 				item: { count: 1, id: "justdirethings:sensort2" }
@@ -441,6 +770,11 @@
 		{
 			dependencies: ["12A009A01F685115"]
 			id: "4695468BD1AABAE3"
+			rewards: [{
+				id: "2B6E77B67E540FC0"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "5812393828426E8D"
 				item: { count: 1, id: "justdirethings:blockplacert2" }
@@ -452,6 +786,11 @@
 		{
 			dependencies: ["12A009A01F685115"]
 			id: "2AA6E5469341790F"
+			rewards: [{
+				id: "79685C4630BF727F"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "165F053785ECF39A"
 				item: { count: 1, id: "justdirethings:droppert2" }
@@ -463,6 +802,11 @@
 		{
 			dependencies: ["12A009A01F685115"]
 			id: "5E9F08D9D05D6930"
+			rewards: [{
+				id: "1349C294A5544770"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1A61FD1C83A64634"
 				item: { count: 1, id: "justdirethings:fluidplacert2" }
@@ -474,6 +818,11 @@
 		{
 			dependencies: ["12A009A01F685115"]
 			id: "55498EAD990CA429"
+			rewards: [{
+				id: "44BD30D81408A1EB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "3B854667B5C7EF90"
 				item: { count: 1, id: "justdirethings:fluidcollectort2" }
@@ -481,6 +830,17 @@
 			}]
 			x: -15.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["74F820BC2D589B14"]
+			id: "1F2CF8EDD172DB94"
+			tasks: [{
+				id: "2F0F86102362B2E2"
+				item: { count: 1, id: "oritech:simple_augment_station" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
 		}
 	]
 }
