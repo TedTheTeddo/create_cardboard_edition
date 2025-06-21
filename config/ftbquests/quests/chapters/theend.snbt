@@ -4,63 +4,69 @@
 	filename: "theend"
 	group: "255441E56E0BD646"
 	icon: {
-		id: "endrem:nether_eye"
+		id: "cataclysm:flame_eye"
 	}
 	id: "44935D37560B928F"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["68A016F12A7492BE"]
 			id: "11AC55B04FEE4F1B"
 			tasks: [{
 				id: "3A24AD7599B72C12"
 				item: { count: 1, id: "endrem:black_eye" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 3.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["3130EA8B90D52BB5"]
 			id: "7A3553262D9D7A45"
 			tasks: [{
 				id: "2C907F6F6E6946F2"
 				item: { count: 1, id: "endrem:cold_eye" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["7E4DA85EF6FCF9F0"]
 			id: "10A26A8DE6753BCD"
 			tasks: [{
 				id: "098AA767FFD0CEDA"
 				item: { count: 1, id: "endrem:corrupted_eye" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.5d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["7E4DA85EF6FCF9F0"]
 			id: "07D593E7084C8833"
 			tasks: [{
 				id: "28BD9AF4C87A8E90"
 				item: { count: 1, id: "endrem:cryptic_eye" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: -1.0d
+			y: -7.5d
 		}
 		{
+			dependencies: ["3ED91C3731FBD1C5"]
 			id: "7BDD629DF88F28A3"
 			tasks: [{
 				id: "6258BC84A48765B8"
 				item: { count: 1, id: "endrem:cursed_eye" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["3ED91C3731FBD1C5"]
 			id: "23157CF9FC20FCC8"
 			tasks: [{
 				id: "52C4599100FC099F"
@@ -68,19 +74,21 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["3130EA8B90D52BB5"]
 			id: "285BB287C6D4C796"
 			tasks: [{
 				id: "14AA068B0DCFBF1C"
 				item: { count: 1, id: "endrem:exotic_eye" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["3130EA8B90D52BB5"]
 			id: "20F0B35EAADDB2DA"
 			tasks: [{
 				id: "36A2C1EDD219521C"
@@ -91,16 +99,18 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["68A016F12A7492BE"]
 			id: "1C5B204DE2607D1D"
 			tasks: [{
 				id: "1BD74DDB8670AC1A"
 				item: { count: 1, id: "endrem:lost_eye" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["3130EA8B90D52BB5"]
 			id: "46EFC698426FD0B2"
 			tasks: [{
 				id: "1FBBA16303ADC30B"
@@ -111,16 +121,18 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["7E4DA85EF6FCF9F0"]
 			id: "14A7A490B3D48080"
 			tasks: [{
 				id: "511C29A38181690C"
 				item: { count: 1, id: "endrem:nether_eye" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
+			dependencies: ["68A016F12A7492BE"]
 			id: "6968F33202142F8D"
 			tasks: [{
 				id: "721025F1F7794BD0"
@@ -128,19 +140,21 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["68A016F12A7492BE"]
 			id: "33DC3066DBB1C44E"
 			tasks: [{
 				id: "42CBEEBC778E8F94"
 				item: { count: 1, id: "endrem:old_eye" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["3ED91C3731FBD1C5"]
 			id: "3B6BAC2C1E161DE6"
 			tasks: [{
 				id: "374158DD616BCE5D"
@@ -148,35 +162,82 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["3ED91C3731FBD1C5"]
 			id: "376166166374ED0F"
 			tasks: [{
 				id: "36EAE966B1AFBF07"
 				item: { count: 1, id: "endrem:witch_eye" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["7E4DA85EF6FCF9F0"]
 			id: "2FF6D04FB4637710"
 			tasks: [{
 				id: "2B9D127B63CD1003"
 				item: { count: 1, id: "endrem:wither_eye" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.5d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
 			id: "65969F1490085B33"
+			shape: "octagon"
+			size: 3.0d
 			tasks: [{
 				id: "0510C6601ABAC823"
 				type: "checkmark"
 			}]
 			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65969F1490085B33"]
+			id: "68A016F12A7492BE"
+			tasks: [{
+				id: "3C5F3E7E97B9F6FC"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65969F1490085B33"]
+			id: "7E4DA85EF6FCF9F0"
+			tasks: [{
+				id: "067B2F0B5824253A"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["65969F1490085B33"]
+			id: "3130EA8B90D52BB5"
+			tasks: [{
+				id: "755A64FF52F8036F"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65969F1490085B33"]
+			id: "3ED91C3731FBD1C5"
+			tasks: [{
+				id: "468EE9F84F0204DE"
+				type: "checkmark"
+			}]
+			x: -3.0d
 			y: -3.0d
 		}
 	]

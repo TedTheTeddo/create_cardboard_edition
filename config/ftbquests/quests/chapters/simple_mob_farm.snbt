@@ -55,56 +55,6 @@
 			y: 6.0d
 		}
 		{
-			id: "17FB6FD32D6E744B"
-			tasks: [{
-				id: "35A82E0E1158B387"
-				item: { count: 1, id: "easy_mob_farm:blank_mob_capture_card" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			id: "5A0D6913F0008D62"
-			tasks: [{
-				id: "483DBD08551D8AFE"
-				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Common Card", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			id: "1F5B2175A796AC5E"
-			tasks: [{
-				id: "6B4757B862AE698A"
-				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Uncommon Card", rarity: "uncommon", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			id: "1F8FA4F61D1FF22E"
-			tasks: [{
-				id: "25E5DF91F59013D9"
-				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Rare Card", rarity: "rare", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			id: "55CB7786355804BB"
-			tasks: [{
-				id: "1258EF3E4C4D63C3"
-				item: { components: { "easy_mob_farm:mob_capture_data": { entityType: "minecraft:armor_stand", name: "Epic Card", rarity: "epic", type: "minecraft:armor_stand" } }, count: 1, id: "easy_mob_farm:mob_capture_card" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.5d
-		}
-		{
 			icon: {
 				components: {
 					"easy_mob_farm:mob_capture_data": {

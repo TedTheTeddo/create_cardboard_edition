@@ -126,5 +126,16 @@
 			x: -2.0d
 			y: -4.5d
 		}
+		{
+			dependencies: ["298B8C9C69EF561D"]
+			id: "4E732B77C26304CA"
+			tasks: [{
+				id: "5E23BFC4AD3066D7"
+				item: { count: 1, id: "dailyshop:daily_shop" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
 	]
 }

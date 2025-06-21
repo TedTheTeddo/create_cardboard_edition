@@ -13,32 +13,47 @@
 		{
 			dependencies: ["1847EDB8451CE819"]
 			id: "5547B28AEA6348A0"
+			rewards: [{
+				id: "041DC29F8C74215E"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "688618B5F839392C"
 				item: { count: 1, id: "justdirethings:time_wand" }
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1847EDB8451CE819"]
 			id: "22EC9FD8EB100170"
+			rewards: [{
+				id: "375950B9F475F329"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "2D2F74DBFC578847"
 				item: { count: 1, id: "justdirethings:portalgun_v2" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.25d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["647EA13D66E3884C"]
 			id: "49F94E77A147E6D0"
+			rewards: [{
+				id: "6C6C42B8F704AC8B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1847AC01E1B588F1"
 				item: { count: 1, id: "justdirethings:gooblock_tier4" }
@@ -50,6 +65,11 @@
 		{
 			dependencies: ["0DCE2B5A639824A3"]
 			id: "647EA13D66E3884C"
+			rewards: [{
+				id: "4E945547FF415E12"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "254B664583A6DDEA"
 				item: { count: 1, id: "create:asurine" }
@@ -61,6 +81,11 @@
 		{
 			dependencies: ["06B5E3EBB1FA03A8"]
 			id: "0DCE2B5A639824A3"
+			rewards: [{
+				id: "1CE837B51E829318"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "17E010E11BD18D8E"
 				item: { count: 1, id: "createoreexcavation:netherite_drill" }
@@ -72,7 +97,13 @@
 		{
 			dependencies: ["4DD9CAFA9F5D5520"]
 			id: "3EF0E8690060E186"
+			rewards: [{
+				id: "2C0A6F1E9240FEA4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
+				count: 2L
 				id: "3A3BA9EC0BA0D183"
 				item: { count: 1, id: "oritech:accelerator_controller" }
 				type: "item"
@@ -83,6 +114,11 @@
 		{
 			dependencies: ["1847EDB8451CE819"]
 			id: "5AB94413B40B81FE"
+			rewards: [{
+				id: "7DB2B2C64E80117E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "326DD14E07597B6D"
 				item: { count: 1, id: "oritech:machine_core_7" }
@@ -94,6 +130,22 @@
 		{
 			dependencies: ["06B5E3EBB1FA03A8"]
 			id: "600B21C95E9B313A"
+			rewards: [
+				{
+					id: "73049D2B863750FB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7931C11A3C193E74"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1F87BB08C7634CA6"
 				item: { count: 1, id: "oritech:heisenberg_compensator" }
@@ -105,6 +157,13 @@
 		{
 			dependencies: ["6DFAD71778B327D7"]
 			id: "1847EDB8451CE819"
+			rewards: [{
+				id: "71438637966719B4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "18F6C7BD69A1AE4C"
 				item: { count: 1, id: "oritech:prometheum_ingot" }
@@ -114,6 +173,10 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["19495E2E98D4B17E"]
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
 			id: "1FD161F0048CBF28"
 			shape: "gear"
 			size: 2.5d
@@ -127,6 +190,11 @@
 		{
 			dependencies: ["407D72DE9AE18851"]
 			id: "66762144ACECD9D0"
+			rewards: [{
+				id: "4C02FBD1C9EDF7BC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "36983B426413FC0F"
 				item: { count: 1, id: "deeperdarker:soul_crystal" }
@@ -138,6 +206,11 @@
 		{
 			dependencies: ["06B5E3EBB1FA03A8"]
 			id: "7C341FFF64CA8728"
+			rewards: [{
+				id: "44C8DF7ABF66E00A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "37C376A13786C496"
 				item: { count: 1, id: "deeperdarker:sculk_stone" }
@@ -160,6 +233,11 @@
 		{
 			dependencies: ["49F94E77A147E6D0"]
 			id: "347EC2AD2A5D5145"
+			rewards: [{
+				id: "5BB2D8221FCCF777"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2CAA67697B0CFE10"
 				item: { count: 1, id: "justdirethings:time_crystal" }
@@ -171,6 +249,11 @@
 		{
 			dependencies: ["4DD9CAFA9F5D5520"]
 			id: "1A88071D06E35578"
+			rewards: [{
+				id: "6BB72EFF3DF2516B"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -184,6 +267,11 @@
 		{
 			dependencies: ["4DD9CAFA9F5D5520"]
 			id: "3B77544BBDB12A40"
+			rewards: [{
+				id: "72625D685F38427F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2743511AB06D2C31"
 				item: { count: 1, id: "oritech:accelerator_sensor" }
@@ -195,6 +283,11 @@
 		{
 			dependencies: ["4DD9CAFA9F5D5520"]
 			id: "4570A17A78F7E76D"
+			rewards: [{
+				id: "539AB826F8BB6DDE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5E7C7476BAE910A7"
 				item: { count: 1, id: "oritech:accelerator_ring" }
@@ -210,6 +303,22 @@
 				"66762144ACECD9D0"
 			]
 			id: "6DFAD71778B327D7"
+			rewards: [
+				{
+					id: "6DE16ABEBEBE135F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "1E6D2D3C91228D0E"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2C1256165383F05A"
 				item: { count: 1, id: "oritech:overcharged_crystal" }
@@ -233,6 +342,14 @@
 		{
 			dependencies: ["1FD161F0048CBF28"]
 			id: "636EC3A41C82127F"
+			rewards: [{
+				id: "4978E71281A79FC7"
+				item: {
+					count: 1
+					id: "oritech:target_designator"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EED608C0E4F9DEB"
 				item: { count: 1, id: "oritech:drone_port_block" }
@@ -244,6 +361,17 @@
 		{
 			dependencies: ["1FD161F0048CBF28"]
 			id: "43EF2D153C51ECED"
+			rewards: [{
+				id: "6405A8AECF4D72E5"
+				item: {
+					components: {
+						"oritech:energy": 1000000L
+					}
+					count: 1
+					id: "oritech:small_storage_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72452204B4926AD0"
 				item: { count: 1, id: "oritech:deep_drill_block" }
@@ -255,6 +383,15 @@
 		{
 			dependencies: ["1FD161F0048CBF28"]
 			id: "7ECDC84B92A6F962"
+			rewards: [{
+				count: 4
+				id: "1337FB346B5565AC"
+				item: {
+					count: 1
+					id: "minecraft:tnt"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "344560E7F3334114"
 				item: { count: 1, id: "oritech:unstable_container" }
@@ -266,6 +403,11 @@
 		{
 			dependencies: ["1847EDB8451CE819"]
 			id: "20F7084EB84A63FD"
+			rewards: [{
+				id: "23146C277803DE23"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7D64DC58B56B3774"
 				item: { count: 1, id: "oritech:promethium_axe" }
@@ -277,18 +419,39 @@
 		{
 			dependencies: ["1847EDB8451CE819"]
 			id: "6B3C6A5AB403D4C7"
+			rewards: [{
+				id: "79063420D3B7DB35"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "35AFAF393607B585"
 				item: { count: 1, id: "oritech:promethium_pickaxe" }
 				type: "item"
 			}]
 			x: -5.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7C341FFF64CA8728"]
 			id: "1A9C2D38EC561992"
 			optional: true
+			rewards: [
+				{
+					id: "0BB6E5517C3A4A08"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "2BA8B89D1663C2C0"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "52D89855893F411B"
 				item: { count: 1, id: "oritech:cooler_block" }
@@ -298,21 +461,31 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["1847EDB8451CE819"]
+			dependencies: ["5AB94413B40B81FE"]
 			id: "6B1298A974CE12FC"
+			rewards: [{
+				id: "795E93B9B861FE0E"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "7D193E909CB31649"
 				item: { count: 1, id: "justdirethings:upgrade_orexray" }
 				type: "item"
 			}]
-			x: 0.75d
-			y: -6.0d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7C341FFF64CA8728"]
 			id: "6763860A8284D27C"
+			rewards: [{
+				id: "6A7D82DE438F0DC2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "56F9419A3EE7B5A5"
 				item: { count: 1, id: "deeperdarker:soul_dust" }
@@ -324,6 +497,11 @@
 		{
 			dependencies: ["1A9C2D38EC561992"]
 			id: "3DFC48E7FD36432B"
+			rewards: [{
+				id: "10D94EA1102492B1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "78D514A9584B7678"
 				item: { count: 1, id: "deeperdarker:resonarium" }
@@ -338,6 +516,11 @@
 				"3DFC48E7FD36432B"
 			]
 			id: "407D72DE9AE18851"
+			rewards: [{
+				id: "4CD9E719D3BC34E3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5FBF810633AA16DD"
 				item: { count: 1, id: "minecraft:sculk_catalyst" }
@@ -349,13 +532,35 @@
 		{
 			dependencies: ["5AB94413B40B81FE"]
 			id: "130E6600246EF42E"
+			rewards: [{
+				id: "3F08EE179964E83A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "538101B0E655ED68"
 				item: { count: 1, id: "justdirethings:blockswappert2" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["5AB94413B40B81FE"]
+			id: "67F623E5526B1B87"
+			rewards: [{
+				id: "4096C36F141B1985"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DB6554EA6406D28"
+				item: { count: 1, id: "justdirethings:upgrade_flight" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
 		}
 	]
 }
