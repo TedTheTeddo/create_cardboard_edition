@@ -3,6 +3,30 @@ ServerEvents.recipes(event => {
 
 //Crafting Recipes
 
+//Enchanted Golden Apple
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+        
+  },
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_golden_apple"
+  }
+
+  })
+
 //Light Sparkling Stone
 event.custom({
   "type": "minecraft:crafting_shaped",
