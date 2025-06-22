@@ -359,6 +359,521 @@ event.custom({
 
 //Mechanical Crafting
 
+///Plates///
+
+//Fist Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:fighting_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:fistplate"
+  },
+  "show_notification": false
+
+})
+
+//Spooky Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:ghost_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:spookyplate"
+  },
+  "show_notification": false
+
+})
+
+//Toxic Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:poison_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:toxicplate"
+  },
+  "show_notification": false
+
+})
+
+//Icicle Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:ice_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:icicleplate"
+  },
+  "show_notification": false
+
+})
+
+//Dread Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:dark_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:dreadplate"
+  },
+  "show_notification": false
+
+})
+
+//Meadow Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:grass_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:meadowplate"
+  },
+  "show_notification": false
+
+})
+
+//Sky Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:flying_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:skyplate"
+  },
+  "show_notification": false
+
+})
+
+//Splash Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:water_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:splashplate"
+  },
+  "show_notification": false
+
+})
+
+//Iron Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:steel_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:ironplate"
+  },
+  "show_notification": false
+
+})
+
+//Mind Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:psychic_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:mindplate"
+  },
+  "show_notification": false
+
+})
+
+//Pixie Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:fairy_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:pixieplate"
+  },
+  "show_notification": false
+
+})
+
+//Zap Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:electric_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:zapplate"
+  },
+  "show_notification": false
+
+})
+
+//Stone Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:rock_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:stoneplate"
+  },
+  "show_notification": false
+
+})
+
+//Earth Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:ground_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:earthplate"
+  },
+  "show_notification": false
+
+})
+
+//Draco Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:dragon_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:dracoplate"
+  },
+  "show_notification": false
+
+})
+
+//Flame Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:fire_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:flameplate"
+  },
+  "show_notification": false
+
+})
+
+//Insect Plate
+event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "deeperdarker:soul_crystal"
+    },
+    "C": {
+      "item": "cobblemon:bug_gem"
+    } 
+  },
+  "pattern": [
+    " AAA ",
+    "AABAA",
+    "ABCBA",
+    "AABAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:insectplate"
+  },
+  "show_notification": false
+
+})
+
+////////////
+
+
 //Star Core
 event.custom({
   "type": "create:mechanical_crafting",
@@ -542,6 +1057,7 @@ event.custom({
         "type": "create:compacting",
         "ingredients": 
         [ 
+    {"type": "fluid_stack", "amount": 1000, "fluid": "minecraft:lava"},          
     {"item": "kubejs:crushed_netherite"},
     {"item": "create:experience_block"},
     {"item": "create:experience_block"},
@@ -595,6 +1111,393 @@ event.custom({
 
 
 //Sequenced Assembelies
+
+//Legend Plate
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "oritech:reinforced_carbon_sheet"},
+       "loops": 1,
+        "results": [{"id": "mega_showdown:legend_plate"}],
+        "sequence": [
+            {"type": "create:pressing", "ingredients": [{"item": "mega_showdown:legend_plate"}], "results": [{"id": "mega_showdown:legend_plate"}]},          
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:flameplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:dracoplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},            
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:fistplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:earthplate"}], "results": [{"id": "mega_showdown:legend_plate"}]}, 
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:stoneplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:zapplate"}], "results": [{"id": "mega_showdown:legend_plate"}]}, 
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:insectplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:meadowplate"}], "results": [{"id": "mega_showdown:legend_plate"}]}, 
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:icicleplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:skyplate"}], "results": [{"id": "mega_showdown:legend_plate"}]}, 
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:splashplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:dreadplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:ironplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:spookyplate"}], "results": [{"id": "mega_showdown:legend_plate"}]}, 
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:pixieplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:mindplate"}], "results": [{"id": "mega_showdown:legend_plate"}]}, 
+            {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:legend_plate"}, {"item": "mega_showdown:toxicplate"}], "results": [{"id": "mega_showdown:legend_plate"}]},
+            {"type": "create:pressing", "ingredients": [{"item": "mega_showdown:legend_plate"}], "results": [{"id": "mega_showdown:legend_plate"}]},                                                                                  
+        ],
+        "transitional_item": {"id": "mega_showdown:legend_plate"}
+  }) 
+
+
+//Memories//
+
+//Ice Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:icememory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:ice_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Dark Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:darkmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:dark_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Ground Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:groundmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:ground_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Water Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:watermemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:water_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Psychic Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:psychicmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:psychic_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Poison Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:poisonmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:poison_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Steel Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:steelmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:steel_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Grass Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:grassmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:grass_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Dragon Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:dragonmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:dragon_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Rock Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:rockmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:rock_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Flying Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:flyingmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:flying_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Electric Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:electricmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:electric_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Fighting Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:fightingmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:fighting_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Ghost Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:ghostmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:ghost_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Fairy Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:fairymemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:fairy_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Fire Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:firememory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:fire_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//Bug Memory
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "cobblemon:dubious_disc"},
+       "loops": 3,
+        "results": [{"id": "mega_showdown:bugmemory"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "cobblemon:bug_gem"}], "results": [{"id": "minecraft:glass_bottle"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:tinted_glass"}, {"item": "minecraft:iron_block"}], "results": [{"id": "minecraft:glass_bottle"}]},            
+            {"type": "create:pressing", "ingredients": [{"item": "minecraft:tinted_glass"}], "results": [{"id": "minecraft:tinted_glass"}]},
+                               
+        ],
+        "transitional_item": {"id": "minecraft:tinted_glass"}
+  }) 
+
+//////////////
+
+
+//Poke Gems
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "minecraft:amethyst_shard"},
+       "loops": 16,
+  "results": [    {
+      "chance": 0.053,
+      "id": "cobblemon:ghost_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:fairy_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:psychic_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:dark_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:normal_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:ground_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:grass_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:dragon_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:steel_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:rock_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:flying_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:electric_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:poison_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:ice_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:bug_gem"
+    },
+     {
+      "chance": 0.053,
+      "id": "cobblemon:fire_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:water_gem"
+    },
+    {
+      "chance": 0.053,
+      "id": "cobblemon:fighting_gem"
+    },
+    {
+      "chance": 0.02,
+      "id": "minecraft:diamond"
+    },
+    {
+      "chance": 0.02,
+      "id": "minecraft:emerald"
+    },
+                                  
+  ],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:amethyst_shard"}, {"item": "create:rose_quartz"}], "results": [{"id": "minecraft:amethyst_shard"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:amethyst_shard"}, {"item": "minecraft:chorus_fruit"}], "results": [{"id": "minecraft:amethyst_shard"}]},            
+            {"type": "create:deploying", "ingredients": [{"item": "minecraft:amethyst_shard"}, {"item": "minecraft:enchanted_golden_apple"}], "results": [{"id": "minecraft:amethyst_shard"}]}                               
+        ],
+        "transitional_item": {"id": "minecraft:amethyst_shard"}
+  }) 
+
 
  //Crying Obsidian
   event.custom({
@@ -669,20 +1572,6 @@ event.custom({
         ],
         "transitional_item": {"id": "kubejs:crushed_meteoroid"}
   })
-
-//Wishing Star
- event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {"item": "kubejs:crushed_netherite"},
-       "loops": 50,
-        "results": [{"id": "mega_showdown:wishing_star"}],
-        "sequence": [
-            {"type": "create:filling", "ingredients": [{"item": "kubejs:crushed_netherite"}, {"type": "fluid_stack", "fluid": "minecraft:lava", "amount": 500}], "results": [{"id": "kubejs:crushed_netherite"}]},
-            {"type": "create:deploying", "ingredients": [{"item": "kubejs:crushed_netherite"}, {"item": "create:experience_block"}], "results": [{"id": "kubejs:crushed_netherite"}]},
-            {"type": "create:pressing", "ingredients": [{"item": "kubejs:crushed_netherite"}], "results": [{"id": "kubejs:crushed_netherite"}]}
-        ],
-        "transitional_item": {"id": "kubejs:crushed_netherite"}
-  }) 
 
 //Prison Bottle
  event.custom({
