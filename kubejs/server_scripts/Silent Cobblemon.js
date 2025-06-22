@@ -35,6 +35,198 @@ event.custom({
 
   })
 
+//Electric Seed
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "cobblemon:white_mint_seeds"
+    },
+    "B": {
+      "item": "cobblemon:electric_gem"
+    },
+    "C": {
+      "item": "create:tree_fertilizer"
+    },
+        
+  },
+  "pattern": [
+    "CAC",
+    "ABA",
+    "CAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:electric_seed"
+  }
+
+  })
+
+//Grassy Seed
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "cobblemon:green_mint_seeds"
+    },
+    "B": {
+      "item": "cobblemon:grass_gem"
+    },
+    "C": {
+      "item": "create:tree_fertilizer"
+    },
+        
+  },
+  "pattern": [
+    "CAC",
+    "ABA",
+    "CAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:grassy_seed"
+  }
+
+  })
+
+//Misty Seeds
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "cobblemon:pink_mint_seeds"
+    },
+    "B": {
+      "item": "cobblemon:fairy_gem"
+    },
+    "C": {
+      "item": "create:tree_fertilizer"
+    },
+        
+  },
+  "pattern": [
+    "CAC",
+    "ABA",
+    "CAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:misty_seed"
+  }
+
+  })
+
+//Psychic Seeds
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "cobblemon:blue_mint_seeds"
+    },
+    "B": {
+      "item": "cobblemon:psychic_gem"
+    },
+    "C": {
+      "item": "create:tree_fertilizer"
+    },
+    "D": {
+      "item": "cobblemon:red_mint_seeds"
+    },    
+        
+  },
+  "pattern": [
+    "CAC",
+    "DBD",
+    "CAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemon:psychic_seed"
+  }
+
+  })  
+
+//Wellspring Mask
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "cobblemon:sky_tumblestone"
+    },
+    "B": {
+      "item": "kubejs:blank_mask"
+    },
+    "C": {
+      "item": "mega_showdown:water_tera_shard"
+    },
+        
+  },
+  "pattern": [
+    "ACA",
+    "CBC",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:wellspring_mask"
+  }
+
+  })
+
+//Hearthflame Mask
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "cobblemon:tumblestone"
+    },
+    "B": {
+      "item": "kubejs:blank_mask"
+    },
+    "C": {
+      "item": "mega_showdown:fire_tera_shard"
+    },
+        
+  },
+  "pattern": [
+    "ACA",
+    "CBC",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:hearthflame_mask"
+  }
+
+  })
+
+//Cornerstone Mask
+event.custom({
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "cobblemon:black_tumblestone"
+    },
+    "B": {
+      "item": "kubejs:blank_mask"
+    },
+    "C": {
+      "item": "mega_showdown:rock_tera_shard"
+    },
+        
+  },
+  "pattern": [
+    "ACA",
+    "CBC",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:cornerstone_mask"
+  }
+
+  })
+
 //Eject Pack
 event.custom({
   "type": "minecraft:crafting_shaped",
@@ -359,6 +551,7 @@ event.custom({
   })
 
 //Basic Crushed Items
+
 //Crushed Meteoroid
 event.custom({
     "type": "create:crushing",
@@ -508,4 +701,210 @@ event.custom({
         ],
         "transitional_item": {"id": "mega_showdown:redorb"}
   }) 
+
+
+//Scroll of Waters
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "kubejs:crushed_netherite"},
+       "loops": 128,
+        "results": [{"id": "mega_showdown:scroll_of_waters"}],
+        "sequence": [
+          {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:scroll_of_waters"}, {"item": "minecraft:sea_lantern"}], "results": [{"id": "mega_showdown:scroll_of_waters"}]},
+          {"type": "create:filling", "ingredients": [{"item": "mega_showdown:scroll_of_waters"}, {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}], "results": [{"id": "mega_showdown:scroll_of_waters"}]},
+          {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:scroll_of_waters"}, {"item": "minecraft:paper"}], "results": [{"id": "mega_showdown:scroll_of_waters"}]}
+        ],
+        "transitional_item": {"id": "mega_showdown:scroll_of_waters"}
+  }) 
+
+//Scroll of Darkness
+ event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "kubejs:crushed_netherite"},
+       "loops": 128,
+        "results": [{"id": "mega_showdown:scroll_of_darkness"}],
+        "sequence": [
+          {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:scroll_of_darkness"}, {"item": "minecraft:tinted_glass"}], "results": [{"id": "mega_showdown:scroll_of_darkness"}]},
+          {"type": "create:filling", "ingredients": [{"item": "mega_showdown:scroll_of_darkness"}, {"type": "fluid_stack", "fluid": "minecraft:lava", "amount": 1000}], "results": [{"id": "mega_showdown:scroll_of_darkness"}]},
+          {"type": "create:deploying", "ingredients": [{"item": "mega_showdown:scroll_of_darkness"}, {"item": "minecraft:paper"}], "results": [{"id": "mega_showdown:scroll_of_darkness"}]}
+        ],
+        "transitional_item": {"id": "mega_showdown:scroll_of_darkness"}
+  })  
+
+ //Fossils 1-3
+ event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:capture_sherd"
+  },
+  "loops": 16,
+  "results": [    {
+      "chance": 0.33,
+      "id": "cobblemon:old_amber_fossil"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:sail_fossil"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:fossilized_bird"
+    }],
+  "sequence": [
+    {"type": "create:filling", "ingredients": [{"item": "cobblemon:capture_sherd"}, {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}], "results": [{"id": "cobblemon:capture_sherd"}]},
+    {"type": "create:deploying", "ingredients": [{"item": "cobblemon:capture_sherd"}, {"tag": "create:sandpaper"}], "results": [{"id": "cobblemon:capture_sherd"}]}
+
+  ],
+  "transitional_item": {
+    "id": "cobblemon:capture_sherd"
+}
+ })
+
+ //Fossils 4-6
+ event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:dome_sherd"
+  },
+  "loops": 16,
+  "results": [    {
+      "chance": 0.33,"id": "cobblemon:dome_fossil"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:fossilized_drake"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:armor_fossil"
+    }],
+  "sequence": [
+    {"type": "create:filling", "ingredients": [{"item": "cobblemon:dome_sherd"}, {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}], "results": [{"id": "cobblemon:dome_sherd"}]},
+    {"type": "create:deploying", "ingredients": [{"item": "cobblemon:dome_sherd"}, {"tag": "create:sandpaper"}], "results": [{"id": "cobblemon:dome_sherd"}]}
+
+  ],
+  "transitional_item": {
+    "id": "cobblemon:dome_sherd"
+}
+ })
+
+ //Fossils 7-10
+ event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:nostalgic_sherd"
+  },
+  "loops": 16,
+  "results": [    {
+      "chance": 0.33, "id": "cobblemon:fossilized_fish"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:helix_fossil"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:cover_fossil"
+    }],
+  "sequence": [
+    {"type": "create:filling", "ingredients": [{"item": "cobblemon:nostalgic_sherd"}, {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}], "results": [{"id": "cobblemon:nostalgic_sherd"}]},
+    {"type": "create:deploying", "ingredients": [{"item": "cobblemon:nostalgic_sherd"}, {"tag": "create:sandpaper"}], "results": [{"id": "cobblemon:nostalgic_sherd"}]}
+
+  ],
+  "transitional_item": {
+    "id": "cobblemon:nostalgic_sherd"
+}
+ })
+
+ //Fossils 11-14
+ event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:suspicious_sherd"
+  },
+  "loops": 16,
+  "results": [    {
+      "chance": 0.33, "id": "cobblemon:fossilized_dino"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:jaw_fossil"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:skull_fossil"
+    }],
+  "sequence": [
+    {"type": "create:filling", "ingredients": [{"item": "cobblemon:suspicious_sherd"}, {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}], "results": [{"id": "cobblemon:suspicious_sherd"}]},
+    {"type": "create:deploying", "ingredients": [{"item": "cobblemon:suspicious_sherd"}, {"tag": "create:sandpaper"}], "results": [{"id": "cobblemon:suspicious_sherd"}]}
+
+  ],
+  "transitional_item": {
+    "id": "cobblemon:suspicious_sherd"
+}
+ })
+
+ //Fossils 15-18
+ event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:bygone_sherd"
+  },
+  "loops": 16,
+  "results": [    {
+      "chance": 0.33, "id": "cobblemon:root_fossil"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:claw_fossil"
+    },
+    {
+      "chance": 0.33,
+      "id": "cobblemon:plume_fossil"
+    }],
+  "sequence": [
+    {"type": "create:filling", "ingredients": [{"item": "cobblemon:bygone_sherd"}, {"type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000}], "results": [{"id": "cobblemon:bygone_sherd"}]},
+    {"type": "create:deploying", "ingredients": [{"item": "cobblemon:bygone_sherd"}, {"tag": "create:sandpaper"}], "results": [{"id": "cobblemon:bygone_sherd"}]}
+
+  ],
+  "transitional_item": {
+    "id": "cobblemon:bygone_sherd"
+}
+ })
+
+
+
+//Crushing Recipes
+
+//Sherds
+event.custom({
+  "type": "create:crushing",
+  "ingredients": [{"item": "minecraft:terracotta"}],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.2,
+      "id": "cobblemon:suspicious_sherd"
+    },
+    {
+      "chance": 0.2,
+      "id": "cobblemon:nostalgic_sherd"
+    },
+    {
+      "chance": 0.2,
+      "id": "cobblemon:dome_sherd"
+    },
+    {
+      "chance": 0.2,
+      "id": "cobblemon:capture_sherd"
+    },
+    {
+      "chance": 0.2,
+      "id": "cobblemon:bygone_sherd"
+    }        
+  ]
+})
+
+
+
 })
