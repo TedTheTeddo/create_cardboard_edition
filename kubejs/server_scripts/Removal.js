@@ -68,8 +68,15 @@ ServerEvents.recipes(event => {
     event.remove({output: 'justdirethings:gooblock_tier4'})
 
     event.remove({output: 'justdirethings:upgrade_orescanner'})
+    event.remove({output: 'justdirethings:upgrade_orexray'})
+    event.remove({output: 'justdirethings:upgrade_flight'})
 
     event.remove({output: 'justdirethings:generatort1'})
+
+    event.remove({output: 'justdirethings:blockswappert2'})
+    event.remove({output: 'justdirethings:portalgun_v2'})
+    event.remove({output: 'justdirethings:time_wand'})
+
 //==========================================================================================================
     event.remove({output: 'create:empty_blaze_burner'})
     event.remove({output: 'create:brass_hand'})
@@ -109,6 +116,23 @@ ServerEvents.recipes(event => {
 
 //==========================================================================================================
     event.remove({output: 'createaddition:biomass'})
+
+//==========================================================================================================  
+    event.remove({output: 'endrem:witch_eye'})
+    event.remove({output: 'endrem:undead_eye'})
+    event.remove({output: 'endrem:exotic_eye'})
+
+
+//==========================================================================================================  
+    event.remove({output: 'easy_mob_farm:enduring_capture_net'})
+    event.remove({output: 'easy_mob_farm:ironbound_containment_cage'})
+    event.remove({output: 'easy_mob_farm:mystic_binding_crystal'})
+    event.remove({output: 'easy_mob_farm:void_binding_chain'})
+//==========================================================================================================  
+    event.remove({output: 'sophisticatedstorage:storage_link'})
+    event.remove({output: 'sophisticatedstorage:storage_io'})
+    event.remove({output: 'sophisticatedstorage:storage_input'})
+    event.remove({output: 'sophisticatedstorage:storage_output'})
 
 //==========================================================================================================  
     event.replaceInput({ input: 'oritech:fluid_pipe' }, 'oritech:fluid_pipe', 'create:fluid_pipe')

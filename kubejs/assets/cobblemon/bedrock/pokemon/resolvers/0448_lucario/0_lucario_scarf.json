@@ -1,0 +1,28 @@
+{
+  "species": "cobblemon:lucario",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["pmd-scarf"],
+      "poser": "cobblemon:lucariopmd",
+      "model": "cobblemon:lucariopmd.geo",
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariopmd.png",
+      "layers": []
+    },
+    {
+      "aspects": ["pmd-scarf","shiny"],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariopmd_shiny.png"
+    },
+	{
+      "aspects": ["psmd-scarf"],
+      "poser": "cobblemon:lucariopsmd",
+      "model": "cobblemon:lucariopsmd.geo",
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariopsmd.png",
+      "layers": []
+    },
+    {
+      "aspects": ["psmd-scarf","shiny"],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariopsmd_shiny.png"
+    }
+  ]
+}

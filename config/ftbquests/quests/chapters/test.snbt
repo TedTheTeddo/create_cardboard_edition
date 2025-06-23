@@ -4,12 +4,12 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "test"
-	group: ""
+	group: "5CE65AE115E26D6E"
 	icon: {
 		id: "create:cuckoo_clock"
 	}
 	id: "42838DBEDF7F85BA"
-	order_index: 0
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

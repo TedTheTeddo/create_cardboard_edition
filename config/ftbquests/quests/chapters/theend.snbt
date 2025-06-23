@@ -22,17 +22,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3130EA8B90D52BB5"]
-			id: "7A3553262D9D7A45"
-			tasks: [{
-				id: "2C907F6F6E6946F2"
-				item: { count: 1, id: "endrem:cold_eye" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["7E4DA85EF6FCF9F0"]
 			id: "10A26A8DE6753BCD"
 			tasks: [{
@@ -77,28 +66,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["3130EA8B90D52BB5"]
-			id: "285BB287C6D4C796"
-			tasks: [{
-				id: "14AA068B0DCFBF1C"
-				item: { count: 1, id: "endrem:exotic_eye" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3130EA8B90D52BB5"]
-			id: "20F0B35EAADDB2DA"
-			tasks: [{
-				id: "36A2C1EDD219521C"
-				item: { count: 1, id: "endrem:guardian_eye" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["68A016F12A7492BE"]
 			id: "1C5B204DE2607D1D"
 			tasks: [{
@@ -108,17 +75,6 @@
 			}]
 			x: 3.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["3130EA8B90D52BB5"]
-			id: "46EFC698426FD0B2"
-			tasks: [{
-				id: "1FBBA16303ADC30B"
-				item: { count: 1, id: "endrem:magical_eye" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["7E4DA85EF6FCF9F0"]
@@ -202,6 +158,9 @@
 		}
 		{
 			dependencies: ["65969F1490085B33"]
+			icon: {
+				id: "minecraft:map"
+			}
 			id: "68A016F12A7492BE"
 			tasks: [{
 				id: "3C5F3E7E97B9F6FC"
@@ -212,6 +171,9 @@
 		}
 		{
 			dependencies: ["65969F1490085B33"]
+			icon: {
+				id: "create:wrench"
+			}
 			id: "7E4DA85EF6FCF9F0"
 			tasks: [{
 				id: "067B2F0B5824253A"
@@ -222,6 +184,9 @@
 		}
 		{
 			dependencies: ["65969F1490085B33"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
 			id: "3130EA8B90D52BB5"
 			tasks: [{
 				id: "755A64FF52F8036F"
@@ -232,6 +197,9 @@
 		}
 		{
 			dependencies: ["65969F1490085B33"]
+			icon: {
+				id: "minecolonies:supplycampdeployer"
+			}
 			id: "3ED91C3731FBD1C5"
 			tasks: [{
 				id: "468EE9F84F0204DE"
@@ -239,6 +207,134 @@
 			}]
 			x: -3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["3130EA8B90D52BB5"]
+			icon: {
+				id: "endrem:cold_eye"
+			}
+			id: "3362C0539952F262"
+			tasks: [{
+				action: "revive_fossil"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "296FFDA47ACFC3A4"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3130EA8B90D52BB5"]
+			icon: {
+				id: "endrem:magical_eye"
+			}
+			id: "78136EACF57AED68"
+			tasks: [{
+				action: "have_registered"
+				amount: 200L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4F1ABABE0CA0274E"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3130EA8B90D52BB5"]
+			icon: {
+				id: "endrem:exotic_eye"
+			}
+			id: "67440CB889F15110"
+			rewards: [{
+				id: "0A752748C89DF2D1"
+				item: {
+					count: 1
+					id: "endrem:exotic_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "reel"
+				amount: 50L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "391090F537554C84"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3130EA8B90D52BB5"]
+			icon: {
+				id: "endrem:guardian_eye"
+			}
+			id: "50F71FFAC0555B79"
+			tasks: [{
+				action: "evolve_into"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "11A5D5619F9B10F6"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:amoonguss"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 }

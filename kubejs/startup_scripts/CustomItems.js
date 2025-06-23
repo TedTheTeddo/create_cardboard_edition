@@ -17,4 +17,18 @@ StartupEvents.registry('item', event => {
     event.create('gold_coins').maxStackSize(64).displayName("Gold Coins");
     event.create('iridium_coins').maxStackSize(64).displayName("Iridium Coins");    
 
-  });
+    //Irons
+    event.create('irons_amulet_of_protection').maxStackSize(64).displayName("Amulet of Protection Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_bane_ring').maxStackSize(64).displayName("Bane Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_barbed_band').maxStackSize(64).displayName("Barbed Band Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_ring_of_haggling').maxStackSize(64).displayName("Ring of Haggling Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_improved_gemset_ring').maxStackSize(64).displayName("Improved Gemset Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_pigling_signet_ring').maxStackSize(64).displayName("Pigling Signet Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_sharpshooter_loop').maxStackSize(64).displayName("Sharpshooter Loop Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_stalwart_ring').maxStackSize(64).displayName("Stalwart Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_superior_gemset_ring').maxStackSize(64).displayName("Superior Gemset Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+    event.create('irons_tearstone_ring').maxStackSize(64).displayName("Tearstone Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
+
+});
+
+  

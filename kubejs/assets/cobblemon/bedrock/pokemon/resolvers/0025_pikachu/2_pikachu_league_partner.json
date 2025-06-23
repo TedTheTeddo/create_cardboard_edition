@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:pikachu",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+		    "partner-cap"
+	    ],
+      "poser": "cobblemon:pikachu",
+      "model": "cobblemon:ashpikachu.geo",
+      "texture": "cobblemon:textures/pokemon/0025_pikachu/ashpikachu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "partner-cap",
+		    "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0025_pikachu/ashpikachu_shiny.png"
+    }
+  ]
+}
