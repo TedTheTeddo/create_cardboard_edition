@@ -187,15 +187,6 @@
 		{
 			dependencies: ["7FC3C73D932E4151"]
 			id: "1DD0BB232060313A"
-			rewards: [{
-				count: 2
-				id: "22E409B1099E1190"
-				item: {
-					count: 1
-					id: "minecraft:potion"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "06CE431C1BBA5FD1"
 				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
@@ -292,6 +283,14 @@
 		{
 			dependencies: ["1855AE25A4068E4B"]
 			id: "3DC3B2B11F1D7E25"
+			rewards: [{
+				id: "03E319FB3AC6FE65"
+				item: {
+					count: 1
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				advancement: "cataclysm:find_ruined_citadel"
@@ -305,14 +304,6 @@
 		{
 			dependencies: ["3DC3B2B11F1D7E25"]
 			id: "19AB0A53E3AAE9DF"
-			rewards: [{
-				id: "48C55BD48C0D3517"
-				item: {
-					count: 1
-					id: "minecraft:diamond_sword"
-				}
-				type: "item"
-			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{

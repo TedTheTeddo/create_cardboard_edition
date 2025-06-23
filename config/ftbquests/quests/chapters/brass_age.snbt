@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "brass_age"
-	group: "58E991E47743A414"
-	hide_quest_until_deps_complete: true
+	group: "4BD64CAE7CBBD502"
 	icon: {
 		id: "create:brass_casing"
 	}
 	id: "1684B4ECA96498ED"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -355,6 +354,16 @@
 			y: -14.0d
 		}
 		{
+			id: "37CA21D29F7DDEC0"
+			tasks: [{
+				id: "30FE5408B291CDE3"
+				item: { count: 1, id: "justdirethings:blockswappert1" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -11.0d
+		}
+		{
 			dependencies: ["33D7353CE5BDC832"]
 			id: "6792B7194E4DEAB7"
 			tasks: [{
@@ -375,6 +384,16 @@
 			}]
 			x: 4.5d
 			y: -12.5d
+		}
+		{
+			id: "38C37FE45544ADEE"
+			tasks: [{
+				id: "464CF2CB871C321F"
+				item: { count: 1, id: "justdirethings:generatorfluidt1" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4B4221A4B1813379"]
