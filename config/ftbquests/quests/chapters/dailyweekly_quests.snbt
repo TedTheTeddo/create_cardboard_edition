@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dailyweekly_quests"
+	group: "58E991E47743A414"
+	icon: {
+		id: "createrailwaysnavigator:train_station_clock"
+	}
+	id: "738E9EFEFC897905"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2366A459255BF326"]
+			hide_dependency_lines: false
+			id: "3B67E2AB1B881F01"
+			tasks: [{
+				id: "528D1424E53BBB89"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2366A459255BF326"]
+			hide_dependency_lines: false
+			id: "31DAA48669623AA9"
+			rewards: [{
+				auto: "invisible"
+				id: "7B44E7F1D37968F9"
+				quest: ""
+				time: 86400
+				type: "extraquests:timer"
+			}]
+			tasks: [{
+				id: "0B0266D21ADFE6D4"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			id: "2366A459255BF326"
+			tasks: [{
+				disable_toast: true
+				id: "2892D6A4C5F838FC"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CFCBE364A5588D9"]
+			id: "01E4F7BB88294923"
+			tasks: [{
+				count: 8L
+				id: "0F588BCC52493DFD"
+				item: { count: 8, id: "justdirethings:ferricore_ingot" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D51F23C412802A9"]
+			id: "3E84471375B6BC4B"
+			tasks: [{
+				count: 16L
+				id: "23BBDD23E76666E7"
+				item: { count: 16, id: "create:cardboard_block" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1F61FA7DECF92EF1"]
+			id: "6CBBE7DF45D3FC30"
+			tasks: [{
+				count: 24L
+				id: "51261F348339B8D6"
+				item: { count: 16, id: "create:shaft" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["682089D876E71D17"]
+			id: "58A4CAC9456BF25D"
+			tasks: [{
+				count: 16L
+				id: "1CC16081B793745A"
+				item: { count: 32, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32543F82F955AACF"]
+			id: "6E4C088555107FB8"
+			tasks: [{
+				count: 8L
+				id: "02FCC0C27BE2D469"
+				item: { count: 8, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["422FA1BDAD5634B1"]
+			id: "12B2567C4BCA6240"
+			tasks: [{
+				count: 4L
+				id: "0B4D6B131D775B6E"
+				item: { count: 4, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+	]
+}
