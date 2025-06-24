@@ -7,7 +7,7 @@
     "filter": "minecraft:emerald",
     "count": {
       "type": "constant",
-      "count": 1
+      "count": 4
     }
   },
   "output": [
