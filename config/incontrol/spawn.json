@@ -2,26 +2,21 @@
   {
     "dimension": "minecraft:overworld",
     "result": "deny",
-    "hostile": true,
+    "mob": ["minecraft:skeleton", "minecraft:zombie", "minecraft:creeper", "minecraft:spider", "minecraft:enderman", "minecraft:zombie_villager"],
     "minheight": 50
   },
   {
     "result": "allow",
     "hostile": true,
-    "maxcount": 25,
-    "block": [
-      	"minecraft:stone",
-      	"minecraft:cobblestone",
-      	"minecraft:deepslate",
-	"minecraft:end_stone",
-	"minecraft:netherrack",
-	"minecraft:sculk",
-	"minecraft:nether_bricks"
-    ]
+    "maxcount": 25
   },
   {
-    "result": "deny",
-    "passive": true
+    "mob": ["minecraft:chicken", "minecraft:cow", "minecraft:sheep", "minecraft:pig", "minecraft:squid", "minecraft:cat", "minecraft:wolf", "minecraft:dolphin", "minecraft:glow_squid"],
+    "mincount": {
+      "amount": 50,
+      "passive": true
+    },
+    "result": "deny"
   },
   {
     "mob": "minecraft:villager",
@@ -29,7 +24,7 @@
     "result": "deny"
   },
   {
-    "mob": ["minecraft:villager", "minecraft:bat", "minecraft:salmon", "minecraft:cod", "minecraft:squid"],
+    "mob": ["minecraft:villager", "minecraft:bat", "minecraft:salmon", "minecraft:cod", "minecraft:squid", "minecraft:tropical_fish", "minecraft:pufferfish"],
     "result": "deny"
   },
   {
