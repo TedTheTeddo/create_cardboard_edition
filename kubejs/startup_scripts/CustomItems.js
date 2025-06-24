@@ -30,5 +30,3 @@ StartupEvents.registry('item', event => {
     event.create('irons_tearstone_ring').maxStackSize(64).displayName("Tearstone Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
 
 });
-
-  

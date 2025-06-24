@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
     createItemApplication(event, "oritech:machine_core_4", "oritech:unholy_intelligence",       "oritech:machine_core_5");
     createItemApplication(event, "oritech:machine_core_5", "oritech:super_ai_chip",             "oritech:machine_core_6");
     createItemApplication(event, "oritech:silicon_wafer", "oritech:processing_unit",            "oritech:advanced_computing_engine")
+    createItemApplication(event, "create:andesite_casing", "minecraft:diamond",                 "cobblemon:healing_machine")
 
     event.stonecutting('minecraft:dirt',  'minecraft:coarse_dirt')
 
@@ -93,6 +94,14 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:superior_gemset_ring"]'), ['kubejs:irons_superior_gemset_ring']);
     event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:tearstone_ring"]'), ['kubejs:irons_tearstone_ring']);
 
+    event.shapeless('cobblemon:red_apricorn',  ['minecraft:red_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:yellow_apricorn',  ['minecraft:yellow_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:green_apricorn',  ['minecraft:green_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:blue_apricorn',  ['minecraft:blue_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:pink_apricorn',  ['minecraft:pink_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:black_apricorn',  ['minecraft:black_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:white_apricorn',  ['minecraft:white_dye', '#cobblemon:apricorns'])
+
     event.shapeless("minecraft:ink_sac", ["minecraft:glass_bottle", 'minecraft:black_dye']) //Ink Sac
     event.shapeless('minecraft:experience_bottle', ['minecraft:glass_bottle', 'create:experience_nugget']) //Bottle of Enchanting
 //==========================================================================================================
@@ -140,7 +149,7 @@ ServerEvents.recipes(event => {
 
     event.custom({"type": "create:compacting", //Mob Drop: Sculk
         "ingredients": [{"item": "create:experience_nugget"}, {"item": "minecraft:sculk"}],
-        "results": [{"id": "2x minecraft:sculk"}]})
+        "results": [{"id": "minecraft:sculk", "count": 2}]})
 
     event.custom({"type": "create:compacting", //Mob Drop: Gunpowder
         "ingredients": [{"item": "minecraft:flint"}, {"item": "minecraft:dried_kelp"}],
@@ -224,7 +233,7 @@ ServerEvents.recipes(event => {
     event.custom({"type": "create:milling", //Mob Drop: Phantom Membrane
         "ingredients": [{"item": "minecraft:echo_shard"}],
         "results": [{"chance": 0.50, "id": "minecraft:amethyst_shard"}]})
-        
+
 //==========================================================================================================
     event.custom({
         "type": "create:crushing",
@@ -497,7 +506,7 @@ event.custom({
 
     event.custom({"type": "create:compacting", 
         "ingredients": [{"item": "minecraft:wet_sponge"}],
-        "results": [{"id": "minecraft:sponge"}, {"chance": 0.25, "id": "minecraft:pufferfish"}, {"chance": 0.25, "id": "minecraft:tropical_fish"}, {"chance": 0.25, "id": "minecraft:nautilus_shell"}]})
+        "results": [{"id": "minecraft:sponge"}, {"chance": 0.25, "id": "minecraft:pufferfish"}, {"chance": 0.25, "id": "minecraft:tropical_fish"}]})
 
 //Basic Coral
     event.custom({
@@ -623,58 +632,41 @@ for (const coral of coralTypes) {
             event.stonecutting(pressure_plate, plank);
         });
 
-//==========================================================================================================
-//======================================        Music          =============================================
-//==========================================================================================================  
 
-    event.custom({
-        "type": "create:crushing",
-        "ingredients": [{"item": "minecraft:jukebox"}],
-        "processingTime": 800,
-        "results": [
-            {"chance": 0.0625, "id": "minecraft:music_disc_13"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_cat"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_blocks"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_chirp"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_far"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_mall"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_mellohi"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_stal"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_strad"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_ward"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_11"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_wait"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_otherside"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_5"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_pigstep"},
-            {"chance": 0.0625, "id": "minecraft:music_disc_relic"}
-        ]
+//==========================================================================================================
+    const berryRecipes = [
+        { output: 'cobblemon:occa_berry',     inputs: ['cobblemon:persim_berry','cobblemon:razz_berry'] },
+        { output: 'cobblemon:passho_berry',   inputs: ['cobblemon:oran_berry',  'cobblemon:pinap_berry'] },
+        { output: 'cobblemon:wacan_berry',    inputs: ['cobblemon:nanab_berry', 'cobblemon:pinap_berry'] },
+        { output: 'cobblemon:rindo_berry',    inputs: ['cobblemon:nanab_berry', 'cobblemon:wepear_berry'] },
+        { output: 'cobblemon:yache_berry',    inputs: ['cobblemon:oran_berry', ' cobblemon:wepear_berry'] },
+        { output: 'cobblemon:payapa_berry',   inputs: ['cobblemon:cheri_berry', 'cobblemon:wepear_berry'] },
+        { output: 'cobblemon:tanga_berry',    inputs: ['cobblemon:cheri_berry', 'cobblemon:oran_berry'] },
+        { output: 'cobblemon:babiri_berry',   inputs: ['cobblemon:pinap_berry', 'cobblemon:razz_berry'] },
+        { output: 'cobblemon:chilan_berry',   inputs: ['cobblemon:rawst_berry', 'cobblemon:chesto_berry'] },
+        { output: 'cobblemon:roseli_berry',   inputs: ['cobblemon:cheri_berry', 'cobblemon:razz_berry'] },
+        { output: 'cobblemon:charti_berry',   inputs: ['cobblemon:persim_berry','cobblemon:wepear_berry'] },
+        { output: 'cobblemon:kasib_berry',    inputs: ['cobblemon:pecha_berry', 'cobblemon:rawst_berry'] },
+        { output: 'cobblemon:haban_berry',    inputs: ['cobblemon:pecha_berry', 'cobblemon:razz_berry'] },
+        { output: 'cobblemon:colbur_berry',   inputs: ['cobblemon:chesto_berry','cobblemon:pinap_berry'] }
+    ];
+    
+    berryRecipes.forEach(recipe => {
+        event.custom({
+            "type": "create:mixing",
+            "ingredients": [
+                {"item": recipe.inputs[0]}, // First input
+                {"item": recipe.inputs[1]}  // Second input
+            ],
+            "results": [
+                {"id": recipe.output} // Output
+            ]
+        });
     });
-//==========================================================================================================
-//========================================== Flowers         ==============================================
-//==========================================================================================================
 
-    event.custom({"type": "create:milling", 
-        "ingredients": [{"item": "minecraft:dirt"}],
-        "results": [
-            {"chance": 0.1, "id": "minecraft:dandelion"},
-            {"chance": 0.1, "id": "minecraft:poppy"},
-            {"chance": 0.1, "id": "minecraft:dandelion"},
-            {"chance": 0.1, "id": "minecraft:blue_orchid"},
-            {"chance": 0.1, "id": "minecraft:allium"},
-            {"chance": 0.1, "id": "minecraft:azure_bluet"},
-            {"chance": 0.1, "id": "minecraft:red_tulip"},
-            {"chance": 0.1, "id": "minecraft:orange_tulip"},
-            {"chance": 0.1, "id": "minecraft:white_tulip"},
-            {"chance": 0.1, "id": "minecraft:pink_tulip"},
-            {"chance": 0.1, "id": "minecraft:oxeye_daisy"},
-            {"chance": 0.1, "id": "minecraft:cornflower"},
-            {"chance": 0.1, "id": "minecraft:lily_of_the_valley"}
-        ]})
+
+//==========================================================================================================
 });
-
 //==========================================================================================================
 //==========================================  To DOs   =====================================================
 //==========================================================================================================
-
-//Cobblegen - Andesite at Bedrock

@@ -82,4 +82,21 @@ ServerEvents.recipes((event) => {
       - type: drop_item
         id: minecraft:sculk_catalyst
     `).id('cardboard_edition:sculk_catalyst')
+
+  yamlRecipe(`
+    type: 'lychee:block_interacting'
+    item_in:
+      item: minecraft:netherite_block
+    block_in: minecraft:grindstone
+    contextual:
+      type: location
+      predicate:
+        dimension: minecraft:the_nether
+    post:
+      - type: delay
+        s: 0.2
+      - type: execute
+        command: "summon cataclysm:netherite_monstrosity ~ ~ ~"
+    `).id('cardboard_edition:summon_netherite_monstrosity')
+
 })

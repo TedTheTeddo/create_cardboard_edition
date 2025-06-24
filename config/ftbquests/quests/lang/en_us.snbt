@@ -1,28 +1,23 @@
 {
-	chapter.0C5A98247849B2BD.title: "Endertech"
-	chapter.13D0E8604C82E3B8.title: "Daily/Weekly Quests"
-	chapter.14901AB85C1F7940.title: "Artifacts"
-	chapter.1684B4ECA96498ED.title: "Brass Age"
-	chapter.2356DE2317512BC5.title: "PokeBerries"
-	chapter.289FC5452E37F02C.title: "MineColonies"
-	chapter.2EF43FF108FE8F1C.title: "Quantum"
-	chapter.31D55DF0126C2907.title: "Introduction"
-	chapter.36D372F5AACF189F.title: "Easy Mob Farm"
-	chapter.379E1CD18C4C6557.title: "PokeFactory"
-	chapter.42838DBEDF7F85BA.title: "Weekly Quest Timer (Backend)"
-	chapter.42A7E0B75D20A4BB.title: "Cataclysm"
-	chapter.44935D37560B928F.title: "The-End"
+	chapter.0C5A98247849B2BD.title: "&33. Endertech"
+	chapter.14901AB85C1F7940.title: "&3Artifacts"
+	chapter.1684B4ECA96498ED.title: "&32. Brass Age"
+	chapter.2356DE2317512BC5.title: "&3PokeBerries"
+	chapter.289FC5452E37F02C.title: "&3MineColonies"
+	chapter.2EF43FF108FE8F1C.title: "&34. Quantum"
+	chapter.31D55DF0126C2907.title: "&3Introduction"
+	chapter.36D372F5AACF189F.title: "&3Easy Mob Farm"
+	chapter.379E1CD18C4C6557.title: "&3PokeFactory"
+	chapter.42A7E0B75D20A4BB.title: "&3Cataclysm"
+	chapter.44935D37560B928F.title: "&3The-End"
 	chapter.46A307DA4730C8EC.title: "Megastone"
-	chapter.4D7171D75FA38270.title: "Immersive Airplanes"
-	chapter.578AD2CB77E02E13.title: "Andesite Age"
-	chapter.598BF3C60137B57F.title: "Apricorns"
+	chapter.4D7171D75FA38270.title: "&3Immersive Airplanes"
+	chapter.578AD2CB77E02E13.title: "&31. Andesite Age"
 	chapter.664D048078B1276E.title: "PokeMechanics"
-	chapter.6AA6131DCCB88640.title: "Daily/Weekly Quests"
 	chapter.6E52D880D9C13746.title: "&3Deeper Darker&r"
-	chapter.717233C4FC064A42.title: "Oritech"
-	chapter.71D642419DA81484.title: "Just Dire Things"
-	chapter.738E9EFEFC897905.title: "Daily/Weekly Quests"
-	chapter.74B8D951F16CC36C.title: "Create"
+	chapter.717233C4FC064A42.title: "&3Oritech"
+	chapter.71D642419DA81484.title: "&3Just Dire Things"
+	chapter.74B8D951F16CC36C.title: "&3Create"
 	chapter_group.255441E56E0BD646.title: "&6Exploration"
 	chapter_group.4467009C6B99DE8B.title: "&6MineColonies"
 	chapter_group.4BD64CAE7CBBD502.title: "&6Main"
@@ -70,6 +65,7 @@
 		""
 		"A new Archer in Training will need a bed in a house in order to spawn. However, once they are hired at the Archery, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit)."
 	]
+	quest.07D593E7084C8833.quest_subtitle: "Ancient Remnant"
 	quest.08DB2EC742AC02AD.quest_desc: ["An important crafting material for more complex machines."]
 	quest.09699B9862E0ABE8.quest_desc: ["The &n&5Deployer&r&r simulates player actions on blocks or entities exactly 2 blocks away from it."]
 	quest.0985E6CFD0C38498.quest_desc: ["Harvested from the corpse of a warden. Simply defeat one to gain access to the darker realm."]
@@ -105,6 +101,7 @@
 	quest.0E51702665133226.quest_desc: ["Throw it into water to convert water into polymorphic juice."]
 	quest.0EAE6260063C0457.quest_desc: ["Train Stations are used to create, disassemble, and guide Trains."]
 	quest.0FC93A8B8FEC1DF1.quest_subtitle: "Give Silicon a little wash."
+	quest.10A26A8DE6753BCD.quest_subtitle: "Netherite Monstrosity"
 	quest.10E3615A3C082EC1.quest_desc: ["&n&5Brass&r&r is an alloy obtained by mixing Copper and Zinc together with a Mechanical Mixer, Basin, and Blaze Burner. It is used primarily for crafting item sorting machines. "]
 	quest.10FCEAD504BDDCA2.quest_desc: [
 		"Hostiles won't spawn above surface and are more frequent underground in this pack."
@@ -137,6 +134,11 @@
 		""
 		"Doesn't require brass and can be set up early."
 	]
+	quest.13B6F168118817A5.quest_desc: [
+		"The base of many potion recipes."
+		""
+		"It should be planted in water to grow."
+	]
 	quest.1416FB43FAC0797B.quest_desc: [
 		"Your second goo for progression."
 		""
@@ -146,6 +148,7 @@
 		""
 		"&6Check JEI for a listing.&r"
 	]
+	quest.14A7A490B3D48080.quest_subtitle: "Ignis"
 	quest.14E086A6BBF63413.quest_desc: ["Cables, when wrenched on a side with an Oritech Wrench it will be in extract mode."]
 	quest.151A7803A12C0039.quest_subtitle: "Basic Core"
 	quest.156D59E9DDAD6BB2.quest_desc: ["Generator with JustDireThing liquids."]
@@ -230,6 +233,11 @@
 	quest.22CB97857115E0C5.quest_desc: ["&n&5Smart Fluid Pipes&r&r can be used to allow only a certain liquid to pass through them. This can be set by placing a bucket or bottle of the liquid in the Filter slot on the pipe."]
 	quest.2374F42DCF950431.quest_desc: ["The Blacksmith's Hut is a 3x3 crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items). The Blacksmith's Hut will work when they receive a request for any of those items from another worker."]
 	quest.23C68E0B271B9766.quest_desc: ["Sails OR Wool Blocks work depending on your style."]
+	quest.23DD4510F42FC815.quest_desc: [
+		"The Daily Market will offer goods new goods to buy every 20 minutes."
+		""
+		"Check back often from your mining trip to see if anything might suit your needs."
+	]
 	quest.24646557161BC3BA.quest_desc: [
 		"Ever want to control a living city instead of usual villagers that contribute nothing?"
 		""
@@ -299,7 +307,19 @@
 		""
 		"Remember to craft them into their appropriate habitat."
 	]
+	quest.2E53ECB6FD423CFC.quest_desc: [
+		"Welcome to PokeBerries!"
+		""
+		"The Left side berries are acquirable in the world."
+		""
+		"The Right side berries are acquirable by Poke drops or Mixing certain ones together."
+		""
+		"Mulches below can change the soil to promote growth depending on their type."
+		""
+		"Berries just need to place next to each other to possible cross pollinate."
+	]
 	quest.2F64144680EAA4A9.quest_desc: ["A very powerful, rapid-firing weapon."]
+	quest.2FF6D04FB4637710.quest_subtitle: "Harbringer"
 	quest.3113C2250552741D.quest_desc: [
 		"At this point, you might be tired of bringing all of the resources to the Builder and taking them from the Fisher, Forester, Miner, etc. "
 		""
@@ -308,7 +328,6 @@
 		"The Resource Scroll may be helpful!"
 	]
 	quest.316AA21C5C9CA4E3.quest_desc: ["Chain Conveyors can transport packages, SU, and players."]
-	quest.31DAA48669623AA9.title: "Daily Quest"
 	quest.321968E2FA615F72.quest_desc: [
 		"Goo spread when activated."
 		""
@@ -319,6 +338,7 @@
 		""
 		"The Builder must build their own Builder's Hut before building any other huts, and they cannot build or upgrade a hut to a higher level than their own hut level."
 	]
+	quest.3362C0539952F262.title: "Cold Eye"
 	quest.33A2664095DFE8F6.title: "&6Welcome to Cobblemon!"
 	quest.33D7353CE5BDC832.quest_desc: ["Simple yet very useful depending on your needs."]
 	quest.347EC2AD2A5D5145.quest_desc: ["A very unique crystal that is only harvestable after a budding time crystal has absorbed the overworld, nether, end energy."]
@@ -331,7 +351,6 @@
 	quest.35988964AD691369.quest_desc: ["Your average iron drill is not going to be strong enough for such intense hardness of the ender islands."]
 	quest.364F8876F5565FB0.quest_desc: ["Can be found in abundance in plains related biomes."]
 	quest.3797C9657B5313E5.quest_desc: ["The &n&5Mechanical Harvester&r&r will harvest all mature crops it comes in contact with while moving forward"]
-	quest.37A9EF18C6DD9128.title: "Weekly Quests"
 	quest.383C1EB3F79E8CAC.quest_desc: ["Windmill is a great way passively producing power at a cost of space."]
 	quest.388822BB1A6A80DD.quest_desc: ["When you need an advanced filter and larger area teleportation."]
 	quest.39713EC814636495.quest_desc: [
@@ -350,7 +369,6 @@
 		"Trains are going to be useful for the upcoming quests."
 	]
 	quest.3B60BC1F36A5428C.quest_subtitle: "Byproduct"
-	quest.3B67E2AB1B881F01.title: "Weekly Quests"
 	quest.3B72F4DDBEBC9DFC.quest_desc: [
 		"Accept Power from below."
 		""
@@ -383,6 +401,11 @@
 	quest.3F1EC499746F68B9.quest_desc: ["Chutes transport items vertically, similarly to Mechanical Belts."]
 	quest.3F57C2F98AA286C1.quest_desc: ["A mechanical gauntlet that can fire energy blasts and enhance melee attacks."]
 	quest.3F57C2F98AA286C1.quest_subtitle: "*thanos snap*"
+	quest.3F7BED04030E8C1C.quest_desc: [
+		"Basic of ball making is done!"
+		""
+		"Now up to you doing it manually or automatically."
+	]
 	quest.4011A65A2612838B.quest_desc: ["You are able to make bigger trains but you may have collisions with other trains and obstacles."]
 	quest.403856C889C2CB07.quest_desc: ["Welcome to the otherside. Try to stay quiet, something is always listening to your footsteps."]
 	quest.407D72DE9AE18851.quest_desc: ["A catalyst appear once an echo shard has been struck with a lightning strike."]
@@ -428,13 +451,11 @@
 		""
 		"Work across dimensionally as long its loaded."
 	]
-	quest.487FED9E78169F7A.title: "Daily Quests"
 	quest.48DE0013E54EEB58.quest_desc: [
 		"Train Signals are used to control the flow of Trains not driven by players."
 		""
 		"This is very important to control the flow of the tracks."
 	]
-	quest.4A1275AC5685E4D1.title: "Repeating Quests"
 	quest.4A2710801AF35C51.quest_subtitle: "Shiiiny"
 	quest.4A397B8340DC9F6A.quest_desc: ["Jetpacks can't be turned on or off. They'll be active when the jump key is held."]
 	quest.4A916CE728EBA604.quest_desc: [
@@ -449,7 +470,17 @@
 	]
 	quest.4BCAB0F9160D0373.quest_desc: ["Like a potato gun...but with lasers!"]
 	quest.4BDE7D843A8212EC.quest_desc: ["Quite a handful of crafters going to be needed. Only way to craft those massive machines."]
+	quest.4BE300A92F730DE9.quest_desc: ["To get the copper wires, throw a copper sheet into the rolling mill."]
 	quest.4C29D8DCF9F98ECC.quest_desc: ["An advanced version where you can TARGET which entity you choose an entity to transform to."]
+	quest.4D5D3DA903C9B512.quest_desc: [
+		"Comes in variety of material. "
+		""
+		"The higher the material, the more you can ship out at a time."
+		""
+		"Do not try to craft multiple to ship out more, its similar to an enderchest."
+		""
+		"Type &6#sellable in JEI&r to get list of item that are sellable. (Mostly currency, but...some are unique as machine parts)"
+	]
 	quest.4DD9CAFA9F5D5520.quest_desc: [
 		"When 2 particles (from different particle accelerator controllers) collide with each other, they can result in a different item. "
 		""
@@ -478,6 +509,7 @@
 	]
 	quest.50CCE6F10B849E42.quest_desc: ["A powerful heavy weapon that deals massive area damage."]
 	quest.50CCE6F10B849E42.quest_subtitle: "Not to be confused with Voidcore"
+	quest.50F71FFAC0555B79.title: "Guardian Eye"
 	quest.513887107DBD7D4D.quest_desc: [
 		"Welcome to JustDireThings!"
 		""
@@ -489,6 +521,11 @@
 	]
 	quest.513887107DBD7D4D.title: "&cJustDireThings"
 	quest.5157E698C7479897.quest_subtitle: "Netherite Monstrosity"
+	quest.526D350022F24484.quest_desc: [
+		"Dread Lantern will block naturally spawning Cobblemons."
+		""
+		"To keep your area clean of wild Cobblemons from workplace accident and performance, place a few around your base."
+	]
 	quest.529435100E110A78.quest_desc: ["The End is Locked behind 16 Unique Eyes, you'll need 12 of them to open the portal."]
 	quest.529435100E110A78.title: "LET ME IN"
 	quest.52AB8BF30D8415B7.quest_desc: [
@@ -507,6 +544,13 @@
 		""
 		"You might want to keep a&6 stockpile&r for the foreseeable future."
 	]
+	quest.5982B46AA9147498.quest_desc: [
+		"Killing, Fishing, and random treasures reward cards of their appropriate mob."
+		""
+		"Find them to use them in the farm generators."
+		""
+		"&6Note: Wither, Ender Dragon, Evoker, Vindicators are disabled in generators&r"
+	]
 	quest.5982B46AA9147498.title: "Cards Galore"
 	quest.5A0C622A95ED462B.quest_desc: [
 		"A cute little Leviathan, can be tamed with tropical fish."
@@ -524,7 +568,9 @@
 	quest.5B7C6DC443D1C045.quest_desc: ["Looted from jars and chests in the deep dark. Useful for crafting items from this dimension."]
 	quest.5BABE203FD2AA1A7.quest_desc: ["An important building to start research on unlocking other building and perks."]
 	quest.5BE4B3A8115CEFCC.quest_subtitle: "The Basic"
+	quest.5CDDC9EC1E082912.quest_desc: ["Simply apply heat to a mixer with water and leak to get the basic brew going."]
 	quest.5E0397CA95B476CE.quest_desc: ["Like the previous, bigger and better production rate than your average wheel."]
+	quest.5E691BAAE88EC832.quest_desc: ["The Logs and Leaves can be milled into a chance of the seeds."]
 	quest.5F2D01D6A3F64A7E.quest_desc: [
 		"Hold shift for 10 levels at a time."
 		""
@@ -580,6 +626,7 @@
 	]
 	quest.66762144ACECD9D0.quest_desc: ["When a laser break a catalyst, crystals will generate in the laser's inventory."]
 	quest.6737240E65B3689E.quest_desc: ["The Concrete Mixer's Hut will craft all types of concrete powder and place them in flowing water (built in to their hut), then mine the resulting concrete. "]
+	quest.67440CB889F15110.title: "Exotic Eye"
 	quest.67A148386A5365BF.quest_desc: ["Made from Goo Conversion."]
 	quest.67AA456974685193.quest_subtitle: "Byproduct"
 	quest.67B43DC6D87EEC61.quest_desc: ["Use this to combine cataclysm item into even better ones!"]
@@ -693,7 +740,7 @@
 		"- Watch for its spinning attack pattern"
 	]
 	quest.778303C59F94E897.quest_desc: ["While attached to a Contraption, the &n&5Mechanical Plough&r&r will break non-collidable blocks it comes in contact with (ex. snow layers). The Mechanical Plough will also move or launch entities and till soil blocks."]
-	quest.797C87DC025E9684.title: "Daily Quests"
+	quest.78136EACF57AED68.title: "Magical Eye"
 	quest.79BC98CA214E9006.quest_desc: [
 		"Frogs can pick up packages from chains."
 		""
@@ -758,21 +805,8 @@
 	reward.6FB617E5C175981D.title: "Unknown type: extraquests:timer"
 	reward.6FBE4E15F7E5F917.title: "Unknown type: extraquests:key_value"
 	reward.7CEFF7D1B1AF889A.title: "Unknown type: extraquests:timer"
-	reward_table.0214DE9FD6855400.title: "Very Rare"
-	reward_table.0393084A3FC78477.title: "Cobble Quests (Weekly)"
-	reward_table.122F819FE3122CBF.title: "Epic"
-	reward_table.1DAF40DE8333B5F8.title: "Technology Quests (Daily)"
-	reward_table.2196232F9937AFE2.title: "Rare"
-	reward_table.40D3BA563F1FA3C8.title: "Civiliazation Quests (Daily)"
-	reward_table.430C537F2A776879.title: "Common"
-	reward_table.50FA37C9246C39A2.title: "Civilization Quests (Weekly)"
-	reward_table.5BDF85D7E2B9A4B3.title: "Cobble Quest (Daily)"
-	reward_table.61FFB6AAD12CC881.title: "Tera Shards Reward"
-	reward_table.620A394A13E427E7.title: "Technology Quests (Weekly)"
-	reward_table.7B70A33CFFC878C6.title: "Uncommon"
 	task.002FE998EA935616.title: "Energy Producer"
 	task.007A253DCFBC0A94.title: "GOO"
-	task.014E8F09790AB337.title: "Repeating Quests"
 	task.01B64163E1BF1447.title: "Cobblemon"
 	task.0383C975CD3DDF31.title: "Welcome"
 	task.0510C6601ABAC823.title: "The End"
@@ -780,11 +814,11 @@
 	task.067B2F0B5824253A.title: "Tech"
 	task.09073252C17D50AB.title: "&3Oritech!"
 	task.0A9F87C8BB81FA96.title: "Kill the Ender Guardian"
+	task.0C4B295B5C72425B.title: "Selling Bins"
 	task.0C6B9B06EF88BCBC.title: "Getting Started"
-	task.0D6E90A69D155DB8.title: "Weekly Quests"
-	task.0DA44695FAD0DB07.title: "Daily Quests"
 	task.1481A1164D6A89EA.title: "Energy"
 	task.196B7151A6AB659C.title: "Create"
+	task.1A509EC1039F0EC9.title: "Cobblemon"
 	task.1AC4BA90CF2A7BEF.title: "Questline"
 	task.2187CD5AA3AFF3AF.title: "Unknown type: extraquests:key_value"
 	task.2286A896085E53C2.title: "Unknown type: extraquests:key_value"
@@ -792,14 +826,14 @@
 	task.249D62B74360B72B.title: "Power Source"
 	task.2715000AD9F0834C.title: "Hostiles"
 	task.28308ED22FAF3BB5.title: "Machinery"
-	task.2892D6A4C5F838FC.title: "Repeating Quests"
 	task.2B3872ABABC84F82.title: "JustDireThings"
 	task.2BF0EEAC9C5871F5.title: "Unknown type: extraquests:key_value"
 	task.2C96B14804F01CF7.title: "Tree Farm"
+	task.2D36D8B61ACF019B.title: "Basic Completed"
 	task.2D9F7B11571F5533.title: "Tools"
 	task.32B4E786EF59F1C4.title: "Chipped"
 	task.33FC9855EEC9FEFF.title: "Chapter 3"
-	task.357C45E8E64B90D9.title: "Zero"
+	task.36E11648B9B21FAD.title: "Berries!"
 	task.3860C9B90ADC1D4A.title: "Particle Collision"
 	task.3A5B9FF7F5F535E6.title: "Master of Cataclysm"
 	task.3C5F3E7E97B9F6FC.title: "Exploration"
@@ -808,6 +842,7 @@
 	task.42A36F3078615043.title: "Unknown type: extraquests:key_value"
 	task.42A4C0E9A2859E93.title: "Gen 1"
 	task.4334079E90CF1C6C.title: "Going Nuclear"
+	task.4392CACA07B65442.title: "Excess Spawns"
 	task.468EE9F84F0204DE.title: "Minecolonies"
 	task.46E40335AB40FB32.title: "MineColonies"
 	task.470126E1AFA9C7B8.title: "Machinery"
@@ -822,15 +857,18 @@
 	task.61E32AA539AC3CCB.title: "Storage"
 	task.62963A05A4E3B109.title: "Tools"
 	task.631E17796932E10E.title: "Welcome"
+	task.6E367A732B00EC3A.title: "Boss Respawn"
 	task.6E457591CE80FA57.title: "Workshop"
 	task.6FA15DB7F1B8C945.title: "Collison Crafting"
+	task.711FF53510F77012.title: "Farmers"
 	task.71C389203210C509.title: "Unknown type: extraquests:key_value"
 	task.73B0B1CC0E417A13.title: "Unknown type: extraquests:key_value"
 	task.755A64FF52F8036F.title: "Cobblemon"
 	task.765B618AFC9504F5.title: "Cataclysm Challenges"
 	task.76EECE0F14B5405C.title: "Processing"
 	task.7899BEBFD3D1C844.title: "Equipments"
-	task.7A0EF8B2A18FF750.title: "extraquests:key_value"
+	task.7A0EF8B2A18FF750.title: "Unknown type: extraquests:key_value"
+	task.7ADA6942962C7053.title: "Commands"
 	task.7CDA346A923AE04C.title: "Kill the Harbinger"
 	task.7DC861EC7FE502D5.title: "Unknown type: extraquests:key_value"
 }

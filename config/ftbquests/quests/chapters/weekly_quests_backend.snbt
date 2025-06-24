@@ -3,11 +3,8 @@
 	default_quest_shape: ""
 	filename: "weekly_quests_backend"
 	group: "5CE65AE115E26D6E"
-	icon: {
-		id: "cobblemon:timer_ball"
-	}
 	id: "6AA6131DCCB88640"
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -39,14 +36,10 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["412AA65B4723FB6F"]
-			icon: {
-				id: "cobblemon:dawn_stone"
-			}
 			id: "1F3E03E50ED6C242"
 			rewards: [
 				{
@@ -58,13 +51,6 @@
 					exclude_from_claim_all: true
 					id: "623333EAB1AE9B28"
 					type: "random"
-				}
-				{
-					auto: "invisible"
-					id: "7DE49F179B23CA61"
-					quest: ""
-					time: 86400
-					type: "extraquests:timer"
 				}
 			]
 			tasks: [{
@@ -88,8 +74,8 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			hide_dependency_lines: false
@@ -115,13 +101,6 @@
 		{
 			dependencies: ["4A1275AC5685E4D1"]
 			id: "797C87DC025E9684"
-			rewards: [{
-				auto: "invisible"
-				id: "0AE97B38E71CE731"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				id: "2C11933F9BDD3E1D"
 				type: "checkmark"
@@ -130,37 +109,304 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["622868B841517712"]
-			id: "6C556D44AB00C4B3"
-			rewards: [{
-				auto: "invisible"
-				id: "7CEB8F81DD10B96B"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
+			id: "3D03BD1075EC241A"
 			tasks: [{
-				count: 50L
-				id: "2A7DADF990D5877B"
-				item: { count: 1, id: "cobblemon:red_apricorn" }
-				type: "item"
+				id: "4D83E71D721F79A2"
+				type: "custom"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["2E4BC38A71C2F5AA"]
-			icon: {
-				id: "cobblemon:normal_gem"
-			}
-			id: "744F84E20DB8C180"
-			rewards: [{
-				auto: "invisible"
-				id: "2457F3EF807B002C"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
+			id: "30A62D84E5BDEEA1"
+			tasks: [{
+				id: "7D3EE8D56A6977E6"
+				type: "custom"
 			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "122EDA5DFD87939F"
+			tasks: [{
+				id: "37820942045437B0"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "48B1D8E2F1D94F1D"
+			tasks: [{
+				id: "4544256C117E91CF"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "1E9337C0031CD7F1"
+			tasks: [{
+				id: "0582902C381DF581"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "265DA35DA5EDCFA7"
+			tasks: [{
+				id: "1D353D91E264FB88"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "567490786E8C0D04"
+			tasks: [{
+				id: "0262A8FF8BED003E"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "57A8870AA242B92E"
+			tasks: [{
+				id: "5911BDB974B3EF2D"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "123AD6BB4AEAA5E7"
+			tasks: [{
+				id: "0F49C3D0CAAA5392"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "5455482B7FAFF15B"
+			tasks: [{
+				id: "70F557F73B3AC83E"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "562E017451CA8559"
+			tasks: [{
+				id: "3A10750A65909A8F"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "22AEF156E1C9A9EF"
+			tasks: [{
+				id: "50189833DEF2C8E6"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "396BEEA0B3C99A00"
+			tasks: [{
+				id: "5733032240C9D2F9"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "4E3C5061DF07F70E"
+			tasks: [{
+				id: "61771706449F49AA"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "234FA6CE899EAADB"
+			tasks: [{
+				id: "3405F659B6C16497"
+				type: "custom"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "1B0332680C15B8B6"
+			tasks: [{
+				id: "4827374959C41454"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "7DC7C02B58FD8764"
+			tasks: [{
+				id: "5482FC7009018D6D"
+				type: "custom"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "6C556D44AB00C4B3"
+			tasks: [{
+				id: "14AB8AB54C117183"
+				type: "custom"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "3960714EC67DB063"
+			tasks: [{
+				id: "5AADD0650941231C"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "4E38ADD3171B4EC2"
+			tasks: [{
+				id: "20122AF22DF5327C"
+				type: "custom"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "76DD1CFBFC5DF698"
+			tasks: [{
+				id: "32771BB5E7E6D989"
+				type: "custom"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "50219CDBA0C508DC"
+			tasks: [{
+				id: "3AAC950B04E61760"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "0A27AABD9CB14341"
+			tasks: [{
+				id: "69045FA28F4F12B8"
+				type: "custom"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "1A8DF0DDB7BB791D"
+			tasks: [{
+				id: "19A6F38CD0231155"
+				type: "custom"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "22DF341D5B53C775"
+			tasks: [{
+				id: "5AD42617AC23BA06"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "2350D24726627889"
+			tasks: [{
+				id: "24098DA7B1208322"
+				type: "custom"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "046DDA6D1BB393CB"
+			tasks: [{
+				id: "019F1AF922B60642"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "1CC9CDFB310B4700"
+			tasks: [{
+				id: "5E6B18BF3609B229"
+				type: "custom"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "3AE1B228486C05C2"
+			tasks: [{
+				id: "256C67DFB263CB67"
+				type: "custom"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "0E4A762141768507"
+			tasks: [{
+				id: "268221FAC66468BB"
+				type: "custom"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "4BC8026FAD579618"
+			tasks: [{
+				id: "728F3738667D2B42"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "30BCBEFA97C3B01D"
+			tasks: [{
+				id: "34906F8932685361"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "0D686E9805098446"
+			tasks: [{
+				id: "3AF917F97F0CAB92"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "744F84E20DB8C180"
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -182,22 +428,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6EF3670ADE0D48CF"]
-			icon: {
-				id: "cobblemon:fire_gem"
-			}
 			id: "33EB1A3B3E7B5630"
-			rewards: [{
-				auto: "invisible"
-				id: "4E4E07BE37177D21"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -219,22 +454,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -7.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["3CD71D1E40247B54"]
-			icon: {
-				id: "cobblemon:water_gem"
-			}
 			id: "6C2166350CAD4C8F"
-			rewards: [{
-				auto: "invisible"
-				id: "678E4DCB7B494278"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -256,22 +480,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: -7.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["59862D298AA3D381"]
-			icon: {
-				id: "cobblemon:grass_gem"
-			}
 			id: "76FDAFD471C5FDA6"
-			rewards: [{
-				auto: "invisible"
-				id: "21CE42B731036B17"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -293,22 +506,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["69033AD447F4AACB"]
-			icon: {
-				id: "cobblemon:electric_gem"
-			}
 			id: "5A487D905F7C0743"
-			rewards: [{
-				auto: "invisible"
-				id: "304A6F9D77452057"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -330,22 +532,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["078C0E149F1F41DF"]
-			icon: {
-				id: "cobblemon:ice_gem"
-			}
 			id: "08E696C06E353EF4"
-			rewards: [{
-				auto: "invisible"
-				id: "58DAED73E9E7AE96"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -367,22 +558,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -5.0d
-			y: 6.0d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["45F8617214DDF0CB"]
-			icon: {
-				id: "cobblemon:bug_gem"
-			}
 			id: "2EE4D207D2427102"
-			rewards: [{
-				auto: "invisible"
-				id: "6DBC30BB0CFDA41F"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -404,22 +584,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["645F61FE4AA58839"]
-			icon: {
-				id: "cobblemon:fairy_gem"
-			}
 			id: "75918BFF44B59CAB"
-			rewards: [{
-				auto: "invisible"
-				id: "53AACF870B0372F9"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -441,22 +610,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -9.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["7711ED27387269BB"]
-			icon: {
-				id: "cobblemon:psychic_gem"
-			}
 			id: "5834387EFF411A02"
-			rewards: [{
-				auto: "invisible"
-				id: "23996C8FDAA80512"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -478,22 +636,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: -8.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["35970A4BA98385BB"]
-			icon: {
-				id: "cobblemon:steel_gem"
-			}
 			id: "7F27C9F8A4A10854"
-			rewards: [{
-				auto: "invisible"
-				id: "1B7817E8DC4241B1"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -515,22 +662,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["09251A67F01EE435"]
-			icon: {
-				id: "cobblemon:dark_gem"
-			}
 			id: "2140C2741C6C94F8"
-			rewards: [{
-				auto: "invisible"
-				id: "4E321A9C2E52456E"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -552,22 +688,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1FBF187C0BE45A7A"]
-			icon: {
-				id: "cobblemon:flying_gem"
-			}
 			id: "4B41CA052FC745F7"
-			rewards: [{
-				auto: "invisible"
-				id: "163778F749DF477B"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -589,22 +714,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["22E89625C95B06C2"]
-			icon: {
-				id: "cobblemon:ground_gem"
-			}
 			id: "095ED084D69911B6"
-			rewards: [{
-				auto: "invisible"
-				id: "0A2BA0DDACC67AAC"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -626,22 +740,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["779AD365E740E6F0"]
-			icon: {
-				id: "cobblemon:dragon_gem"
-			}
 			id: "6B004A189930C06A"
-			rewards: [{
-				auto: "invisible"
-				id: "482F7886CDF8E081"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -663,22 +766,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -9.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["5D2DB233250C65AE"]
-			icon: {
-				id: "cobblemon:ghost_gem"
-			}
 			id: "2C54E7F3845AF558"
-			rewards: [{
-				auto: "invisible"
-				id: "13804E2CD7F99864"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -700,22 +792,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -9.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["72CFF65AE81BECC9"]
-			icon: {
-				id: "cobblemon:poison_gem"
-			}
 			id: "382E894B261F48B0"
-			rewards: [{
-				auto: "invisible"
-				id: "591DD193BE1DED43"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -737,22 +818,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["572821A0A2FACBA9"]
-			icon: {
-				id: "cobblemon:fighting_gem"
-			}
 			id: "623C700E7C8F367C"
-			rewards: [{
-				auto: "invisible"
-				id: "38EBFDC94C1600B7"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -774,22 +844,11 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: -8.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["2FBF8D7AE95398C3"]
-			icon: {
-				id: "cobblemon:rock_gem"
-			}
 			id: "77A01CB1BCC5AE3F"
-			rewards: [{
-				auto: "invisible"
-				id: "282E01F191F8CD08"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
@@ -811,189 +870,17 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -9.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6C80CC86AE91B501"]
-			icon: {
-				id: "cobblemon:poke_rod"
-			}
-			id: "10547373CCDC3193"
-			rewards: [{
-				auto: "invisible"
-				id: "133C597DC5C8F2DE"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
+			id: "1D9A87F3AA400BBF"
 			tasks: [{
-				action: "reel"
-				amount: 24L
-				biome: ""
-				dex_progress: "seen"
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "587442A4BFFE7E3D"
-				max_level: 0
-				min_level: 0
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: ""
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
+				id: "1F23B74FCF24B585"
+				type: "custom"
 			}]
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6C66568DAEBBC138"]
-			id: "78B7A0F6BB74224A"
-			rewards: [{
-				auto: "invisible"
-				id: "488ABE7AA90CB89A"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
-			tasks: [{
-				count: 50L
-				id: "7A03C5191EBA1705"
-				item: { count: 1, id: "cobblemon:yellow_apricorn" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["11EDF313320A44CB"]
-			id: "48B52E525772740A"
-			rewards: [{
-				auto: "invisible"
-				id: "16AB48621BCA6134"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
-			tasks: [{
-				count: 50L
-				id: "6B1ADE096E53645F"
-				item: { count: 1, id: "cobblemon:green_apricorn" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["44E927E4868325F5"]
-			id: "172518D14B6D382E"
-			rewards: [{
-				auto: "invisible"
-				id: "1D0314D325C439B9"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
-			tasks: [{
-				count: 50L
-				id: "42FADD96292F1B7E"
-				item: { count: 1, id: "cobblemon:blue_apricorn" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["008C01BE66E645F6"]
-			id: "1CCD71EEB4BBF019"
-			rewards: [{
-				auto: "invisible"
-				id: "5434CD69FA3A8744"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
-			tasks: [{
-				count: 50L
-				id: "76F57719B3DE0225"
-				item: { count: 1, id: "cobblemon:black_apricorn" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["055BAD38DB1FD52D"]
-			id: "6D5DB42BB95764C5"
-			rewards: [{
-				auto: "invisible"
-				id: "684CFDDFE646ECA4"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
-			tasks: [{
-				count: 50L
-				id: "45CD8BFD162007BD"
-				item: { count: 1, id: "cobblemon:pink_apricorn" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["27E3C6328C173EE8"]
-			id: "71D6DF60F4FBB22E"
-			rewards: [{
-				auto: "invisible"
-				id: "302DD7302EC24873"
-				quest: ""
-				time: 86400
-				type: "extraquests:timer"
-			}]
-			tasks: [{
-				count: 50L
-				id: "53C17315B29EFA26"
-				item: { count: 1, id: "cobblemon:white_apricorn" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["13C6A9C09EA408ED"]
-			icon: {
-				id: "cobblemon:pokedex_red"
-			}
-			id: "2F8680F980F242F8"
-			tasks: [{
-				action: "scan"
-				amount: 10L
-				biome: ""
-				dex_progress: "seen"
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "6B7E32BAD9259A1A"
-				max_level: 0
-				min_level: 0
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: ""
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: -3.0d
-			y: 6.0d
+			x: 4.0d
+			y: 1.5d
 		}
 	]
 }

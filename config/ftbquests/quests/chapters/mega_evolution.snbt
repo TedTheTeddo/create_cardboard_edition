@@ -74,7 +74,7 @@
 			y: 10.5d
 		}
 	]
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -659,7 +659,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["5624485F1CCEF934"]
 			id: "6E83959BFCA6B4EB"
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/mega_evolve"
