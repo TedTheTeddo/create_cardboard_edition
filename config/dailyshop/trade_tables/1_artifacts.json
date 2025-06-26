@@ -1,0 +1,62 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "kubejs:energite_coins",
+    "count": {
+      "type": "constant",
+      "count": 2
+    }
+  },
+  "output": [
+	{"item": "artifacts:umbrella", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:eternal_steak", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:plastic_drinking_hat", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:novelty_drinking_hat", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:snorkel", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:night_vision_goggles", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:villager_hat", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:superstitious_hat", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:cowboy_hat", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:anglers_hat", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:lucky_scarf", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:scarf_of_invisibility", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:cross_necklace", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:panic_necklace", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:shock_pendant", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:flame_pendant", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:thorn_pendant", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:charm_of_sinking", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:charm_of_shrinking", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:cloud_in_a_bottle", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:obsidian_skull", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:antidote_vessel", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:universal_attractor", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:crystal_heart", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:helium_flamingo", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:chorus_totem", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:warp_drive", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:digging_claws", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:feral_claws", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:power_glove", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:fire_gauntlet", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:pocket_piston", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:vampiric_glove", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:golden_hook", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:onion_ring", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:pickaxe_heater", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:withered_bracelet", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:aqua_dashers", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:bunny_hoppers", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:kitty_slippers", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:running_shoes", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:snowshoes", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:steadfast_spikes", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:flippers", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:rooted_boots", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:strider_shoes", "count": {"type": "constant", "count": 1}, "weight": 1.0},
+	{"item": "artifacts:whoopee_cushion", "count": {"type": "constant", "count": 1}, "weight": 1.0}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+"input1": 
+{ "filter": "kubejs:emerald_coins", "count": { "type": "constant", "count": 4 } },
+"output": [
+  { "item": "cobblemon:red_mint_seeds", "count": { "type": "constant", "count": 4 }, "weight": 5.0 },
+  { "item": "cobblemon:red_mint_seeds", "count": { "type": "constant", "count": 4 }, "weight": 5.0 },
+  { "item": "cobblemon:red_mint_seeds", "count": { "type": "constant", "count": 4 }, "weight": 5.0 },
+  { "item": "cobblemon:red_mint_seeds", "count": { "type": "constant", "count": 4 }, "weight": 5.0 },
+  { "item": "cobblemon:red_mint_seeds", "count": { "type": "constant", "count": 4 }, "weight": 5.0 },
+  { "item": "cobblemon:red_mint_seeds", "count": { "type": "constant", "count": 4 }, "weight": 5.0 },
+  { "item": "cobblemon:vivichoke_seeds", "count": { "type": "constant", "count": 1 }, "weight": 1.0 }
+]
+}

@@ -103,15 +103,15 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["17A32AD88E8A1E59"]
+			dependencies: ["298B8C9C69EF561D"]
 			id: "4D5D3DA903C9B512"
 			tasks: [{
 				id: "0B81A9B1607C8C63"
 				item: { components: { "sellingbin:bin_material": "wood", "sellingbin:bin_mode": "player_bound" }, count: 1, id: "sellingbin:selling_bin" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["298B8C9C69EF561D"]
@@ -124,7 +124,40 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["298B8C9C69EF561D"]
+			id: "23DD4510F42FC815"
+			tasks: [{
+				id: "227E223B496BA8B2"
+				item: { count: 1, id: "dailyshop:daily_shop" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["298B8C9C69EF561D"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "526D350022F24484"
+			rewards: [{
+				count: 4
+				id: "0B6EE1A8671FC4C5"
+				item: {
+					count: 1
+					id: "torchmaster:dreadlamp"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4392CACA07B65442"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.5d
 		}
 	]
 }

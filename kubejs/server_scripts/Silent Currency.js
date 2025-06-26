@@ -2,43 +2,61 @@ ServerEvents.recipes(event => {
 
 //Compacting Coins Recipes
 
-//Copper --> Gold
+//Energite Coins --> Netherite Coins
 event.custom({
   "type": "create:compacting",
   "ingredients": [
-        {"item":"kubejs:copper_coins"},
-        {"item":"kubejs:copper_coins"},
-        {"item":"kubejs:copper_coins"},
-        {"item":"kubejs:copper_coins"},
-        {"item":"kubejs:copper_coins"},
-        {"item":"kubejs:copper_coins"},
-        {"item":"kubejs:copper_coins"},
-        {"item":"kubejs:copper_coins"}
+        {"item":"kubejs:energite_coins"},
+        {"item":"kubejs:energite_coins"},
+        {"item":"kubejs:energite_coins"},
+        {"item":"kubejs:energite_coins"},
+        {"item":"kubejs:energite_coins"},
+        {"item":"kubejs:energite_coins"},
+        {"item":"kubejs:energite_coins"},
+        {"item":"kubejs:energite_coins"}
 
   ],
-  "results": [{"id": "kubejs:silver_coins"}]
+  "results": [{"id": "kubejs:netherite_coins"}]
 
 }) 
 
-//Silver --> Gold
+//Diamond Coins --> Energite Coins
 event.custom({
   "type": "create:compacting",
   "ingredients": [
-        {"item":"kubejs:silver_coins"},
-        {"item":"kubejs:silver_coins"},
-        {"item":"kubejs:silver_coins"},
-        {"item":"kubejs:silver_coins"},
-        {"item":"kubejs:silver_coins"},
-        {"item":"kubejs:silver_coins"},
-        {"item":"kubejs:silver_coins"},
-        {"item":"kubejs:silver_coins"}
+        {"item":"kubejs:diamond_coins"},
+        {"item":"kubejs:diamond_coins"},
+        {"item":"kubejs:diamond_coins"},
+        {"item":"kubejs:diamond_coins"},
+        {"item":"kubejs:diamond_coins"},
+        {"item":"kubejs:diamond_coins"},
+        {"item":"kubejs:diamond_coins"},
+        {"item":"kubejs:diamond_coins"}
 
   ],
-  "results": [{"id": "kubejs:gold_coins"}]
+  "results": [{"id": "kubejs:energite_coins"}]
 
 }) 
 
-//Gold --> Iridium
+//Emerald Coins --> Diamond Coins
+event.custom({
+  "type": "create:compacting",
+  "ingredients": [
+        {"item":"kubejs:emerald_coins"},
+        {"item":"kubejs:emerald_coins"},
+        {"item":"kubejs:emerald_coins"},
+        {"item":"kubejs:emerald_coins"},
+        {"item":"kubejs:emerald_coins"},
+        {"item":"kubejs:emerald_coins"},
+        {"item":"kubejs:emerald_coins"},
+        {"item":"kubejs:emerald_coins"}
+
+  ],
+  "results": [{"id": "kubejs:diamond_coins"}]
+
+}) 
+
+//Gold Coins --> Emerald Coins
 event.custom({
   "type": "create:compacting",
   "ingredients": [
@@ -52,33 +70,49 @@ event.custom({
         {"item":"kubejs:gold_coins"}
 
   ],
-  "results": [{"id": "kubejs:iridium_coins"}]
+  "results": [{"id": "kubejs:emerald_coins"}]
 
 })  
 
 //Stonecutter Coins Recipes
 
-//Iridum --> Gold
+//Emeralds --> Emerald Coins
 event.custom({
   "type": "create:cutting",
-  "ingredients": [{"item": "kubejs:iridium_coins"}],
-  "processing_time": 200,
-  "results": [{"count": 8, "id": "kubejs:gold_coins"}]        
+  "ingredients": [{"item": "minecraft:emerald"}],
+  "processing_time": 20,
+  "results": [{"count": 1, "id": "kubejs:emerald_coins"}]        
 })
 
-//Gold --> Silver
+//Netherite Coin--> Energite Coin
 event.custom({
   "type": "create:cutting",
-  "ingredients": [{"item": "kubejs:gold_coins"}],
-  "processing_time": 200,
-  "results": [{"count": 8, "id": "kubejs:silver_coins"}]        
+  "ingredients": [{"item": "kubejs:netherite_coins"}],
+  "processing_time": 20,
+  "results": [{"count": 8, "id": "kubejs:energite_coins"}]        
 })
-//Silver --> Copper
+
+//Energite Coin --> Diamond Coin
 event.custom({
   "type": "create:cutting",
-  "ingredients": [{"item": "kubejs:silver_coins"}],
-  "processing_time": 200,
-  "results": [{"count": 8, "id": "kubejs:copper_coins"}]        
+  "ingredients": [{"item": "kubejs:energite_coins"}],
+  "processing_time": 20,
+  "results": [{"count": 8, "id": "kubejs:diamond_coins"}]        
+})
+//Diamond Coin --> Emerald Coin
+event.custom({
+  "type": "create:cutting",
+  "ingredients": [{"item": "kubejs:diamond_coins"}],
+  "processing_time": 20,
+  "results": [{"count": 8, "id": "kubejs:emerald_coins"}]        
+})
+
+//Emerald Coin --> Gold Coin
+event.custom({
+  "type": "create:cutting",
+  "ingredients": [{"item": "kubejs:emerald_coins"}],
+  "processing_time": 20,
+  "results": [{"count": 8, "id": "kubejs:gold_coins"}]        
 })
 
 //event.stonecutting('kubejs:shop', 'minecraft:paper')
