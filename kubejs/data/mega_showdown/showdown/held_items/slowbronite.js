@@ -1,0 +1,15 @@
+{
+    name: "Slowbronite",
+    spritenum: 620,
+    megaStone: "Slowbro-Mega",
+    megaEvolves: ["Slowbro", "Slowbro-Galar"],
+    itemUser: ["Slowbro"],
+    onTakeItem(item, source) {
+      if (item.megaEvolves === source.baseSpecies.baseSpecies)
+        return false;
+      return true;
+    },
+    num: 760,
+    gen: 6,
+    isNonstandard: "Past"
+}

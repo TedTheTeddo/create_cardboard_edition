@@ -1,0 +1,15 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+"input1": 
+{ "filter": "minecraft:emerald_block", "count": { "type": "constant", "count": 16 } },
+"output": [
+  { "item": "man_of_many_planes:scarlet_biplane", "count": { "type": "constant", "count": 1 }, "weight": 0.2 },
+  { "item": "man_of_many_planes:economy_plane", "count": { "type": "constant", "count": 1 }, "weight": 0.6 },
+  { "item": "immersive_aircraft:airship", "count": { "type": "constant", "count": 1 }, "weight": 0.5 },
+  { "item": "immersive_aircraft:quadrocopter", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "immersive_aircraft:biplane", "count": { "type": "constant", "count": 1 }, "weight": 0.8 }
+]
+}

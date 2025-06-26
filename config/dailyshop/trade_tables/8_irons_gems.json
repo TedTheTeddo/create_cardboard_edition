@@ -1,0 +1,27 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+"input1": 
+{ "filter": "minecraft:emerald_block", "count": { "type": "constant", "count": 16 } },
+"output": [
+  { "item": "irons_jewelry:ruby", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:sapphire", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:topaz", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:moonstone", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:peridot", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:onyx", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:garnet", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_amulet_of_protection", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_bane_ring", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_barbed_band", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_ring_of_haggling", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_improved_gemset_ring", "count": { "type": "constant", "count": 1 }, "weight": 0.5 },
+  { "item": "kubejs:irons_pigling_signet_ring", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_sharpshooter_loop", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_stalwart_ring", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "kubejs:irons_superior_gemset_ring", "count": { "type": "constant", "count": 1 }, "weight": 0.0 },
+  { "item": "kubejs:irons_tearstone_ring", "count": { "type": "constant", "count": 1 }, "weight": 1.0 }
+]
+}

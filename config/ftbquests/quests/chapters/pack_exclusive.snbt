@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pack_exclusive"
+	group: "4BD64CAE7CBBD502"
+	id: "021B12C20157F9CE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "39D9B0838AA2EFAC"
+			tasks: [{
+				id: "0C4B295B5C72425B"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "01C13E454B01023B"
+			tasks: [{
+				id: "6E367A732B00EC3A"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+	]
+}

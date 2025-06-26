@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dailyweekly_quests_13D0E8604C82E3B8"
+	group: "4467009C6B99DE8B"
+	icon: {
+		id: "minecraft:clock"
+	}
+	id: "13D0E8604C82E3B8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6DE17870D3BE8F99"
+			tasks: [{
+				id: "014E8F09790AB337"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DE17870D3BE8F99"]
+			id: "295FA104F6156B1C"
+			rewards: [{
+				auto: "invisible"
+				id: "729F0EFFB6FA35AA"
+				quest: ""
+				time: 86400
+				type: "extraquests:timer"
+			}]
+			tasks: [{
+				id: "0DA44695FAD0DB07"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DE17870D3BE8F99"]
+			id: "238F0DEA41EE1C25"
+			tasks: [{
+				id: "0D6E90A69D155DB8"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BC16DFC83D51CA6"]
+			id: "46A9E41386F85CFE"
+			tasks: [{
+				count: 8L
+				id: "5000809C5037EEE9"
+				item: { count: 8, id: "minecolonies:large_milk_bottle" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44B829FD17CD6C3A"]
+			id: "1824060C9D2A3D06"
+			tasks: [{
+				count: 4L
+				id: "5CD5E2A9D6198AF4"
+				item: { count: 4, id: "minecolonies:ancienttome" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37D644DE76206440"]
+			id: "1F7BC8F5E97E74EC"
+			tasks: [{
+				count: 8L
+				id: "59654700D9F8E0A5"
+				item: { count: 1, id: "minecolonies:durum" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E4126653F98CE60"]
+			id: "0B457CAB32623B38"
+			tasks: [{
+				count: 8L
+				id: "4694875D380AE6E7"
+				item: { count: 8, id: "minecolonies:eggplant" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B4F8D402D3C3188"]
+			id: "3846C73EB092FC17"
+			tasks: [{
+				count: 8L
+				id: "558C3BC5AA40F9A9"
+				item: { count: 8, id: "minecolonies:rice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["697C0EE827797FD6"]
+			id: "166BC9F44FB927DE"
+			tasks: [{
+				count: 8L
+				id: "006A0951213DF13E"
+				item: { count: 8, id: "minecolonies:garlic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C0AA442B9BDF521"]
+			id: "5811D79D52AC5E0D"
+			tasks: [{
+				count: 8L
+				id: "1ACC63BF627AF2AD"
+				item: { count: 8, id: "minecolonies:bell_pepper" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+	]
+}

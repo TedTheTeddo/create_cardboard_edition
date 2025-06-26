@@ -7,6 +7,13 @@ RecipeViewerEvents.removeEntries('item', event => {
 	event.remove('minecraft:painting')
 	event.remove('minecraft:suspicious_stew')
 	event.remove('minecraft:goat_horn')
+
+	event.remove('oritech:electrum_ingot')        //Remove from JEI
+    event.remove('oritech:electrum_block')        //Remove from JEI
+    event.remove('oritech:basic_generator_block') //Remove from JEI
+    event.remove('oritech:fluid_pipe')            //Remove from JEI
+    event.remove('oritech:framed_fluid_pipe')     //Remove from JEI
+    event.remove('oritech:fluid_pipe_duct_block') //Remove from JEI
 })
 
 RecipeViewerEvents.addEntries('item', event => {
