@@ -1,11 +1,12 @@
 {
   "roll": {
     "type": "constant",
-    "count": 10
+    "count": 20
   },
   "pool": [
     {"value": "1_artifacts", "weight": 0.1},
     {"value": "2_create", "weight": 1.0},
+    {"value": "TierTwo_create", "weight": 0.8},
     {"value": "3_ingots", "weight": 1.0},
     {"value": "4_pokeballs", "weight": 1.5},
     {"value": "5_saplings", "weight": 1.0},

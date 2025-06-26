@@ -1,0 +1,17 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+"input1": 
+{ "filter": "kubejs:diamond_coins", "count": { "type": "constant", "count": 4 } },
+"output": [
+  { "item": "irons_jewelry:ruby", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:sapphire", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:topaz", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:moonstone", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:peridot", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:onyx", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
+  { "item": "irons_jewelry:garnet", "count": { "type": "constant", "count": 1 }, "weight": 1.0 }
+]
+}

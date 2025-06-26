@@ -4,10 +4,10 @@
     "count": 1
   },
   "input1": {
-    "filter": "minecraft:emerald_block",
+    "filter": "kubejs:energite_coins",
     "count": {
       "type": "constant",
-      "count": 16
+      "count": 2
     }
   },
   "output": [

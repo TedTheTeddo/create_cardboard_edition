@@ -12,10 +12,11 @@ StartupEvents.registry('item', event => {
     event.create('blank_soul_crystal').maxStackSize(64).displayName("Blank Soul Crystal");
     event.create('blank_mask').maxStackSize(1).displayName("Blank Mask");
     event.create('eternal_prison').maxStackSize(1).displayName("Eternal Prison");
-    event.create('copper_coins').maxStackSize(64).displayName("Copper Coins");
-    event.create('silver_coins').maxStackSize(64).displayName("Silver Coins");
-    event.create('gold_coins').maxStackSize(64).displayName("Gold Coins");
-    event.create('iridium_coins').maxStackSize(64).displayName("Iridium Coins");    
+    event.create('gold_coins').maxStackSize(64).displayName("§6Gold Coins");
+    event.create('emerald_coins').maxStackSize(64).displayName("§aEmerald Coins");
+    event.create('diamond_coins').maxStackSize(64).displayName("§bDiamond Coins");
+    event.create('energite_coins').maxStackSize(64).displayName("§dEnergite Coins");    
+    event.create('netherite_coins').maxStackSize(64).displayName("§4Netherite Coins");    
 
     //Irons
     event.create('irons_amulet_of_protection').maxStackSize(64).displayName("Amulet of Protection Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
@@ -30,3 +31,5 @@ StartupEvents.registry('item', event => {
     event.create('irons_tearstone_ring').maxStackSize(64).displayName("Tearstone Ring Recipe").rarity("RARE").tooltip("Uncraft me").texture('kubejs:item/iron_recipe_scroll');
 
 });
+
+  
