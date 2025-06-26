@@ -15,7 +15,7 @@ StartupEvents.registry('item', event => {
     event.create('gold_coins').maxStackSize(64).displayName("§6Gold Coins");
     event.create('emerald_coins').maxStackSize(64).displayName("§aEmerald Coins");
     event.create('diamond_coins').maxStackSize(64).displayName("§bDiamond Coins");
-    event.create('energite_coins').maxStackSize(64).displayName("§dEnergite Coins");    
+    event.create('energite_coins').maxStackSize(64).displayName("§dEnergite Coins");
     event.create('netherite_coins').maxStackSize(64).displayName("§4Netherite Coins");    
 
     //Irons

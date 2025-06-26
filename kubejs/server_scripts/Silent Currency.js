@@ -112,7 +112,7 @@ event.custom({
   "type": "create:cutting",
   "ingredients": [{"item": "kubejs:emerald_coins"}],
   "processing_time": 20,
-  "results": [{"count": 8, "id": "kubejs:gold_coins"}]        
+  "results": [{"count": 8, "id": "kubejs:gold_coins"}]
 })
 
 //event.stonecutting('kubejs:shop', 'minecraft:paper')
