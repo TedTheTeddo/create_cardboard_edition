@@ -7,7 +7,7 @@
     "filter": "kubejs:energite_coins",
     "count": {
       "type": "constant",
-      "count": 2
+      "count": 4 
     }
   },
   "output": [

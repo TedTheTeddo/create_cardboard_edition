@@ -11,16 +11,17 @@
     }
   },
   "output": [
-{ "item": "cobblemon:poke_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 },
-{ "item": "cobblemon:azure_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 },
-{ "item": "cobblemon:citrine_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 },
+{ "item": "cobblemon:poke_ball", "count": { "type": "constant", "count": 8 }, "weight": 2.0 },
+{ "item": "cobblemon:azure_ball", "count": { "type": "constant", "count": 8 }, "weight": 1.0 },
+{ "item": "cobblemon:beast_ball", "count": { "type": "constant", "count": 2 }, "weight": 0.4 },
+{ "item": "cobblemon:citrine_ball", "count": { "type": "constant", "count": 8 }, "weight": 1.0 },
 { "item": "cobblemon:dive_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
 { "item": "cobblemon:dream_ball", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
 { "item": "cobblemon:dusk_ball", "count": { "type": "constant", "count": 2 }, "weight": 2.0 },
 { "item": "cobblemon:fast_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
 { "item": "cobblemon:friend_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
 { "item": "cobblemon:great_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
-{ "item": "cobblemon:heal_ball", "count": { "type": "constant", "count": 6 }, "weight": 4.0 },
+{ "item": "cobblemon:heal_ball", "count": { "type": "constant", "count": 4 }, "weight": 4.0 },
 { "item": "cobblemon:heavy_ball", "count": { "type": "constant", "count": 4 }, "weight": 1.0 },
 { "item": "cobblemon:level_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
 { "item": "cobblemon:lure_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
@@ -31,15 +32,15 @@
 { "item": "cobblemon:net_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
 { "item": "cobblemon:park_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
 { "item": "cobblemon:poke_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 },
-{ "item": "cobblemon:premier_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 },
+{ "item": "cobblemon:premier_ball", "count": { "type": "constant", "count": 8 }, "weight": 1.0 },
 { "item": "cobblemon:quick_ball", "count": { "type": "constant", "count": 2 }, "weight": 2.0 },
 { "item": "cobblemon:repeat_ball", "count": { "type": "constant", "count": 2 }, "weight": 2.0 },
-{ "item": "cobblemon:roseate_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 },
-{ "item": "cobblemon:safari_ball", "count": { "type": "constant", "count": 6 }, "weight": 4.0 },
-{ "item": "cobblemon:slate_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 },
+{ "item": "cobblemon:roseate_ball", "count": { "type": "constant", "count": 8 }, "weight": 1.0 },
+{ "item": "cobblemon:safari_ball", "count": { "type": "constant", "count": 4 }, "weight": 4.0 },
+{ "item": "cobblemon:slate_ball", "count": { "type": "constant", "count": 8 }, "weight": 1.0 },
 { "item": "cobblemon:sport_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
-{ "item": "cobblemon:timer_ball", "count": { "type": "constant", "count": 4 }, "weight": 3.0 },
+{ "item": "cobblemon:timer_ball", "count": { "type": "constant", "count": 2 }, "weight": 3.0 },
 { "item": "cobblemon:ultra_ball", "count": { "type": "constant", "count": 2 }, "weight": 1.0 },
-{ "item": "cobblemon:verdant_ball", "count": { "type": "constant", "count": 8 }, "weight": 4.0 }
+{ "item": "cobblemon:verdant_ball", "count": { "type": "constant", "count": 8 }, "weight": 1.0 }
   ]
 }
