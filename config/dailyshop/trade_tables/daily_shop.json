@@ -5,17 +5,17 @@
   },
   "pool": [
     {"value": "1_artifacts", "weight": 0.1},
-    {"value": "2_1_create", "weight": 1.0},
-    {"value": "2_2_create", "weight": 1.0},
+    {"value": "2_1_create", "weight": 1.2},
+    {"value": "2_2_create", "weight": 0.8},
     {"value": "3_ingots", "weight": 1.0},
     {"value": "4_pokeballs", "weight": 1.5},
     {"value": "5_saplings", "weight": 1.0},
     {"value": "6_1_seeds", "weight": 1.0},
     {"value": "6_2_seeds", "weight": 1.0},
-    {"value": "7_immersive_aircrafts", "weight": 0.2},
+    {"value": "7_immersive_aircrafts", "weight": 0.4},
     {"value": "8_1_irons_gems", "weight": 0.5},
     {"value": "8_2_irons_gems_scrolls", "weight": 0.5},
-    {"value": "8_3_irons_gems_scrolls_superior", "weight": 0.1},
-    {"value": "9_mega", "weight": 0.2}
+    {"value": "8_3_irons_gems_scrolls_superior", "weight": 0.2},
+    {"value": "9_mega", "weight": 0.3}
   ]
 }

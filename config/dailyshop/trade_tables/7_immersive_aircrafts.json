@@ -4,7 +4,7 @@
     "count": 1
   },
 "input1": 
-{ "filter": "minecraft:emerald_block", "count": { "type": "constant", "count": 16 } },
+{ "filter": "kubejs:energite_coins", "count": { "type": "constant", "count": 2 } },
 "output": [
   { "item": "man_of_many_planes:scarlet_biplane", "count": { "type": "constant", "count": 1 }, "weight": 0.2 },
   { "item": "man_of_many_planes:economy_plane", "count": { "type": "constant", "count": 1 }, "weight": 0.6 },
