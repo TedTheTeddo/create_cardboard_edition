@@ -1,10 +1,22 @@
 // priority: 0
 
+ServerEvents.tags('entity_type', event => {
+  event.add('justdirethings:creature_catcher_deny', '/cataclysm/')
+  event.add('justdirethings:no_ai_deny', '/cataclysm/')
+  event.add('justdirethings:polymorphic_target_deny', '/cataclysm/')
+
+  event.add('justdirethings:creature_catcher_deny', '/cobblemon/')
+  event.add('justdirethings:no_ai_deny', '/cobblemon/')
+  event.add('justdirethings:polymorphic_target_deny', '/cobblemon/')
+})
+
 ServerEvents.tags('fluid', event => {
   event.add('c:refined_t2_fluid_source', 'justdirethings:refined_t2_fluid_source')
 })
 
 ServerEvents.tags('item', event => {
+    event.add('cardboardedition:tera_shards', '/^mega_showdown:.*_shard$/')
+
     event.add('cardboardedition:sellable', 'cobblemon:azure_ball');
     event.add('cardboardedition:sellable', 'cobblemon:beast_ball');
     event.add('cardboardedition:sellable', 'cobblemon:cherish_ball');

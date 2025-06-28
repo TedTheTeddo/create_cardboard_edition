@@ -76,6 +76,8 @@ ServerEvents.recipes(event => {
     event.remove({output: 'justdirethings:blockswappert2'})
     event.remove({output: 'justdirethings:portalgun_v2'})
     event.remove({output: 'justdirethings:time_wand'})
+    
+    event.remove({output: 'justdirethings:paradoxmachine'})
 
 //==========================================================================================================
     event.remove({output: 'create:empty_blaze_burner'})

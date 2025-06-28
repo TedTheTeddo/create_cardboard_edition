@@ -5,8 +5,8 @@
       "inventoryRows": 1
     },
     "REDSTONE": {
-      "updateDelayTicks": 6000,
-      "inventoryRows": 1
+      "updateDelayTicks": 12000,
+      "inventoryRows": 2
     },
     "IRON": {
       "updateDelayTicks": 12000,

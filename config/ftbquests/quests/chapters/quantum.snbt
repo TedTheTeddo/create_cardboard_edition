@@ -563,5 +563,18 @@
 			x: -4.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["5AB94413B40B81FE"]
+			id: "1B78DC1E761D9090"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "0F96FA765A899ACC"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
 	]
 }
