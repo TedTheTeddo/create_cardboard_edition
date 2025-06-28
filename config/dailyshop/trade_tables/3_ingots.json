@@ -4,7 +4,7 @@
     "count": 1
   },
   "input1": {
-    "filter": "minecraft:emerald_coins",
+    "filter": "kubejs:emerald_coins",
     "count": {
       "type": "constant",
       "count": 2

@@ -80,7 +80,7 @@ event.custom({
 event.custom({
   "type": "create:cutting",
   "ingredients": [{"item": "minecraft:emerald"}],
-  "processing_time": 20,
+  "processing_time": 200,
   "results": [{"count": 1, "id": "kubejs:emerald_coins"}]        
 })
 
@@ -88,7 +88,7 @@ event.custom({
 event.custom({
   "type": "create:cutting",
   "ingredients": [{"item": "kubejs:netherite_coins"}],
-  "processing_time": 20,
+  "processing_time": 200,
   "results": [{"count": 8, "id": "kubejs:energite_coins"}]        
 })
 
@@ -96,14 +96,14 @@ event.custom({
 event.custom({
   "type": "create:cutting",
   "ingredients": [{"item": "kubejs:energite_coins"}],
-  "processing_time": 20,
+  "processing_time": 200,
   "results": [{"count": 8, "id": "kubejs:diamond_coins"}]        
 })
 //Diamond Coin --> Emerald Coin
 event.custom({
   "type": "create:cutting",
   "ingredients": [{"item": "kubejs:diamond_coins"}],
-  "processing_time": 20,
+  "processing_time": 200,
   "results": [{"count": 8, "id": "kubejs:emerald_coins"}]        
 })
 
@@ -111,7 +111,7 @@ event.custom({
 event.custom({
   "type": "create:cutting",
   "ingredients": [{"item": "kubejs:emerald_coins"}],
-  "processing_time": 20,
+  "processing_time": 200,
   "results": [{"count": 8, "id": "kubejs:gold_coins"}]        
 })
 

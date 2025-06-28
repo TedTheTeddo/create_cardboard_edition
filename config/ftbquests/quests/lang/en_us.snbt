@@ -10,10 +10,10 @@
 	chapter.379E1CD18C4C6557.title: "&3PokeFactory"
 	chapter.42A7E0B75D20A4BB.title: "&3Cataclysm"
 	chapter.44935D37560B928F.title: "&3The-End"
-	chapter.46A307DA4730C8EC.title: "Megastone"
+	chapter.46A307DA4730C8EC.title: "&3Megastone"
 	chapter.4D7171D75FA38270.title: "&3Immersive Airplanes"
 	chapter.578AD2CB77E02E13.title: "&31. Andesite Age"
-	chapter.664D048078B1276E.title: "PokeMechanics"
+	chapter.664D048078B1276E.title: "&3PokeMechanics"
 	chapter.6E52D880D9C13746.title: "&3Deeper Darker&r"
 	chapter.717233C4FC064A42.title: "&3Oritech"
 	chapter.71D642419DA81484.title: "&3Just Dire Things"
@@ -38,6 +38,14 @@
 		""
 		"The time crystal bud must suck the overworld essence, nether essence, and end essence."
 	]
+	quest.057453963703DE1A.quest_desc: [
+		"Located deep in the Nether,"
+		""
+		"Find the forge and the monstrosity will be sleeping at the top level."
+		""
+		"&6Token allow you to resummon the boss.&r"
+	]
+	quest.057453963703DE1A.title: "Find the Soul Black Smith"
 	quest.06B5E3EBB1FA03A8.quest_desc: [
 		"Located in the Ancient Cities."
 		""
@@ -95,6 +103,8 @@
 		"The Ancient Factory is a dangerous warehouse found deep underground."
 		""
 		"This manufactory is home to the Harbringer, a technological construct that has since fallen intert."
+		""
+		"&6Token allow you to resummon the boss.&r"
 	]
 	quest.0D75B8610FDF0A70.title: "Find the Ancient Factory"
 	quest.0E1477C1F2F8E912.quest_desc: ["The Alternator can convert kinetic energy to electricity."]
@@ -219,6 +229,11 @@
 	quest.19AB0A53E3AAE9DF.quest_subtitle: "Optional Boss"
 	quest.1A88071D06E35578.quest_desc: ["When particles pass through these, it speeds up a bit."]
 	quest.1AD3B82F455CA99C.quest_desc: ["Electrifying an &6unfinished processing unit&r should give it the power it need to function."]
+	quest.1B78DC1E761D9090.quest_desc: [
+		"&5Creative Motor&r will require you to explore every single major mod in this pack."
+		""
+		"It is the ultimate item to obtain in this pack, it is not an easy obtainable item however."
+	]
 	quest.1DD0BB232060313A.quest_desc: ["A blazing shield that can absorb fire damage and release it in a devastating area attack."]
 	quest.1DD0BB232060313A.quest_subtitle: "Now THIS is how you Flame Charge"
 	quest.1E83A57146D48284.quest_desc: ["Addons to insert to the farm to modify it."]
@@ -395,6 +410,8 @@
 		"The Ruined Citadel is an imposing structure found in void of the end."
 		""
 		"This ancient fortress is home to an alien monstrosity that has guarded its halls for centuries."
+		""
+		"&6Token allow you to resummon the boss.&r"
 	]
 	quest.3DC3B2B11F1D7E25.title: "Discover the Ruined Citadel"
 	quest.3EF0E8690060E186.quest_desc: ["To insert the items."]
@@ -456,6 +473,12 @@
 		""
 		"This is very important to control the flow of the tracks."
 	]
+	quest.49A9C8F1835F0BBC.quest_desc: [
+		"Located in the desert, a cursed Pyramid might form for you to delve."
+		""
+		"&6Token allow you to resummon the boss.&r"
+	]
+	quest.49A9C8F1835F0BBC.title: "Find the Cursed Pyramid"
 	quest.4A2710801AF35C51.quest_subtitle: "Shiiiny"
 	quest.4A397B8340DC9F6A.quest_desc: ["Jetpacks can't be turned on or off. They'll be active when the jump key is held."]
 	quest.4A916CE728EBA604.quest_desc: [
@@ -533,6 +556,12 @@
 		""
 		"Made from oil or biomatters."
 	]
+	quest.52CEBF675970B840.quest_desc: [
+		"The Souls awaits your presence."
+		""
+		"&6Token allow you to resummon the boss.&r"
+	]
+	quest.52CEBF675970B840.title: "Find the Acropolis"
 	quest.5448BA7769B8D0AD.quest_desc: ["The &n&5Encased Fan&r&r is a mechanical component that can create air streams. Encased Fans are used for moving entities, vertical transport of items, Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking."]
 	quest.566A58BE2407B0F6.quest_desc: ["The Apiary is where the Beekeeper works. The Beekeeper breeds bees and harvests honeycombs or honey bottles (you can choose which on the second page of the Apiary's GUI)."]
 	quest.56B13A6FB6609D39.quest_desc: ["Start of Chapter 3 where you'll explore the enderic tecnologies. "]
@@ -570,7 +599,11 @@
 	quest.5BE4B3A8115CEFCC.quest_subtitle: "The Basic"
 	quest.5CDDC9EC1E082912.quest_desc: ["Simply apply heat to a mixer with water and leak to get the basic brew going."]
 	quest.5E0397CA95B476CE.quest_desc: ["Like the previous, bigger and better production rate than your average wheel."]
-	quest.5E691BAAE88EC832.quest_desc: ["The Logs and Leaves can be milled into a chance of the seeds."]
+	quest.5E691BAAE88EC832.quest_desc: [
+		"The Logs and Leaves can be milled into a chance of the seeds."
+		""
+		"Seeds can be planted directly onto the leaves."
+	]
 	quest.5F2D01D6A3F64A7E.quest_desc: [
 		"Hold shift for 10 levels at a time."
 		""
@@ -582,6 +615,8 @@
 		"The Burning Arena is a large Nether structure where you'll face one of the most challenging bosses in the mod."
 		""
 		"Search for it in the Nether, typically in open areas."
+		""
+		"&6Ashes allow you to resummon the boss.&r"
 	]
 	quest.60D072CA00CD5500.title: "Discover the Burning Arena"
 	quest.6170BBCD438AA472.quest_desc: [
