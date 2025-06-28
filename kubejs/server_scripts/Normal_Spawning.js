@@ -1,15 +1,17 @@
 PlayerEvents.advancement(event => {
-    const id = event.advancement;
+    const id = event.advancement.id; // ✅ Proper ID access
     const player = event.player;
-    const x = Number(player.x);
-    const y = Number(player.y);
-    const z = Number(player.z);
+    const x = Math.floor(player.x);
+    const y = Math.floor(player.y);
+    const z = Math.floor(player.z);
 
-    if (id === 'tommonspawning:pokemon/pikachu') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} pikachu lvl=12`);
-    } else if (id === 'tommonspawning:pokemon/munchlax') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} munchlax lvl=12`);
-    } else if (id === 'tommonspawning:pokemon/miltank') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} miltank lvl=12`);
+    const pokemonSpawns = {
+        'tommonspawning:pokemon/pikachu': 'pikachu',
+        'tommonspawning:pokemon/munchlax': 'munchlax',
+        'tommonspawning:pokemon/miltank': 'miltank'
+    };
+
+    const pokemon = pokemonSpawns[id];
+    if (pokemon) {
+        event.server.runCommandSilent(`pokespawnat ${x} ${y} ${z} ${pokemon} lvl=12`);
     }
-});

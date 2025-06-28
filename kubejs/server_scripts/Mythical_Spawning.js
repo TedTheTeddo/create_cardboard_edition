@@ -1,51 +1,36 @@
 PlayerEvents.advancement(event => {
-    const id = event.advancement;
+    const id = event.advancement.id; // Corrected extraction
     const player = event.player;
-    const x = Number(player.x);
-    const y = Number(player.y);
-    const z = Number(player.z);
+    const x = Math.floor(player.x);
+    const y = Math.floor(player.y);
+    const z = Math.floor(player.z);
 
-    if (id === 'tommonspawning:pokemon/mew') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} mew lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/celebi') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} celebi lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/deoxys') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} deoxys lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/arceus') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} arceus lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/darkrai') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} darkrai lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/manaphy') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} manaphy lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/phione') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} phione lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/shaymin') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} shaymin lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/genesect') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} genesect lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/keldeo') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} keldeo lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/meloetta') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} meloetta lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/diancie') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} diancie lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/hoopa') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} hoopa lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/volcanion') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} volcanion lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/magearna') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} magearna lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/marshadow') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} marshadow lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/meltan') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} meltan lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/melmetal') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} melmetal lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/zeraora') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} zeraora lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/zarude') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} zarude lvl=30`);
-    } else if (id === 'tommonspawning:pokemon/pecharunt') {
-        Utils.server.runCommand(`pokespawnat ${x} ${y} ${z} pecharunt lvl=30`);
+    const spawns = {
+        'tommonspawning:pokemon/mew': 'mew',
+        'tommonspawning:pokemon/celebi': 'celebi',
+        'tommonspawning:pokemon/deoxys': 'deoxys',
+        'tommonspawning:pokemon/arceus': 'arceus',
+        'tommonspawning:pokemon/darkrai': 'darkrai',
+        'tommonspawning:pokemon/manaphy': 'manaphy',
+        'tommonspawning:pokemon/phione': 'phione',
+        'tommonspawning:pokemon/shaymin': 'shaymin',
+        'tommonspawning:pokemon/genesect': 'genesect',
+        'tommonspawning:pokemon/keldeo': 'keldeo',
+        'tommonspawning:pokemon/meloetta': 'meloetta',
+        'tommonspawning:pokemon/diancie': 'diancie',
+        'tommonspawning:pokemon/hoopa': 'hoopa',
+        'tommonspawning:pokemon/volcanion': 'volcanion',
+        'tommonspawning:pokemon/magearna': 'magearna',
+        'tommonspawning:pokemon/marshadow': 'marshadow',
+        'tommonspawning:pokemon/meltan': 'meltan',
+        'tommonspawning:pokemon/melmetal': 'melmetal',
+        'tommonspawning:pokemon/zeraora': 'zeraora',
+        'tommonspawning:pokemon/zarude': 'zarude',
+        'tommonspawning:pokemon/pecharunt': 'pecharunt'
+    };
+
+    const pokemon = spawns[id];
+    if (pokemon) {
+        event.server.runCommandSilent(`pokespawnat ${x} ${y} ${z} ${pokemon} lvl=30`);
     }
 });
