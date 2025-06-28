@@ -86,17 +86,81 @@ ServerEvents.recipes((event) => {
   yamlRecipe(`
     type: 'lychee:block_interacting'
     item_in:
-      item: minecraft:netherite_block
-    block_in: minecraft:grindstone
+      item: kubejs:netherite_monstrosity_token
+    block_in: minecraft:netherite_block
     contextual:
       type: location
       predicate:
         dimension: minecraft:the_nether
     post:
       - type: delay
-        s: 0.2
+        s: 1.0
       - type: execute
         command: "summon cataclysm:netherite_monstrosity ~ ~ ~"
     `).id('cardboard_edition:summon_netherite_monstrosity')
+
+  yamlRecipe(`
+    type: 'lychee:block_interacting'
+    item_in:
+      item: kubejs:scylla_token
+    block_in: gravestone:gravestone
+    contextual:
+      type: location
+      predicate:
+        dimension: minecraft:overworld
+    post:
+      - type: delay
+        s: 1.0
+      - type: execute
+        command: "summon cataclysm:scylla ~ ~ ~"
+    `).id('cardboard_edition:summon_scylla')
+
+  yamlRecipe(`
+    type: 'lychee:block_interacting'
+    item_in:
+      item: kubejs:ancient_remnant_token
+    block_in: minecraft:decorated_pot
+    contextual:
+      type: location
+      predicate:
+        dimension: minecraft:overworld
+    post:
+      - type: delay
+        s: 1.0
+      - type: execute
+        command: "summon cataclysm:ancient_remnant ~ ~ ~"
+    `).id('cardboard_edition:summon_ancient_remnant')
+
+  yamlRecipe(`
+    type: 'lychee:block_interacting'
+    item_in:
+      item: kubejs:harbinger_token
+    block_in: minecraft:beacon
+    contextual:
+      type: location
+      predicate:
+        dimension: minecraft:overworld
+    post:
+      - type: delay
+        s: 1.0
+      - type: execute
+        command: "summon cataclysm:harbinger ~ ~ ~"
+    `).id('cardboard_edition:summon_the_harbinger')
+
+  yamlRecipe(`
+    type: 'lychee:block_interacting'
+    item_in:
+      item: kubejs:ender_guardian_token
+    block_in: minecraft:crying_obsidian
+    contextual:
+      type: location
+      predicate:
+        dimension: minecraft:the_end
+    post:
+      - type: delay
+        s: 1.0
+      - type: execute
+        command: "summon cataclysm:ender_guardian ~ ~ ~"
+    `).id('cardboard_edition:summon_ender_guardian')
 
 })

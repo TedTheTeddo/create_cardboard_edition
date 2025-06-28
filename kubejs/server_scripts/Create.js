@@ -77,6 +77,17 @@ ServerEvents.recipes(event => {
     event.shaped('oritech:atomic_forge_block',      ['ABA', 'BCB','DDD'], {A: 'oritech:flux_gate', B: "oritech:duratium_ingot", C: "oritech:machine_core_4", D: "#oritech:plating"});
 
     event.shaped('dailyshop:daily_shop',            ['ABA', 'BCB','ABA'], {A: 'minecraft:red_wool', B: "minecraft:white_wool", C: "minecraft:diamond"});
+    event.shaped('kubejs:cataclysm_token',      ['ABC', 'DEF','GHI'], {
+            A: 'cataclysm:music_disc_netherite_monstrosity', 
+            B: "cataclysm:music_disc_ender_guardian", 
+            C: "cataclysm:music_disc_ignis", 
+            D: "cataclysm:music_disc_the_harbinger",
+            E: "minecraft:heart_of_the_sea",
+            F: "cataclysm:music_disc_the_leviathan",
+            G: "cataclysm:music_disc_ancient_remnant",
+            H: "cataclysm:music_disc_maledictus",
+            I: "cataclysm:music_disc_scylla"
+        });
 
     event.blasting('createaddition:electrum_ingot', 'oritech:electrum_dust')
     event.blasting('kubejs:cce_unrefined_steel_nugget', 'kubejs:cce_unrefined_steel_dust')
@@ -173,6 +184,12 @@ ServerEvents.recipes(event => {
         "type": "create:compacting",
         "ingredients": [{ "type": "fluid_stack", "fluid": "minecraft:lava", "amount": 100 }, {"item": "create:cinder_flour"}],
         "results": [{"id": "minecraft:netherrack"}]});  
+
+    event.custom({
+        "type": "create:compacting",
+        "heat_requirement": "superheated",
+        "ingredients": [{"tag": "cardboardedition:tera_shards"},{"item": "cobblemonparts:master_worked_metal"}],
+        "results": [{ "id": "kubejs:cce_eclipse_sheet"}]});
 
 //==========================================================================================================
 
@@ -482,6 +499,31 @@ event.custom({
     },
     "show_notification": false})
 
+    event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+      "A": {"item": "kubejs:cce_creative_ingot"},
+      "B": {"item": "kubejs:cce_reinforced_rod"},
+      "C": {"item": "kubejs:cce_eclipse_sheet"},
+      "D": {"item": "oritech:machine_core_7"},
+      "E": {"item": "kubejs:cataclysm_token"}
+    },
+    "pattern": [
+    'DDDDDDD',
+    'DAAAAAD',
+    'DACCCAD',
+    'BBBEBBB',
+    'DACCCAD',
+    'DAAAAAD',
+    'DDDDDDD'
+    ],
+    "result": {
+      "count": 1,
+      "id": "create:creative_motor"
+    },
+    "show_notification": false})
 //==========================================================================================================
 //========================================== Coral Automations =============================================
 //==========================================================================================================
