@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "title": "darkrai",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "tommonspawning:root",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}

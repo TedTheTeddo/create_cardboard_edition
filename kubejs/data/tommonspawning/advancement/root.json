@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone"
+    },
+	"title": "Force Spawns",
+	"description": "force spawns",
+	"background": "minecraft:textures/block/gray_glazed_terracotta.png",
+	"announce_to_chat": false,
+   	"show_toast": false
+  },
+  "criteria": {
+    "examplereq": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
