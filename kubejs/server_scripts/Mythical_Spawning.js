@@ -1,6 +1,7 @@
 PlayerEvents.advancement(event => {
-    const id = event.advancement.id; // Corrected extraction
+    const id = event.advancement.id;
     const player = event.player;
+    const playerName = player.name.string;
     const x = Math.floor(player.x);
     const y = Math.floor(player.y);
     const z = Math.floor(player.z);
@@ -31,6 +32,7 @@ PlayerEvents.advancement(event => {
 
     const pokemon = spawns[id];
     if (pokemon) {
-        event.server.runCommandSilent(`pokespawnat ${x} ${y} ${z} ${pokemon} lvl=30`);
+    	event.server.runCommandSilent(`pokespawnat ${x} ${y} ${z} ${pokemon} lvl=30`);
+    	event.server.runCommandSilent(`advancement revoke ${playerName} only tommonspawning:pokemon/${pokemon}`);
     }
 });
