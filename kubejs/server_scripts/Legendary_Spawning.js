@@ -33,7 +33,13 @@ PlayerEvents.advancement(event => {
         'tommonspawning:pokemon/zamazenta': 'zamazenta',
         'tommonspawning:pokemon/miraidon': 'miraidon',
         'tommonspawning:pokemon/koraidon': 'koraidon',
-        'tommonspawning:pokemon/terapagos': 'terapagos'
+        'tommonspawning:pokemon/terapagos': 'terapagos',
+        'tommonspawning:pokemon/regice': 'regice',
+        'tommonspawning:pokemon/regirock': 'regirock',
+        'tommonspawning:pokemon/registeel': 'registeel',
+        'tommonspawning:pokemon/regieleki': 'regieleki',
+        'tommonspawning:pokemon/regidrago': 'regidrago',
+        'tommonspawning:pokemon/regigigas': 'regigigas'
     };
 
     const pokemon = legendarySpawns[id];

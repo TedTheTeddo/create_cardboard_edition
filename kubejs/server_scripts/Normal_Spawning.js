@@ -9,6 +9,8 @@ PlayerEvents.advancement(event => {
     const pokemonSpawns = {
         'tommonspawning:pokemon/pikachu': 'pikachu',
         'tommonspawning:pokemon/munchlax': 'munchlax',
+        'tommonspawning:pokemon/relicanth': 'relicanth',
+        'tommonspawning:pokemon/wailord': 'wailord',
         'tommonspawning:pokemon/miltank': 'miltank'
     };
 
