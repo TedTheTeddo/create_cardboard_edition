@@ -1,6 +1,6 @@
 {
   "type": "recipe",
-  "crafter": "blacksmith_crafting",
+  "crafter": "enchanter_custom",
   "inputs": [
     {
       "id": "minecraft:bone"
