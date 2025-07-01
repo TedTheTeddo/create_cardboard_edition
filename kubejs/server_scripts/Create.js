@@ -437,44 +437,6 @@ event.custom({
         ],
         "transitional_item": {"id": "oritech:unholy_intelligence"}});
 
-//Cobblemon x Create Compat - Mega_Showdown:Wishing Star
- event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {"item": "kubejs:crushed_netherite"},
-       "loops": 50,
-        "results": [{"id": "mega_showdown:wishing_star"}],
-        "sequence": [
-            {"type": "create:filling", "ingredients": [{"item": "kubejs:crushed_netherite"}, {"type": "fluid_stack", "fluid": "minecraft:lava", "amount": 500}], "results": [{"id": "kubejs:crushed_netherite"}]},
-            {"type": "create:deploying", "ingredients": [{"item": "kubejs:crushed_netherite"}, {"item": "create:experience_block"}], "results": [{"id": "kubejs:crushed_netherite"}]},
-            {"type": "create:pressing", "ingredients": [{"item": "kubejs:crushed_netherite"}], "results": [{"id": "kubejs:crushed_netherite"}]}
-        ],
-        "transitional_item": {"id": "kubejs:crushed_netherite"}})
-
-//Cobblemon x Create Compat - Mega_Showdown:Blank-Z
-  event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {"item": "deeperdarker:soul_crystal"},
-       "loops": 4,
-        "results": [{"id": "mega_showdown:blank-z"}],
-        "sequence": [
-            {"type": "create:pressing", "ingredients": [{"item": "kubejs:blank_soul_crystal"}], "results": [{"id": "kubejs:blank_soul_crystal"}]},
-            {"type": "create:filling", "ingredients": [{"item": "kubejs:blank_soul_crystal"}, {"type": "fluid_stack", "fluid": "minecraft:lava", "amount": 1000}], "results": [{"id": "kubejs:blank_soul_crystal"}]},
-            {"type": "create:deploying", "ingredients": [{"item": "kubejs:blank_soul_crystal"}, {"item": "cobblemon:black_tumblestone"}], "results": [{"id": "kubejs:blank_soul_crystal"}]}
-        ],
-        "transitional_item": {"id": "kubejs:blank_soul_crystal"}})
-
-//Cobblemon x Create Compat - Mega_Showdown:Mega_Stone
-event.custom({
-        "type": "create:sequenced_assembly",
-        "ingredient": {"item": "kubejs:crushed_meteoroid"},
-       "loops": 3,
-        "results": [{"id": "mega_showdown:mega_stone"}],
-        "sequence": [
-            {"type": "create:cutting", "ingredients": [{"item": "kubejs:crushed_meteoroid"}], "results": [{"id": "kubejs:crushed_meteoroid"}]},
-            {"type": "create:filling", "ingredients": [{"item": "kubejs:crushed_meteoroid"}, {"type": "fluid_stack", "fluid": "sophisticatedcore:xp_still", "amount": 1000}], "results": [{"id": "kubejs:crushed_meteoroid"}]},
-            {"type": "create:pressing", "ingredients": [{"item": "kubejs:crushed_meteoroid"}], "results": [{"id": "kubejs:crushed_meteoroid"}]}
-        ],
-        "transitional_item": {"id": "kubejs:crushed_meteoroid"}})
 
 //==========================================================================================================
   event.custom({
