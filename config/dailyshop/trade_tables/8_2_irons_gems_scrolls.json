@@ -4,7 +4,7 @@
     "count": 1
   },
 "input1": 
-{ "filter": "kubejs:energium_coins", "count": { "type": "constant", "count": 2 } },
+{ "filter": "kubejs:energite_coins", "count": { "type": "constant", "count": 2 } },
 "output": [
   { "item": "kubejs:irons_amulet_of_protection", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
   { "item": "kubejs:irons_bane_ring", "count": { "type": "constant", "count": 1 }, "weight": 0.7 },

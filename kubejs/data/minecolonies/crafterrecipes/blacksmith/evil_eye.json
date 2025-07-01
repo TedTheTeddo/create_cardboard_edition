@@ -1,6 +1,6 @@
 {
   "type": "recipe",
-  "crafter": "enchanter_custom",
+  "crafter": "blacksmith_crafting",
   "inputs": [
     {
       "count": 1,

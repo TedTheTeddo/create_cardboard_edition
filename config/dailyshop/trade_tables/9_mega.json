@@ -8,9 +8,8 @@
 "output": [
   { "item": "mega_showdown:mega_stone", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
   { "item": "mega_showdown:blank-z", "count": { "type": "constant", "count": 1 }, "weight": 1.0 },
-  { "item": "mega_showdown:zygarde_core", "count": { "type": "constant", "count": 1 }, "weight": 0.02 },
-  { "item": "mega_showdown:zygarde_cube", "count": { "type": "constant", "count": 1 }, "weight": 0.02 },
-  { "item": "mega_showdown:zygarde_cell", "count": { "type": "constant", "count": 1 }, "weight": 0.02 },
+  { "item": "mega_showdown:zygarde_core", "count": { "type": "constant", "count": 3 }, "weight": 0.02 },
+  { "item": "mega_showdown:zygarde_cell", "count": { "type": "constant", "count": 8 }, "weight": 0.1 },
   { "item": "minecraft:enchanted_golden_apple", "count": { "type": "constant", "count": 1 }, "weight": 1.0}
 ]
 }
