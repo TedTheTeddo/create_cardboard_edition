@@ -1,0 +1,20 @@
+{
+  "type": "oritech:centrifuge_fluid",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "minecraft:lava"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 1000,
+      "fluid": "kubejs:liquified_slime"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:slimeballs"
+    }
+  ],
+  "results": [],
+  "time": 100
+}

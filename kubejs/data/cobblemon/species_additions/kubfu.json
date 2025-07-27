@@ -1,33 +1,20 @@
 {
   "target": "cobblemon:kubfu",
-
+  "implemented": true,
   "baseScale":1.0,
   "hitbox": {
     "width": 1,
     "height": 1.5,
     "fixed": false
   },
-
-  "evolutions": [
-    {
-      "id": "kubfu_urshifu",
-      "variant": "item_interact",
-      "result": "urshifu",
-      "consumeHeldItem": true,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:muscle_band"
-    },
-  ],
-
   "behaviour": {
-      "moving": {
-        "canLook": true,
-        "walk": {
-          "walkSpeed": 0.6,
-          "canWalk": true,
-          "avoidsLand": false
-        },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.6,
+        "canWalk": true,
+        "avoidsLand": false
+      },
       "fly": {
         "canFly": false
       },
@@ -37,5 +24,30 @@
         "canBreatheUnderwater": false
       }
     }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "2-6"
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 50.0
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 8.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 10.0
+      }
+    ]
   }
 }

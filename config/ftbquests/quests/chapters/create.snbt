@@ -2,8 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: "1BF8395E7856D5A1"
-	icon: "create:wrench"
+	group: "58E991E47743A414"
+	icon: {
+		id: "create:wrench"
+	}
 	id: "74B8D951F16CC36C"
 	images: [
 		{
@@ -69,31 +71,44 @@
 			y: 7.5d
 		}
 	]
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Don't forget your Wrench!"]
-			icon: "create:wrench"
+			icon: {
+				id: "create:wrench"
+			}
 			id: "711385511F05932E"
 			rewards: [
 				{
 					id: "43FCA0A1D3C8AA1E"
-					item: "create:speedometer"
+					item: {
+						count: 1
+						id: "create:speedometer"
+					}
 					type: "item"
 				}
 				{
 					id: "44591504EA76AE8E"
-					item: "create:stressometer"
+					item: {
+						count: 1
+						id: "create:stressometer"
+					}
+					type: "item"
+				}
+				{
+					id: "1CDFB336A96187E1"
+					item: {
+						count: 1
+						id: "create:wrench"
+					}
 					type: "item"
 				}
 			]
 			shape: "circle"
 			size: 2.0d
-			subtitle: "Update 6 Installed!"
 			tasks: [{
 				id: "4C85434400C640DF"
-				title: "Create - Start"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -101,16 +116,10 @@
 		}
 		{
 			dependencies: ["711385511F05932E"]
-			description: [
-				"Simply right click stripped wood with andesite alloy to get this."
-				""
-				"Heart of most crafting."
-			]
 			id: "2C025CAA4835351D"
-			subtitle: "Essential Create component"
 			tasks: [{
 				id: "59F125BA37785F2E"
-				item: "create:andesite_casing"
+				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -118,11 +127,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Mechanical Harvester&r&r will harvest all mature crops it comes in contact with while moving forward"]
 			id: "3797C9657B5313E5"
 			tasks: [{
 				id: "322198840E859677"
-				item: "create:mechanical_harvester"
+				item: { count: 1, id: "create:mechanical_harvester" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -130,11 +138,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["While attached to a Contraption, the &n&5Mechanical Plough&r&r will break non-collidable blocks it comes in contact with (ex. snow layers). The Mechanical Plough will also move or launch entities and till soil blocks."]
 			id: "778303C59F94E897"
 			tasks: [{
 				id: "431053FCAA42DB13"
-				item: "create:mechanical_plough"
+				item: { count: 1, id: "create:mechanical_plough" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -142,15 +149,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: [
-				"&n&5Mechanical Saws&r&r are powered through rotational force, and when placed down facing to the side they will automatically chop down wood blocks in front of them. "
-				""
-				"When chopping down a tree or giant mushroom, it will automatically destroy the entire tree by only destroying the bottom-most block"
-			]
 			id: "443EE7501F4A04D9"
 			tasks: [{
 				id: "303D0CAB71EC41B1"
-				item: "create:mechanical_saw"
+				item: { count: 1, id: "create:mechanical_saw" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -158,11 +160,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Mechanical Drill&r&r is a block used to break blocks."]
 			id: "3A2AA1349E114817"
 			tasks: [{
 				id: "73035E391F299A73"
-				item: "create:mechanical_drill"
+				item: { count: 1, id: "create:mechanical_drill" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -170,11 +171,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Deployer&r&r simulates player actions on blocks or entities exactly 2 blocks away from it."]
 			id: "09699B9862E0ABE8"
 			tasks: [{
 				id: "0751D004836C821E"
-				item: "create:deployer"
+				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -182,11 +182,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Chain Drive&r carries rotation upward or sideway easily and can be rotated as long its touching other Chain Drives."]
 			id: "2A5695D1F0BC5058"
 			tasks: [{
 				id: "05E80C6C8C4FD69D"
-				item: "create:encased_chain_drive"
+				item: { count: 1, id: "create:encased_chain_drive" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -194,15 +193,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: [
-				"The &n&5Adjustable Chain Drive&r works similar to the normal Chain Drive when it has no redstone signal. "
-				""
-				"However it can double or halve speeds depending on redstone signal location."
-			]
 			id: "1815DE98ECA86D40"
 			tasks: [{
 				id: "464AEBFB01B0A052"
-				item: "create:adjustable_chain_gearshift"
+				item: { count: 1, id: "create:adjustable_chain_gearshift" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -210,11 +204,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Gearshift&r will reverse the direction of rotation if a redstone signal is applied."]
 			id: "4808B0FACEC4B1BF"
 			tasks: [{
 				id: "353645383744B48D"
-				item: "create:gearshift"
+				item: { count: 1, id: "create:gearshift" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -222,11 +215,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Clutch&r will stop rotation when powered by redstone signal."]
 			id: "5B701CF549B9529C"
 			tasks: [{
 				id: "47E7180936051D41"
-				item: "create:clutch"
+				item: { count: 1, id: "create:clutch" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -234,23 +226,21 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Gearbox&r&r can relay rotational power in four horizontal directions. The vertical counterpart, like the normal version, can relay power in four vertical directions."]
 			id: "1F723D54BEABE8BD"
 			tasks: [{
 				id: "6F1FD6499C83E709"
-				item: "create:gearbox"
+				item: { count: 1, id: "create:gearbox" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Encased Fan&r&r is a mechanical component that can create air streams. Encased Fans are used for moving entities, vertical transport of items, Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking."]
 			id: "5448BA7769B8D0AD"
 			tasks: [{
 				id: "2775FD7E018FFDD7"
-				item: "create:encased_fan"
+				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -258,11 +248,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Gantry Carriage&r&r is a block that can move Contraptions along Gantry Shafts."]
 			id: "4542F2298B6A63FE"
 			tasks: [{
 				id: "18639767F52F71BC"
-				item: "create:gantry_carriage"
+				item: { count: 1, id: "create:gantry_carriage" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -270,11 +259,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Mechanical Mixer&r&r is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."]
 			id: "45F9C1C176CF78C7"
 			tasks: [{
 				id: "3A2ABCE232E193C1"
-				item: "create:mechanical_mixer"
+				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -282,11 +270,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Mechanical Press&r&r is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it. It is an important early-game item, as it is used to press Ingots into Sheets, which are important ingredients for higher-level components."]
 			id: "7F846C2B4851452B"
 			tasks: [{
 				id: "110865D2E01B8727"
-				item: "create:mechanical_press"
+				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -294,11 +281,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The Mechanical Roller can be used on Contraptions to clear and pave a path."]
 			id: "7371B3A221A8DFB0"
 			tasks: [{
 				id: "5D9901BAF8F56A95"
-				item: "create:mechanical_roller"
+				item: { count: 1, id: "create:mechanical_roller" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -306,11 +292,10 @@
 		}
 		{
 			dependencies: ["711385511F05932E"]
-			description: ["The Stressometer is used to measure the amount of Stress on a Shaft. This stress is the \"load\" of the system."]
 			id: "446F38720F318471"
 			tasks: [{
 				id: "0105B4B14E22315C"
-				item: "create:stressometer"
+				item: { count: 1, id: "create:stressometer" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -318,11 +303,10 @@
 		}
 		{
 			dependencies: ["711385511F05932E"]
-			description: ["The Speedometer measures the speed of Rotational Force."]
 			id: "0D16DBF91E8263BC"
 			tasks: [{
 				id: "0C789764D28276DF"
-				item: "create:speedometer"
+				item: { count: 1, id: "create:speedometer" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -331,22 +315,20 @@
 		{
 			dependencies: ["2C025CAA4835351D"]
 			id: "39CD67B7A6AEC1ED"
-			subtitle: "Essential for fluids"
 			tasks: [{
 				id: "3CD3ED7D66B4B620"
-				item: "create:copper_casing"
+				item: { count: 1, id: "create:copper_casing" }
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["711385511F05932E"]
-			description: ["The Water Wheel is a source of rotational power. It generates Rotational Force when water flows over it."]
 			id: "2A8F1E942A4B4683"
 			tasks: [{
 				id: "04653B45B498207A"
-				item: "create:water_wheel"
+				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -354,15 +336,10 @@
 		}
 		{
 			dependencies: ["711385511F05932E"]
-			description: [
-				"The Large Water Wheel is a bigger version of the Water Wheel."
-				""
-				"The Large Water Wheel's appearance can be changed by using any Planks on it. The item is not consumed. The texture is automatically generated from the wood type's planks and logs, allowing for some compatibility with other mods."
-			]
 			id: "5E0397CA95B476CE"
 			tasks: [{
 				id: "1836DC671BA1D94D"
-				item: "create:large_water_wheel"
+				item: { count: 1, id: "create:large_water_wheel" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -370,15 +347,10 @@
 		}
 		{
 			dependencies: ["711385511F05932E"]
-			description: [
-				"The Windmill Bearing is a block used for power generation."
-				""
-				"In order to begin generating power, a Windmill Bearing must have at least eight Sail, Sail Frame, or Wool blocks connected. Any other block can also be attached with Super Glue, though it will not yield any benefit. This will create a Windmill."
-			]
 			id: "383C1EB3F79E8CAC"
 			tasks: [{
 				id: "25B4E3A86391435B"
-				item: "create:windmill_bearing"
+				item: { count: 1, id: "create:windmill_bearing" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -389,7 +361,7 @@
 			id: "23C68E0B271B9766"
 			tasks: [{
 				id: "53BE8634EA4740B2"
-				item: "create:white_sail"
+				item: { count: 1, id: "create:white_sail" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -397,48 +369,40 @@
 		}
 		{
 			dependencies: ["711385511F05932E"]
-			description: [
-				"Steam Engines use heated Water for power and are placed on Fluid Tanks, which are then used as a boiler. At least 4 Fluid Tanks and 1 heat source are required. A Shaft can be used on the engine to create a kinetic output. The direction of said output can be adjusted through the Value Settings on the side of the engine."
-				""
-				"Recommended 9 Engines for a level 9 Boiler that is 3x3x4 in size."
-			]
 			id: "6BB7AE68240A4BC5"
-			tasks: [{
-				id: "37D9D91704E55AE9"
-				item: "create:steam_engine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "37D9D91704E55AE9"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1697309E8D025A8E"
+					item: { count: 4, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["39CD67B7A6AEC1ED"]
-			description: [
-				"The &n&5Hose Pulley&r&r can pull and fill an area up to 10,000 blocks."
-				""
-				"Bottomless source with tagged \"$bottomless\" in JEI/REI will be able to be made infinite."
-				""
-				"Note, that flowing liquid counts toward the 10,000 blocks as long long the hose pulley is &4touching a source block&r and there is 10,000 minimum flowing/source above it to the top."
-				""
-				"It does not require 10,000 Source Block this fact has been proven wrong and is possible to be done with little as 2 bucket."
-			]
 			id: "1111C0C9C24866AC"
 			tasks: [{
 				id: "1610FD1396B5BF80"
-				item: "create:hose_pulley"
+				item: { count: 1, id: "create:hose_pulley" }
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["71B41402D2BC566F"]
-			description: ["You are able to make bigger trains but you may have collisions with other trains and obstacles."]
 			id: "4011A65A2612838B"
-			subtitle: "Standard Train Size is 5Wx7H"
 			tasks: [{
 				id: "4C60F56E3332EC56"
-				item: "create:railway_casing"
+				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -446,16 +410,10 @@
 		}
 		{
 			dependencies: ["4011A65A2612838B"]
-			description: [
-				"To assemble a Train, the train must have at least one set of controls that face forward relative to the Train Station the train is created at. If a non-player conductor is desired, a Blaze Burner or Seat must be placed directly behind the controls."
-				""
-				"&cPlease drive on the &lRight&r&c side of the road"
-			]
 			id: "157164CAAB179474"
-			subtitle: "RIGHT side of the road."
 			tasks: [{
 				id: "38CF4C0FC61A3BCC"
-				item: "create:controls"
+				item: { count: 1, id: "create:controls" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -463,11 +421,10 @@
 		}
 		{
 			dependencies: ["71B41402D2BC566F"]
-			description: ["The &n&5Elevator Pulley&r&r moves much like the Rope Pulley and shares certain functionalities. Unlike the Rope Pulley, it can phase through blocks, and will not turn back into blocks unless the Pulley is right-clicked."]
 			id: "6DF25273BB47F2AD"
 			tasks: [{
 				id: "08EDE265C96C97A8"
-				item: "create:elevator_pulley"
+				item: { count: 1, id: "create:elevator_pulley" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -478,7 +435,7 @@
 			id: "71B41402D2BC566F"
 			tasks: [{
 				id: "18FAF92D453DCAD2"
-				item: "create:brass_casing"
+				item: { count: 1, id: "create:brass_casing" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -489,7 +446,7 @@
 			id: "3C95A3C0E96AA4BC"
 			tasks: [{
 				id: "45B5C54C210A4B9F"
-				item: "create:mechanical_crafter"
+				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -497,11 +454,10 @@
 		}
 		{
 			dependencies: ["4011A65A2612838B"]
-			description: ["The Train Observer is used to detect passing Trains."]
 			id: "710159577A8B54B6"
 			tasks: [{
 				id: "7FE28D72CA2FB226"
-				item: "create:track_observer"
+				item: { count: 1, id: "create:track_observer" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -509,11 +465,10 @@
 		}
 		{
 			dependencies: ["4011A65A2612838B"]
-			description: ["Train Stations are used to create, disassemble, and guide Trains."]
 			id: "0EAE6260063C0457"
 			tasks: [{
 				id: "5B7416187D7C6996"
-				item: "create:track_station"
+				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -521,15 +476,10 @@
 		}
 		{
 			dependencies: ["4011A65A2612838B"]
-			description: [
-				"Train Signals are used to control the flow of Trains not driven by players."
-				""
-				"This is very important to control the flow of the tracks."
-			]
 			id: "48DE0013E54EEB58"
 			tasks: [{
 				id: "2A5BFF449228A2C8"
-				item: "create:track_signal"
+				item: { count: 1, id: "create:track_signal" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -540,7 +490,7 @@
 			id: "0524A8071F0FEF37"
 			tasks: [{
 				id: "533493E1331B8A46"
-				item: "create:mechanical_arm"
+				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -548,11 +498,10 @@
 		}
 		{
 			dependencies: ["71B41402D2BC566F"]
-			description: ["The&n &5Brass Funnel&r&r is a block that can extract or insert items into inventories, much like the Andesite Funnel. However, it does it up to a 64 item at a time and can be filtered."]
 			id: "4CD444B8E7D2A5A5"
 			tasks: [{
 				id: "62AC68A4D4B619FB"
-				item: "create:brass_funnel"
+				item: { count: 1, id: "create:brass_funnel" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -560,11 +509,10 @@
 		}
 		{
 			dependencies: ["71B41402D2BC566F"]
-			description: ["&n&5Smart Chutes&r&r behave similarly to Brass Funnels. They can be filtered to only allow certain items through, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."]
 			id: "689DCE209B4CFA4C"
 			tasks: [{
 				id: "3011786C3AB1020B"
-				item: "create:smart_chute"
+				item: { count: 1, id: "create:smart_chute" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -572,11 +520,10 @@
 		}
 		{
 			dependencies: ["71B41402D2BC566F"]
-			description: ["The &n&5Smart Observer&r&r is a machine that emits a redstone signal dependent on the block or items inside a container in front of it."]
 			id: "584064B930980DF6"
 			tasks: [{
 				id: "2138DC413BDEC89F"
-				item: "create:content_observer"
+				item: { count: 1, id: "create:content_observer" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -584,22 +531,21 @@
 		}
 		{
 			dependencies: ["39CD67B7A6AEC1ED"]
-			description: ["&n&5Smart Fluid Pipes&r&r can be used to allow only a certain liquid to pass through them. This can be set by placing a bucket or bottle of the liquid in the Filter slot on the pipe."]
 			id: "22CB97857115E0C5"
 			tasks: [{
 				id: "2958B9FA8B2A4AC5"
-				item: "create:smart_fluid_pipe"
+				item: { count: 1, id: "create:smart_fluid_pipe" }
 				type: "item"
 			}]
 			x: 7.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["711385511F05932E"]
 			id: "3500DE3052D905C3"
 			tasks: [{
 				id: "7692878988405B4E"
-				item: "create:schematic_table"
+				item: { count: 1, id: "create:schematic_table" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -610,7 +556,7 @@
 			id: "57A924C0745CAFE5"
 			tasks: [{
 				id: "4DB31857A6F864E5"
-				item: "create:schematicannon"
+				item: { count: 1, id: "create:schematicannon" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -621,7 +567,7 @@
 			id: "188371060411445F"
 			tasks: [{
 				id: "1863BC25CB9A0A0D"
-				item: "create:shaft"
+				item: { count: 1, id: "create:shaft" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -632,7 +578,7 @@
 			id: "61C771FBC747C23C"
 			tasks: [{
 				id: "0CC58AAE1F4DF3A4"
-				item: "create:cogwheel"
+				item: { count: 1, id: "create:cogwheel" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -643,7 +589,7 @@
 			id: "134F2C4B99BFAB81"
 			tasks: [{
 				id: "041E4BAFC3F1B255"
-				item: "create:large_cogwheel"
+				item: { count: 1, id: "create:large_cogwheel" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -652,10 +598,9 @@
 		{
 			dependencies: ["711385511F05932E"]
 			id: "5BE4B3A8115CEFCC"
-			subtitle: "Sturdy Rock! Grug Likes!"
 			tasks: [{
 				id: "71ABCE84E658F173"
-				item: "create:andesite_alloy"
+				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -663,11 +608,10 @@
 		}
 		{
 			dependencies: ["39CD67B7A6AEC1ED"]
-			description: ["A &n&5Blaze Burner&r&r is a heating component that is required for certain Mixing recipes. It can be used for heating Steam Engines, Bulk Smoking, Bulk Smelting, and as a decorative light source."]
 			id: "157F11BF7A4901E8"
 			tasks: [{
 				id: "6A1E5B912669DD83"
-				item: "create:blaze_burner"
+				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -675,11 +619,10 @@
 		}
 		{
 			dependencies: ["157F11BF7A4901E8"]
-			description: ["&n&5Brass&r&r is an alloy obtained by mixing Copper and Zinc together with a Mechanical Mixer, Basin, and Blaze Burner. It is used primarily for crafting item sorting machines. "]
 			id: "10E3615A3C082EC1"
 			tasks: [{
 				id: "6D30C0AC1C9D84D3"
-				item: "create:brass_ingot"
+				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -687,35 +630,32 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["&n&5Andesite Tunnels&r&r can also be used to separate single items from passing stacks to side outputs."]
 			id: "6861D632A87B658F"
 			tasks: [{
 				id: "589FC039A45C4841"
-				item: "create:andesite_tunnel"
+				item: { count: 1, id: "create:andesite_tunnel" }
 				type: "item"
 			}]
 			x: -1.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Andesite Funnel&r&r is used to extract or insert materials into inventories, one at a time."]
+			dependencies: ["5BE4B3A8115CEFCC"]
 			id: "20CA711C6A65F9AE"
 			tasks: [{
 				id: "16F94E7DCC0BDEF9"
-				item: "create:andesite_funnel"
+				item: { count: 1, id: "create:andesite_funnel" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["&n&5Linear Chassis&r&r will automatically connect to adjacent and equally aligned chassis. Slime Balls or Super Glue are needed to connect a column of other blocks to either of their piston-like surfaces"]
 			id: "11EF665781A04E48"
 			tasks: [{
 				id: "10E4A8E4F15E47AB"
-				item: "create:linear_chassis"
+				item: { count: 1, id: "create:linear_chassis" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -723,15 +663,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: [
-				"The &n&5Mechanical Bearing&r&r is used to create and rotate &lContraptions.&r"
-				""
-				"When the Mechanical Bearing is powered with Rotational Force, right clicking the bearing will start the rotation so long as there is a potential structure connected to the front of it."
-			]
 			id: "197819353B7DBC7D"
 			tasks: [{
 				id: "305D72D12899BDC0"
-				item: "create:mechanical_bearing"
+				item: { count: 1, id: "create:mechanical_bearing" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -742,7 +677,7 @@
 			id: "5C1B8201C42FFF61"
 			tasks: [{
 				id: "77335CAE668C6430"
-				item: "create:belt_connector"
+				item: { count: 1, id: "create:belt_connector" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -750,23 +685,21 @@
 		}
 		{
 			dependencies: ["39CD67B7A6AEC1ED"]
-			description: ["&n&5Mechanical Pumps&r&r have a maximum range of 16 blocks (configurable) on either side, though this does not seem to apply to pipes themselves. You may however have up to 30 pipes between pumps. Mechanical Pumps will move fluid in only one direction at a time."]
 			id: "4F8B2F451F21B02B"
 			tasks: [{
 				id: "6D2BBA99DAEAB94E"
-				item: "create:mechanical_pump"
+				item: { count: 1, id: "create:mechanical_pump" }
 				type: "item"
 			}]
 			x: 9.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["188371060411445F"]
-			description: ["Chutes transport items vertically, similarly to Mechanical Belts."]
+			dependencies: ["5BE4B3A8115CEFCC"]
 			id: "3F1EC499746F68B9"
 			tasks: [{
 				id: "312860EF9C3F2E4A"
-				item: "create:chute"
+				item: { count: 1, id: "create:chute" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -774,11 +707,10 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: ["The &n&5Rope Pulley&r&r creates Contraptions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles."]
 			id: "0A605616BA239D2F"
 			tasks: [{
 				id: "2F1A43CDCF995947"
-				item: "create:rope_pulley"
+				item: { count: 1, id: "create:rope_pulley" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -786,15 +718,11 @@
 		}
 		{
 			dependencies: ["71B41402D2BC566F"]
-			description: [
-				"Pair of Giants, useful for crushing items at a higher rate."
-				""
-				"Some recipes are only limited to crushing vs. millstone."
-			]
 			id: "7696A031F00E0D16"
 			tasks: [{
+				count: 2L
 				id: "685331E9B88FEA69"
-				item: "create:crushing_wheel"
+				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -802,156 +730,79 @@
 		}
 		{
 			dependencies: ["2C025CAA4835351D"]
-			description: [
-				"The Item Vault is essential for logistical management."
-				""
-				"Much more optimized than Create update 5."
-			]
-			id: "4B1D4D5BEDF830EA"
-			optional: true
-			subtitle: "Logistic Statistics!"
+			id: "48582843C3E490C0"
 			tasks: [{
-				id: "217825C34691A497"
-				item: "create:item_vault"
-				type: "item"
+				id: "61E32AA539AC3CCB"
+				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4B1D4D5BEDF830EA"]
-			description: [
-				"Essential for Cardboard. "
-				""
-				"Kinda gross though. For some reason this can be made into honeycomb?"
-			]
-			id: "50F1E2AA5DE52FE5"
-			subtitle: "Ew, it's sticky!"
-			tasks: [{
-				id: "5927208E2F7E34FB"
-				item: "create:pulp"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["50F1E2AA5DE52FE5"]
-			description: [
-				"Essential for box Forts"
-				""
-				"Grab four for a block of cardboard to make a packager!"
-			]
-			id: "1C11C246842164E2"
-			subtitle: "*Amazon worker PTSD*"
-			tasks: [{
-				id: "2220AF21FE0BA7A8"
-				item: "create:cardboard"
-				type: "item"
-			}]
-			x: -2.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["1C11C246842164E2"]
-			description: [
-				"&5Logistical Essential #1."
-				"&rWhen powered by &4redstone&r or a networked &eStock Ticker&r, it will create a package."
-				"On Redstone pulse, a packager will grab as many items are availible in the attached storage until the package is full."
-				"Use a &9Stock Link&r and a &eStock Ticker&r to order custom packages!"
-			]
-			id: "48E710F73AB371A6"
-			subtitle: "Packager? I barely know her!"
+			dependencies: ["48582843C3E490C0"]
+			id: "79BC98CA214E9006"
 			tasks: [{
-				id: "19B81AC6B47A8B56"
-				item: "create:packager"
+				id: "1D7F64AE6E6C0263"
+				item: { count: 1, id: "create:package_frogport" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "316AA21C5C9CA4E3"
+			tasks: [{
+				id: "047A4264791884B3"
+				item: { count: 1, id: "create:chain_conveyor" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2C025CAA4835351D"]
-			description: [""]
-			id: "4FD5CD2078D7A87C"
-			subtitle: "Transfers roational power too!"
+			dependencies: ["48582843C3E490C0"]
+			id: "11157408AF41C055"
 			tasks: [{
-				id: "707D886A6A26957B"
-				item: "create:chain_conveyor"
+				id: "6DCF541FD9364BB8"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48582843C3E490C0"]
+			id: "495AD93FCE43DFCE"
+			tasks: [{
+				id: "425445BBF5CE8FFD"
+				item: { count: 1, id: "create:repackager" }
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["5AA4F726B7CABB96"]
-			description: [
-				"Useful for attaching and taking packages to and from Chain Conveyers. "
-				"In order for a Frogport to grab a package off a Chain Conveyer, The package must be addressed to the name given to the frogport. "
-				"Frogports can use asterisks (*) to act as wildcard characters. For example, if you want a Frogport to grab any package addressed to a train station, you can address packages to either \"Cerulean Station\" or \"Lilycove Station\" and the Frogport's name should be \"************ Station\" if you want to pickup from any station. "
-				"Alternatively, you can leave a Frogport name empty to grab any packages that are unaddressed."
-				"&a&lBe sure to check the Packager quest for Addressing info."
-			]
-			id: "185F8B6D61BDF3D4"
-			optional: true
-			subtitle: "Section WIP"
+			dependencies: ["48582843C3E490C0"]
+			id: "116B1F6CCE5A8856"
 			tasks: [{
-				id: "2CE31F80D4BA9D69"
-				item: "create:package_frogport"
+				id: "6CB6625251881A50"
+				item: { count: 1, id: "create:stock_link" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["48E710F73AB371A6"]
-			description: [
-				"Packagers can automatically address a package by placing a vanilla sign on the side of it. The first line of the sign will be the address of the package created. Packages can be filtered by address either by using a package filter or a Frogport."
-				"Alternatively, either a blaze burner or a seated mob can be used to create a Stock manager by placing them next to a &eStock Ticker.&r In the inventory of the Stock Ticker, you can see a text box next to a clipboard; this is where you enter an address. Any packager connected (see &9Stock Link&r and &eStock Ticker&r) will address packages to that address in the text box. A clipboard placed next to the blaze/mob can create a set of remembered addresses."
-				"&a&lLook at &r&9Stock Link&r &l&aand &r&eStock Ticker&r&a&l for More information on Creating a Network."
-			]
-			id: "75532FE5F187496A"
-			subtitle: "Essential Information."
-			tasks: [{
-				id: "18CB12B7BAD8E02B"
-				title: "Adressing Info"
-				type: "checkmark"
-			}]
-			x: -3.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["4B1D4D5BEDF830EA"]
-			description: [
-				"&8&lClutches&r can be used to shut down systems that aren't needed to produce if you have too much of an item. They activate on a redstone signal"
-				"&e&lThreshold Switches&r can be used to determine how much items are required in a storage. once a certain amount of items have been collected (top row) it will emit a redstone signal. once it goes below  a certain number of items, it will stop sending a redstone pulse. Signals can be inverted, and redstone links can be used to wirelessly transmit signals."
-				""
-				"&lplease be courteous to other players and don't lag the server! &nLoose items will bring the server to a crawl, so be sure to avoid them."
-			]
-			id: "5AA4F726B7CABB96"
-			rewards: [
-				{
-					count: 8
-					id: "12B72C70E8C897F7"
-					item: "create:stockpile_switch"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5B37DAD2E0FF75A1"
-					item: "create:clutch"
-					type: "item"
-				}
-			]
-			subtitle: "Lag mangement is essential."
+			dependencies: ["48582843C3E490C0"]
+			id: "79D2925E558FF904"
 			tasks: [{
-				id: "5981F369C376074B"
-				title: "Lag Utilities!"
-				type: "checkmark"
+				id: "27D81CFB057B9C8E"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: -0.5d
 		}
 	]
-	title: "&3Create - Base Mod&r"
 }

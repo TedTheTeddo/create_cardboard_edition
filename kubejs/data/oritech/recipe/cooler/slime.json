@@ -1,0 +1,16 @@
+{
+  "type": "oritech:cooler",
+  "fluidInput": {
+    "amount": 500,
+    "fluid": "kubejs:liquified_slime"
+  },
+  "fluidOutputs": [],
+  "ingredients": [],
+  "results": [
+    {
+      "count": 1,
+      "id": "deeperdarker:resonarium"
+    }
+  ],
+  "time": 100
+}

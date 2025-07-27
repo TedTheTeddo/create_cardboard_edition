@@ -13,48 +13,22 @@
             "context": "grounded",
             "bucket": "rare",
             "level": "50-60",
-            "weight": 5,
+            "weight": 3.0,
             "weightMultiplier": {
-                "multiplier": 1.5
-},
+                "multiplier": 2,
                 "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
+                    "moonPhase": "1"
+                }
+            },
+    	    "condition": {
                 "biomes": [
                     "#cobblemon:is_spooky"
                 ],
-		            "timeRange": "night"
-            },
-            "anticondition": {
-            "moonPhase": "1"
+		        "timeRange": "night"
             }
         },
         {
             "id": "noivern-2",
-            "pokemon": "noivern",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "50-60",
-            "weight": 2,
-            "weightMultiplier": {
-                "multiplier": 1.5
-            },
-            "condition": {
-                "minSkyLight": 6,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "#cobblemon:is_spooky"
-                ],
-                "timeRange": "night",
-                "moonPhase": "1"
-            }
-        },
-        {
-            "id": "noivern-3",
             "pokemon": "noivern",
             "presets": [
                 "natural"
@@ -74,9 +48,27 @@
             },
             "anticondition": {
                 "biomes": [
-                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_cave"
+                ]
+            }
+        },
+        {
+            "id": "noivern-3",
+            "pokemon": "noivern",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-80",
+            "weight": 6.0,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
                     "#cobblemon:is_dripstone",
-                    "terralith:cave/underground_jungle"
+                    "#cobblemon:is_deep_dark"
                 ]
             }
         },
@@ -88,66 +80,12 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "50-80",
-            "weight": 1,
-            "condition": {
-                "minSkyLight": 0,
-                "maxSkyLight": 7,
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ]
-            }
-        },
-        {
-            "id": "noivern-5",
-            "pokemon": "noivern",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "50-80",
-            "weight": 1,
-            "condition": {
-                "minSkyLight": 0,
-                "maxSkyLight": 7,
-                "biomes": [
-                    "#cobblemon:is_deep_dark"
-                ]
-            }
-        },
-        {
-            "id": "noivern-6",
-            "pokemon": "noivern",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
             "bucket": "rare",
             "level": "50-70",
-            "weight": 3.0,
+            "weight": 5.0,
             "condition": {
                 "biomes": [
-                    "betterend:chorus_forest"
-                ]
-            }
-        },
-        {
-            "id": "noivern-7",
-            "pokemon": "noivern",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "50-70",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
+                    "betterend:chorus_forest",
                     "betterend:foggy_mushroomland",
                     "betterend:umbrella_jungle"
                 ]

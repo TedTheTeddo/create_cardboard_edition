@@ -6,6 +6,9 @@
         {
             "id": "minccino-1",
             "pokemon": "minccino",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
@@ -14,7 +17,7 @@
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "minecraft:birch_forest"
+                    "#cobblemon:is_forest"
                 ]
             }
         }

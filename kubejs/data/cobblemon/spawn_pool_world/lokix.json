@@ -6,6 +6,9 @@
       {
         "id": "lokix-1",
         "pokemon": "lokix",
+        "presets": [
+          "natural"
+        ],
         "type": "pokemon",
         "context": "grounded",
         "bucket": "uncommon",
@@ -13,14 +16,18 @@
         "weight": 1.1,
         "condition": {
           "canSeeSky": true,
-          "biomes": [ "minecraft:plains"
-                    ]
+          "biomes": [
+            "#cobblemon:is_plains"
+        ]
         }
         
       },
       {
         "id": "lokix-2",
         "pokemon": "lokix",
+        "presets": [
+          "natural"
+        ],
         "type": "pokemon",
         "context": "grounded",
         "bucket": "uncommon",
@@ -31,11 +38,13 @@
           "biomes": [ "#cobblemon:is_forest"]
         },
         "anticondition": {
-          "biomes": [ "#cobblemon:is_cold_ocean",
+          "biomes": [
+          "#cobblemon:is_cold_ocean",
           "#cobblemon:is_freezing",
           "#cobblemon:is_peak",
           "#cobblemon:is_taiga",
-          "#cobblemon:is_tundra"]
+          "#cobblemon:is_tundra"
+        ]
         }
       }
 

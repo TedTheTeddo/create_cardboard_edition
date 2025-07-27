@@ -1,0 +1,11 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+"input1": 
+{ "filter": "kubejs:netherite_coins", "count": { "type": "constant", "count": 1 } },
+"output": [
+  { "item": "kubejs:irons_superior_gemset_ring", "count": { "type": "constant", "count": 1 }, "weight": 1.0 }
+]
+}

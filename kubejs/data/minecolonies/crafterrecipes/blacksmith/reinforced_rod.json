@@ -1,0 +1,26 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "id": "minecraft:reinforced_deepslate"
+    },
+    {
+      "id": "minecraft:reinforced_deepslate"
+    },
+    {
+      "id": "minecraft:reinforced_deepslate"
+    },
+    {
+      "id": "minecraft:reinforced_deepslate"
+    },
+    {
+      "id": "create:shaft"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "result": {
+    "id": "kubejs:cce_reinforced_rod"
+  }
+}

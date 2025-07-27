@@ -6,21 +6,27 @@
       {
         "id": "nymble-1",
         "pokemon": "nymble",
+        "presets": [
+               "natural"
+           ],
         "type": "pokemon",
         "context": "grounded",
         "bucket": "common",
         "level": "7-25",
-        "weight": 6.0,
+        "weight": 4.0,
         "condition": {
           "canSeeSky": true,
-          "biomes": [ "minecraft:plains"
-                    ]
+          "biomes": [ 
+            "#cobblemon:is_plains"
+          ]
         }
-        
       },
       {
         "id": "nymble-2",
         "pokemon": "nymble",
+        "presets": [
+               "natural"
+           ],
         "type": "pokemon",
         "context": "grounded",
         "bucket": "common",
@@ -28,15 +34,16 @@
         "weight": 6.0,
         "condition": {
           "canSeeSky": true,
-          "biomes": [ "#cminecraft:is_forest"]
+          "biomes": [ 
+            "#cobblemon:is_forest"
+          ]
         },
         "anticondition": {
           "biomes": [ 
-          "#cobblemon:is_cold_ocean",
           "#cobblemon:is_freezing",
-          "#cobblemon:is_peak",
           "#cobblemon:is_taiga",
-          "#cobblemon:is_tundra"]
+          "#cobblemon:is_tundra"
+          ]
         }
       }
 

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/purple_dye"
+  },
+  "overrides": [
+    {
+      "model": "customformchange:item/shadow_energy",
+      "predicate": {
+        "custom_model_data": 260613
+      }
+    },
+    {
+      "model": "customformchange:item/binding_armor",
+      "predicate": {
+        "custom_model_data": 260614
+      }
+    },
+	  {
+      "model": "customformchange:item/shadow_mewtwonite_y",
+      "predicate": {
+        "custom_model_data": 260616
+      }
+    },
+    {
+      "model": "customformchange:item/victinite",
+      "predicate": {
+        "custom_model_data": 260619
+      }
+    }
+  ]
+}

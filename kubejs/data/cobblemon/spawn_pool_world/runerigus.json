@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -7,40 +7,34 @@
             "id": "runerigus-1",
             "pokemon": "runerigus",
             "presets": [
-                "underground"
+                "stronghold"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "34-43",
-            "weight": 2.0,
+            "level": "34-65",
+            "weight": 3.0,
             "condition": {
-                "maxLight": 7,
-                "neededNearbyBlocks": [
-                    "minecraft:stone_bricks",
-                    "minecraft:cracked_stone_bricks",
-                    "minecraft:mossy_stone_bricks"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:stone_bricks"
-                ],
-                "maxY": 60
+				"canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
             }
         },
         {
             "id": "runerigus-2",
             "pokemon": "runerigus",
             "presets": [
-                "ruins"
+                "trail_ruins"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "34-43",
-            "weight": 1.0,
+            "bucket": "rare",
+            "level": "34-65",
+            "weight": 2.0,
             "condition": {
                 "timeRange": "night",
-		"biomes": [
+                "biomes": [
                     "#cobblemon:is_overworld"
                 ]
             }

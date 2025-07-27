@@ -7,8 +7,7 @@
         "id": "purugly-1",
         "pokemon": "purugly",
         "presets": [                
-            "natural",
-            "village"
+            "natural"
         ],
         "type": "pokemon",
         "context": "grounded",
@@ -26,7 +25,10 @@
             "biomes": [
                 "#cobblemon:is_overworld"
             ],
-            "isRaining": false
+            "isRaining": false,
+            "structures": [
+                "#minecraft:village"
+            ]
         }
 
       }

@@ -1,0 +1,23 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels ",
+	"Error sending packet clientbound/minecraft:disconnect",
+	"Refreshed daily shop some_custom_shop!",
+	"Refreshed daily shop!",
+	"Couldn't parse element ResourceKey",
+	"Couldn't parse data file",
+	"Failed to parse cataclysm",
+	"Skipping recipe",
+	"Error parsing recipe",
+	"Parsing error loading recipe",
+	"Mob Capture Card Definition Manager",
+	"MobFarmBonusConfig"
+    ],
+    "regex": [
+      "Disconnecting VANILLA connection attempt",
+      "Channels "
+    ]
+  }
+}

@@ -6,6 +6,9 @@
         {
             "id": "togedemaru-1",
             "pokemon": "togedemaru",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
@@ -14,7 +17,7 @@
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_badlands"
+                    "#cobblemon:is_badlands"
                 ]
             }
         }

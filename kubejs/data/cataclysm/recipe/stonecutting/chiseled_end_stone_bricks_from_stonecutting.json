@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredients": [
+        {
+            "item": "minecraft:end_stone"
+        },
+        {
+            "item": "minecraft:end_stone_bricks"
+        }
+    ],
+    "results": [
+    "id": "cataclysm:chiseled_end_stone_bricks",
+    "count": 1]
+}

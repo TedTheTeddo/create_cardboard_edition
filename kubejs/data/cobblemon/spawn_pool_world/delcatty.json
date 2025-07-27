@@ -7,8 +7,7 @@
         "id": "delcatty-1",
         "pokemon": "delcatty",
         "presets": [                
-            "natural",
-            "village"
+            "natural"
         ],
         "type": "pokemon",
         "context": "grounded",
@@ -26,7 +25,10 @@
             "biomes": [
                 "#cobblemon:is_overworld"
             ],
-            "isRaining": false
+            "isRaining": false,
+            "structures": [
+                "#minecraft:village"
+            ]
         },
         "anticondition": {
             "biomes": [
@@ -47,7 +49,7 @@
         "context": "grounded",
         "bucket": "uncommon",
         "level": "15-55",
-        "weight": 3.0,
+        "weight": 2.0,
         "weightMultiplier": {
             "multiplier": 1.5,
             "condition": {
@@ -58,11 +60,6 @@
             "canSeeSky": true,
             "biomes": [
                 "#cobblemon:is_arid"
-            ]
-        },
-        "anticondition": {
-            "structures": [
-                "#minecraft:village"
             ]
         }
       },
@@ -86,7 +83,7 @@
         "condition": {
             "canSeeSky": true,
             "biomes": [
-                "minecraft:cherry_grove"
+                "#cobblemon:is_floral"
             ]
         }
       }

@@ -1,5 +1,5 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
@@ -12,7 +12,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "12-35",
+            "level": "41-65",
             "weight": 1.0,
             "condition": {
                 "timeRange": "night",
@@ -24,15 +24,17 @@
         {
             "id": "gothitelle-2",
             "pokemon": "gothitelle",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "5-35",
+            "level": "41-70",
             "weight": 3.0,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
-                    "#minecraft:is_end"
+                    "#cobblemon:is_end"
                 ]
             }
         }

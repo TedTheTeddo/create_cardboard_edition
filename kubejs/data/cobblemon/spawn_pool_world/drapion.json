@@ -13,7 +13,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "45-55",
+            "level": "45-65",
             "weight": 6.6,
             "condition": {
                 "biomes": [
@@ -32,7 +32,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "45-55",
+            "level": "45-65",
             "weight": 9.0,
             "condition": {
                 "minSkyLight": 0,
@@ -59,7 +59,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "45-55",
+            "level": "45-65",
             "weight": 3.1,
             "condition": {
                 "biomes": [

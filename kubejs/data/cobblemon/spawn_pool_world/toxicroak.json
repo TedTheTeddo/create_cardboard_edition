@@ -4,13 +4,16 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "croagunk-1",
-            "pokemon": "croagunk",
+            "id": "toxicroak-1",
+            "pokemon": "toxicroak",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
             "level": "10-36",
-            "weight": 4.1,
+            "weight": 9.1,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -19,13 +22,16 @@
             }
         },
 		{
-            "id": "croagunk-2",
-            "pokemon": "croagunk",
+            "id": "toxicroak-2",
+            "pokemon": "toxicroak",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
             "level": "10-36",
-            "weight": 1.45,
+            "weight": 7.8,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [

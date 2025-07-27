@@ -6,15 +6,15 @@
         {
             "id": "munna-1",
             "pokemon": "munna",
+            "presets": [],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
             "level": "10-25",
-            "weight": 5.8,
+            "weight": 8.0,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_overworld"
+                    "#cobblemon:is_overworld"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:white_bed",
@@ -39,14 +39,17 @@
         {
             "id": "munna-2",
             "pokemon": "munna",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "10-25",
-            "weight": 5.8,
+            "weight": 8.0,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_end"
+                    "#cobblemon:is_end"
                 ],
                 "neededNearbyBlocks": [
                     "minecraft:white_bed",

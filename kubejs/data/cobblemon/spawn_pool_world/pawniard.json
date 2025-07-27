@@ -13,12 +13,20 @@
            "context": "grounded",
            "bucket": "uncommon",
            "level": "10-38",
-           "weight": 6.9,
+           "weight": 4,
            "condition": {
                "biomes": [
-                   "minecraft:bamboo_jungle"
+                   "#cobblemon:is_bamboo"
                ]
-           }
+           },
+           "weightMultipliers": [
+            {
+                "multiplier": 3,
+                "condition": {
+                    "timeRange": "night"
+                }
+            }
+        ]
        }
    ]
 }

@@ -1,0 +1,32 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+"input1": 
+{ "filter": "kubejs:gold_coins", "count": { "type": "constant", "count": 4 } },
+"output": [
+  { "item": "wheat_seeds", "count": { "type": "constant", "count": 4 }, "weight": 1.0 },
+  { "item": "pumpkin_seeds", "count": { "type": "constant", "count": 4 }, "weight": 0.5 },
+  { "item": "melon_seeds", "count": { "type": "constant", "count": 4 }, "weight": 0.3 },
+  { "item": "farmersdelight:cabbage_seeds", "count": { "type": "constant", "count": 4 }, "weight": 1.0 },
+  { "item": "farmersdelight:tomato_seeds", "count": { "type": "constant", "count": 4 }, "weight": 1.0 },
+  { "item": "minecolonies:tomato", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:soybean", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:onion", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:eggplant", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:durum", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:chickpea", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:cabbage", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:bell_pepper", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:garlic", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:butternut_squash", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:mint", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:peas", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:nether_pepper", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:corn", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "minecolonies:rice", "count": { "type": "constant", "count": 4 }, "weight": 0.2 },
+  { "item": "torchflower_seeds", "count": { "type": "constant", "count": 4 }, "weight": 0.3 },
+  { "item": "beetroot_seeds", "count": { "type": "constant", "count": 4 }, "weight": 0.8 }
+]
+}

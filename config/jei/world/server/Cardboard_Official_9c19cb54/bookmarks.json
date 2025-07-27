@@ -1,0 +1,22 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecolonies:supplycampdeployer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:crafting/materials/andesite_alloy","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"create:empty_blaze_burner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_mechanical_extruder:mechanical_extruder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:repeater"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"easy_mob_farm:loot_enhancement"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersive_aircraft:biplane"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:deployer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:lime_dye"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:elevator_pulley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:redstone_contact"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:contraption_controls"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:precision_mechanism"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedstorage:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedstorage:limited_barrel_2","components":{"sophisticatedstorage:wood_type":"oak"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"easy_mob_farm:speed_enhancement"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"easy_mob_farm:big_slot_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"easy_mob_farm:tier2_mob_farm_template"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

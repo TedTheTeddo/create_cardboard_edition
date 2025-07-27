@@ -1,0 +1,852 @@
+// priority: 1
+
+//==========================================================================================================
+
+//FUNCTIONS
+function createItemApplication(event, base, addition, result) {
+  event.custom({
+    type: "create:item_application",
+    ingredients: [
+      { item: base },
+      { item: addition }
+    ],
+    results: [
+      { id: result }
+    ]});}
+//==========================================================================================================
+
+function createDeployer(event, heldItem, deployedItem, result, tf) {
+  event.custom({
+    type: "create:deploying",
+    ingredients: [
+      { item: heldItem },
+      { item: deployedItem }
+    ],
+    keep_held_item: true,
+    results: [
+      { id: result }
+    ]});}
+
+//==========================================================================================================
+
+ServerEvents.recipes(event => {
+
+    createItemApplication(event, "create:andesite_casing", "create:cardboard",                  "oritech:machine_core_1");
+    createItemApplication(event, "oritech:machine_core_1", "justdirethings:ferricore_ingot",    "oritech:machine_core_2");
+    createItemApplication(event, "oritech:machine_core_2", "minecraft:obsidian",                "create:railway_casing");
+    createItemApplication(event, "oritech:machine_core_2", "create:brass_ingot",                "create:brass_casing");
+    createItemApplication(event, "oritech:machine_core_2", "oritech:reinforced_carbon_sheet",   "oritech:machine_core_3");
+    createItemApplication(event, "oritech:machine_core_3", "oritech:advanced_computing_engine", "oritech:machine_core_4");
+    createItemApplication(event, "oritech:machine_core_4", "oritech:unholy_intelligence",       "oritech:machine_core_5");
+    createItemApplication(event, "oritech:machine_core_5", "oritech:super_ai_chip",             "oritech:machine_core_6");
+    createItemApplication(event, "oritech:silicon_wafer", "oritech:processing_unit",            "oritech:advanced_computing_engine")
+    createItemApplication(event, "create:andesite_casing", "minecraft:diamond",                 "cobblemon:healing_machine")
+
+    event.stonecutting('minecraft:dirt',  'minecraft:coarse_dirt')
+
+    event.shaped('minecraft:blast_furnace',         ['AAA', 'ABA', 'CCC'], {A: 'minecraft:copper_ingot', B: "minecraft:furnace", C: "minecraft:stone"});
+    event.shaped('4x minecraft:chest',              ['AAA', 'A A', 'AAA'], {A: '#minecraft:logs'});
+
+    event.shaped('create:copper_casing',            ['BCB', 'CAC','BCB'], {A: 'oritech:machine_core_1', B: "minecraft:copper_ingot", C: "minecraft:dried_kelp"});
+    
+    event.shaped('justdirethings:blockplacert1',    ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:diamond", E: "minecraft:dispenser"});
+    event.shaped('justdirethings:blockbreakert1',   ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:diamond", E: "minecraft:observer"});
+    event.shaped('justdirethings:clickert1',        ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:quartz", E: "minecraft:dispenser"});
+    event.shaped('justdirethings:sensort1',         ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:quartz", E: "minecraft:observer"});
+    event.shaped('justdirethings:fluidcollectort1', ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:bucket", E: "minecraft:dispenser"});
+    event.shaped('justdirethings:fluidplacert1',    ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:bucket", E: "minecraft:dropper"});
+    event.shaped('justdirethings:droppert1',        ['BDB', 'CAC', 'BEB'], {A: "oritech:machine_core_2", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "minecraft:redstone", E: "minecraft:dropper"});
+
+    event.shaped('justdirethings:blockplacert2',    ['BCB', 'CAC', 'BDB'], {A: "justdirethings:blockplacert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:blockbreakert2',   ['BCB', 'CAC', 'BDB'], {A: "justdirethings:blockbreakert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:clickert2',        ['BCB', 'CAC', 'BDB'], {A: "justdirethings:clickert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:sensort2',         ['BCB', 'CAC', 'BDB'], {A: "justdirethings:sensort1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:fluidcollectort2', ['BCB', 'CAC', 'BDB'], {A: "justdirethings:fluidcollectort1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:fluidplacert2',    ['BCB', 'CAC', 'BDB'], {A: "justdirethings:fluidplacert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:droppert2',        ['BCB', 'CAC', 'BDB'], {A: "justdirethings:droppert1", B: "justdirethings:celestigem", C: "minecraft:ender_eye", D: "oritech:machine_core_5"});
+    event.shaped('justdirethings:blockswappert2',   ['BCB', 'CAC', 'BDB'], {A: "justdirethings:blockswappert1", B: "justdirethings:eclipsealloy_ingot", C: "minecraft:ender_eye", D: "oritech:machine_core_7"});
+    event.shaped('justdirethings:time_wand',        [' AB', ' CA', 'C  '], {A: "justdirethings:time_crystal", B: "justdirethings:eclipsealloy_ingot", C: "oritech:prometheum_ingot"});
+
+    event.shaped('justdirethings:upgrade_orescanner', ['BCB', 'CAC', 'BDB'], {A: "justdirethings:upgrade_blank", B: "justdirethings:ferricore_ingot", C: "minecraft:redstone", D: "oritech:processing_unit"});
+    event.shaped('justdirethings:upgrade_orexray',  ['BCB', 'CAC', 'BDB'], {A: "justdirethings:upgrade_blank", B: "minecraft:sculk_catalyst", C: "minecraft:redstone", D: "oritech:machine_core_7"});
+    event.shaped('justdirethings:upgrade_flight',   ['BCB', 'CAC', 'BDB'], {A: "justdirethings:upgrade_blank", B: "minecraft:phantom_membrane", C: "minecraft:redstone", D: "oritech:machine_core_7"});
+
+    event.shaped('minecraft:cobweb',   ['AAA', 'A A', 'AAA'], {A: "minecraft:string"});
+    event.shaped('sophisticatedstorage:void_upgrade',   ['AAA', 'ABA', 'AAA'], {A: "minecraft:obsidian", B: "sophisticatedstorage:upgrade_base"});
+
+    event.shaped('create:brass_hand',               [' A ', 'BBB',' B '], {A: 'create:andesite_alloy', B: "create:golden_sheet"});
+    event.shaped('oritech:foundry_block',           ['AAA', 'ABA','CDC'], {A: 'minecraft:copper_ingot', B: "minecraft:blast_furnace", C: "justdirethings:ferricore_ingot", D: "oritech:machine_core_3"});
+    event.shaped('oritech:assembler_block',         ['AAA', 'BCB','DED'], {A: 'minecraft:copper_ingot', B: "minecraft:crafter", C: "oritech:adamant_ingot", D: "oritech:motor", E: "oritech:machine_core_4"});
+    event.shaped('oritech:accelerator_controller',  ['AAA', 'ABA','DCD'], {A: 'oritech:duratium_ingot', B: "minecraft:dropper", C: "oritech:machine_core_6", D: "oritech:heisenberg_compensator"});
+    event.shaped('oritech:atomic_forge_block',      ['ABA', 'BCB','DDD'], {A: 'oritech:flux_gate', B: "oritech:duratium_ingot", C: "oritech:machine_core_4", D: "#oritech:plating"});
+
+    event.shaped('dailyshop:daily_shop',            ['ABA', 'BCB','ABA'], {A: 'minecraft:red_wool', B: "minecraft:white_wool", C: "minecraft:diamond"});
+    event.shaped('kubejs:cataclysm_token',      ['ABC', 'DEF','GHI'], {
+            A: 'cataclysm:music_disc_netherite_monstrosity', 
+            B: "cataclysm:music_disc_ender_guardian", 
+            C: "cataclysm:music_disc_ignis", 
+            D: "cataclysm:music_disc_the_harbinger",
+            E: "minecraft:heart_of_the_sea",
+            F: "cataclysm:music_disc_the_leviathan",
+            G: "cataclysm:music_disc_ancient_remnant",
+            H: "cataclysm:music_disc_maledictus",
+            I: "cataclysm:music_disc_scylla"
+        });
+    event.blasting('minecraft:leather', 'minecraft:rotten_flesh')
+    event.blasting('createaddition:electrum_ingot', 'oritech:electrum_dust')
+    event.blasting('kubejs:cce_unrefined_steel_nugget', 'kubejs:cce_unrefined_steel_dust')
+    event.shapeless(Item.of('oritech:steel_ingot', 1), ['9x kubejs:cce_unrefined_steel_nugget'])
+    event.shapeless(Item.of('justdirethings:portalgun_v2', 1), ['justdirethings:portalgun', 'oritech:machine_core_7'])
+    event.shapeless(Item.of('create:cardboard', 1), ['minecraft:water_bucket', 'minecraft:paper'])
+
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:amulet_of_protection"]'), ['kubejs:irons_amulet_of_protection']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:bane_ring"]'), ['kubejs:irons_bane_ring']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:barbed_band"]'), ['kubejs:irons_barbed_band']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:haggler_ring"]'), ['kubejs:irons_ring_of_haggling']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:improved_gemset_ring"]'), ['kubejs:irons_improved_gemset_ring']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:piglin_signet_ring"]'), ['kubejs:irons_pigling_signet_ring']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:sharpshooter_loop"]'), ['kubejs:irons_sharpshooter_loop']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:stalwart_ring"]'), ['kubejs:irons_stalwart_ring']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:superior_gemset_ring"]'), ['kubejs:irons_superior_gemset_ring']);
+    event.shapeless(Item.of('irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:tearstone_ring"]'), ['kubejs:irons_tearstone_ring']);
+
+    event.shapeless('cobblemon:red_apricorn',  ['minecraft:red_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:yellow_apricorn',  ['minecraft:yellow_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:green_apricorn',  ['minecraft:green_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:blue_apricorn',  ['minecraft:blue_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:pink_apricorn',  ['minecraft:pink_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:black_apricorn',  ['minecraft:black_dye', '#cobblemon:apricorns'])
+    event.shapeless('cobblemon:white_apricorn',  ['minecraft:white_dye', '#cobblemon:apricorns'])
+
+    event.shapeless("minecraft:ink_sac", ["minecraft:glass_bottle", 'minecraft:black_dye']) //Ink Sac
+    event.shapeless('minecraft:experience_bottle', ['minecraft:glass_bottle', 'create:experience_nugget']) //Bottle of Enchanting
+//==========================================================================================================
+//====================================      Create        ==================================================
+//==========================================================================================================
+    event.custom({"type": "create:haunting", // Charcoal to Diamond
+        "ingredients": [{"item": "minecraft:charcoal"}],
+        "results": [{"id": "minecraft:coal"}]})
+
+    event.custom({"type": "create:splashing", //Mob Drop: Feather & Rabbit Foot
+        "ingredients": [{"item": "minecraft:dirt"}],
+        "results": [{"chance": 0.50, "id": "minecraft:feather"}, {"chance": 0.01, "id": "minecraft:rabbit_foot"}]})
+
+    event.custom({"type": "create:splashing", //Mob Drop: Rotten Flesh
+        "ingredients": [{"item": "minecraft:mud"}],
+        "results": [{"id": "minecraft:rotten_flesh"}]})
+
+    event.custom({"type": "create:splashing", //Mob Drop: Spider Eye / Ender Eye
+        "ingredients": [{"item": "minecraft:soul_soil"}],
+        "results": [{"chance": 0.25, "id": "minecraft:spider_eye"}, {"chance": 0.25, "id": "minecraft:ender_pearl"}]})
+
+//==========================================================================================================
+    event.custom({
+        "type": "create:compacting",
+        "heat_requirement": "heated",
+        "ingredients": [{"item": "oritech:fluxite"},{ "type": "fluid_stack", "fluid": "oritech:still_strange_matter", "amount": 250 }],
+        "results": [{ "id": "kubejs:cce_unstable_compound"}]});
+
+    event.custom({
+        "type": "create:compacting",
+        "heat_requirement": "heated",
+        "ingredients": [{"item": "minecraft:sculk"},{"item": "minecraft:stone"}],
+        "results": [{ "id": "deeperdarker:sculk_stone"}]});
+
+    event.custom({
+        "type": "create:compacting",
+        "heat_requirement": "heated",
+        "ingredients": [{"item": "deeperdarker:soul_dust"},{"item": "deeperdarker:resonarium"}],
+        "results": [{ "id": "minecraft:echo_shard"}]});
+
+    event.custom({"type": "create:compacting", 
+        "ingredients": [{"item": "createaddition:copper_wire"}, {"item": "oritech:coal_dust"}],
+        "results": [{"id": "oritech:carbon_fibre_strands"}]})
+
+    event.custom({"type": "create:compacting", //Mob Drop: Bone
+        "ingredients": [{"item": "minecraft:bone_meal"}, {"item": "minecraft:bone_meal"}, {"item": "minecraft:bone_meal"}, {"item": "minecraft:bone_meal"}],
+        "results": [{"id": "minecraft:bone"}]})
+
+    event.custom({"type": "create:compacting", //Mob Drop: Sculk
+        "ingredients": [{"item": "create:experience_nugget"}, {"item": "minecraft:sculk"}],
+        "results": [{"id": "minecraft:sculk", "count": 2}]})
+
+    event.custom({"type": "create:compacting", //Mob Drop: Gunpowder
+        "ingredients": [{"item": "minecraft:flint"}, {"item": "minecraft:dried_kelp"}],
+        "results": [{"id": "minecraft:gunpowder"}]})
+
+    event.custom({"type": "create:compacting", //Mob Drop: Blaze Powder
+        "heat_requirement": "heated",
+        "ingredients": [{"item": "minecraft:redstone"}],
+        "results": [{"id": "minecraft:blaze_powder"}]})
+
+    event.custom({"type": "create:compacting", 
+        "ingredients": [{"item": "minecraft:sugar"}, {"item": "create:pulp"}],
+        "results": [{"id": "minecraft:honeycomb"}]})
+
+    event.custom({
+        "type": "create:compacting",
+        "ingredients": [{ "type": "fluid_stack", "fluid": "minecraft:milk", "amount": 500 },{"item": "minecraft:stone"}],
+        "results": [{"id": "minecraft:calcite"}]});  
+    
+    event.custom({
+        "type": "create:compacting",
+        "ingredients": [{ "type": "fluid_stack", "fluid": "minecraft:lava", "amount": 100 }, {"item": "create:cinder_flour"}],
+        "results": [{"id": "minecraft:netherrack"}]});  
+
+    event.custom({
+        "type": "create:compacting",
+        "heat_requirement": "superheated",
+        "ingredients": [{"tag": "cardboardedition:tera_shards"},{"item": "cobblemonparts:master_worked_metal"}],
+        "results": [{ "id": "kubejs:cce_eclipse_sheet"}]});
+
+//==========================================================================================================
+
+        //SandPaper Polishing
+    event.custom({"type": "create:sandpaper_polishing", //Mob Drop: Ghast Tears
+        "ingredients": [{"item": "minecraft:prismarine"}],
+        "results": [{"id": "minecraft:ghast_tear"}]})
+
+//==========================================================================================================
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "justdirethings:coal_t1"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 1.0,"count": 3, "id": "minecraft:gunpowder"}]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "justdirethings:coal_t2"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 1.0,"count": 6, "id": "minecraft:gunpowder"}]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "justdirethings:coal_t3"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 1.0,"count": 12, "id": "minecraft:gunpowder"}]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "justdirethings:coal_t4"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 1.0,"count": 24, "id": "minecraft:gunpowder"}]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "minecraft:iron_ingot"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 1.0, "id": "oritech:iron_dust"}]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "oritech:coal_dust"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 1.0, "id": "minecraft:black_dye", "count": 2},
+            {"chance": 0.1, "id": "minecraft:black_dye", "count": 2},
+        ]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "minecraft:coal"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 1.0, "id": "oritech:coal_dust"}]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "cobblemon:apricorn_log"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 0.05, "id": "cobblemon:red_apricorn_seed"},
+            {"chance": 0.05, "id": "cobblemon:green_apricorn_seed"},
+            {"chance": 0.05, "id": "cobblemon:blue_apricorn_seed"}
+        ]})
+
+    event.custom({
+        "type": "create:milling", 
+        "ingredients": [{"item": "cobblemon:apricorn_leaves"}],
+        "processing_time": 150,
+        "results": [
+            {"chance": 0.05, "id": "cobblemon:red_apricorn_seed"},
+            {"chance": 0.05, "id": "cobblemon:green_apricorn_seed"},
+            {"chance": 0.05, "id": "cobblemon:blue_apricorn_seed"}
+        ]})
+
+    event.custom({
+        "type": "create:filling", 
+        "ingredients": [{"item": "cobblemon:red_apricorn_seed"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "cobblemon:red_apricorn"}]});
+
+    event.custom({
+        "type": "create:filling", 
+        "ingredients": [{"item": "cobblemon:yellow_apricorn_seed"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "cobblemon:yellow_apricorn"}]});
+
+    event.custom({
+        "type": "create:filling", 
+        "ingredients": [{"item": "cobblemon:green_apricorn_seed"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "cobblemon:green_apricorn"}]});
+
+    event.custom({
+        "type": "create:filling", 
+        "ingredients": [{"item": "cobblemon:blue_apricorn_seed"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "cobblemon:blue_apricorn"}]});
+
+    event.custom({
+        "type": "create:filling", 
+        "ingredients": [{"item": "cobblemon:pink_apricorn_seed"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "cobblemon:pink_apricorn"}]});
+
+    event.custom({
+        "type": "create:filling", 
+        "ingredients": [{"item": "cobblemon:white_apricorn_seed"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "cobblemon:white_apricorn"}]});
+
+    event.custom({
+        "type": "create:filling", 
+        "ingredients": [{"item": "cobblemon:black_apricorn_seed"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "cobblemon:black_apricorn"}]});
+
+    event.custom({"type": "create:milling", //Mob Drop: String
+        "ingredients": [{"item": "minecraft:leather"}],
+        "processing_time": 150,
+        "results": [{"id": "minecraft:string", "count": 2}]})
+
+    event.custom({"type": "create:milling", //Mob Drop: Eggs
+        "ingredients": [{"item": "minecraft:hay_block"}],
+        "processing_time": 150,
+        "results": [{"id": "egg"}]})
+
+    event.custom({"type": "create:milling", //Mob Drop: Phantom Membrane
+        "ingredients": [{"item": "minecraft:sculk"}],
+        "processing_time": 150,
+        "results": [{"chance": 0.50, "id": "minecraft:phantom_membrane"}]})
+
+    event.custom({"type": "create:milling", //Mob Drop: Phantom Membrane
+        "ingredients": [{"item": "minecraft:echo_shard"}],
+        "processing_time": 150,
+        "results": [{"chance": 0.50, "id": "minecraft:amethyst_shard"}]})
+
+//==========================================================================================================
+    event.custom({
+        "type": "create:crushing",
+        "ingredients": [{"item": "deeperdarker:sculk_stone"}],
+        "processing_time": 800,
+        "results": [
+            {"id": "deeperdarker:soul_dust"}]
+    });
+//==========================================================================================================
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "justdirethings:portal_fluid_catalyst"},{ "type": "fluid_stack", "fluid": "justdirethings:polymorphic_fluid_source", "amount": 1000 }],
+        "results": [{ "id": "justdirethings:unstable_portal_fluid_source", "amount": 1000}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "justdirethings:coal_t2"},{ "type": "fluid_stack", "fluid": "justdirethings:polymorphic_fluid_source", "amount": 1000 }],
+        "results": [{ "id": "justdirethings:unrefined_t2_fluid_source", "amount": 1000}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "justdirethings:polymorphic_catalyst"},{ "type": "fluid_stack", "fluid": "minecraft:water", "amount": 1000 }],
+        "results": [{ "id": "justdirethings:polymorphic_fluid_source", "amount": 1000}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "justdirethings:coal_t3"},{ "type": "fluid_stack", "fluid": "justdirethings:refined_t2_fluid_source", "amount": 1000 }],
+        "results": [{ "id": "justdirethings:unrefined_t3_fluid_source", "amount": 1000}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "justdirethings:coal_t4"},{ "type": "fluid_stack", "fluid": "justdirethings:refined_t3_fluid_source", "amount": 1000 }],
+        "results": [{ "id": "justdirethings:unrefined_t4_fluid_source", "amount": 1000}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "justdirethings:time_crystal"},{ "type": "fluid_stack", "fluid": "justdirethings:polymorphic_fluid_source", "amount": 1000 }],
+        "results": [{ "id": "justdirethings:time_fluid_source", "amount": 1000}]});
+        
+    event.custom({
+        "type": "create:mixing",
+        "heat_requirement": "superheated",
+        "ingredients": [{"item": "oritech:silicon"},{ "type": "fluid_stack", "fluid": "oritech:still_silicon_wash", "amount": 250 }],
+        "results": [{ "id": "oritech:silicon_wafer"}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [{"tag": "c:sands"},{ "type": "fluid_stack", "fluid": "oritech:still_naphtha", "amount": 25 }],
+        "results": [{ "id": "oritech:polymer_resin"}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "oritech:iron_dust"}, {"item": "oritech:coal_dust"}],
+        "results": [{"id": "kubejs:cce_unrefined_steel_dust", "count": 1}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [{"item": "minecraft:honey_block"}],
+        "results": [{"amount": 1000, "id": "create:honey"}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "minecraft:snowball"},{"item": "minecraft:glass_bottle"},{ "type": "fluid_stack", "fluid": "minecraft:water", "amount": 500 }],
+        "results": [{"id": "minecraft:snow_block"},{"id": "minecraft:snowball"}]});
+
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "minecraft:gravel"}, {"item": "minecraft:gravel"}, {"item": "minecraft:dirt"}, {"item": "minecraft:dirt"}],
+        "results": [{"id": "minecraft:coarse_dirt", "count": 4}]});
+        
+//==========================================================================================================
+//====================================  Create Additions  ==================================================
+//==========================================================================================================
+
+    event.custom({
+        "type": "createaddition:liquid_burning",
+        "burnTime": 24000,
+        "input": {
+            "type" : "fluid_tag",
+            "amount": 1000,
+            "fluid_tag": "c:refined_t2_fluid_source"
+        },
+        "superheated": true})
+
+    event.custom({
+        "type": "createaddition:charging", 
+        "energy": 4000, 
+        "ingredient": {"item": "kubejs:oritech_incomplete_processing_unit" },  
+        "max_charge_rate": 200, 
+        "result": {"count": 1, "id": "oritech:processing_unit"}})
+
+    event.custom({
+        "type": "createaddition:charging", 
+        "energy": 1000, 
+        "ingredient": {"item": "minecraft:gold_ingot" },  
+        "max_charge_rate": 200, 
+        "result": {"count": 1, "id": "createaddition:electrum_ingot"}})
+
+//==========================================================================================================
+//========================================  Sequenced  =====================================================
+//==========================================================================================================
+//Raw Chicken
+event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "create:wheat_flour"}, "loops": 1,  "results": [{ "id": "minecraft:chicken"}],
+        "sequence": 
+        [{"type": "create:deploying",            
+            "ingredients": [{"item": "minecraft:wheat"}, [{"item": "minecraft:wheat"}]],
+            "results": [{"id": "minecraft:wheat"}]},
+         {"type": "create:deploying",
+            "ingredients": [{"item": "minecraft:wheat"}, [{"item": "minecraft:rotten_flesh"}]],
+            "results": [{"id": "minecraft:wheat"}]}, 
+        {"type": "create:pressing", "ingredients": [{"item": "minecraft:wheat"}], "results": [{"id": "minecraft:wheat"}]}],
+        "transitional_item": {"id": "minecraft:wheat"}})
+
+//Raw Beef
+event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "create:wheat_flour"}, "loops": 1,  "results": [{ "id": "minecraft:beef"}],
+        "sequence": 
+        [{"type": "create:deploying",            
+            "ingredients": [{"item": "minecraft:carrot"}, [{"item": "minecraft:carrot"}]],
+            "results": [{"id": "minecraft:carrot"}]},
+         {"type": "create:deploying",
+            "ingredients": [{"item": "minecraft:carrot"}, [{"item": "minecraft:rotten_flesh"}]],
+            "results": [{"id": "minecraft:carrot"}]}, 
+        {"type": "create:pressing", "ingredients": [{"item": "minecraft:carrot"}], "results": [{"id": "minecraft:carrot"}]}],
+        "transitional_item": {"id": "minecraft:carrot"}})
+
+//Raw Porkchop
+event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "create:wheat_flour"}, "loops": 1,  "results": [{ "id": "minecraft:porkchop"}],
+        "sequence": 
+        [{"type": "create:deploying",            
+            "ingredients": [{"item": "minecraft:potato"}, [{"item": "minecraft:potato"}]],
+            "results": [{"id": "minecraft:potato"}]},
+         {"type": "create:deploying",
+            "ingredients": [{"item": "minecraft:potato"}, [{"item": "minecraft:rotten_flesh"}]],
+            "results": [{"id": "minecraft:potato"}]}, 
+        {"type": "create:pressing", "ingredients": [{"item": "minecraft:potato"}], "results": [{"id": "minecraft:potato"}]}],
+        "transitional_item": {"id": "minecraft:potato"}})
+
+event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "oritech:machine_core_1"},
+    "loops": 1,
+    "results": [{"id": "create:copper_casing"}],
+    "sequence": [
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:machine_core_1"}, {"item": "minecraft:dried_kelp"}], "results": [{"id": "oritech:machine_core_1"}]},
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:machine_core_1"}, {"item": "minecraft:copper_ingot"}], "results": [{"id": "oritech:machine_core_1"}]},
+        {"type": "create:pressing", "ingredients": [{"item": "oritech:machine_core_1"}], "results": [{"id": "oritech:machine_core_1"}]}
+    ],
+    "transitional_item": {"id": "oritech:machine_core_1"}});
+
+event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "oritech:machine_core_6"},
+    "loops": 8,
+    "results": [{"id": "oritech:machine_core_7"}],
+    "sequence": [
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:machine_core_6"}, {"item": "oritech:superconductor"}], "results": [{"id": "oritech:machine_core_6"}]},
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:machine_core_6"}, {"item": "oritech:prometheum_ingot"}], "results": [{"id": "oritech:machine_core_6"}]},
+        {"type": "create:pressing", "ingredients": [{"item": "oritech:machine_core_6"}], "results": [{"id": "oritech:machine_core_6"}]}
+    ],
+    "transitional_item": {"id": "oritech:machine_core_6"}});
+
+event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "minecraft:netherrack"},
+    "loops": 4,
+    "results": [{"id": "create:empty_blaze_burner"}],
+    "sequence": [
+        {"type": "create:deploying", "ingredients": [{"item": "minecraft:red_nether_bricks"}, {"item": "oritech:steel_ingot"}],   "results": [{"id": "minecraft:red_nether_bricks"}]},
+        {"type": "create:deploying", "ingredients": [{"item": "minecraft:red_nether_bricks"}, {"item": "oritech:carbon_fibre_strands"}], "results": [{"id": "minecraft:red_nether_bricks"}]}
+    ],
+    "transitional_item": {"id": "minecraft:red_nether_bricks"}});
+
+event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "create:copper_sheet"},
+    "loops": 3,
+    "results": [{"id": "oritech:reinforced_carbon_sheet"}],
+    "sequence": [
+        {"type": "create:deploying", "ingredients": [{"item": "create:copper_sheet"}, {"tag": "c:ingots/steel"}],   "results": [{"id": "create:copper_sheet"}]},
+        {"type": "create:deploying", "ingredients": [{"item": "create:copper_sheet"}, {"item": "oritech:carbon_fibre_strands"}], "results": [{"id": "create:copper_sheet"}]},
+        {"type": "create:pressing", "ingredients": [{"item": "create:copper_sheet"}], "results": [{"id": "create:copper_sheet"}]}
+    ],
+    "transitional_item": {"id": "create:copper_sheet"}});
+
+event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "oritech:plastic_sheet"},
+    "loops": 1,
+    "results": [{"id": "kubejs:oritech_incomplete_processing_unit"}],
+    "sequence": [
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:plastic_sheet"}, {"item": "createaddition:electrum_ingot"}],   "results": [{"id": "oritech:plastic_sheet"}]},
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:plastic_sheet"}, {"item": "oritech:carbon_fibre_strands"}], "results": [{"id": "oritech:plastic_sheet"}]},
+        {"type": "create:deploying", "ingredients": [{"item": "oritech:plastic_sheet"}, {"item": "minecraft:redstone"}], "results": [{"id": "oritech:plastic_sheet"}]}
+    ],
+    "transitional_item": {"id": "oritech:plastic_sheet"}});
+
+event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {"item": "oritech:unholy_intelligence"},
+        "loops": 3,
+        "results": [{"id": "oritech:super_ai_chip"}],
+        "sequence": [
+            {"type": "create:deploying", "ingredients": [{"item": "oritech:unholy_intelligence"}, {"item": "oritech:advanced_computing_engine"}], "results": [{"id": "oritech:unholy_intelligence"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "oritech:unholy_intelligence"}, {"item": "kubejs:cce_strange_compound"}], "results": [{"id": "oritech:unholy_intelligence"}]},
+            {"type": "create:deploying", "ingredients": [{"item": "oritech:unholy_intelligence"}, {"item": "justdirethings:celestigem"}], "results": [{"id": "oritech:unholy_intelligence"}]}
+        ],
+        "transitional_item": {"id": "oritech:unholy_intelligence"}});
+
+//==========================================================================================================
+  event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+      "A": {"item": "justdirethings:eclipsealloy_ingot"},
+      "B": {"item": "oritech:overcharged_crystal"},
+      "C": {"item": "oritech:heisenberg_compensator"}
+    },
+    "pattern": [
+    'AAAAA',
+    'ABBBA',
+    'ABCBA',
+    'ABBBA',
+    'AAAAA'
+    ],
+    "result": {
+      "count": 1,
+      "id": "oritech:prometheum_ingot"
+    },
+    "show_notification": false})
+
+    event.custom({
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+      "A": {"item": "kubejs:cce_creative_ingot"},
+      "B": {"item": "kubejs:cce_reinforced_rod"},
+      "C": {"item": "kubejs:cce_eclipse_sheet"},
+      "D": {"item": "oritech:machine_core_7"},
+      "E": {"item": "kubejs:cataclysm_token"}
+    },
+    "pattern": [
+    'DDDDDDD',
+    'DAAAAAD',
+    'DACCCAD',
+    'BBBEBBB',
+    'DACCCAD',
+    'DAAAAAD',
+    'DDDDDDD'
+    ],
+    "result": {
+      "count": 1,
+      "id": "create:creative_motor"
+    },
+    "show_notification": false})
+//==========================================================================================================
+//========================================== Coral Automations =============================================
+//==========================================================================================================
+
+//Sponge
+    event.custom({"type": "create:splashing", //Sponge -> Wet Sponge
+        "ingredients": [{"item": "minecraft:sponge"}],
+        "results": [{"id": "minecraft:wet_sponge"}]});
+
+    event.custom({
+        "type": "create:filling", //Sponge -> Wet Sponge
+        "ingredients": [{"item": "minecraft:sponge"}, { "type": "fluid_stack", "fluid": "minecraft:water", "amount": 250 }],
+        "results": [{"id": "minecraft:wet_sponge"}]});
+
+    event.custom({"type": "create:milling",
+        "ingredients": [{"item": "minecraft:salmon"}], //Salmon -> Sponge gamble
+        "processing_time": 150,
+        "results": [{"chance": 0.10, "id": "minecraft:sponge"}, {"id": "minecraft:bone_meal"}]});
+
+    event.custom({"type": "create:milling",
+        "ingredients": [{"item": "minecraft:cod"}], //Cod -> Sponge gamble
+        "processing_time": 150,
+        "results": [{"chance": 0.10, "id": "minecraft:sponge"}, {"id": "minecraft:bone_meal"}]});
+
+    event.custom({"type": "create:compacting", 
+        "ingredients": [{"item": "minecraft:wet_sponge"}],
+        "results": [{"id": "minecraft:sponge"}, {"chance": 0.25, "id": "minecraft:pufferfish"}, {"chance": 0.25, "id": "minecraft:tropical_fish"}]})
+
+//Basic Coral
+    event.custom({
+        "type": "create:milling",
+        "processing_time": 150,
+        "ingredients": [{"item": "minecraft:tropical_fish"}],
+        "results": [
+            {"chance": 0.50, "id": "minecraft:dead_tube_coral"},
+            {"chance": 0.50, "id": "minecraft:dead_brain_coral"},
+            {"chance": 0.50, "id": "minecraft:dead_bubble_coral"},
+            {"chance": 0.50, "id": "minecraft:dead_fire_coral"}
+        ]
+    });
+    event.custom({
+        "type": "create:milling",
+        "processing_time": 150,
+        "ingredients": [{"item": "minecraft:pufferfish"}],
+        "results": [
+            {"chance": 0.50, "id": "minecraft:dead_tube_coral"},
+            {"chance": 0.50, "id": "minecraft:dead_brain_coral"},
+            {"chance": 0.50, "id": "minecraft:dead_bubble_coral"},
+            {"chance": 0.50, "id": "minecraft:dead_fire_coral"}
+        ]
+    });
+  
+// List of coral types and their corresponding dyes
+const coralTypes = [
+    { type: 'tube', dye: 'blue' },
+    { type: 'brain', dye: 'pink' },
+    { type: 'bubble', dye: 'purple' },
+    { type: 'fire', dye: 'red' },
+    { type: 'horn', dye: 'yellow' }
+];
+
+// Process each coral type using a for loop
+for (const coral of coralTypes) {
+    event.custom({"type": "create:splashing", //Revive Coral
+        "ingredients": [{"item": `minecraft:dead_${coral.type}_coral`}],
+        "results": [{"id": `minecraft:${coral.type}_coral`}]});
+        
+    // Shapeless recipe to create coral blocks
+    event.shapeless(`minecraft:${coral.type}_coral_block`, [`4x minecraft:${coral.type}_coral`]);
+
+    // Stonecutting recipe to create coral fans
+    event.stonecutting(`minecraft:${coral.type}_coral_fan`, `minecraft:${coral.type}_coral`);
+
+    // Milling recipe to process coral blocks into prismarine shards and dye
+    event.custom({"type": "create:milling",
+        "ingredients": [{"item":  `minecraft:${coral.type}_coral_block`}], 
+        "processing_time": 150,
+        "results": [{"id": "minecraft:prismarine_shard"}, {"id": `minecraft:${coral.dye}_dye`}]});
+}
+
+//Prismarine Crystals
+    event.custom({"type": "create:compacting", 
+        "ingredients": [{"item": "minecraft:amethyst_shard"}, {"item": "minecraft:prismarine_shard"}],
+        "results": [{"id": "prismarine_crystals"}]})
+
+//==========================================================================================================
+//========================================== Frog Automations ==============================================
+//==========================================================================================================
+    
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [{"item": "minecraft:egg"},{ "type": "fluid_stack", "fluid": "minecraft:water", "amount": 500 }],
+        "results": [{ "id": "minecraft:frogspawn"}]});
+
+    event.custom({"type": "create:milling",
+        "ingredients": [{"item":  "minecraft:ochre_froglight"}], 
+        "processing_time": 150,
+        "results": [{"id": "minecraft:glowstone"}, {"id": "minecraft:yellow_dye"}]});
+
+    event.custom({"type": "create:milling",
+        "ingredients": [{"item":  "minecraft:verdant_froglight"}], 
+        "processing_time": 150,
+        "results": [{"id": "minecraft:glowstone"}, {"id": "minecraft:lime_dye"}]});
+
+    event.custom({"type": "create:milling",
+        "ingredients": [{"item":  "minecraft:pearlescent_froglight"}], 
+        "processing_time": 150,
+        "results": [{"id": "minecraft:glowstone"}, {"id": "minecraft:pink_dye"}]});
+
+//==========================================================================================================
+//======================================        Logs          ==============================================
+//==========================================================================================================  
+
+    //Convert Logs -> Stripped -> Planks -> Slab
+	//let woodcutting = (mod, log, planks, slab, stair) => {
+	//	event.recipes.createCutting([mod + ":stripped_" + log], mod + ":" + log).processingTime(50)
+	//	event.recipes.createCutting([Item.of(mod + ":" + planks, 6)], mod + ":stripped_" + log).processingTime(50)
+	//	event.recipes.createCutting([Item.of(mod + ":" + slab, 2)], mod + ":" + planks).processingTime(50)
+	//}
+    //    woodcutting('minecraft', 'dark_oak_log', 'dark_oak_planks', 'dark_oak_slab')
+    //     woodcutting('minecraft', 'oak_log', 'oak_planks', 'oak_slab')
+    //     woodcutting('minecraft', 'spruce_log', 'spruce_planks', 'spruce_slab')
+    //     woodcutting('minecraft', 'birch_log', 'birch_planks', 'birch_slab')
+    //     woodcutting('minecraft', 'jungle_log', 'jungle_planks', 'jungle_slab')
+    //     woodcutting('minecraft', 'acacia_log', 'acacia_planks', 'acacia_slab')
+    //     woodcutting('minecraft', 'cherry', 'cherry_planks', 'cherry_slab')
+    //     woodcutting('minecraft', 'mangrove_log', 'mangrove_planks', 'mangrove_slab')
+
+        let planks = [
+            'minecraft:oak_planks',
+            'minecraft:spruce_planks',
+            'minecraft:birch_planks',
+            'minecraft:jungle_planks',
+            'minecraft:acacia_planks',
+            'minecraft:dark_oak_planks',
+            'minecraft:crimson_planks',
+            'minecraft:warped_planks',
+            'minecraft:mangrove_planks',
+            'minecraft:cherry_planks',
+            'minecraft:bamboo_planks'
+        ];
+    
+        planks.forEach(plank => {
+            let woodType = plank.replace('minecraft:', '').replace('_planks', '');
+            let stairs = `minecraft:${woodType}_stairs`;
+            let slabs = `2x minecraft:${woodType}_slab`;
+            let trapdoors = `minecraft:${woodType}_trapdoor`;
+            let pressure_plate = `minecraft:${woodType}_pressure_plate`;
+    
+            // Stonecutting recipes
+            event.stonecutting(slabs, plank);
+            event.stonecutting(stairs, plank);
+            event.stonecutting(trapdoors, plank);
+            event.stonecutting(pressure_plate, plank);
+        });
+
+
+//==========================================================================================================
+    const berryRecipes = [
+        { output: 'cobblemon:occa_berry',     inputs: ['cobblemon:persim_berry','cobblemon:razz_berry'] },
+        { output: 'cobblemon:passho_berry',   inputs: ['cobblemon:oran_berry',  'cobblemon:pinap_berry'] },
+        { output: 'cobblemon:wacan_berry',    inputs: ['cobblemon:nanab_berry', 'cobblemon:pinap_berry'] },
+        { output: 'cobblemon:rindo_berry',    inputs: ['cobblemon:nanab_berry', 'cobblemon:wepear_berry'] },
+        { output: 'cobblemon:yache_berry',    inputs: ['cobblemon:oran_berry', ' cobblemon:wepear_berry'] },
+        { output: 'cobblemon:payapa_berry',   inputs: ['cobblemon:cheri_berry', 'cobblemon:wepear_berry'] },
+        { output: 'cobblemon:tanga_berry',    inputs: ['cobblemon:cheri_berry', 'cobblemon:oran_berry'] },
+        { output: 'cobblemon:babiri_berry',   inputs: ['cobblemon:pinap_berry', 'cobblemon:razz_berry'] },
+        { output: 'cobblemon:chilan_berry',   inputs: ['cobblemon:rawst_berry', 'cobblemon:chesto_berry'] },
+        { output: 'cobblemon:roseli_berry',   inputs: ['cobblemon:cheri_berry', 'cobblemon:razz_berry'] },
+        { output: 'cobblemon:charti_berry',   inputs: ['cobblemon:persim_berry','cobblemon:wepear_berry'] },
+        { output: 'cobblemon:kasib_berry',    inputs: ['cobblemon:pecha_berry', 'cobblemon:rawst_berry'] },
+        { output: 'cobblemon:haban_berry',    inputs: ['cobblemon:pecha_berry', 'cobblemon:razz_berry'] },
+        { output: 'cobblemon:colbur_berry',   inputs: ['cobblemon:chesto_berry','cobblemon:pinap_berry'] }
+    ];
+    
+    berryRecipes.forEach(recipe => {
+        event.custom({
+            "type": "create:mixing",
+            "ingredients": [
+                {"item": recipe.inputs[0]}, // First input
+                {"item": recipe.inputs[1]}  // Second input
+            ],
+            "results": [
+                {"id": recipe.output} // Output
+            ]
+        });
+    });
+
+
+//==========================================================================================================
+// Bulk Dying
+    event.shapeless(Item.of('minecraft:white_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:white_dye'])
+    event.shapeless(Item.of('minecraft:orange_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:orange_dye'])
+    event.shapeless(Item.of('minecraft:magenta_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:magenta_dye'])
+    event.shapeless(Item.of('minecraft:light_blue_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:light_blue_dye'])
+    event.shapeless(Item.of('minecraft:yellow_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:yellow_dye'])
+    event.shapeless(Item.of('minecraft:lime_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:lime_dye'])
+    event.shapeless(Item.of('minecraft:pink_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:pink_dye'])
+    event.shapeless(Item.of('minecraft:gray_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:gray_dye'])
+    event.shapeless(Item.of('minecraft:light_gray_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:light_gray_dye'])
+    event.shapeless(Item.of('minecraft:cyan_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:cyan_dye'])
+    event.shapeless(Item.of('minecraft:purple_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:purple_dye'])
+    event.shapeless(Item.of('minecraft:blue_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:blue_dye'])
+    event.shapeless(Item.of('minecraft:brown_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:brown_dye'])
+    event.shapeless(Item.of('minecraft:green_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:green_dye'])
+    event.shapeless(Item.of('minecraft:red_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:red_dye'])
+    event.shapeless(Item.of('minecraft:black_concrete_powder', 1), ['#c:concrete_powders', 'minecraft:black_dye'])
+
+    event.shapeless(Item.of('minecraft:white_concrete', 1), ['#c:concretes', 'minecraft:white_dye'])
+    event.shapeless(Item.of('minecraft:orange_concrete', 1), ['#c:concretes', 'minecraft:orange_dye'])
+    event.shapeless(Item.of('minecraft:magenta_concrete', 1), ['#c:concretes', 'minecraft:magenta_dye'])
+    event.shapeless(Item.of('minecraft:light_blue_concrete', 1), ['#c:concretes', 'minecraft:light_blue_dye'])
+    event.shapeless(Item.of('minecraft:yellow_concrete', 1), ['#c:concretes', 'minecraft:yellow_dye'])
+    event.shapeless(Item.of('minecraft:lime_concrete', 1), ['#c:concretes', 'minecraft:lime_dye'])
+    event.shapeless(Item.of('minecraft:pink_concrete', 1), ['#c:concretes', 'minecraft:pink_dye'])
+    event.shapeless(Item.of('minecraft:gray_concrete', 1), ['#c:concretes', 'minecraft:gray_dye'])
+    event.shapeless(Item.of('minecraft:light_gray_concrete', 1), ['#c:concretes', 'minecraft:light_gray_dye'])
+    event.shapeless(Item.of('minecraft:cyan_concrete', 1), ['#c:concretes', 'minecraft:cyan_dye'])
+    event.shapeless(Item.of('minecraft:purple_concrete', 1), ['#c:concretes', 'minecraft:purple_dye'])
+    event.shapeless(Item.of('minecraft:blue_concrete', 1), ['#c:concretes', 'minecraft:blue_dye'])
+    event.shapeless(Item.of('minecraft:brown_concrete', 1), ['#c:concretes', 'minecraft:brown_dye'])
+    event.shapeless(Item.of('minecraft:green_concrete', 1), ['#c:concretes', 'minecraft:green_dye'])
+    event.shapeless(Item.of('minecraft:red_concrete', 1), ['#c:concretes', 'minecraft:red_dye'])
+    event.shapeless(Item.of('minecraft:black_concrete', 1), ['#c:concretes', 'minecraft:black_dye'])
+
+    event.shapeless(Item.of('domum_ornamentum:white_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:white_dye'])
+    event.shapeless(Item.of('domum_ornamentum:orange_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:orange_dye'])
+    event.shapeless(Item.of('domum_ornamentum:magenta_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:magenta_dye'])
+    event.shapeless(Item.of('domum_ornamentum:light_blue_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:light_blue_dye'])
+    event.shapeless(Item.of('domum_ornamentum:yellow_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:yellow_dye'])
+    event.shapeless(Item.of('domum_ornamentum:lime_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:lime_dye'])
+    event.shapeless(Item.of('domum_ornamentum:pink_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:pink_dye'])
+    event.shapeless(Item.of('domum_ornamentum:gray_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:gray_dye'])
+    event.shapeless(Item.of('domum_ornamentum:light_gray_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:light_gray_dye'])
+    event.shapeless(Item.of('domum_ornamentum:cyan_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:cyan_dye'])
+    event.shapeless(Item.of('domum_ornamentum:purple_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:purple_dye'])
+    event.shapeless(Item.of('domum_ornamentum:blue_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:blue_dye'])
+    event.shapeless(Item.of('domum_ornamentum:brown_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:brown_dye'])
+    event.shapeless(Item.of('domum_ornamentum:green_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:green_dye'])
+    event.shapeless(Item.of('domum_ornamentum:red_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:red_dye'])
+    event.shapeless(Item.of('domum_ornamentum:black_brick_extra', 1), ['#cardboardedition:extra_bricks', 'minecraft:black_dye'])
+
+    event.shapeless(Item.of('domum_ornamentum:blue_cobblestone_extra', 1), ['#cardboardedition:extra_cobblestone', 'minecraft:blue_dye'])
+    event.shapeless(Item.of('domum_ornamentum:green_cobblestone_extra', 1), ['#cardboardedition:extra_cobblestone', 'minecraft:green_dye'])
+    event.shapeless(Item.of('domum_ornamentum:mossy_cobblestone_extra', 1), ['#cardboardedition:extra_cobblestone', 'minecraft:lime_dye'])
+    event.shapeless(Item.of('domum_ornamentum:purple_cobblestone_extra', 1), ['#cardboardedition:extra_cobblestone', 'minecraft:purple_dye'])
+
+
+//==========================================================================================================
+});
+//==========================================================================================================
+//==========================================  To DOs   =====================================================
+//==========================================================================================================

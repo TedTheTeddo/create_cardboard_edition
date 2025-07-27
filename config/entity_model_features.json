@@ -26,6 +26,5 @@
   "enforceOptifineSubFoldersVariantOnly": true,
   "enforceOptiFineAnimSyntaxLimits": true,
   "allowOptifineFallbackProperties": true,
-  "enforceOptiFineFloorUVs": true,
   "showReloadErrorToast": true
 }

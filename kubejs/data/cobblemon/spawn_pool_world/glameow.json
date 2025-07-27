@@ -8,16 +8,15 @@
         "id": "glameow-1",
         "pokemon": "glameow",
         "presets": [                
-            "natural",
-            "village"
+            "natural"
         ],
         "type": "pokemon",
         "context": "grounded",
         "bucket": "common",
         "level": "1-35",
-        "weight": 9.0,
+        "weight": 4.5,
         "weightMultiplier": {
-            "multiplier": 1.5,
+            "multiplier": 2.5,
             "condition": {
                 "timeRange": "night"
             }
@@ -27,7 +26,10 @@
             "biomes": [
                 "#cobblemon:is_overworld"
             ],
-            "isRaining": false
+            "isRaining": false,
+            "structures": [
+                "#minecraft:village"
+            ]
         }
 
       }

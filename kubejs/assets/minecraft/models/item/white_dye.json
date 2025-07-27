@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/white_dye"
+  },
+  "overrides": [
+    {
+      "model": "customformchange:item/costume_box_incineroar",
+      "predicate": {
+        "custom_model_data": 260607
+	    }
+    },
+	  {
+      "model": "customformchange:item/costume_box_lucario",
+      "predicate": {
+        "custom_model_data": 260608
+      }
+    },
+  	{
+      "model": "customformchange:item/red_scarf",
+      "predicate": {
+        "custom_model_data": 260609
+      }
+    },
+  	{
+      "model": "customformchange:item/green_scarf",
+      "predicate": {
+        "custom_model_data": 260610
+      }
+    }
+  ]
+}

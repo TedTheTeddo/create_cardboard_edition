@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:jigglypuff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:jigglypuff",
+      "model": "cobblemon:jigglypuff.geo",
+      "texture": "cobblemon:textures/pokemon/0039_jigglypuff/jigglypuff.png",
+      "layers": []
+    },
+    {
+    "aspects": ["teddo"],
+      "poser": "cobblemon:teddo_puff",
+      "model": "cobblemon:teddo_puff.geo",
+      "texture": "cobblemon:textures/pokemon/0039_jigglypuff/teddo_puff.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0039_jigglypuff/teddo_puff_shiny.png"
+    }
+  ]
+}

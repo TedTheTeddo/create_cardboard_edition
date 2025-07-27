@@ -2,26 +2,21 @@
   {
     "dimension": "minecraft:overworld",
     "result": "deny",
-    "hostile": true,
+    "mob": ["minecraft:skeleton", "minecraft:zombie", "minecraft:creeper", "minecraft:spider", "minecraft:enderman", "minecraft:zombie_villager", "cataclysm:koboleton", "cataclysm:kobolediator", "minecraft:witch", "minecraft:drowned"],
     "minheight": 50
   },
   {
     "result": "allow",
     "hostile": true,
-    "maxcount": 25,
-    "block": [
-      	"minecraft:stone",
-      	"minecraft:cobblestone",
-      	"minecraft:deepslate",
-	"minecraft:end_stone",
-	"minecraft:netherrack",
-	"minecraft:sculk",
-	"minecraft:nether_bricks"
-    ]
+    "maxcount": 25
   },
   {
-    "result": "deny",
-    "passive": true
+    "mob": ["minecraft:chicken", "minecraft:cow", "minecraft:sheep", "minecraft:pig", "minecraft:squid", "minecraft:cat", "minecraft:wolf", "minecraft:dolphin", "minecraft:glow_squid"],
+    "mincount": {
+      "amount": 50,
+      "passive": true
+    },
+    "result": "deny"
   },
   {
     "mob": "minecraft:villager",
@@ -29,32 +24,11 @@
     "result": "deny"
   },
   {
-    "mob": ["minecraft:villager", "minecraft:bat"],
+    "mob": ["minecraft:villager", "minecraft:bat", "minecraft:salmon", "minecraft:cod", "minecraft:squid", "minecraft:tropical_fish", "minecraft:pufferfish"],
     "result": "deny"
   },
   {
     "mob": "minecraft:wither_skeleton",
     "result": "allow"
-  },
-  {
-    "mob": "irons_spellbooks:necromancer",
-    "result": "deny"
-  },
-  {
-    "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:apothecarist", "irons_spellbooks:archevoker", "irons_spellbooks:catacombs_zombie", "irons_spellbooks:citadel_keeper", "irons_spellbooks:cryomancer", "irons_spellbooks:cultist", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:magehunter_vindicator"],
-    "when": "onjoin",
-    "result": "allow"
-  },
-  {
-    "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:apothecarist", "irons_spellbooks:archevoker", "irons_spellbooks:catacombs_zombie", "irons_spellbooks:citadel_keeper", "irons_spellbooks:cryomancer", "irons_spellbooks:cultist", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:magehunter_vindicator"],
-    "result": "allow"
-  },
-  {
-    "mod": "minecolonies",
-    "hostile": true,
-    "result": "allow"
-  },
-  {
-    "result": "deny"
   }
 ]

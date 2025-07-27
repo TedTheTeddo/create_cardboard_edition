@@ -33,7 +33,6 @@
             "level": "38-57",
             "weight": 3.0,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:nether/is_basalt"
                 ]

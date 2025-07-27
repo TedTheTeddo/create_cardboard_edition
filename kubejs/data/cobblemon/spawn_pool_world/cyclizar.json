@@ -5,14 +5,14 @@
     "spawns": [
         {
             "id": "cyclizar-1",
-            "pokemon": "cyclizar",
+            "pokemon": "cyclizar shiny=no",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "30-50",
+            "level": "30-55",
             "weight": 5.0,
             "condition": {
                 "biomes": [

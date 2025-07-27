@@ -1,5 +1,2 @@
-#Showcase Item Options
-#
-#Render Items in Chat
+#Render items in chat
 renderItemsInChat = true
-

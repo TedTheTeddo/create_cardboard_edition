@@ -6,6 +6,9 @@
         {
             "id": "capsakid-1",
             "pokemon": "capsakid",
+            "presets": [
+                "natural"
+            ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",

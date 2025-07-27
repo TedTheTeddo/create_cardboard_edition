@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "muk-2",
+            "id": "muk-alolan-1",
             "pokemon": "muk alolan",
             "presets": [
                 "natural"
@@ -17,7 +17,7 @@
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#cobblemon:is_beach"
                 ]
             }
         }

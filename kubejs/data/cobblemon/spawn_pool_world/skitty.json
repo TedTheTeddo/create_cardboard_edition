@@ -7,8 +7,7 @@
         "id": "skitty-1",
         "pokemon": "skitty",
         "presets": [                
-            "natural",
-            "village"
+            "natural"
         ],
         "type": "pokemon",
         "context": "grounded",
@@ -26,7 +25,10 @@
             "biomes": [
                 "#cobblemon:is_overworld"
             ],
-            "isRaining": false
+            "isRaining": false,
+            "structures": [
+                "#minecraft:village"
+            ]
         },
         "anticondition": {
             "biomes": [
@@ -40,8 +42,7 @@
         "id": "skitty-2",
         "pokemon": "skitty",
         "presets": [
-            "natural",
-            "urban"
+            "natural"
         ],
         "type": "pokemon",
         "context": "grounded",
@@ -58,11 +59,6 @@
             "canSeeSky": true,
             "biomes": [
                 "#cobblemon:is_arid"
-            ]
-        },
-        "anticondition": {
-            "structures": [
-                "#minecraft:village"
             ]
         }
       },
@@ -86,7 +82,7 @@
         "condition": {
             "canSeeSky": true,
             "biomes": [
-                "minecraft:cherry_grove"
+                "#cobblemon:is_floral"
             ]
         }
       }

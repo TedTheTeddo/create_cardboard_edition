@@ -4,7 +4,7 @@ PlayerEvents.loggedIn(event => {
   if (!event.player.stages.has('starting_items')) {
       event.player.stages.add('starting_items');
       event.player.give('ftbquests:book');
-      event.player.give('8x minecraft:bread');
+      event.player.give('4x minecraft:bread');
 
       // Announce to the server with colored text
       event.server.tell(

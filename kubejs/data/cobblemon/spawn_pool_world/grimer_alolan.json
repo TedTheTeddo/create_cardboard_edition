@@ -4,7 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "grimer-2",
+            "id": "grimer-alolan-1",
             "pokemon": "grimer alolan",
             "presets": [
                 "natural"
@@ -17,7 +17,7 @@
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#minecraft:is_beach"
+                    "#cobblemon:is_beach"
                 ]
             }
         }

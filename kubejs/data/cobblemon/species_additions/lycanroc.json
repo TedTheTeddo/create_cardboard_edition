@@ -1,11 +1,10 @@
 {
-    "target": "cobblemon:lycanroc",
+  "target": "cobblemon:lycanroc",
+  "implemented": true,
   "baseScale": 1,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 1.4,
+    "height": 1.2,
     "fixed": false
-  },
-  "features": [
-  "dusk", "midnight"]
+  }
 }
